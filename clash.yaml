@@ -125,9 +125,9 @@ proxies:
         Host: vless.xiaomayi0804.workers.dev
   - name: 9 Hysteria2-🇭🇰
     type: hysteria2
-    server: www2.dtku49.xyz
-    port: 54406
-    password: ebcbb37b
+    server: www.dtku46.xyz
+    port: 43841
+    password: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: true
   - name: 10 Hysteria2-🇭🇰
