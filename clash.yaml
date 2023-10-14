@@ -150,6 +150,32 @@ proxies:
       path: /?ed=2048
       headers:
         Host: vless.xiaomayi0804.workers.dev
+  - name: 12 vless-cn
+    type: vless
+    server: 116.214.34.66
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 13 vless-🇭🇰🇭🇰
+    type: vless
+    server: 8.210.55.134
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -166,6 +192,8 @@ proxy-groups:
       - 9 Hysteria2-🇭🇰
       - 10 Hysteria2-🇭🇰
       - 11 vless-🇭🇰
+      - 12 vless-cn
+      - 13 vless-🇭🇰🇭🇰
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -184,6 +212,8 @@ proxy-groups:
       - 9 Hysteria2-🇭🇰
       - 10 Hysteria2-🇭🇰
       - 11 vless-🇭🇰
+      - 12 vless-cn
+      - 13 vless-🇭🇰🇭🇰
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -216,6 +246,8 @@ proxy-groups:
       - 9 Hysteria2-🇭🇰
       - 10 Hysteria2-🇭🇰
       - 11 vless-🇭🇰
+      - 12 vless-cn
+      - 13 vless-🇭🇰🇭🇰
   - name: 📢 谷歌FCM
     type: select
     proxies:
