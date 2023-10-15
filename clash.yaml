@@ -175,7 +175,7 @@ proxies:
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: vless.xiaomayi0804.workers.dev
+        Host: www.xiaomayi0804.link
 proxy-groups:
   - name: 🚀 节点选择
     type: select
