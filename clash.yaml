@@ -163,7 +163,7 @@ proxies:
       path: /?ed=2048
       headers:
         Host: vless.xiaomayi0804.workers.dev
-  - name: 13 vless-🇭🇰🇭🇰
+  - name: 13 vless-🇸🇬
     type: vless
     server: 8.222.137.192
     port: 2052
@@ -193,7 +193,7 @@ proxy-groups:
       - 10 Hysteria2-🇭🇰
       - 11 vless-🇭🇰
       - 12 vless-🇭🇰🇭🇰
-      - 13 vless-🇭🇰🇭🇰
+      - 13 vless-🇸🇬
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -213,7 +213,7 @@ proxy-groups:
       - 10 Hysteria2-🇭🇰
       - 11 vless-🇭🇰
       - 12 vless-🇭🇰🇭🇰
-      - 13 vless-🇭🇰🇭🇰
+      - 13 vless-🇸🇬
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -247,7 +247,7 @@ proxy-groups:
       - 10 Hysteria2-🇭🇰
       - 11 vless-🇭🇰
       - 12 vless-🇭🇰🇭🇰
-      - 13 vless-🇭🇰🇭🇰
+      - 13 vless-🇸🇬
   - name: 📢 谷歌FCM
     type: select
     proxies:
