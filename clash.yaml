@@ -1,24 +1,49 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-mode: Rule
+mode: rule
 log-level: info
-ipv6: true
+unified-delay: true
+global-client-fingerprint: chrome
 dns:
   enable: true
-  listen: 0.0.0.0:53
+  listen: :53
   ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
   default-nameserver:
-    - 114.114.114.114
-    - 223.5.5.5
-  enhanced-mode: redir-host
+  - 114.114.114.114
+  - 223.5.5.5
   nameserver:
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  - https://doh.pub/dns-query
   fallback:
-    - 114.114.114.114
-    - 223.5.5.5
+  - https://1.0.0.1/dns-query
+  - tls://dns.google
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+    - 240.0.0.0/4
 proxies:
+  - name: WARP
+    type: wireguard
+    server: engage.cloudflareclient.com
+    port: 2408
+    ip: 172.16.0.2
+    ipv6: 2606:4700:110:87c0:ba32:773a:8d44:e353
+    private-key: +HpHpY/KjSv5hJdGrN2ok1A6CKhCmTQv5Unwyul9S1g=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+    reserved:
+    - 0
+    - 0
+    - 0
+    remote-dns-resolve: true
+    dns:
+    - 1.1.1.1
+    - 8.8.8.8
+    dialer-proxy: WARP前置节点
   - name: 1 vless-🇯🇵
     type: vless
     server: 8.209.222.232
@@ -128,6 +153,7 @@ proxies:
     server: www.dtku46.xyz
     port: 43841
     password: dongtaiwang.com
+    fast-open: true
     sni: www.bing.com
     skip-cert-verify: true
   - name: 10 Hysteria2-🇭🇰
@@ -135,6 +161,7 @@ proxies:
     server: www.dtku48.xyz
     port: 56411
     password: dongtaiwang.com
+    fast-open: true
     sni: www.bing.com
     skip-cert-verify: true
   - name: 11 vless-🇭🇰
@@ -245,26 +272,16 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
+      - WARP前置节点
       - ♻️ 自动选择
-      - 1 vless-🇯🇵
-      - 2 vless-🇰🇷
-      - 3 vless-🇰🇷
-      - 4 vless-🇸🇬
-      - 5 vless-🇭🇰
-      - 6 vless-🇺🇸
-      - 7 vless-🇭🇰
-      - 8 vless-🇭🇰🇭🇰
-      - 9 Hysteria2-🇭🇰
-      - 10 Hysteria2-🇭🇰
-      - 11 vless-🇭🇰
-      - 12 vless-🇭🇰🇭🇰
-      - 13 vless-🇸🇬
-      - 14 vless-🇭🇰
-      - 15 vless-🇭🇰
-      - 16 vless-🇭🇰
-      - 17 vless-🇭🇰
-      - 18 vless-🇭🇰
+      - 🌍 手动选择
       - DIRECT
+  - name: WARP前置节点
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🌍 手动选择
+      - 🎯 全球直连
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -289,27 +306,9 @@ proxy-groups:
       - 16 vless-🇭🇰
       - 17 vless-🇭🇰
       - 18 vless-🇭🇰
-  - name: 🌍 国外媒体
+  - name: 🌍 手动选择
     type: select
     proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
-  - name: 📲 电报信息
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-  - name: Ⓜ️ 微软服务
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🚀 节点选择
-  - name: 🍎 苹果服务
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
       - 1 vless-🇯🇵
       - 2 vless-🇰🇷
       - 3 vless-🇰🇷
@@ -328,18 +327,40 @@ proxy-groups:
       - 16 vless-🇭🇰
       - 17 vless-🇭🇰
       - 18 vless-🇭🇰
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🌍 手动选择
+      - 🎯 全球直连
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🌍 手动选择
+      - 🎯 全球直连
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🌍 手动选择
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🌍 手动选择
   - name: 📢 谷歌FCM
     type: select
     proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
       - ♻️ 自动选择
+      - 🌍 手动选择
+      - 🎯 全球直连
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -353,9 +374,10 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
       - ♻️ 自动选择
+      - 🌍 手动选择
+      - 🎯 全球直连
+
 rules:
   - DOMAIN-KEYWORD,google,🍎 苹果服务
   - DOMAIN-KEYWORD,youtube,🍎 苹果服务
