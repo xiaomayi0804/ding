@@ -176,6 +176,71 @@ proxies:
       path: /?ed=2048
       headers:
         Host: vless.xiaomayi0804.workers.dev
+  - name: 14 vless-🇭🇰
+    type: vless
+    server: cdn.chigua.tk
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 15 vless-🇭🇰
+    type: vless
+    server: ip.yumy.pp.ua
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 16 vless-🇭🇰
+    type: vless
+    server: qq.achen.link
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 17 vless-🇭🇰
+    type: vless
+    server: 2.yokike.top
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 18 vless-🇭🇰
+    type: vless
+    server: cfip.gay
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -194,6 +259,11 @@ proxy-groups:
       - 11 vless-🇭🇰
       - 12 vless-🇭🇰🇭🇰
       - 13 vless-🇸🇬
+      - 14 vless-🇭🇰
+      - 15 vless-🇭🇰
+      - 16 vless-🇭🇰
+      - 17 vless-🇭🇰
+      - 18 vless-🇭🇰
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -214,6 +284,11 @@ proxy-groups:
       - 11 vless-🇭🇰
       - 12 vless-🇭🇰🇭🇰
       - 13 vless-🇸🇬
+      - 14 vless-🇭🇰
+      - 15 vless-🇭🇰
+      - 16 vless-🇭🇰
+      - 17 vless-🇭🇰
+      - 18 vless-🇭🇰
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -248,6 +323,11 @@ proxy-groups:
       - 11 vless-🇭🇰
       - 12 vless-🇭🇰🇭🇰
       - 13 vless-🇸🇬
+      - 14 vless-🇭🇰
+      - 15 vless-🇭🇰
+      - 16 vless-🇭🇰
+      - 17 vless-🇭🇰
+      - 18 vless-🇭🇰
   - name: 📢 谷歌FCM
     type: select
     proxies:
