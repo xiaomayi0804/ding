@@ -358,6 +358,7 @@ proxy-groups:
       - ♻️ 自动选择
 rules:
   - DOMAIN-KEYWORD,google,🍎 苹果服务
+  - DOMAIN-KEYWORD,youtube,🍎 苹果服务
   - DOMAIN-KEYWORD,jable,🍎 苹果服务
   - DOMAIN-KEYWORD,bing,🍎 苹果服务
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
