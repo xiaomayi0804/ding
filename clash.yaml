@@ -176,8 +176,8 @@ proxies:
       path: /?ed=2048
       headers:
         Host: www.xiaomayi0804.link
+    skip-cert-verify: false
     sni: www.xiaomayi0804.link
-    skip-cert-verify: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
