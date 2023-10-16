@@ -292,7 +292,7 @@ proxies:
       path: /?ed=2048
       headers:
         Host: vless.xiaomayi0804.workers.dev
-    - name: 20 vless-🇸🇬
+  - name: 20 vless-🇸🇬
     type: vless
     server: 8.222.137.192
     port: 2052
