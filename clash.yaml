@@ -5,6 +5,7 @@ mode: rule
 log-level: info
 unified-delay: true
 global-client-fingerprint: chrome
+
 dns:
   enable: true
   listen: :53
@@ -26,6 +27,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+  - name: meta_tuic_21
+    server: tuic3.dtku47.xyz
+    port: 12255
+    type: tuic
+    uuid: ed6a538a-6e66-4f21-a769-4b389bb2f3ab
+    password: dongtaiwang
+    alpn:
+    - h3
+    request-timeout: 8000
+    udp-relay-mode: native
+    congestion-controller: bbr
   - name: meta_hysteria_11
     type: hysteria
     server: www.dtku46.xyz
@@ -325,6 +337,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - meta_tuic_21
       - meta_hysteria_11
       - 1 vless-🇯🇵
       - 2 vless-🇰🇷
@@ -349,6 +362,7 @@ proxy-groups:
   - name: 🌍 手动选择1
     type: select
     proxies:
+      - meta_tuic_21
       - meta_hysteria_11
       - 1 vless-🇯🇵
       - 2 vless-🇰🇷
@@ -373,6 +387,7 @@ proxy-groups:
   - name: 🌍 手动选择2
     type: select
     proxies:
+      - meta_tuic_21
       - meta_hysteria_11
       - 1 vless-🇯🇵
       - 2 vless-🇰🇷
