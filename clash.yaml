@@ -69,7 +69,7 @@ proxies:
     dialer-proxy: WARP前置节点
   - name: 1 vless-🇯🇵
     type: vless
-    server: 130.162.152.247
+    server: 47.245.38.233
     port: 2052
     uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
     udp: true
@@ -202,7 +202,7 @@ proxies:
         Host: vless.xiaomayi0804.workers.dev
   - name: 12 vless-🇭🇰🇭🇰
     type: vless
-    server: 8.218.3.12
+    server: 8.218.105.223
     port: 2052
     uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
     udp: true
