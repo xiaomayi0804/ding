@@ -27,6 +27,15 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+  - name: "http"
+    type: http
+    server: 117.184.37.22
+    port: 7890
+    # username: username
+    # password: password
+    # tls: true # https
+    # skip-cert-verify: true
+    # sni: custom.com
   - name: meta_tuic_21
     server: tuic3.dtku47.xyz
     port: 12255
@@ -321,7 +330,7 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - WARP前置节点
+      - WARP
       - ♻️ 自动选择
       - 🌍 手动选择1
       - DIRECT
@@ -337,6 +346,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - http
       - meta_tuic_21
       - meta_hysteria_11
       - 1 vless-🇯🇵
@@ -362,6 +372,7 @@ proxy-groups:
   - name: 🌍 手动选择1
     type: select
     proxies:
+      - http
       - meta_tuic_21
       - meta_hysteria_11
       - 1 vless-🇯🇵
@@ -387,6 +398,7 @@ proxy-groups:
   - name: 🌍 手动选择2
     type: select
     proxies:
+      - http
       - meta_tuic_21
       - meta_hysteria_11
       - 1 vless-🇯🇵
