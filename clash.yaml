@@ -183,7 +183,7 @@ proxies:
   - name: 9 Hysteria2-🇭🇰
     type: hysteria2
     server: www.dtku46.xyz
-    port: 43841
+    port: 60626
     password: dongtaiwang.com
     fast-open: true
     sni: www.bing.com
