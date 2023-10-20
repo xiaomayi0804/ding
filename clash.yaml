@@ -424,30 +424,35 @@ proxy-groups:
   - name: 🌍 国外媒体
     type: select
     proxies:
+      - 🚀 节点选择
       - ♻️ 自动选择
       - 🌍 手动选择1
       - 🎯 全球直连
   - name: 📲 电报信息
     type: select
     proxies:
+      - 🚀 节点选择
       - ♻️ 自动选择
       - 🌍 手动选择1
       - 🎯 全球直连
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
+      - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🌍 手动选择1
   - name: 🍎 苹果服务
     type: select
     proxies:
+      - 🚀 节点选择
       - ♻️ 自动选择
       - 🌍 手动选择2
       - 🌍 手动选择1
   - name: 📢 谷歌FCM
     type: select
     proxies:
+      - 🚀 节点选择
       - ♻️ 自动选择
       - 🌍 手动选择1
       - 🎯 全球直连
@@ -468,6 +473,7 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
+      - 🚀 节点选择
       - ♻️ 自动选择
       - 🌍 手动选择1
       - 🎯 全球直连
@@ -479,6 +485,8 @@ rules:
   - DOMAIN-KEYWORD,bing,🍎 苹果服务
   - DOMAIN-KEYWORD,mushroom,🎯 全球直连
   - DOMAIN-KEYWORD,alonestreaming,🎯 全球直连
+
+  
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
