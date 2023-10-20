@@ -480,7 +480,6 @@ proxy-groups:
 
 rules:
   - DOMAIN-KEYWORD,google,🍎 苹果服务
-  - DOMAIN-KEYWORD,youtube,🍎 苹果服务
   - DOMAIN-KEYWORD,jable,🍎 苹果服务
   - DOMAIN-KEYWORD,bing,🍎 苹果服务
   - DOMAIN-KEYWORD,mushroom,🎯 全球直连
