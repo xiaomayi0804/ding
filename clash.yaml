@@ -38,7 +38,7 @@ proxies:
     # sni: custom.com
   - name: "http48"
     type: http
-    server: 117.184.37.22
+    server: www.dtku48.xyz
     port: 443
     username: dongtaiwang.com
     password: dongtaiwang.com
@@ -341,7 +341,7 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 600
+    interval: 300
     tolerance: 50
     proxies:
       - http117
