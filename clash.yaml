@@ -27,13 +27,22 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-  - name: "http"
+  - name: "http117"
     type: http
     server: 117.184.37.22
     port: 7890
     # username: username
     # password: password
     # tls: true # https
+    # skip-cert-verify: true
+    # sni: custom.com
+  - name: "http48"
+    type: http
+    server: 117.184.37.22
+    port: 443
+    username: dongtaiwang.com
+    password: dongtaiwang.com
+    tls: true # https
     # skip-cert-verify: true
     # sni: custom.com
   - name: meta_tuic_21
@@ -335,7 +344,8 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - http
+      - http117
+      - http48
       - meta_tuic_21
       - meta_hysteria_11
       - 1 vless-🇯🇵
@@ -363,7 +373,8 @@ proxy-groups:
   - name: 🌍 手动选择1
     type: select
     proxies:
-      - http
+      - http117
+      - http48
       - meta_tuic_21
       - meta_hysteria_11
       - 1 vless-🇯🇵
@@ -391,7 +402,8 @@ proxy-groups:
   - name: 🌍 手动选择2
     type: select
     proxies:
-      - http
+      - http117
+      - http48
       - meta_tuic_21
       - meta_hysteria_11
       - 1 vless-🇯🇵
@@ -422,7 +434,8 @@ proxy-groups:
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - http
+      - http117
+      - http48
       - meta_tuic_21
       - meta_hysteria_11
       - 1 vless-🇯🇵
@@ -453,7 +466,8 @@ proxy-groups:
     interval: 300
     strategy: round-robin
     proxies:
-      - http
+      - http117
+      - http48
       - meta_tuic_21
       - meta_hysteria_11
       - 1 vless-🇯🇵
