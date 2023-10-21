@@ -543,7 +543,6 @@ rules:
   - DOMAIN-KEYWORD,mushroom,🎯 全球直连
   - DOMAIN-KEYWORD,alonestreaming,🎯 全球直连
 
-rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
 # ACL4SSR标志 如没有，代表不是用ACL4SSR规则
