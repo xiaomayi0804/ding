@@ -332,7 +332,7 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 300
+    interval: 600
     tolerance: 50
     proxies:
       - http
