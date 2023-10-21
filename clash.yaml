@@ -58,24 +58,6 @@ proxies:
     up: 50 Mbps
     down: 100 Mbps
     skip-cert-verify: true
-  - name: WARP
-    type: wireguard
-    server: engage.cloudflareclient.com
-    port: 2408
-    ip: 172.16.0.2
-    ipv6: 2606:4700:110:87c0:ba32:773a:8d44:e353
-    private-key: +HpHpY/KjSv5hJdGrN2ok1A6CKhCmTQv5Unwyul9S1g=
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    udp: true
-    reserved:
-    - 0
-    - 0
-    - 0
-    remote-dns-resolve: true
-    dns:
-    - 1.1.1.1
-    - 8.8.8.8
-    dialer-proxy: WARP前置节点
   - name: 1 vless-🇯🇵
     type: vless
     server: 47.245.38.233
@@ -330,18 +312,11 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - WARP
       - ♻️ 自动选择
       - 🌍 手动选择1
       - ⚖️ 负载均衡-轮询
       - ⚖️ 负载均衡-散列
       - DIRECT
-  - name: WARP前置节点
-    type: select
-    proxies:
-      - ♻️ 自动选择
-      - 🌍 手动选择1
-      - 🎯 全球直连
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
