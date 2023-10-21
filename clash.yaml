@@ -316,7 +316,7 @@ proxy-providers:
     path: ./Proxy/Jichang.yml
     interval: 86400
     health-check:
-      enable: false
+      enable: true
       interval: 600
       url: https://www.gstatic.com/generate_204
 
@@ -358,7 +358,7 @@ proxy-groups:
       - 18 vless-🇭🇰
       - 19 vless-🇸🇬
       - 20 vless-🇸🇬
-    use：
+    use:
       - Jichang
   - name: 🌍 手动选择1
     type: select
@@ -386,7 +386,7 @@ proxy-groups:
       - 18 vless-🇭🇰
       - 19 vless-🇸🇬
       - 20 vless-🇸🇬
-    use：
+    use:
       - Jichang
   - name: 🌍 手动选择2
     type: select
@@ -414,7 +414,7 @@ proxy-groups:
       - 18 vless-🇭🇰
       - 19 vless-🇸🇬
       - 20 vless-🇸🇬
-    use：
+    use:
       - Jichang
   - name: ⚖️ 负载均衡-散列
     type: load-balance
@@ -445,7 +445,7 @@ proxy-groups:
       - 18 vless-🇭🇰
       - 19 vless-🇸🇬
       - 20 vless-🇸🇬
-    use：
+    use:
       - Jichang
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
@@ -476,7 +476,7 @@ proxy-groups:
       - 18 vless-🇭🇰
       - 19 vless-🇸🇬
       - 20 vless-🇸🇬
-    use：
+    use:
       - Jichang
   - name: 🌍 国外媒体
     type: select
@@ -539,6 +539,7 @@ rules:
   - DOMAIN-KEYWORD,google,🍎 苹果服务
   - DOMAIN-KEYWORD,jable,🍎 苹果服务
   - DOMAIN-KEYWORD,bing,🍎 苹果服务
+  - DOMAIN-KEYWORD,youtube,🍎 苹果服务  
   - DOMAIN-KEYWORD,mushroom,🎯 全球直连
   - DOMAIN-KEYWORD,alonestreaming,🎯 全球直连
 
