@@ -316,7 +316,7 @@ proxy-providers:
     path: ./Proxy/Jichang.yml
     interval: 86400
     health-check:
-      enable: true
+      enable: false
       interval: 600
       url: https://www.gstatic.com/generate_204
 
