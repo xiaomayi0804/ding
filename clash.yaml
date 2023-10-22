@@ -318,17 +318,6 @@ proxies:
       headers:
         Host: vless.xiaomayi0804.workers.dev
 
-proxy-providers:
-  Jichang:
-    type: http
-    url: https://mareep.netlify.app/sub/merged_proxies_new.yaml
-    path: ./Proxy/Jichang.yml
-    interval: 86400
-    health-check:
-      enable: false
-      interval: 600
-      url: https://www.gstatic.com/generate_204
-
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -395,6 +384,20 @@ proxy-groups:
       - 20 vless-🇸🇬
     use:
       - Jichang
+
+  - name: 🍎 谷歌服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🌍 手动选择2
+      - 🌍 手动选择1
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🌍 手动选择1
+      - DIRECT
+  
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
@@ -460,19 +463,6 @@ proxy-groups:
     use:
       - Jichang
  
-  - name: 🍎 谷歌服务
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - 🌍 手动选择2
-      - 🌍 手动选择1
-  - name: 🐟 漏网之鱼
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - 🌍 手动选择1
-      - DIRECT
-
 rules:
   - DOMAIN-KEYWORD,google,🍎 谷歌服务
   - DOMAIN-KEYWORD,jable,🍎 谷歌服务
@@ -591,3 +581,13 @@ rule-providers:
     path: ./ruleset/applications.yaml
     interval: 86400
 
+proxy-providers:
+  Jichang:
+    type: http
+    url: https://mareep.netlify.app/sub/merged_proxies_new.yaml
+    path: ./Proxy/Jichang.yml
+    interval: 86400
+    health-check:
+      enable: false
+      interval: 600
+      url: https://www.gstatic.com/generate_204
