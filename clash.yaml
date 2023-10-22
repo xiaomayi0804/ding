@@ -37,13 +37,13 @@ proxies:
     # skip-cert-verify: true
     # sni: custom.com
   - name: "http48"
-    type: http
+    type: https
     server: www.dtku48.xyz
     port: 443
     username: dongtaiwang.com
     password: dongtaiwang.com
-    tls: true # https
-    # skip-cert-verify: true
+    # tls: true # https
+    skip-cert-verify: true
     # sni: custom.com
   - name: meta_tuic_21
     server: tuic3.dtku47.xyz
