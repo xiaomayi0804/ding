@@ -1,0 +1,545 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+unified-delay: true
+global-client-fingerprint: chrome
+
+dns:
+  enable: true
+  listen: :53
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+  - 114.114.114.114
+  - 223.5.5.5
+  nameserver:
+  - https://dns.alidns.com/dns-query
+  - https://doh.pub/dns-query
+  fallback:
+  - https://1.0.0.1/dns-query
+  - tls://dns.google
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+    - 240.0.0.0/4
+proxies:
+  - name: "http117"
+    type: http
+    server: 117.184.37.22
+    port: 7890
+    # username: username
+    # password: password
+    # tls: true # https
+    # skip-cert-verify: true
+    # sni: custom.com
+
+  - name: 1 vless-🇯🇵
+    type: vless
+    server: 47.245.38.233
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 2 vless-🇰🇷
+    type: vless
+    server: 130.162.154.209
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 3 vless-🇰🇷
+    type: vless
+    server: 130.162.144.196
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 4 vless-🇸🇬
+    type: vless
+    server: 8.222.144.117
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 5 vless-🇭🇰
+    type: vless
+    server: yx.piaosir.link
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 6 vless-🇺🇸
+    type: vless
+    server: 2606:4700:a9:74c9:512b:f473:a5af:893a
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 7 vless-🇭🇰
+    type: vless
+    server: buff.lookb.link
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 8 vless-🇭🇰🇭🇰
+    type: vless
+    server: 8.218.181.189
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 9 Hysteria2-🇭🇰
+    type: hysteria2
+    server: www.dtku46.xyz
+    port: 60626
+    password: dongtaiwang.com
+    fast-open: true
+    sni: www.bing.com
+    skip-cert-verify: true
+  - name: 10 Hysteria2-🇭🇰
+    type: hysteria2
+    server: www.dtku48.xyz
+    port: 56411
+    password: dongtaiwang.com
+    fast-open: true
+    sni: www.bing.com
+    skip-cert-verify: true
+  - name: 11 vless-🇭🇰
+    type: vless
+    server: 1.yokike.top
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 12 vless-🇭🇰🇭🇰
+    type: vless
+    server: 8.218.119.115
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 13 vless-🇸🇬
+    type: vless
+    server: 8.222.137.192
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 14 vless-🇭🇰
+    type: vless
+    server: cdn.chigua.tk
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 15 vless-🇭🇰
+    type: vless
+    server: ip.yumy.pp.ua
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 16 vless-🇭🇰
+    type: vless
+    server: qq.achen.link
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 17 vless-🇭🇰
+    type: vless
+    server: 2.yokike.top
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 18 vless-🇭🇰
+    type: vless
+    server: cfip.gay
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 19 vless-🇸🇬
+    type: vless
+    server: 8.222.253.235
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+  - name: 20 vless-🇸🇬
+    type: vless
+    server: 8.222.137.192
+    port: 2052
+    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
+    udp: true
+    tls: false
+    network: ws
+    servername: example.com
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: vless.xiaomayi0804.workers.dev
+
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - 🌍 手动选择1
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - DIRECT
+  - name: 🌍 手动选择1
+    type: select
+    proxies:
+      - http117
+      - 1 vless-🇯🇵
+      - 2 vless-🇰🇷
+      - 3 vless-🇰🇷
+      - 4 vless-🇸🇬
+      - 5 vless-🇭🇰
+      - 6 vless-🇺🇸
+      - 7 vless-🇭🇰
+      - 8 vless-🇭🇰🇭🇰
+      - 9 Hysteria2-🇭🇰
+      - 10 Hysteria2-🇭🇰
+      - 11 vless-🇭🇰
+      - 12 vless-🇭🇰🇭🇰
+      - 13 vless-🇸🇬
+      - 14 vless-🇭🇰
+      - 15 vless-🇭🇰
+      - 16 vless-🇭🇰
+      - 17 vless-🇭🇰
+      - 18 vless-🇭🇰
+      - 19 vless-🇸🇬
+      - 20 vless-🇸🇬
+    use:
+      - Jichang
+  - name: 🌍 手动选择2
+    type: select
+    proxies:
+      - http117
+      - 1 vless-🇯🇵
+      - 2 vless-🇰🇷
+      - 3 vless-🇰🇷
+      - 4 vless-🇸🇬
+      - 5 vless-🇭🇰
+      - 6 vless-🇺🇸
+      - 7 vless-🇭🇰
+      - 8 vless-🇭🇰🇭🇰
+      - 9 Hysteria2-🇭🇰
+      - 10 Hysteria2-🇭🇰
+      - 11 vless-🇭🇰
+      - 12 vless-🇭🇰🇭🇰
+      - 13 vless-🇸🇬
+      - 14 vless-🇭🇰
+      - 15 vless-🇭🇰
+      - 16 vless-🇭🇰
+      - 17 vless-🇭🇰
+      - 18 vless-🇭🇰
+      - 19 vless-🇸🇬
+      - 20 vless-🇸🇬
+    use:
+      - Jichang
+
+  - name: 🍎 谷歌服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🌍 手动选择2
+      - 🌍 手动选择1
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🌍 手动选择1
+      - DIRECT
+  
+  - name: ⚖️ 负载均衡-散列
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - http117
+      - 1 vless-🇯🇵
+      - 2 vless-🇰🇷
+      - 3 vless-🇰🇷
+      - 4 vless-🇸🇬
+      - 5 vless-🇭🇰
+      - 6 vless-🇺🇸
+      - 7 vless-🇭🇰
+      - 8 vless-🇭🇰🇭🇰
+      - 9 Hysteria2-🇭🇰
+      - 10 Hysteria2-🇭🇰
+      - 11 vless-🇭🇰
+      - 12 vless-🇭🇰🇭🇰
+      - 13 vless-🇸🇬
+      - 14 vless-🇭🇰
+      - 15 vless-🇭🇰
+      - 16 vless-🇭🇰
+      - 17 vless-🇭🇰
+      - 18 vless-🇭🇰
+      - 19 vless-🇸🇬
+      - 20 vless-🇸🇬
+    use:
+      - Jichang
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - http117
+      - 1 vless-🇯🇵
+      - 2 vless-🇰🇷
+      - 3 vless-🇰🇷
+      - 4 vless-🇸🇬
+      - 5 vless-🇭🇰
+      - 6 vless-🇺🇸
+      - 7 vless-🇭🇰
+      - 8 vless-🇭🇰🇭🇰
+      - 9 Hysteria2-🇭🇰
+      - 10 Hysteria2-🇭🇰
+      - 11 vless-🇭🇰
+      - 12 vless-🇭🇰🇭🇰
+      - 13 vless-🇸🇬
+      - 14 vless-🇭🇰
+      - 15 vless-🇭🇰
+      - 16 vless-🇭🇰
+      - 17 vless-🇭🇰
+      - 18 vless-🇭🇰
+      - 19 vless-🇸🇬
+      - 20 vless-🇸🇬
+    use:
+      - Jichang
+ 
+rules:
+  - DOMAIN-KEYWORD,google,🍎 谷歌服务
+  - DOMAIN-KEYWORD,jable,🍎 谷歌服务
+  - DOMAIN-KEYWORD,bing,🍎 谷歌服务
+  - DOMAIN-KEYWORD,youtube,🍎 谷歌服务
+  - DOMAIN-KEYWORD,mushroom,DIRECT
+  - DOMAIN-KEYWORD,alonestreaming,DIRECT
+  - PROCESS-NAME,onedrive.exe,DIRECT
+
+  - RULE-SET,applications,DIRECT
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,tld-not-cn,🚀 节点选择
+  - RULE-SET,gfw,🚀 节点选择
+  - RULE-SET,greatfire,🚀 节点选择
+  - RULE-SET,telegramcidr,🚀 节点选择
+  - MATCH,DIRECT
+
+rule-providers:
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
+
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+
+  direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
+
+proxy-providers:
+  Jichang:
+    type: http
+    url: https://mareep.netlify.app/sub/merged_proxies_new.yaml
+    path: ./Proxy/Jichang.yml
+    interval: 86400
+    health-check:
+      enable: false
+      interval: 600
+      url: https://www.gstatic.com/generate_204
