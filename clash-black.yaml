@@ -26,267 +26,24 @@ dns:
     geoip-code: CN
     ipcidr:
     - 240.0.0.0/4
-proxies:
-  - name: "http117"
-    type: http
-    server: 117.184.37.22
-    port: 7890
-    # username: username
-    # password: password
-    # tls: true # https
-    # skip-cert-verify: true
-    # sni: custom.com
 
-  - name: 1 vless-🇯🇵
-    type: vless
-    server: 47.245.38.233
-    port: 2052
-    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
-    udp: true
-    tls: false
-    network: ws
-    servername: example.com
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: vless.xiaomayi0804.workers.dev
-  - name: 2 vless-🇰🇷
-    type: vless
-    server: 130.162.154.209
-    port: 2052
-    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
-    udp: true
-    tls: false
-    network: ws
-    servername: example.com
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: vless.xiaomayi0804.workers.dev
-  - name: 3 vless-🇰🇷
-    type: vless
-    server: 130.162.144.196
-    port: 2052
-    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
-    udp: true
-    tls: false
-    network: ws
-    servername: example.com
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: vless.xiaomayi0804.workers.dev
-  - name: 4 vless-🇸🇬
-    type: vless
-    server: 8.222.144.117
-    port: 2052
-    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
-    udp: true
-    tls: false
-    network: ws
-    servername: example.com
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: vless.xiaomayi0804.workers.dev
-  - name: 5 vless-🇭🇰
-    type: vless
-    server: yx.piaosir.link
-    port: 2052
-    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
-    udp: true
-    tls: false
-    network: ws
-    servername: example.com
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: vless.xiaomayi0804.workers.dev
-  - name: 6 vless-🇺🇸
-    type: vless
-    server: 2606:4700:a9:74c9:512b:f473:a5af:893a
-    port: 2052
-    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
-    udp: true
-    tls: false
-    network: ws
-    servername: example.com
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: vless.xiaomayi0804.workers.dev
-  - name: 7 vless-🇭🇰
-    type: vless
-    server: buff.lookb.link
-    port: 2052
-    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
-    udp: true
-    tls: false
-    network: ws
-    servername: example.com
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: vless.xiaomayi0804.workers.dev
-  - name: 8 vless-🇭🇰🇭🇰
-    type: vless
-    server: 8.218.181.189
-    port: 2052
-    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
-    udp: true
-    tls: false
-    network: ws
-    servername: example.com
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: vless.xiaomayi0804.workers.dev
-  - name: 9 Hysteria2-🇭🇰
-    type: hysteria2
-    server: www.dtku46.xyz
-    port: 60626
-    password: dongtaiwang.com
-    fast-open: true
-    sni: www.bing.com
-    skip-cert-verify: true
-  - name: 10 Hysteria2-🇭🇰
-    type: hysteria2
-    server: www.dtku48.xyz
-    port: 56411
-    password: dongtaiwang.com
-    fast-open: true
-    sni: www.bing.com
-    skip-cert-verify: true
-  - name: 11 vless-🇭🇰
-    type: vless
-    server: 1.yokike.top
-    port: 2052
-    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
-    udp: true
-    tls: false
-    network: ws
-    servername: example.com
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: vless.xiaomayi0804.workers.dev
-  - name: 12 vless-🇭🇰🇭🇰
-    type: vless
-    server: 8.218.119.115
-    port: 2052
-    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
-    udp: true
-    tls: false
-    network: ws
-    servername: example.com
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: vless.xiaomayi0804.workers.dev
-  - name: 13 vless-🇸🇬
-    type: vless
-    server: 8.222.137.192
-    port: 2052
-    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
-    udp: true
-    tls: false
-    network: ws
-    servername: example.com
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: vless.xiaomayi0804.workers.dev
-  - name: 14 vless-🇭🇰
-    type: vless
-    server: cdn.chigua.tk
-    port: 2052
-    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
-    udp: true
-    tls: false
-    network: ws
-    servername: example.com
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: vless.xiaomayi0804.workers.dev
-  - name: 15 vless-🇭🇰
-    type: vless
-    server: ip.yumy.pp.ua
-    port: 2052
-    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
-    udp: true
-    tls: false
-    network: ws
-    servername: example.com
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: vless.xiaomayi0804.workers.dev
-  - name: 16 vless-🇭🇰
-    type: vless
-    server: qq.achen.link
-    port: 2052
-    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
-    udp: true
-    tls: false
-    network: ws
-    servername: example.com
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: vless.xiaomayi0804.workers.dev
-  - name: 17 vless-🇭🇰
-    type: vless
-    server: 2.yokike.top
-    port: 2052
-    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
-    udp: true
-    tls: false
-    network: ws
-    servername: example.com
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: vless.xiaomayi0804.workers.dev
-  - name: 18 vless-🇭🇰
-    type: vless
-    server: cfip.gay
-    port: 2052
-    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
-    udp: true
-    tls: false
-    network: ws
-    servername: example.com
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: vless.xiaomayi0804.workers.dev
-  - name: 19 vless-🇸🇬
-    type: vless
-    server: 8.222.253.235
-    port: 2052
-    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
-    udp: true
-    tls: false
-    network: ws
-    servername: example.com
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: vless.xiaomayi0804.workers.dev
-  - name: 20 vless-🇸🇬
-    type: vless
-    server: 8.222.137.192
-    port: 2052
-    uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00
-    udp: true
-    tls: false
-    network: ws
-    servername: example.com
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: vless.xiaomayi0804.workers.dev
+proxies:
+  - {"name":"http 117","type":"http","server":"117.184.37.22","port":7890}
+  - {"name":"1 vless-🇯🇵","type":"vless","server":"47.245.38.233","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
+  - {"name":"2 vless-🇰🇷","type":"vless","server":"130.162.154.209","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
+  - {"name":"3 vless-🇰🇷","type":"vless","server":"130.162.144.196","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
+  - {"name":"4 vless-🇸🇬","type":"vless","server":"8.222.144.117","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
+  - {"name":"5 vless-🇭🇰🇭🇰","type":"vless","server":"8.218.181.189","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
+  - {"name":"6 vless-🇭🇰🇭🇰","type":"vless","server":"8.218.127.249","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
+  - {"name":"7 vless-🇸🇬","type":"vless","server":"8.222.137.192","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
+  - {"name":"8 vless-🇸🇬","type":"vless","server":"8.222.253.235","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
+  - {"name":"9 vless-🇸🇬","type":"vless","server":"8.222.137.192","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
+  - {"name":"10 vless-🇺🇸","type":"vless","server":"2606:4700:a9:74c9:512b:f473:a5af:893a","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
+  - {"name":"11 vless-🇭🇰","type":"vless","server":"1.yokike.top","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
+  - {"name":"12 vless-🇭🇰","type":"vless","server":"2.yokike.top","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
+  - {"name":"13 vless-🇸🇬","type":"vless","server":"yx.piaosir.link","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
+  - {"name":"14 vless-🇸🇬","type":"vless","server":"ip.yumy.pp.ua","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
+  - {"name":"15 vless-🇸🇬","type":"vless","server":"qq.achen.link","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
 
 proxy-groups:
   - name: 🚀 节点选择
@@ -299,56 +56,45 @@ proxy-groups:
   - name: 🌍 手动选择1
     type: select
     proxies:
-      - http117
-      - 1 vless-🇯🇵
-      - 2 vless-🇰🇷
-      - 3 vless-🇰🇷
-      - 4 vless-🇸🇬
-      - 5 vless-🇭🇰
-      - 6 vless-🇺🇸
-      - 7 vless-🇭🇰
-      - 8 vless-🇭🇰🇭🇰
-      - 9 Hysteria2-🇭🇰
-      - 10 Hysteria2-🇭🇰
-      - 11 vless-🇭🇰
-      - 12 vless-🇭🇰🇭🇰
-      - 13 vless-🇸🇬
-      - 14 vless-🇭🇰
-      - 15 vless-🇭🇰
-      - 16 vless-🇭🇰
-      - 17 vless-🇭🇰
-      - 18 vless-🇭🇰
-      - 19 vless-🇸🇬
-      - 20 vless-🇸🇬
+      - "http 117"
+      - "1 vless-🇯🇵"
+      - "2 vless-🇰🇷"
+      - "3 vless-🇰🇷"
+      - "4 vless-🇸🇬"
+      - "5 vless-🇭🇰🇭🇰"
+      - "6 vless-🇭🇰🇭🇰"
+      - "7 vless-🇸🇬"
+      - "8 vless-🇸🇬"
+      - "9 vless-🇸🇬"
+      - "10 vless-🇺🇸"
+      - "11 vless-🇭🇰"
+      - "12 vless-🇭🇰"
+      - "13 vless-🇸🇬"
+      - "14 vless-🇸🇬"
+      - "15 vless-🇸🇬"
     use:
       - Jichang
   - name: 🌍 手动选择2
     type: select
     proxies:
-      - http117
-      - 1 vless-🇯🇵
-      - 2 vless-🇰🇷
-      - 3 vless-🇰🇷
-      - 4 vless-🇸🇬
-      - 5 vless-🇭🇰
-      - 6 vless-🇺🇸
-      - 7 vless-🇭🇰
-      - 8 vless-🇭🇰🇭🇰
-      - 9 Hysteria2-🇭🇰
-      - 10 Hysteria2-🇭🇰
-      - 11 vless-🇭🇰
-      - 12 vless-🇭🇰🇭🇰
-      - 13 vless-🇸🇬
-      - 14 vless-🇭🇰
-      - 15 vless-🇭🇰
-      - 16 vless-🇭🇰
-      - 17 vless-🇭🇰
-      - 18 vless-🇭🇰
-      - 19 vless-🇸🇬
-      - 20 vless-🇸🇬
+      - "http 117"
+      - "1 vless-🇯🇵"
+      - "2 vless-🇰🇷"
+      - "3 vless-🇰🇷"
+      - "4 vless-🇸🇬"
+      - "5 vless-🇭🇰🇭🇰"
+      - "6 vless-🇭🇰🇭🇰"
+      - "7 vless-🇸🇬"
+      - "8 vless-🇸🇬"
+      - "9 vless-🇸🇬"
+      - "10 vless-🇺🇸"
+      - "11 vless-🇭🇰"
+      - "12 vless-🇭🇰"
+      - "13 vless-🇸🇬"
+      - "14 vless-🇸🇬"
+      - "15 vless-🇸🇬"
     use:
       - Jichang
-
   - name: 🍎 谷歌服务
     type: select
     proxies:
@@ -368,27 +114,22 @@ proxy-groups:
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - http117
-      - 1 vless-🇯🇵
-      - 2 vless-🇰🇷
-      - 3 vless-🇰🇷
-      - 4 vless-🇸🇬
-      - 5 vless-🇭🇰
-      - 6 vless-🇺🇸
-      - 7 vless-🇭🇰
-      - 8 vless-🇭🇰🇭🇰
-      - 9 Hysteria2-🇭🇰
-      - 10 Hysteria2-🇭🇰
-      - 11 vless-🇭🇰
-      - 12 vless-🇭🇰🇭🇰
-      - 13 vless-🇸🇬
-      - 14 vless-🇭🇰
-      - 15 vless-🇭🇰
-      - 16 vless-🇭🇰
-      - 17 vless-🇭🇰
-      - 18 vless-🇭🇰
-      - 19 vless-🇸🇬
-      - 20 vless-🇸🇬
+      - "http 117"
+      - "1 vless-🇯🇵"
+      - "2 vless-🇰🇷"
+      - "3 vless-🇰🇷"
+      - "4 vless-🇸🇬"
+      - "5 vless-🇭🇰🇭🇰"
+      - "6 vless-🇭🇰🇭🇰"
+      - "7 vless-🇸🇬"
+      - "8 vless-🇸🇬"
+      - "9 vless-🇸🇬"
+      - "10 vless-🇺🇸"
+      - "11 vless-🇭🇰"
+      - "12 vless-🇭🇰"
+      - "13 vless-🇸🇬"
+      - "14 vless-🇸🇬"
+      - "15 vless-🇸🇬"
     use:
       - Jichang
   - name: ⚖️ 负载均衡-轮询
@@ -397,27 +138,22 @@ proxy-groups:
     interval: 300
     strategy: round-robin
     proxies:
-      - http117
-      - 1 vless-🇯🇵
-      - 2 vless-🇰🇷
-      - 3 vless-🇰🇷
-      - 4 vless-🇸🇬
-      - 5 vless-🇭🇰
-      - 6 vless-🇺🇸
-      - 7 vless-🇭🇰
-      - 8 vless-🇭🇰🇭🇰
-      - 9 Hysteria2-🇭🇰
-      - 10 Hysteria2-🇭🇰
-      - 11 vless-🇭🇰
-      - 12 vless-🇭🇰🇭🇰
-      - 13 vless-🇸🇬
-      - 14 vless-🇭🇰
-      - 15 vless-🇭🇰
-      - 16 vless-🇭🇰
-      - 17 vless-🇭🇰
-      - 18 vless-🇭🇰
-      - 19 vless-🇸🇬
-      - 20 vless-🇸🇬
+      - "http 117"
+      - "1 vless-🇯🇵"
+      - "2 vless-🇰🇷"
+      - "3 vless-🇰🇷"
+      - "4 vless-🇸🇬"
+      - "5 vless-🇭🇰🇭🇰"
+      - "6 vless-🇭🇰🇭🇰"
+      - "7 vless-🇸🇬"
+      - "8 vless-🇸🇬"
+      - "9 vless-🇸🇬"
+      - "10 vless-🇺🇸"
+      - "11 vless-🇭🇰"
+      - "12 vless-🇭🇰"
+      - "13 vless-🇸🇬"
+      - "14 vless-🇸🇬"
+      - "15 vless-🇸🇬"
     use:
       - Jichang
  
