@@ -425,10 +425,10 @@ rules:
   - DOMAIN-KEYWORD,google,🍎 谷歌服务
   - DOMAIN-KEYWORD,jable,🍎 谷歌服务
   - DOMAIN-KEYWORD,bing,🍎 谷歌服务
-  - DOMAIN-KEYWORD,youtube,🍎 谷歌服务  
+  - DOMAIN-KEYWORD,youtube,🍎 谷歌服务
   - DOMAIN-KEYWORD,mushroom,DIRECT
   - DOMAIN-KEYWORD,alonestreaming,DIRECT
-
+  - PROCESS-NAME,onedrive.exe,DIRECT
 
   - RULE-SET,applications,DIRECT
   - DOMAIN,clash.razord.top,DIRECT
@@ -438,11 +438,11 @@ rules:
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
   - RULE-SET,google,DIRECT
-  - RULE-SET,proxy,🚀 节点选择
   - RULE-SET,direct,DIRECT
   - RULE-SET,lancidr,DIRECT
   - RULE-SET,cncidr,DIRECT
   - RULE-SET,telegramcidr,🚀 节点选择
+  - RULE-SET,proxy,🚀 节点选择
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,🐟 漏网之鱼
