@@ -28,10 +28,10 @@ dns:
     - 240.0.0.0/4
 
 proxies:
-  - {"name":"Http 117","type":"http","server":"117.184.37.22","port":7890}
+  - {"name":"http 117","type":"http","server":"117.184.37.22","port":7890}
   - {"name":"1 vless-🇯🇵","type":"vless","server":"47.245.38.233","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","servername":"vless.xiaomayi020524.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi020524.workers.dev"}}}
   - {"name":"2 vless-🇰🇷","type":"vless","server":"130.162.154.209","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","servername":"vless.xiaomayi020524.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi020524.workers.dev"}}}
-  - {"name":"3 vless-🇰🇷,"type":"vless","server":"130.162.144.196","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","servername":"vless.xiaomayi020524.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi020524.workers.dev"}}}
+  - {"name":"3 vless-🇰🇷","type":"vless","server":"130.162.144.196","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","servername":"vless.xiaomayi020524.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi020524.workers.dev"}}}
   - {"name":"4 vless-🇸🇬","type":"vless","server":"8.222.144.117","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","servername":"vless.xiaomayi020524.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi020524.workers.dev"}}}
   - {"name":"5 vless-🇭🇰🇭🇰","type":"vless","server":"8.218.181.189","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","servername":"vless.xiaomayi020524.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi020524.workers.dev"}}}
   - {"name":"6 vless-🇭🇰🇭🇰","type":"vless","server":"8.218.119.115","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","servername":"vless.xiaomayi020524.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi020524.workers.dev"}}}
@@ -56,43 +56,43 @@ proxy-groups:
   - name: 🌍 手动选择1
     type: select
     proxies:
-      - http117
-      - 1 vless-🇯🇵
-      - 2 vless-🇰🇷
-      - 3 vless-🇰🇷
-      - 4 vless-🇸🇬
-      - 5 vless-🇭🇰🇭🇰
-      - 6 vless-🇭🇰🇭🇰
-      - 7 vless-🇸🇬
-      - 8 vless-🇸🇬
-      - 9 vless-🇸🇬
-      - 10 vless-🇺🇸
-      - 11 vless-🇭🇰
-      - 12 vless-🇭🇰
-      - 13 vless-🇸🇬
-      - 14 vless-🇸🇬
-      - 15 vless-🇸🇬
+      - "http 117"
+      - "1 vless-🇯🇵"
+      - "2 vless-🇰🇷"
+      - "3 vless-🇰🇷"
+      - "4 vless-🇸🇬"
+      - "5 vless-🇭🇰🇭🇰"
+      - "6 vless-🇭🇰🇭🇰"
+      - "7 vless-🇸🇬"
+      - "8 vless-🇸🇬"
+      - "9 vless-🇸🇬"
+      - "10 vless-🇺🇸"
+      - "11 vless-🇭🇰"
+      - "12 vless-🇭🇰"
+      - "13 vless-🇸🇬"
+      - "14 vless-🇸🇬"
+      - "15 vless-🇸🇬"
     use:
       - Jichang
   - name: 🌍 手动选择2
     type: select
     proxies:
-      - http117
-      - 1 vless-🇯🇵
-      - 2 vless-🇰🇷
-      - 3 vless-🇰🇷
-      - 4 vless-🇸🇬
-      - 5 vless-🇭🇰🇭🇰
-      - 6 vless-🇭🇰🇭🇰
-      - 7 vless-🇸🇬
-      - 8 vless-🇸🇬
-      - 9 vless-🇸🇬
-      - 10 vless-🇺🇸
-      - 11 vless-🇭🇰
-      - 12 vless-🇭🇰
-      - 13 vless-🇸🇬
-      - 14 vless-🇸🇬
-      - 15 vless-🇸🇬
+      - "http 117"
+      - "1 vless-🇯🇵"
+      - "2 vless-🇰🇷"
+      - "3 vless-🇰🇷"
+      - "4 vless-🇸🇬"
+      - "5 vless-🇭🇰🇭🇰"
+      - "6 vless-🇭🇰🇭🇰"
+      - "7 vless-🇸🇬"
+      - "8 vless-🇸🇬"
+      - "9 vless-🇸🇬"
+      - "10 vless-🇺🇸"
+      - "11 vless-🇭🇰"
+      - "12 vless-🇭🇰"
+      - "13 vless-🇸🇬"
+      - "14 vless-🇸🇬"
+      - "15 vless-🇸🇬"
     use:
       - Jichang
   - name: 🍎 谷歌服务
@@ -114,22 +114,22 @@ proxy-groups:
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - http117
-      - 1 vless-🇯🇵
-      - 2 vless-🇰🇷
-      - 3 vless-🇰🇷
-      - 4 vless-🇸🇬
-      - 5 vless-🇭🇰🇭🇰
-      - 6 vless-🇭🇰🇭🇰
-      - 7 vless-🇸🇬
-      - 8 vless-🇸🇬
-      - 9 vless-🇸🇬
-      - 10 vless-🇺🇸
-      - 11 vless-🇭🇰
-      - 12 vless-🇭🇰
-      - 13 vless-🇸🇬
-      - 14 vless-🇸🇬
-      - 15 vless-🇸🇬
+      - "http 117"
+      - "1 vless-🇯🇵"
+      - "2 vless-🇰🇷"
+      - "3 vless-🇰🇷"
+      - "4 vless-🇸🇬"
+      - "5 vless-🇭🇰🇭🇰"
+      - "6 vless-🇭🇰🇭🇰"
+      - "7 vless-🇸🇬"
+      - "8 vless-🇸🇬"
+      - "9 vless-🇸🇬"
+      - "10 vless-🇺🇸"
+      - "11 vless-🇭🇰"
+      - "12 vless-🇭🇰"
+      - "13 vless-🇸🇬"
+      - "14 vless-🇸🇬"
+      - "15 vless-🇸🇬"
     use:
       - Jichang
   - name: ⚖️ 负载均衡-轮询
@@ -138,27 +138,27 @@ proxy-groups:
     interval: 300
     strategy: round-robin
     proxies:
-      - http117
-      - 1 vless-🇯🇵
-      - 2 vless-🇰🇷
-      - 3 vless-🇰🇷
-      - 4 vless-🇸🇬
-      - 5 vless-🇭🇰🇭🇰
-      - 6 vless-🇭🇰🇭🇰
-      - 7 vless-🇸🇬
-      - 8 vless-🇸🇬
-      - 9 vless-🇸🇬
-      - 10 vless-🇺🇸
-      - 11 vless-🇭🇰
-      - 12 vless-🇭🇰
-      - 13 vless-🇸🇬
-      - 14 vless-🇸🇬
-      - 15 vless-🇸🇬
+      - "http 117"
+      - "1 vless-🇯🇵"
+      - "2 vless-🇰🇷"
+      - "3 vless-🇰🇷"
+      - "4 vless-🇸🇬"
+      - "5 vless-🇭🇰🇭🇰"
+      - "6 vless-🇭🇰🇭🇰"
+      - "7 vless-🇸🇬"
+      - "8 vless-🇸🇬"
+      - "9 vless-🇸🇬"
+      - "10 vless-🇺🇸"
+      - "11 vless-🇭🇰"
+      - "12 vless-🇭🇰"
+      - "13 vless-🇸🇬"
+      - "14 vless-🇸🇬"
+      - "15 vless-🇸🇬"
     use:
       - Jichang
 
  
- rules:
+rules:
   - DOMAIN-KEYWORD,google,🍎 谷歌服务
   - DOMAIN-KEYWORD,jable,🍎 谷歌服务
   - DOMAIN-KEYWORD,bing,🍎 谷歌服务
