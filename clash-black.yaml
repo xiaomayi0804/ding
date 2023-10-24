@@ -438,7 +438,7 @@ rules:
   - RULE-SET,tld-not-cn,🚀 节点选择
   - RULE-SET,gfw,🚀 节点选择
   - RULE-SET,telegramcidr,🚀 节点选择
-  - MATCH,DIRECT
+  - MATCH,🐟 漏网之鱼
 
 rule-providers:
   reject:
