@@ -165,7 +165,8 @@ rules:
   - DOMAIN-KEYWORD,youtube,🍎 谷歌服务
   - DOMAIN-KEYWORD,mushroom,DIRECT
   - DOMAIN-KEYWORD,alonestreaming,DIRECT
-  - PROCESS-NAME,onedrive.exe,DIRECT
+  - DOMAIN-KEYWORD,microsoft,DIRECT
+  #- PROCESS-NAME,onedrive.exe,DIRECT
 
   - RULE-SET,applications,DIRECT
   - DOMAIN,clash.razord.top,DIRECT
