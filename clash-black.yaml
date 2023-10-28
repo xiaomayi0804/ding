@@ -25,7 +25,28 @@ dns:
     geoip: true
     geoip-code: CN
     ipcidr:
-    - 240.0.0.0/4
+     - 240.0.0.0/4
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
+    - +.stun.*.*.*.*.*
+    - "*.n.n.srv.nintendo.net"
+    - +.stun.playstation.net
+    - xbox.*.*.microsoft.com
+    - "*.*.xboxlive.com"
+    - "*.msftncsi.com"
+    - "*.msftconnecttest.com"
+    - WORKGROUP
+
+tun:
+  enable: true
+  stack: gvisor
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - any:53
+
+
 
 proxies:
   - {"name":"http 117","type":"http","server":"117.184.37.22","port":7890}
