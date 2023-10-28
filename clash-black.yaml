@@ -274,7 +274,7 @@ proxy-providers:
   Jichang:
     type: http
     url: https://mareep.netlify.app/sub/merged_proxies_new.yaml
-    path: ./Proxy/Jichang.yml
+    path: ./Proxy/Jichang.yaml
     interval: 86400
     health-check:
       enable: false
