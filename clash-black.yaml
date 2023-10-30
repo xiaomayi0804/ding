@@ -29,7 +29,7 @@ dns:
 
 
 proxies:
-  - {"name":"http 117","type":"http","server":"117.184.37.22","port":7890}
+  - {"name":"http","type":"http","server":"121.199.14.181","port":7890}
   - {"name":"1 vless-🇯🇵","type":"vless","server":"jpcdn.raises.top","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
   - {"name":"2 vless-🇰🇷","type":"vless","server":"130.162.154.209","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
   - {"name":"3 vless-🇰🇷","type":"vless","server":"130.162.144.196","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
@@ -57,7 +57,7 @@ proxy-groups:
   - name: 🌍 手动选择1
     type: select
     proxies:
-      - "http 117"
+      - "http"
       - "1 vless-🇯🇵"
       - "2 vless-🇰🇷"
       - "3 vless-🇰🇷"
@@ -78,7 +78,7 @@ proxy-groups:
   - name: 🌍 手动选择2
     type: select
     proxies:
-      - "http 117"
+      - "http"
       - "1 vless-🇯🇵"
       - "2 vless-🇰🇷"
       - "3 vless-🇰🇷"
@@ -115,7 +115,7 @@ proxy-groups:
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - "http 117"
+      - "http"
       - "1 vless-🇯🇵"
       - "2 vless-🇰🇷"
       - "3 vless-🇰🇷"
@@ -139,7 +139,7 @@ proxy-groups:
     interval: 300
     strategy: round-robin
     proxies:
-      - "http 117"
+      - "http"
       - "1 vless-🇯🇵"
       - "2 vless-🇰🇷"
       - "3 vless-🇰🇷"
