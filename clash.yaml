@@ -28,6 +28,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 
+#tun: { enable: true, stack: gvisor, auto-route: true, auto-detect-interface: true }  #stack: system
 
 proxies:
   - {"name":"http","type":"http","server":"121.199.14.181","port":7890}
@@ -104,12 +105,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🌍 手动选择2
       - 🌍 手动选择1
+      - DIRECT
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🌍 手动选择2
       - 🌍 手动选择1
+      - DIRECT
   - name: 🐟 漏网之鱼
     type: select
     proxies:
