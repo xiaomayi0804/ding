@@ -115,6 +115,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🌍 手动选择1
+      - 🌍 手动选择2
       - DIRECT
   
   - name: ⚖️ 负载均衡-散列
