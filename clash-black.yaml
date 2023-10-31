@@ -52,7 +52,6 @@ proxy-groups:
   - {name: 🌍 手动选择1, type: select, proxies: ["http","1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇭🇰","6 vless-🇭🇰","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇺🇸","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳"], use: [ Jichang]}
   - {name: 🌍 手动选择2, type: select, proxies: ["http","1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇭🇰","6 vless-🇭🇰","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇺🇸","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳"], use: [ Jichang]}
   - {name: 🍎 谷歌服务, type: select, proxies: [🚀 节点选择, 🌍 手动选择1, 🌍 手动选择2,  DIRECT]}
-  - {name: 📲 电报信息, type: select, proxies: [🚀 节点选择, 🌍 手动选择1, 🌍 手动选择2,  DIRECT]}
   - {name: 🐟 漏网之鱼, type: select, proxies: [🚀 节点选择, 🌍 手动选择1, 🌍 手动选择2,  DIRECT]}
   - {name: ⚖️ 负载均衡-散列, type: load-balance, url: http://www.google.com/generate_204, interval: 300, strategy: consistent-hashing, proxies: ["http","1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇭🇰","6 vless-🇭🇰","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇺🇸","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳"], use: [ Jichang]}
   - {name: ⚖️ 负载均衡-轮询, type: load-balance, url: http://www.google.com/generate_204, interval: 300, strategy: round-robin, proxies: ["http","1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇭🇰","6 vless-🇭🇰","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇺🇸","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳"], use: [ Jichang]}
@@ -62,11 +61,13 @@ proxy-groups:
 rules:
   - DOMAIN-KEYWORD,google,🍎 谷歌服务
   - DOMAIN-KEYWORD,jable,🍎 谷歌服务
+  - DOMAIN-KEYWORD,phncdn,🍎 谷歌服务
   - DOMAIN-KEYWORD,bing,🍎 谷歌服务
   - DOMAIN-KEYWORD,youtube,🍎 谷歌服务
   - DOMAIN-KEYWORD,mushroom,DIRECT
   - DOMAIN-KEYWORD,alonestreaming,DIRECT
-  - DOMAIN-KEYWORD,microsoft,DIRECT
+  - IP-CIDR,91.108.0.0/16,🍎 谷歌服务,no-resolve
+  - IP-CIDR,109.239.140.0/24,🍎 谷歌服务,no-resolve
   #- PROCESS-NAME,onedrive.exe,DIRECT
 
   - RULE-SET,applications,DIRECT
@@ -76,7 +77,7 @@ rules:
   - RULE-SET,reject,REJECT
   - RULE-SET,tld-not-cn,🚀 节点选择
   - RULE-SET,gfw,🚀 节点选择
-  - RULE-SET,telegramcidr,📲 电报信息
+  - RULE-SET,telegramcidr,🍎 谷歌服务
   - MATCH,🐟 漏网之鱼
 
 
