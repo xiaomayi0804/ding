@@ -29,141 +29,35 @@ dns:
 
 
 proxies:
-  - {"name":"http","type":"http","server":"121.199.14.181","port":7890}
-  - {"name":"1 vless-🇯🇵","type":"vless","server":"jpcdn.raises.top","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
-  - {"name":"2 vless-🇰🇷","type":"vless","server":"130.162.154.209","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
-  - {"name":"3 vless-🇰🇷","type":"vless","server":"130.162.144.196","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
-  - {"name":"4 vless-🇸🇬","type":"vless","server":"8.222.144.117","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
-  - {"name":"5 vless-🇭🇰","type":"vless","server":"8.222.210.182","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
-  - {"name":"6 vless-🇭🇰","type":"vless","server":"8.217.147.230","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
-  - {"name":"7 vless-🇸🇬","type":"vless","server":"8.222.137.192","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
-  - {"name":"8 vless-🇸🇬","type":"vless","server":"8.222.253.235","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
-  - {"name":"9 vless-🇸🇬","type":"vless","server":"8.222.137.192","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
-  - {"name":"10 vless-🇺🇸","type":"vless","server":"2606:4700:a9:74c9:512b:f473:a5af:893a","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
-  - {"name":"11 vless-🇨🇳","type":"vless","server":"1.yokike.top","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
-  - {"name":"12 vless-🇨🇳","type":"vless","server":"2.yokike.top","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
-  - {"name":"13 vless-🇨🇳","type":"vless","server":"yx.piaosir.link","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
-  - {"name":"14 vless-🇨🇳","type":"vless","server":"ip.yumy.pp.ua","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
-  - {"name":"15 vless-🇨🇳","type":"vless","server":"qq.achen.link","port":2052,"uuid":"ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00","tls":false,"udp":true,"servername":"vless.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.xiaomayi0804.workers.dev"}}}
+  - {name: http, type: http, server: 121.199.14.181, port: 7890}
+  - {name: 1 vless-🇯🇵, type: vless, server: jpcdn.raises.top, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi020524.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi020524.workers.dev}}}
+  - {name: 2 vless-🇰🇷, type: vless, server: 130.162.154.209, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi020524.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi020524.workers.dev}}}
+  - {name: 3 vless-🇰🇷, type: vless, server: 130.162.144.196, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi020524.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi020524.workers.dev}}}
+  - {name: 4 vless-🇸🇬, type: vless, server: 8.222.144.117, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi020524.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi020524.workers.dev}}}
+  - {name: 5 vless-🇭🇰, type: vless, server: 8.222.210.182, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi020524.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi020524.workers.dev}}}
+  - {name: 6 vless-🇭🇰, type: vless, server: 8.217.147.230, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi020524.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi020524.workers.dev}}}
+  - {name: 7 vless-🇸🇬, type: vless, server: 8.222.137.192, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi020524.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi020524.workers.dev}}}
+  - {name: 8 vless-🇸🇬, type: vless, server: 8.222.253.235, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi020524.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi020524.workers.dev}}}
+  - {name: 9 vless-🇸🇬, type: vless, server: 8.222.133.63, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi020524.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi020524.workers.dev}}}
+  - {name: 10 vless-🇺🇸, type: vless, server: 2606:4700:a9:74c9:512b:f473:a5af:893a, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi020524.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi020524.workers.dev}}}
+  - {name: 11 vless-🇨🇳, type: vless, server: 1.yokike.top, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi020524.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi020524.workers.dev}}}
+  - {name: 12 vless-🇨🇳, type: vless, server: 2.yokike.top, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi020524.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi020524.workers.dev}}}
+  - {name: 13 vless-🇨🇳, type: vless, server: yx.piaosir.link, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi020524.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi020524.workers.dev}}}
+  - {name: 14 vless-🇨🇳, type: vless, server: ip.yumy.pp.ua, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi020524.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi020524.workers.dev}}}
+  - {name: 15 vless-🇨🇳, type: vless, server: qq.achen.link, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi020524.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi020524.workers.dev}}}
+
 
 proxy-groups:
-  - name: 🚀 节点选择
-    type: select
-    proxies:
-      - 🌍 手动选择1
-      - 🌍 手动选择2
-      - ⚖️ 负载均衡-轮询
-      - ⚖️ 负载均衡-散列
-      - DIRECT
-  - name: 🌍 手动选择1
-    type: select
-    proxies:
-      - "http"
-      - "1 vless-🇯🇵"
-      - "2 vless-🇰🇷"
-      - "3 vless-🇰🇷"
-      - "4 vless-🇸🇬"
-      - "5 vless-🇭🇰"
-      - "6 vless-🇭🇰"
-      - "7 vless-🇸🇬"
-      - "8 vless-🇸🇬"
-      - "9 vless-🇸🇬"
-      - "10 vless-🇺🇸"
-      - "11 vless-🇨🇳"
-      - "12 vless-🇨🇳"
-      - "13 vless-🇨🇳"
-      - "14 vless-🇨🇳"
-      - "15 vless-🇨🇳"
-    use:
-      - Jichang
-  - name: 🌍 手动选择2
-    type: select
-    proxies:
-      - "http"
-      - "1 vless-🇯🇵"
-      - "2 vless-🇰🇷"
-      - "3 vless-🇰🇷"
-      - "4 vless-🇸🇬"
-      - "5 vless-🇭🇰"
-      - "6 vless-🇭🇰"
-      - "7 vless-🇸🇬"
-      - "8 vless-🇸🇬"
-      - "9 vless-🇸🇬"
-      - "10 vless-🇺🇸"
-      - "11 vless-🇨🇳"
-      - "12 vless-🇨🇳"
-      - "13 vless-🇨🇳"
-      - "14 vless-🇨🇳"
-      - "15 vless-🇨🇳"
-    use:
-      - Jichang
-  - name: 🍎 谷歌服务
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - 🌍 手动选择2
-      - 🌍 手动选择1
-  - name: 📲 电报信息
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - 🌍 手动选择2
-      - 🌍 手动选择1
-  - name: 🐟 漏网之鱼
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - 🌍 手动选择1
-      - 🌍 手动选择2
-      - DIRECT
-  
-  - name: ⚖️ 负载均衡-散列
-    type: load-balance
-    url: http://www.google.com/generate_204
-    interval: 300
-    strategy: consistent-hashing
-    proxies:
-      - "1 vless-🇯🇵"
-      - "2 vless-🇰🇷"
-      - "3 vless-🇰🇷"
-      - "4 vless-🇸🇬"
-      - "5 vless-🇭🇰"
-      - "6 vless-🇭🇰"
-      - "7 vless-🇸🇬"
-      - "8 vless-🇸🇬"
-      - "9 vless-🇸🇬"
-      - "10 vless-🇺🇸"
-      - "11 vless-🇨🇳"
-      - "12 vless-🇨🇳"
-      - "13 vless-🇨🇳"
-      - "14 vless-🇨🇳"
-      - "15 vless-🇨🇳"
-    use:
-      - Jichang
-  - name: ⚖️ 负载均衡-轮询
-    type: load-balance
-    url: http://www.google.com/generate_204
-    interval: 300
-    strategy: round-robin
-    proxies:
-      - "1 vless-🇯🇵"
-      - "2 vless-🇰🇷"
-      - "3 vless-🇰🇷"
-      - "4 vless-🇸🇬"
-      - "5 vless-🇭🇰"
-      - "6 vless-🇭🇰"
-      - "7 vless-🇸🇬"
-      - "8 vless-🇸🇬"
-      - "9 vless-🇸🇬"
-      - "10 vless-🇺🇸"
-      - "11 vless-🇨🇳"
-      - "12 vless-🇨🇳"
-      - "13 vless-🇨🇳"
-      - "14 vless-🇨🇳"
-      - "15 vless-🇨🇳"
-    use:
-      - Jichang
+  - {name: 🚀 节点选择, type: select, proxies: [🌍 手动选择1, 🌍 手动选择2, ⚖️ 负载均衡-轮询, ⚖️ 负载均衡-散列, DIRECT]}
+  - {name: 🌍 手动选择1, type: select, proxies: ["http","1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇭🇰","6 vless-🇭🇰","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇺🇸","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳"], use: [ Jichang]}
+  - {name: 🌍 手动选择2, type: select, proxies: ["http","1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇭🇰","6 vless-🇭🇰","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇺🇸","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳"], use: [ Jichang]}
+  - {name: 🍎 谷歌服务, type: select, proxies: [🚀 节点选择, 🌍 手动选择1, 🌍 手动选择2,  DIRECT]}
+  - {name: 📲 电报信息, type: select, proxies: [🚀 节点选择, 🌍 手动选择1, 🌍 手动选择2,  DIRECT]}
+  - {name: 🐟 漏网之鱼, type: select, proxies: [🚀 节点选择, 🌍 手动选择1, 🌍 手动选择2,  DIRECT]}
+  - {name: ⚖️ 负载均衡-散列, type: load-balance, url: http://www.google.com/generate_204, interval: 300, strategy: consistent-hashing, proxies: ["http","1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇭🇰","6 vless-🇭🇰","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇺🇸","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳"], use: [ Jichang]}
+  - {name: ⚖️ 负载均衡-轮询, type: load-balance, url: http://www.google.com/generate_204, interval: 300, strategy: round-robin, proxies: ["http","1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇭🇰","6 vless-🇭🇰","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇺🇸","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳"], use: [ Jichang]}
 
+  
  
 rules:
   - DOMAIN-KEYWORD,google,🍎 谷歌服务
@@ -185,105 +79,23 @@ rules:
   - RULE-SET,telegramcidr,📲 电报信息
   - MATCH,🐟 漏网之鱼
 
+
 rule-providers:
-  reject:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
-    path: ./ruleset/reject.yaml
-    interval: 86400
+  reject:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt", path: ./ruleset/reject.yaml, interval: 86400}
+  icloud:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt", path: ./ruleset/icloud.yaml, interval: 86400}
+  apple:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt", path: ./ruleset/apple.yaml, interval: 86400}
+  google:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt", path: ./ruleset/google.yaml, interval: 86400}
+  proxy:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt", path: ./ruleset/proxy.yaml, interval: 86400}
+  direct:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt", path: ./ruleset/direct.yaml, interval: 86400}
+  private:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt", path: ./ruleset/private.yaml, interval: 86400}
+  gfw:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt", path: ./ruleset/gfw.yaml, interval: 86400}
+  tld-not-cn:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt", path: ./ruleset/tld-not-cn.yaml, interval: 86400}
+  telegramcidr:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt", path: ./ruleset/telegramcidr.yaml, interval: 86400}
+  cncidr:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt", path: ./ruleset/cncidr.yaml, interval: 86400}
+  lancidr:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt", path: ./ruleset/lancidr.yaml, interval: 86400}
+  applications:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt", path: ./ruleset/applications.yaml, interval: 86400}
 
-  icloud:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
-    path: ./ruleset/icloud.yaml
-    interval: 86400
-
-  apple:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
-    path: ./ruleset/apple.yaml
-    interval: 86400
-
-  google:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
-    path: ./ruleset/google.yaml
-    interval: 86400
-
-  proxy:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
-    path: ./ruleset/proxy.yaml
-    interval: 86400
-
-  direct:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
-    path: ./ruleset/direct.yaml
-    interval: 86400
-
-  private:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
-    path: ./ruleset/private.yaml
-    interval: 86400
-
-  gfw:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
-    path: ./ruleset/gfw.yaml
-    interval: 86400
-
-  tld-not-cn:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
-    path: ./ruleset/tld-not-cn.yaml
-    interval: 86400
-
-  telegramcidr:
-    type: http
-    behavior: ipcidr
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
-    path: ./ruleset/telegramcidr.yaml
-    interval: 86400
-
-  cncidr:
-    type: http
-    behavior: ipcidr
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
-    path: ./ruleset/cncidr.yaml
-    interval: 86400
-
-  lancidr:
-    type: http
-    behavior: ipcidr
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
-    path: ./ruleset/lancidr.yaml
-    interval: 86400
-
-  applications:
-    type: http
-    behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
-    path: ./ruleset/applications.yaml
-    interval: 86400
 
 proxy-providers:
-  Jichang:
-    type: http
-    url: https://mareep.netlify.app/sub/merged_proxies_new.yaml
-    path: ./Proxy/Jichang.yaml
-    interval: 86400
-    health-check:
-      enable: false
-      interval: 600
-      url: https://www.gstatic.com/generate_204
+  Jichang: {type: http, url: https://mareep.netlify.app/sub/merged_proxies_new.yaml, path: ./Proxy/Jichang.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
+
