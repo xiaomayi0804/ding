@@ -32,7 +32,7 @@ dns:
 
 proxies:
   - {name: http1, type: http, server: 113.102.163.36, port: 7890}
-  - {name: http2, type: http, server: 218.91.141.206, port: 7890}
+  - {name: http2, type: http, server: 47.94.225.51, port: 17890}
   - {name: 韩国家宽-🇰🇷, type: ss, server: 222.112.15.132, port: 5807, cipher: aes-256-cfb, password: "qwerREWQ@@"}  # udp: true
   - {name: 1 vless-🇯🇵, type: vless, server: 47.245.40.55, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi0804.workers.dev}}}
   - {name: 2 vless-🇰🇷, type: vless, server: 130.162.154.209, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi0804.workers.dev}}}
