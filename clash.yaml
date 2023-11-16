@@ -29,6 +29,7 @@ dns:
     - 240.0.0.0/4
 
 #tun: { enable: true, stack: gvisor, auto-route: true, auto-detect-interface: true }  #stack: system
+# 138.2.60.136，  140.238.30.182
 
 proxies:
   - {name: http1, type: http, server: 47.94.225.51, port: 17890}
