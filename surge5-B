@@ -17,6 +17,7 @@ ipv6-vif = auto
 allow-wifi-access = false
 encrypted-dns-server = https://dns.alidns.com/dns-query
 
+
 [Proxy]
 clash47 = http, 47.94.225.51, 17890
 clash124-133 = http, 124.78.12.133, 7890
@@ -28,6 +29,7 @@ clash124-36 = http, 124.126.5.36, 7890
 clash 106 = http, 106.122.205.52, 7890
 tuic 5 = tuic-v5, 108.181.22.239, 19988, password=dongtaiwang.com, skip-cert-verify=true, sni=bing.com, uuid=485CE799-DA5F-46E8-A82B-8EF322D8602F, alpn=h3
 
+
 [Proxy Group]
 👀 Wifi无忧切换 = subnet, default = 🚀 节点选择, "TYPE:CELLULAR" = 🚀 节点选择
 🚀 节点选择 = select, DIRECT, ♻️ 自动选择, 👋 手动切换, no-alert=0, hidden=0, include-all-proxies=0
@@ -36,10 +38,11 @@ tuic 5 = tuic-v5, 108.181.22.239, 19988, password=dongtaiwang.com, skip-cert-v
 🎯 全球直连 = select, DIRECT, 🚀 节点选择
 🛑 全球拦截 = select, REJECT, DIRECT
 🎶 网易音乐 = select, REJECT, DIRECT, no-alert=0, hidden=0, include-all-proxies=0, update-interval=0
-🐟 漏网之鱼 = select, 🚀 节点选择, 🎯 全球直连, DIRECT
+🐟 漏网之鱼 = select, DIRECT, 🚀 节点选择, 🎯 全球直连
+
 
 [Rule]
-PROCESS-NAME,TikTok,👀 Wifi无忧切换,force-remote-dns
+DOMAIN-KEYWORD,TikTok,👀 Wifi无忧切换,force-remote-dns
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/private.txt,DIRECT
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/reject.txt,REJECT
 RULE-SET,SYSTEM,DIRECT
