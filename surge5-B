@@ -44,5 +44,6 @@ DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/reject.t
 RULE-SET,SYSTEM,DIRECT
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/tld-not-cn.txt,👀 Wifi无忧切换,force-remote-dns
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/gfw.txt,👀 Wifi无忧切换,force-remote-dns
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/telegramcidr.txt,👀 Wifi无忧切换
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/telegramcidr.txt,👀 Wifi无忧切换,force-remote-dns
+RULE-SET,https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKTok-KR.conf,👀 Wifi无忧切换,force-remote-dns
 FINAL,🐟 漏网之鱼,dns-failed
