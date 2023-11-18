@@ -1,0 +1,69 @@
+[General]
+# 延迟测试
+# > Internet 测试 URL
+internet-test-url = http://www.aliyun.com
+# > 代理测速 URL
+proxy-test-url = http://www.gstatic.com/generate_204
+# > 测试超时（秒）
+# test-timeout = 5
+loglevel = notify
+bypass-system = true
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
+# DNS设置或根据自己网络情况进行相应设置
+bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+dns-server = 223.5.5.5
+ipv6 = true
+ipv6-vif = auto
+allow-wifi-access = false
+encrypted-dns-server = https://dns.alidns.com/dns-query
+
+[Proxy]
+clash47 = http, 47.94.225.51, 17890
+clash124-133 = http, 124.78.12.133, 7890
+clash182 = http, 182.139.80.185, 17890
+clash114 = http, 114.224.134.221, 7890
+clash123 = http, 123.120.50.189, 7890
+tuic5 = tuic-v5, tuic3.dtku47.xyz, 12255, password=dongtaiwang, skip-cert-verify=true, sni=bing.com, uuid=ED6A538A-6E66-4F21-A769-4B389BB2F3AB, alpn=h3
+clash124-36 = http, 124.126.5.36, 7890
+clash 106 = http, 106.122.205.52, 7890
+tuic 5 = tuic-v5, 108.181.22.239, 19988, password=dongtaiwang.com, skip-cert-verify=true, sni=bing.com, uuid=485CE799-DA5F-46E8-A82B-8EF322D8602F, alpn=h3
+
+[Proxy Group]
+👀 Wifi无忧切换 = subnet, default = 🚀 节点选择, "TYPE:CELLULAR" = 🚀 节点选择
+🚀 节点选择 = select, DIRECT, ♻️ 自动选择, 👋 手动切换, no-alert=0, hidden=0, include-all-proxies=0
+👋 手动切换 = select, clash47, clash124-133, clash123, clash182, clash124-36, tuic5, clash 106, tuic 5, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0
+♻️ 自动选择 = url-test, clash124-133, clash182, tuic5, clash47, clash123, clash124-36, clash 106, tuic 5, url=http://www.gstatic.com/generate_204, update-interval=86400, timeout=0, interval=300, tolerance=0, no-alert=0, hidden=0, include-all-proxies=0
+🎯 全球直连 = select, DIRECT, 🚀 节点选择
+🛑 全球拦截 = select, REJECT, DIRECT
+🐟 漏网之鱼 = select, 🚀 节点选择, 🎯 全球直连, DIRECT
+
+[Rule]
+# 本地网络-直连
+DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连
+# 去广告白名单-直连
+DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,🎯 全球直连
+# 常见广告关键字-拦截
+DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,🛑 全球拦截
+# 常用应用内去广告-拦截
+DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,🛑 全球拦截
+# 谷歌国内业务-直连
+DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,🎯 全球直连
+# 电报规则-代理
+DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list,👀 Wifi无忧切换
+# 网易云音乐
+DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list,🎶 网易音乐
+# 国外媒体-代理
+DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,👀 Wifi无忧切换
+# 国外域名等规则（轻量级）-代理
+DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list,👀 Wifi无忧切换
+# 国内域名-直连
+DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,🎯 全球直连
+# 国内云服务商IP段-直连
+DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 全球直连
+# 解锁网易云后出现国内歌曲无法播放等异常则启用下面这行
+# DOMAIN-SUFFIX,music.126.net,🎯 全球直连
+# GEOIP数据库内国内IP-直连
+GEOIP,CN,🎯 全球直连
+# 以上规则未包含的其他访问
+FINAL,🐟 漏网之鱼,dns-failed
+
