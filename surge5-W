@@ -39,32 +39,15 @@ tuic 5 = tuic-v5, 108.181.22.239, 19988, password=dongtaiwang.com, skip-cert-v
 🐟 漏网之鱼 = select, 🚀 节点选择, 🎯 全球直连, DIRECT
 
 [Rule]
-# 本地网络-直连
-DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连
-# 去广告白名单-直连
-DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,🎯 全球直连
-# 常见广告关键字-拦截
-DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,🛑 全球拦截
-# 常用应用内去广告-拦截
-DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,🛑 全球拦截
-# 谷歌国内业务-直连
-DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,🎯 全球直连
-# 电报规则-代理
-DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list,👀 Wifi无忧切换
-# 网易云音乐
-DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list,🎶 网易音乐
-# 国外媒体-代理
-DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,👀 Wifi无忧切换
-# 国外域名等规则（轻量级）-代理
-DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list,👀 Wifi无忧切换
-# 国内域名-直连
-DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,🎯 全球直连
-# 国内云服务商IP段-直连
-DOMAIN-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 全球直连
-# 解锁网易云后出现国内歌曲无法播放等异常则启用下面这行
-# DOMAIN-SUFFIX,music.126.net,🎯 全球直连
-# GEOIP数据库内国内IP-直连
-GEOIP,CN,🎯 全球直连
-# 以上规则未包含的其他访问
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/private.txt,DIRECT
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/reject.txt,REJECT
+RULE-SET,SYSTEM,DIRECT
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/icloud.txt,DIRECT
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/apple.txt,DIRECT
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/google.txt,DIRECT
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/proxy.txt,👀 Wifi无忧切换,force-remote-dns
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/direct.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/telegramcidr.txt,👀 Wifi无忧切换
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/cncidr.txt,DIRECT
+RULE-SET,LAN,DIRECT
 FINAL,🐟 漏网之鱼,dns-failed
-
