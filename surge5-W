@@ -35,10 +35,10 @@ tuic 5 = tuic-v5, 108.181.22.239, 19988, password=dongtaiwang.com, skip-cert-v
 ♻️ 自动选择 = url-test, clash124-133, clash182, tuic5, clash47, clash123, clash124-36, clash 106, tuic 5, url=http://www.gstatic.com/generate_204, update-interval=86400, timeout=0, interval=300, tolerance=0, no-alert=0, hidden=0, include-all-proxies=0
 🎯 全球直连 = select, DIRECT, 🚀 节点选择
 🛑 全球拦截 = select, REJECT, DIRECT
-🎶 网易音乐 = select, REJECT, DIRECT, no-alert=0, hidden=0, include-all-proxies=0, update-interval=0
 🐟 漏网之鱼 = select, 🚀 节点选择, 🎯 全球直连, DIRECT
 
 [Rule]
+DOMAIN-KEYWORD,TikTok,👀 Wifi无忧切换,force-remote-dns
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/private.txt,DIRECT
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/reject.txt,REJECT
 RULE-SET,SYSTEM,DIRECT
