@@ -46,8 +46,8 @@ tuic 5 = tuic-v5, 108.181.22.239, 19988, password=dongtaiwang.com, skip-cert-v
 [Proxy Group]
 👀 Wifi无忧切换 = subnet, default = 🚀 节点选择, "TYPE:CELLULAR" = 🚀 节点选择
 🚀 节点选择 = select, DIRECT, ♻️ 自动选择, 👋 手动切换, no-alert=0, hidden=0, include-all-proxies=0
-👋 手动切换 = select, clash47, clash124-133, clash123, clash182, clash124-36, tuic5, clash 106, tuic 5, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0
-♻️ 自动选择 = url-test, clash124-133, clash182, tuic5, clash47, clash123, clash124-36, clash 106, tuic 5, url=http://www.gstatic.com/generate_204, update-interval=86400, timeout=0, interval=300, tolerance=0, no-alert=0, hidden=0, include-all-proxies=0
+👋 手动切换 = select, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0
+♻️ 自动选择 = url-test, url=http://www.gstatic.com/generate_204, update-interval=86400, timeout=0, interval=300, tolerance=0, no-alert=0, hidden=0, include-all-proxies=0
 🎯 全球直连 = select, DIRECT, 🚀 节点选择
 🛑 全球拦截 = select, REJECT, DIRECT
 🐟 漏网之鱼 = select, DIRECT, 🚀 节点选择, 🎯 全球直连
