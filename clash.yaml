@@ -37,6 +37,19 @@ proxies:
   - {name: http3, type: http, server: 106.122.205.52, port: 7890}
   - {name: http4, type: http, server: 124.78.12.133, port: 7890}
   - {name: http5, type: http, server: 123.120.50.189, port: 7890}
+  - {name: http6, type: http, server: 119.131.119.16, port: 7890}
+  - {name: http7, type: http, server: 119.123.179.78, port: 17890}
+  - {name: http8, type: http, server: 110.87.104.221, port: 7890}
+  - {name: http9, type: http, server: 124.78.208.227, port: 7890}
+  - {name: http10, type: http, server: 222.70.51.174, port: 7890}
+  - {name: http11, type: http, server: 183.149.184.188, port: 7890}
+  - {name: http12, type: http, server: 1.197.162.72, port: 17890}
+  - {name: http13, type: http, server: 223.109.239.12, port: 7890}
+  - {name: http14, type: http, server: 180.156.243.0, port: 7890}
+  - {name: http15, type: http, server: 116.234.213.186, port: 7890}
+  - {name: http16, type: http, server: 27.214.80.32, port: 7890}
+  - {name: http17, type: http, server: 218.72.58.52, port: 7890}
+
 
   - {name: 1 vless-🇯🇵, type: vless, server: 132.145.115.29, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi0804.workers.dev}}}
   - {name: 2 vless-🇰🇷, type: vless, server: 8.222.186.17, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi0804.workers.dev}}}
@@ -58,7 +71,7 @@ proxies:
 
 proxy-groups:
   - {name: 🚀 节点选择, type: select, proxies: [🌍 自动选择, 🌍 手动选择1, 🌍 手动选择2, ⚖️ 负载均衡-轮询, ⚖️ 负载均衡-散列, DIRECT]}
-  - {name: 🌍 自动选择, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, proxies: ["http1","http2","http3","http4","http5"]}
+  - {name: 🌍 自动选择, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, proxies: ["http1","http2","http3","http4","http5","http6","http7","http8","http9","http10","http11","http12","http13","http14","http15","http16","http17"]}
   - {name: 🌍 手动选择1, type: select, proxies: ["http1","http2","1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇸🇬","6 vless-🇸🇬","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇭🇰","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳"], use: [ Jichang]}
   - {name: 🌍 手动选择2, type: select, proxies: ["http1","http2","1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇸🇬","6 vless-🇸🇬","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇭🇰","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳"], use: [ Jichang]}
   - {name: 🍎 谷歌服务, type: select, proxies: [🚀 节点选择, 🌍 自动选择, 🌍 手动选择1, 🌍 手动选择2,  DIRECT]}
