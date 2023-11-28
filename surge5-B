@@ -19,25 +19,25 @@ encrypted-dns-server = https://dns.alidns.com/dns-query
 
 
 [Proxy]
-clash47 = http, 47.94.225.51, 17890
-clash124-133 = http, 124.78.12.133, 7890
-clash182 = http, 182.139.80.185, 17890
-clash114 = http, 114.224.134.221, 7890
-clash123-189 = http, 123.120.50.189, 7890
-clash124-36 = http, 124.126.5.36, 7890
-clash106 = http, 106.122.205.52, 7890
-clash119-16 = http, 119.131.119.16, 7890
-clash119-78 = http, 119.123.179.78, 7890
-clash110-221 = http, 110.87.104.221, 7890
-clash124-227 = http, 124.78.208.227, 7890
-clash222-174 = http, 222.70.51.174, 7890
-clash183-188 = http, 183.149.184.188, 7890
-clash1-72 = http, 1.197.162.72, 7890
-clash223-12 = http, 223.109.239.12, 7890
-clash180-0 = http, 180.156.243.0, 7890
-clash116-186 = http, 116.234.213.186, 7890
-clash27-32 = http, 27.214.80.32, 7890
-clash218-52 = http, 218.72.58.52, 7890
+http1 = http, 111.166.126.112, 7890
+http2 = http, 124.126.5.12, 7890
+http3 = http, 183.240.208.130, 7890
+http4 = http, 124.67.97.59, 7890
+http5 = http, 223.109.239.12, 7890
+http6 = http, 124.126.5.36, 7890
+http7 = http, 106.122.205.52, 7890
+http8 = http, 119.131.119.16, 7890
+http9 = http, 119.123.179.78, 7890
+http10 = http, 110.87.104.221, 7890
+http11 = http, 124.78.208.227, 7890
+http12 = http, 222.70.51.174, 7890
+http13 = http, 183.149.184.188, 7890
+http14 = http, 1.197.162.72, 7890
+http15 = http, 223.109.239.122, 7890
+http16 = http, 180.156.243.0, 7890
+http17 = http, 116.234.213.186, 7890
+http18 = http, 27.214.80.32, 7890
+http19 = http, 218.72.58.52, 7890
 
 tuic5 = tuic-v5, tuic3.dtku47.xyz, 12255, password=dongtaiwang, skip-cert-verify=true, sni=bing.com, uuid=ED6A538A-6E66-4F21-A769-4B389BB2F3AB, alpn=h3
 tuic 5 = tuic-v5, 108.181.22.239, 19988, password=dongtaiwang.com, skip-cert-verify=true, sni=bing.com, uuid=485CE799-DA5F-46E8-A82B-8EF322D8602F, alpn=h3
