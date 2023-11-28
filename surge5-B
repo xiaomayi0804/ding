@@ -51,9 +51,11 @@ tuic 5 = tuic-v5, 108.181.22.239, 19988, password=dongtaiwang.com, skip-cert-v
 🎯 全球直连 = select, DIRECT, 🚀 节点选择
 🛑 全球拦截 = select, REJECT, DIRECT
 🐟 漏网之鱼 = select, DIRECT, 🚀 节点选择, 🎯 全球直连
+🚀 节点选择 = select, "http1","http2","http3","http4","http5","http6","http7","http8","http9","http10","http11","http12","http13","http14","http15","http16","http17","http18","http19"
 
 
 [Rule]
+DOMAIN-SUFFIX,SNSSDK.COM,DIRECT
 DOMAIN-KEYWORD,TikTok,👀 Wifi无忧切换,force-remote-dns
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/private.txt,DIRECT
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/reject.txt,REJECT
