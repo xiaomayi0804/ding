@@ -57,7 +57,7 @@ http-api-web-dashboard = true
 # > Network framwork
 network-framework = false
 # > IPv6 支持（默认关闭）
-ipv6 = false
+ipv6 = true
 # > 兼容模式(仅iOS)
 # compatibility-mode = 0
 # > 排除简单主机名
@@ -130,7 +130,7 @@ http18 = http, 27.214.80.32, 7890
 http19 = http, 218.72.58.52, 7890
 
 tuic5 = tuic-v5, tuic3.dtku47.xyz, 12255, password=dongtaiwang, skip-cert-verify=true, sni=bing.com, uuid=ED6A538A-6E66-4F21-A769-4B389BB2F3AB, alpn=h3
-tuic 5 = tuic-v5, 108.181.22.239, 19988, password=dongtaiwang.com, skip-cert-verify=true, sni=bing.com, uuid=485CE799-DA5F-46E8-A82B-8EF322D8602F, alpn=h3
+tuic 5 = tuic-v5, 108.181.22.239, 19988, password=dongtaiwang.com, skip-cert-verify=true, sni=bing.com, uuid=485CE799-DA5F-46E8-A82B-8EF322D8602F, alpn=h3
 
 
 
@@ -139,7 +139,7 @@ tuic 5 = tuic-v5, 108.181.22.239, 19988, password=dongtaiwang.com, skip-cert-v
 🚀 节点选择 = select, DIRECT, ♻️ 自动选择, 👋 SUB节点, no-alert=0, hidden=0, include-all-proxies=0
 👋 SUB节点 = select, policy-path=https://sub.store/download/collection/MySub, update-interval=0
 ♻️ 自动选择 = url-test, url=http://www.gstatic.com/generate_204, update-interval=86400, timeout=0, interval=300, tolerance=0, no-alert=0, hidden=0, include-all-proxies=0
-🐟 漏网之鱼 = select, DIRECT, 🚀 节点选择, 🎯 全球直连
+🐟 漏网之鱼 = select, DIRECT, 🚀 节点选择
 🇨🇳 节点仓库 = select, "http1","http2","http3","http4","http5","http6","http7","http8","http9","http10","http11","http12","http13","http14","http15","http16","http17","http18","http19"
 
 
@@ -166,9 +166,6 @@ RULE-SET,SYSTEM,DIRECT
 # Advertising 广告
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list,REJECT
 DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_Domain.list,REJECT
-# Privacy 隐私
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Privacy/Privacy_Domain.list,REJECT
-DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Privacy/Privacy_Domain.list,REJECT
 # Hijacking 运营商劫持或恶意网站
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Hijacking/Hijacking.list,REJECT
 
