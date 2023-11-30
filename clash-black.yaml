@@ -30,7 +30,7 @@ dns:
 
 proxies:
   - {name: http1, type: http, server: 111.166.126.112, port: 7890}
-  - {name: http2, type: http, server: 124.126.5.12, port: 17890}
+  - {name: http2, type: http, server: 124.126.5.12, port: 7890}
   - {name: http3, type: http, server: 183.240.208.130, port: 7890}
   - {name: http4, type: http, server: 124.67.97.59, port: 7890}
   - {name: http5, type: http, server: 223.109.239.12, port: 7890}
@@ -45,7 +45,7 @@ proxies:
   - {name: http14, type: http, server: 180.156.243.0, port: 7890}
   - {name: http15, type: http, server: 116.234.213.186, port: 7890}
   - {name: http16, type: http, server: 27.214.80.32, port: 7890}
-  - {name: http17, type: http, server: 218.72.58.52, port: 7890}
+  - {name: http17, type: http, server: nas.zijian.asia, port: 7890}
 
 
   - {name: 1 vless-🇯🇵, type: vless, server: 132.145.115.29, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi0804.workers.dev}}}
