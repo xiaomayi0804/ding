@@ -172,7 +172,7 @@ DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/apple.tx
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/google.txt,DIRECT
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/proxy.txt,👀 Wifi无忧切换,force-remote-dns
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/direct.txt,DIRECT
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/telegramcidr.txt,👀 Wifi无忧切换
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/telegramcidr.txt,👀 Wifi无忧切换,force-remote-dns
 RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/cncidr.txt,DIRECT
 RULE-SET,LAN,DIRECT
 
@@ -231,20 +231,3 @@ hdslb.com = server:119.29.29.29
 # 未解锁「模块」功能的用户不要删除以下内容，参照
 # (https://github.com/DivineEngine/Profiles/tree/master/Surge)使用快捷指令更新相关内容。
 
-[URL Rewrite]
-# 有两种重定向方式: 'header' 和 '302'
-# 建议用模块
-
-[Panel]
-# macOS不生效
-# > EDC_Surge-Panel
-# 显示运行时间及MitM等功能开关状态
-# 点击刷新为重载配置
-EDC_Surge-Panel = script-name=EDC_Surge-Panel,update-interval=1
-
-[Script]
-# 显示运行时间及MitM等功能开关状态
-EDC_Surge-Panel = type=generic,script-path=https://raw.githubusercontent.com/erdongchanyo/Rules/main/Surge/Panels/EDC_Surge-Panel.js,argument=icon=crown.fill&color=#f6c970
-
-[MITM]
-skip-server-cert-verify = true
