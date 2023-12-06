@@ -32,20 +32,20 @@ dns:
 
 
 proxies:
-  - {name: http1, type: http, server: 111.166.126.112, port: 7890}
-  - {name: http2, type: http, server: 124.126.5.12, port: 7890}
-  - {name: http3, type: http, server: 183.240.208.130, port: 7890}
-  - {name: http4, type: http, server: 124.67.97.59, port: 7890}
-  - {name: http5, type: http, server: 223.109.239.12, port: 7890}
-  - {name: http6, type: http, server: 119.131.119.16, port: 7890}
-  - {name: http7, type: http, server: 119.123.179.78, port: 7890}
-  - {name: http8, type: http, server: 110.87.104.221, port: 7890}
-  - {name: http9, type: http, server: 124.78.208.227, port: 7890}
-  - {name: http10, type: http, server: 222.70.51.174, port: 7890}
-  - {name: http11, type: http, server: 183.149.184.188, port: 7890}
-  - {name: http12, type: http, server: 1.197.162.72, port: 7890}
-  - {name: http13, type: http, server: 223.109.239.12, port: 7890}
-  - {name: http14, type: http, server: 180.156.243.0, port: 7890}
+  - {name: http1, type: http, server: 113.111.186.29, port: 7890}
+  - {name: http2, type: http, server: 36.133.183.200, port: 7890}
+  - {name: http3, type: http, server: 111.166.124.180, port: 7890}
+  - {name: http4, type: http, server: 125.108.253.186, port: 7890}
+  - {name: http5, type: http, server: 39.68.50.63, port: 7890}
+  - {name: http6, type: http, server: 113.110.253.162, port: 7890}
+  - {name: http7, type: http, server: 1.197.162.72, port: 7890}
+  - {name: http8, type: http, server: 117.30.161.58, port: 7890}
+  - {name: http9, type: http, server: 116.24.66.195, port: 7890}
+  - {name: http10, type: http, server: 139.227.109.2, port: 7890}
+  - {name: http11, type: http, server: 122.234.87.61, port: 7890}
+  - {name: http12, type: http, server: 60.186.207.39, port: 7890}
+  - {name: http13, type: http, server: 115.192.223.114, port: 7890}
+  - {name: http14, type: http, server: 117.85.139.163, port: 7890}
   - {name: http15, type: http, server: 116.234.213.186, port: 7890}
   - {name: http16, type: http, server: 47.94.225.51, port: 17890}
   - {name: http17, type: http, server: nas.zijian.asia, port: 7890}
