@@ -19,23 +19,23 @@ encrypted-dns-server = https://dns.alidns.com/dns-query
 
 
 [Proxy]
-http1 = http, 111.166.126.112, 7890
-http2 = http, 124.126.5.12, 7890
-http3 = http, 183.240.208.130, 7890
-http4 = http, 124.67.97.59, 7890
-http5 = http, 223.109.239.12, 7890
-http6 = http, 124.126.5.36, 7890
-http7 = http, 106.122.205.52, 7890
-http8 = http, 119.131.119.16, 7890
-http9 = http, 119.123.179.78, 7890
-http10 = http, 110.87.104.221, 7890
-http11 = http, 124.78.208.227, 7890
-http12 = http, 222.70.51.174, 7890
-http13 = http, 183.149.184.188, 7890
-http14 = http, 1.197.162.72, 7890
-http15 = http, 223.109.239.122, 7890
-http16 = http, 180.156.243.0, 7890
-http17 = http, 116.234.213.186, 7890
+http1 = http, 113.111.186.29, 7890
+http2 = http, 36.133.183.200, 7890
+http3 = http, 111.166.124.180, 7890
+http4 = http, 125.108.253.186, 7890
+http5 = http, 39.68.50.63, 7890
+http6 = http, 113.110.253.162, 7890
+http7 = http, 1.197.162.72, 7890
+http8 = http, 117.30.161.58, 7890
+http9 = http, 116.24.66.195, 7890
+http10 = http, 43.154.35.225, 7890
+http11 = http, 122.234.87.61, 7890
+http12 = http, 60.186.207.39, 7890
+http13 = http, 115.192.223.114, 7890
+http14 = http, 117.85.139.163, 7890
+http15 = http, 116.234.213.186, 7890
+http16 = http, 47.94.225.51, 17890
+http17 = http, nas.zijian.asia, 7890
 http18 = http, 27.214.80.32, 7890
 http19 = http, nas.zijian.asia, 7890
 
