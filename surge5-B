@@ -38,9 +38,11 @@ http16 = http, 47.94.225.51, 17890
 http17 = http, nas.zijian.asia, 7890
 http18 = http, 27.214.80.32, 7890
 http19 = https, www.dtku48.xyz, 443, dongtaiwang.com, dongtaiwang.com
+http20 = https, naive16.cfcdn3.xyz, 443, dongtaiwang.com, dongtaiwang.com
 
 tuic5 = tuic-v5, tuic3.dtku47.xyz, 12255, password=dongtaiwang, skip-cert-verify=true, sni=bing.com, uuid=ED6A538A-6E66-4F21-A769-4B389BB2F3AB, alpn=h3
-tuic 5 = tuic-v5, 108.181.22.239, 19988, password=dongtaiwang.com, skip-cert-verify=true, sni=bing.com, uuid=485CE799-DA5F-46E8-A82B-8EF322D8602F, alpn=h3
+tuic 5 = tuic-v5, 108.181.22.205, 50987, password=dongtaiwang, skip-cert-verify=true, sni=bing.com, uuid=d6214437-e1b5-4334-9090-8f66b78bea89, alpn=h3
+hysteria2 = hysteria2, www.dtku46.xyz, 62580, password=dongtaiwang.com,  skip-cert-verify=true, sni=www.bing.com, download-bandwidth=0 
 
 
 [Proxy Group]
@@ -49,7 +51,7 @@ tuic 5 = tuic-v5, 108.181.22.239, 19988, password=dongtaiwang.com, skip-cert-v
 👋 手动切换 = select, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0
 ♻️ 自动选择 = url-test, url=http://www.gstatic.com/generate_204, update-interval=86400, timeout=0, interval=300, tolerance=0, no-alert=0, hidden=0, include-all-proxies=0
 🐟 漏网之鱼 = select, DIRECT, 🚀 节点选择
-🇨🇳 节点仓库 = select, "http1","http2","http3","http4","http5","http6","http7","http8","http9","http10","http11","http12","http13","http14","http15","http16","http17","http18","http19"
+🇨🇳 节点仓库 = select, "http1","http2","http3","http4","http5","http6","http7","http8","http9","http10","http11","http12","http13","http14","http15","http16","http17","http18","http19","http20","tuic5","tuic 5","hysteria2"
 
 
 [Rule]
