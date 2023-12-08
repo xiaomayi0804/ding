@@ -108,7 +108,7 @@ http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001018/index.m3u8?
 #EXTINF:-1 tvg-id="SITV劲爆体育" tvg-name="SITV劲爆体育" tvg-logo="https://epg.112114.xyz/logo/SITV劲爆体育.png" group-title="华数",劲爆体育 8M
 http://cntv.sbs/live?id=jbty
 #EXTINF:-1 tvg-id="1991" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shanghaiwaiyu.png" group-title="华数",上海外语
-http://[2409:8087:4c0a:22:1::18]:6610/170000001115/UmaiCHAN1321BESTVSMGSMG9/index.m3u8?AuthInfo=Stevp%2BWRKxtuMo8naIuwjMgipZ5P2FQL%2BUOjs62ks4Wz%2BD1tfGNvjXogG%2F5BxJTkEkN8QzkBtGW%2FFWBkZGvGbw%3D%3D
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001128/index.m3u8
 #EXTINF:-1 tvg-id="魅力足球" tvg-name="魅力足球" tvg-logo="http://live.cooltv.top/logo/shds.png" group-title="华数",魅力足球 8M
 http://cntv.sbs/live?id=mlzq
 #EXTINF:-1 tvg-id="魅力足球" tvg-name="魅力足球" tvg-logo="http://live.cooltv.top/logo/shds.png" group-title="华数",魅力足球 「IPV6」
