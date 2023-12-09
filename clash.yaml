@@ -41,7 +41,7 @@ proxies:
   - {name: http7, type: http, server: 1.197.162.72, port: 7890}
   - {name: http8, type: http, server: 117.30.161.58, port: 7890}
   - {name: http9, type: http, server: 116.24.66.195, port: 7890}
-  - {name: http10, type: http, server: 43.154.35.225, port: 7890}
+  - {name: http10, type: http, server: 139.227.109.2, port: 7890}
   - {name: http11, type: http, server: 122.234.87.61, port: 7890}
   - {name: http12, type: http, server: 60.186.207.39, port: 7890}
   - {name: http13, type: http, server: 115.192.223.114, port: 7890}
