@@ -19,16 +19,16 @@ encrypted-dns-server = https://dns.alidns.com/dns-query
 
 
 [Proxy]
-http1 = http, 113.111.186.29, 7890
-http2 = http, 36.133.183.200, 7890
-http3 = http, 111.166.124.180, 7890
-http4 = http, 125.108.253.186, 7890
+http1 = http, 221.196.154.205, 7890
+http2 = http, 59.47.225.122, 7890
+http3 = http, 121.40.85.96, 7890
+http4 = http, 139.198.109.108, 7890
 http5 = http, 39.68.50.63, 7890
-http6 = http, 113.110.253.162, 7890
+http6 = http, 139.227.109.2, 7890
 http7 = http, 1.197.162.72, 7890
 http8 = http, 117.30.161.58, 7890
 http9 = http, 116.24.66.195, 7890
-http10 = http, 43.154.35.225, 7890
+http10 = http, 139.227.109.2, 7890
 http11 = http, 122.234.87.61, 7890
 http12 = http, 60.186.207.39, 7890
 http13 = http, 115.192.223.114, 7890
