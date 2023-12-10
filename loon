@@ -46,15 +46,17 @@ http18 = http, nas.zijian.asia, 7890
 http19 = https, www.dtku48.xyz, 443, dongtaiwang.com, dongtaiwang.com
 http20 = https, naive16.cfcdn3.xyz, 443, dongtaiwang.com, dongtaiwang.com
 
+1 vless-🇯🇵 = vless, 131.186.63.127, 2052, ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, transport=ws, path=/?ed=2048, host=vless.xiaomayi0804.workers.dev, over-tls=false
+5 vless-🇸🇬 = vless, 8.222.193.65, 2052, ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, transport=ws, path=/?ed=2048, host=vless.xiaomayi0804.workers.dev, over-tls=false
 
 
 [Remote Proxy]
 
 [Proxy Group]
-Proxy = url-test, http1,http2,http3,http4,http5,http6,http7,http8,http9,http10,http11,http12,http13,http14,http15,http16,http17,http18,http19,http20，url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = paperplane
+Proxy = select, 自动选择， 手动选择， url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = paperplane
+自动选择 = url-test, http1,http2,http3,http4,http5,http6,http7,http8,http9,http10,http11,http12,http13,http14,http15,http16,http17,http18,http19,http20,1 vless-🇯🇵,5 vless-🇸🇬, url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = paperplane
+手动选择 = select, http1,http2,http3,http4,http5,http6,http7,http8,http9,http10,http11,http12,http13,http14,http15,http16,http17,http18,http19,http20,1 vless-🇯🇵,5 vless-🇸🇬
 
-
-[Remote Filter]
 
 [Rule]
 DOMAIN-KEYWORD,Netflix,Netflix
