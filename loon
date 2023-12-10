@@ -46,17 +46,12 @@ http18 = http, nas.zijian.asia, 7890
 http19 = https, www.dtku48.xyz, 443, dongtaiwang.com, dongtaiwang.com
 http20 = https, naive16.cfcdn3.xyz, 443, dongtaiwang.com, dongtaiwang.com
 
-tuic5 = tuic-v5, tuic3.dtku47.xyz, 12255, password=dongtaiwang, skip-cert-verify=true, sni=bing.com, uuid=ED6A538A-6E66-4F21-A769-4B389BB2F3AB, alpn=h3
-tuic55 = tuic-v5, 108.181.22.205, 50987, password=dongtaiwang, skip-cert-verify=true, sni=bing.com, uuid=d6214437-e1b5-4334-9090-8f66b78bea89, alpn=h3
-hysteria2 = hysteria2, www.dtku46.xyz, 62580, password=dongtaiwang.com,  skip-cert-verify=true, sni=www.bing.com, download-bandwidth=0
-
-
 
 
 [Remote Proxy]
 
 [Proxy Group]
-Proxy = url-test, "http1","http2","http3","http4","http5","http6","http7","http8","http9","http10","http11","http12","http13","http14","http15","http16","http17","http18","http19","http20","tuic5","tuic55","hysteria2"，url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = paperplane
+Proxy = url-test, http1,http2,http3,http4,http5,http6,http7,http8,http9,http10,http11,http12,http13,http14,http15,http16,http17,http18,http19,http20，url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = paperplane
 
 
 [Remote Filter]
