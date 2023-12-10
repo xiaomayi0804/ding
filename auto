@@ -43,7 +43,7 @@ proxies:
   - {name: http12, type: http, server: 60.186.207.39, port: 7890}
   - {name: http13, type: http, server: 115.192.223.114, port: 7890}
   - {name: http14, type: http, server: 117.85.139.163, port: 7890}
-  - {name: http15, type: http, server: 116.234.213.186, port: 7890}
+  - {name: http15, type: http, server: 183.240.208.130, port: 7890}
   - {name: http16, type: http, server: 47.94.225.51, port: 17890}
   - {name: http17, type: http, server: nas.zijian.asia, port: 7890}
 
