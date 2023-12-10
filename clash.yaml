@@ -32,12 +32,12 @@ dns:
 
 
 proxies:
-  - {name: http1, type: http, server: 113.111.186.29, port: 7890}
-  - {name: http2, type: http, server: 36.133.183.200, port: 7890}
-  - {name: http3, type: http, server: 111.166.124.180, port: 7890}
-  - {name: http4, type: http, server: 125.108.253.186, port: 7890}
+  - {name: http1, type: http, server: 221.196.154.205, port: 7890}
+  - {name: http2, type: http, server: 59.47.225.122, port: 7890}
+  - {name: http3, type: http, server: 121.40.85.96, port: 7890}
+  - {name: http4, type: http, server: 139.198.109.108, port: 7890}
   - {name: http5, type: http, server: 39.68.50.63, port: 7890}
-  - {name: http6, type: http, server: 113.110.253.162, port: 7890}
+  - {name: http6, type: http, server: 139.227.109.2, port: 7890}
   - {name: http7, type: http, server: 1.197.162.72, port: 7890}
   - {name: http8, type: http, server: 117.30.161.58, port: 7890}
   - {name: http9, type: http, server: 116.24.66.195, port: 7890}
