@@ -32,21 +32,21 @@ dns:
 
 
 proxies:
-  - {name: http1, type: http, server: 221.196.154.205, port: 7890}
-  - {name: http2, type: http, server: 59.47.225.122, port: 7890}
-  - {name: http3, type: http, server: 121.40.85.96, port: 7890}
+  - {name: http1, type: http, server: 1.197.162.85, port: 7890}
+  - {name: http2, type: http, server: 8.140.63.50, port: 7890}
+  - {name: http3, type: http, server: 39.68.50.63, port: 7890}
   - {name: http4, type: http, server: 139.198.109.108, port: 7890}
   - {name: http5, type: http, server: 39.68.50.63, port: 7890}
   - {name: http6, type: http, server: 139.227.109.2, port: 7890}
-  - {name: http7, type: http, server: 1.197.162.72, port: 7890}
-  - {name: http8, type: http, server: 117.30.161.58, port: 7890}
-  - {name: http9, type: http, server: 116.24.66.195, port: 7890}
+  - {name: http7, type: http, server: 221.230.180.132, port: 7890}
+  - {name: http8, type: http, server: 47.111.26.134, port: 7890}
+  - {name: http9, type: http, server: 124.16.111.249, port: 7890}
   - {name: http10, type: http, server: 139.227.109.2, port: 7890}
   - {name: http11, type: http, server: 122.234.87.61, port: 7890}
   - {name: http12, type: http, server: 60.186.207.39, port: 7890}
   - {name: http13, type: http, server: 115.192.223.114, port: 7890}
-  - {name: http14, type: http, server: 117.85.139.163, port: 7890}
-  - {name: http15, type: http, server: 183.240.208.130, port: 7890}
+  - {name: http14, type: http, server: 139.227.109.2, port: 7890}
+  - {name: http15, type: http, server: 139.198.109.108, port: 7890}
   - {name: http16, type: http, server: 47.94.225.51, port: 17890}
   - {name: http17, type: http, server: nas.zijian.asia, port: 7890}
 
