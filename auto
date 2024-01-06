@@ -41,9 +41,9 @@ proxies:
   - {name: http10, type: http, server: 139.227.109.2, port: 7890}
   - {name: http11, type: http, server: 122.234.87.61, port: 7890}
   - {name: http12, type: http, server: 60.186.207.39, port: 7890}
-  - {name: http13, type: http, server: 115.192.223.114, port: 7890}
+  - {name: http13, type: http, server: pan.franktian.top, port: 7890}
   - {name: http14, type: http, server: 221.219.97.143, port: 7890}
-  - {name: http15, type: http, server: 139.198.109.108, port: 7890}
+  - {name: http15, type: http, server: 111.51.90.55, port: 7890}
   - {name: http16, type: http, server: 47.94.225.51, port: 17890}
   - {name: http17, type: http, server: nas.zijian.asia, port: 7890}
 
