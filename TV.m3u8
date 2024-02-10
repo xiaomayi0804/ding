@@ -300,46 +300,48 @@ http://tc-tct.douyucdn2.cn/dyliveflv1a/6672862r90xSwiRP_2000.flv?wsAuth=1c2c516d
 http://tc-tct.douyucdn2.cn/dyliveflv1a/9662891rlaeIAP3A_2000.flv?wsAuth=07d3125e1ec93068330e14be22a09454&token=cpn-androidmpro-0-9662891-7de7dc707e1a51dddb241f8ecad4f36806d04b45752cbbd8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 
 
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="央视",CCTV-1
-http://[2409:8087:2001:20:2800:0:df6e:eb07]/ott.mobaibox.com/tvod/3/224/3221227467/index.m3u8
-#EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="央视",CCTV-2
-http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/tvod/3/224/3221227543/index.m3u8
-#EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="https://live.fanmingming.com/tv/CCTV3.png" group-title="央视",CCTV-3
-http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/tvod/3/224/3221228126/index.m3u8
-#EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="https://live.fanmingming.com/tv/CCTV4.png" group-title="央视",CCTV-4
-http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/tvod/3/224/3221227549/index.m3u8
-#EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" group-title="央视",CCTV-5
-http://[2409:8087:2001:20:2800:0:df6e:eb15]/ott.mobaibox.com/tvod/3/224/3221228179/index.m3u8
-#EXTINF:-1 tvg-id="5+" tvg-name="CCTV5+" tvg-logo="https://live.fanmingming.com/tv/CCTV5+.png" group-title="央视",CCTV-5+
-http://[2409:8087:2001:20:2800:0:df6e:eb16]/ott.mobaibox.com/tvod/3/224/3221228176/index.m3u8
-#EXTINF:-1 tvg-id="7" tvg-name="CCTV6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="央视",CCTV-6
-http://[2409:8087:2001:20:2800:0:df6e:eb13]/ott.mobaibox.com/tvod/3/224/3221227505/index.m3u8
-#EXTINF:-1 tvg-id="8" tvg-name="CCTV7" tvg-logo="https://live.fanmingming.com/tv/CCTV7.png" group-title="央视",CCTV-7
-http://[2409:8087:2001:20:2800:0:df6e:eb26]/ott.mobaibox.com/tvod/3/224/3221228283/index.m3u8
-#EXTINF:-1 tvg-id="9" tvg-name="CCTV8" tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" group-title="央视",CCTV-8
-http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/tvod/3/224/3221227473/index.m3u8
-#EXTINF:-1 tvg-id="10" tvg-name="CCTV9" tvg-logo="https://live.fanmingming.com/tv/CCTV9.png" group-title="央视",CCTV-9
-http://[2409:8087:2001:20:2800:0:df6e:eb21]/ott.mobaibox.com/tvod/3/224/3221228303/index.m3u8
-#EXTINF:-1 tvg-id="11" tvg-name="CCTV10" tvg-logo="https://live.fanmingming.com/tv/CCTV10.png" group-title="央视",CCTV-10
-http://[2409:8087:2001:20:2800:0:df6e:eb21]/ott.mobaibox.com/tvod/3/224/3221228286/index.m3u8
-#EXTINF:-1 tvg-id="12" tvg-name="CCTV11" tvg-logo="https://live.fanmingming.com/tv/CCTV11.png" group-title="央视",CCTV-11
-http://[2409:8087:2001:20:2800:0:df6e:eb23]/ott.mobaibox.com/tvod/3/224/3221228289/index.m3u8
-#EXTINF:-1 tvg-id="13" tvg-name="CCTV12" tvg-logo="https://live.fanmingming.com/tv/CCTV12.png" group-title="央视",CCTV-12
-http://[2409:8087:2001:20:2800:0:df6e:eb23]/ott.mobaibox.com/tvod/3/224/3221228401/index.m3u8
-#EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="https://live.fanmingming.com/tv/CCTV13.png" group-title="央视",CCTV-13
-http://[2409:8087:2001:20:2800:0:df6e:eb16]/ott.mobaibox.com/tvod/3/224/3221228224/index.m3u8
-#EXTINF:-1 tvg-id="15" tvg-name="CCTV14" tvg-logo="https://live.fanmingming.com/tv/CCTV14.png" group-title="央视",CCTV-14
-http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/tvod/3/224/3221228292/index.m3u8
-#EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="https://live.fanmingming.com/tv/CCTV15.png" group-title="央视",CCTV-15
-http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/tvod/3/224/3221228404/index.m3u8
-#EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="https://live.fanmingming.com/tv/CCTV16.png" group-title="央视",CCTV-16
-http://[2409:8087:2001:20:2800:0:df6e:eb0b]/ott.mobaibox.com/tvod/3/224/3221228144/index.m3u8
-#EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="央视",CCTV-17
-http://[2409:8087:2001:20:2800:0:df6e:eb23]/ott.mobaibox.com/tvod/3/224/3221228407/index.m3u8
+#EXTM3U
+#EXTINF:-1 group-title="央视【IPV6】",CCTV-1
+http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001331/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+#EXTINF:-1 group-title="央视【IPV6】",CCTV-2
+http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001332/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+#EXTINF:-1 group-title="央视【IPV6】",CCTV-3
+http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/3221228392/index.m3u8
+#EXTINF:-1 group-title="央视【IPV6】",CCTV-4
+http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001333/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+#EXTINF:-1 group-title="央视【IPV6】",CCTV-5
+http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/3221228502/index.m3u8
+#EXTINF:-1 group-title="央视【IPV6】",CCTV-5+体育赛事
+http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001334/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+#EXTINF:-1 group-title="央视【IPV6】",CCTV-6 电影
+http://[2409:8087:2001:20:2800:0:df6e:eb14]:80/ott.mobaibox.com/PLTV/4/224/3221228123/index.m3u8
+#EXTINF:-1 group-title="央视【IPV6】",CCTV-7 国防军事
+http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225671/index.m3u8
+#EXTINF:-1 group-title="央视【IPV6】",CCTV-8 电视剧
+http://[2409:8087:2001:20:2800:0:df6e:eb13]:80/ott.mobaibox.com/PLTV/4/224/3221227473/index.m3u8
+#EXTINF:-1 group-title="央视【IPV6】",CCTV-9 纪录
+http://[2409:8087:2001:20:2800:0:df6e:eb13]:80/ott.mobaibox.com/PLTV/4/224/3221227614/index.m3u8
+#EXTINF:-1 group-title="央视【IPV6】",CCTV-10 科教
+http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225677/index.m3u8
+#EXTINF:-1 group-title="央视【IPV6】",CCTV-11 戏曲
+http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225517/index.m3u8
+#EXTINF:-1 group-title="央视【IPV6】",CCTV-12 社会与法
+http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225669/index.m3u8
+#EXTINF:-1 group-title="央视【IPV6】",CCTV-13 新闻
+http://[2409:8087:2001:20:2800:0:df6e:eb17]:80/ott.mobaibox.com/PLTV/4/224/3221227387/index.m3u8
+#EXTINF:-1 group-title="央视【IPV6】",CCTV-14 少儿
+http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225674/index.m3u8
+#EXTINF:-1 group-title="央视【IPV6】",CCTV-15 音乐
+http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225513/index.m3u8
+#EXTINF:-1 group-title="央视【IPV6】",CCTV-16 奥林匹克
+http://[2409:8087:2001:20:2800:0:df6e:eb17]:80/ott.mobaibox.com/PLTV/4/224/3221228112/index.m3u8
+#EXTINF:-1 group-title="央视【IPV6】",CCTV-17 农业农村
+http://[2409:8087:2001:20:2800:0:df6e:eb17]:80/ott.mobaibox.com/PLTV/4/224/3221227592/index.m3u8
+
 #EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/fenghuangzhongwen.png" group-title="国际",凤凰中文
-http://[2409:8087:2001:20:2800:0:df6e:eb24]/ott.mobaibox.com/tvod/3/224/3221228527/index.m3u8
+http://[2409:8087:2001:20:2800:0:df6e:eb22]:80/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8
 #EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/fenghuangzixun.png" group-title="国际",凤凰资讯
-http://[2409:8087:2001:20:2800:0:df6e:eb27]/ott.mobaibox.com/tvod/3/224/3221228524/index.m3u8
+http://[2409:8087:2001:20:2800:0:df6e:eb19]:80/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8
 #EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.com/tv/fenghuangxianggang.png" group-title="国际",凤凰香港
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226251/index.m3u8
 #EXTINF:-1 tvg-id="CNA新闻" tvg-name="CNA新闻" group-title="国际" tvg-logo="https://gitee.com/radioer/transparentlogo/raw/master/cna.png" group-title="国际",CNA新闻
