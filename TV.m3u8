@@ -53,8 +53,8 @@ http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/00000001000000060000000000000459/ind
 http://[2409:8087:2001:20:2800:0:df6e:eb1a]/ott.mobaibox.com/tvod/3/224/3221227715/index.m3u8
 #EXTINF:-1 group-title="4K频道",CCTV8K 30M2160HDR「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb03]/ott.mobaibox.com/tvod/3/224/3221228165/index.m3u8
-#EXTINF:-1 group-title="4K频道",CCTV4K-50P-HLG小果源
-http://159.75.85.63:5681/sxg.php?id=ys4Kcq_2000
+#EXTINF:-1 group-title="4K频道",CCTV4K-50P-「IPV6」
+http://[2409:8087:2001:20:2800:0:df6e:eb13]/ott.mobaibox.com/PLTV/3/224/3221228228/index.m3u8
 #EXTINF:-1 tvg-name="CCTV16" group-title="4K频道",CCTV16 4K 「IPV6」•支持回看
 http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/PLTV/3/224/3221228127/index.m3u8
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="4K频道",CCTV1 4K「IPV6」•支持回看
