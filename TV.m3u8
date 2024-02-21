@@ -58,7 +58,7 @@ http://[2409:8087:2001:20:2800:0:df6e:eb13]/ott.mobaibox.com/PLTV/3/224/32212282
 #EXTINF:-1 tvg-name="CCTV16" group-title="4K频道",CCTV16 4K 「IPV6」•支持回看
 http://[2409:8087:2001:20:2800:0:df6e:eb04]/ott.mobaibox.com/PLTV/4/224/3221228314/index.m3u8
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="4K频道",CCTV1 4K「IPV6」•支持回看
-http://[2409:8087:2001:20:2800:0:df6e:eb03]/ott.mobaibox.com/PLTV/4/224/3221227896/index.m3u8
+http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001331/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="https://live.fanmingming.com/tv/CCTV3.png" group-title="4K频道",CCTV3 4K「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb21]/ott.mobaibox.com/PLTV/3/224/3221228499/index.m3u8
 #EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" group-title="4K频道",CCTV5 4K「IPV6」
@@ -74,7 +74,7 @@ http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/tvod/3/224/32212281
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/youshandefeiyang/IPTV/logo/ultra-nature.png" group-title="4K频道",ULTRA NATURE TV 4K
 http://185.236.229.31:9981/play/a01d
 #EXTINF:-1 group-title="4K频道",天翼BESTV 4K
-http://[2409:8087:5e01:34::10]:6610/ZTE_CMS/00000001000000060000000000000202/index.m3u8?IAS
+http://cf.21534450.xyz:9988/rtp/239.45.1.42:5140
 #EXTINF:-1 group-title="4K频道",sky sports UHD
 https://epg.pw/stream/3653fd7936c05e93c1f060051e1624f99c1e15af6d15b04a79a5ab9f150a20ca.ctv
 #EXTINF:-1 group-title="4K频道",espn 
