@@ -60,9 +60,9 @@ proxies:
   - {name: 14 vless-🇨🇳, type: vless, server: jp.cloudflarest.link, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi0804.workers.dev}}}
   - {name: 15 vless-🇨🇳, type: vless, server: achk.cloudflarest.link, port: 2052, uuid: ffd8ac32-8ddd-4f4d-9050-66dfb12b7c00, tls: false, udp: true, servername: vless.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.xiaomayi0804.workers.dev}}}
 
-  - {"name":"🇯🇵_分享日记","type":"vmess","server":"104.16.77.74","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"my1.tooters.ir"}}}
+  - {"name":"🇯🇵_分享日记","type":"vmess","server": "162.159.153.11","port": 8080,"cipher":"auto","uuid":"5f7934bf-a228-49a7-9572-5ce4377c34d5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"5f7934bf-a228-49a7-9572-5ce4377c34d5-vm","headers":{"host":"uh-lawyers-instruments-kernel.trycloudflare.com"}}}
   #- {name: 🇰🇷_分享日记, type: vless, server: hk03.nttkk.com, port: 443, uuid: 60813b9d-aa0e-4a5c-88b8-ed231058e82a, tls: true, udp: true, network: ws, ws-opts: {path: "fuck0yes", headers: {host: pages.20230619.love}}}
-  - {name: 🇭🇰_分享日记, type: vless, server: 43.154.34.74, port: 1935, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, udp: true, network: ws, ws-opts: {path: "/freecodes", headers: {host: baipiao364.stunning-bassoon.pages.dev}}}
+  - {name: 🇭🇰_分享日记, type: vless, server: proxyip.sg.fxxk.dedyn.io, port: 443, uuid: 9190f61a-fbca-4d5c-be59-d75d8c93c8e4, tls: true, udp: true, network: ws, ws-opts: {path: "/argox-vl?ed=2048", headers: {host: hk1123.xujiang.link}}}
 
 
 proxy-groups:
