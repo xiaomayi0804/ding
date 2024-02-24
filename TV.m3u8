@@ -25,14 +25,7 @@ http://221.179.217.76/PLTV/88888888/224/3221226550/1.m3u8
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002156/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 group-title="4K频道",爱上4K 「IPV6」
 http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000459/index.m3u8?IAS
-#EXTINF:-1 group-title="4K频道",咪咕3K 20M1920
-http://gslbserv.itv.cmvideo.cn:80/3000000010000015686/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000015686&livemode=1&stbId=3
-#EXTINF:-1 group-title="4K频道",咪咕4K 30M2160HEVC
-http://gslbserv.itv.cmvideo.cn:80/3000000010000005180/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000005180&livemode=1&stbId=3
-#EXTINF:-1 group-title="4K频道",苏州4k
-http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
-#EXTINF:-1 group-title="4K频道",日语 4K
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001709/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+
 #EXTINF:-1 group-title="4K频道",Bloomberg TV+ 4K
 https://bloomberg-bloomberg-2-nz.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="4K频道",Clarity 4K
@@ -51,7 +44,7 @@ http://[2409:8087:7001:20:3::5]/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221
 http://[2409:8087:2001:20:2800:0:df6e:eb15]/wh7f454c46tw1958249448_-1314265822/ott.mobaibox.com/PLTV/3/224/3221228141/index.m3u8
 #EXTINF:-1 group-title="4K频道",4k修复 「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb15]/ott.mobaibox.com/tvod/3/224/3221228141/index.m3u8
-#EXTINF:-1 group-title="4K频道",4k测速 「IPV6」
+#EXTINF:-1 group-title="4K频道",4k测试 「IPV6」
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/00000001000000060000000000000459/index.m3u8?IAS
 #EXTINF:-1 group-title="4K频道",欢笑剧场4k 「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb1a]/ott.mobaibox.com/tvod/3/224/3221227715/index.m3u8
@@ -62,17 +55,19 @@ http://[2409:8087:2001:20:2800:0:df6e:eb13]/ott.mobaibox.com/PLTV/3/224/32212282
 #EXTINF:-1 tvg-name="CCTV16" group-title="4K频道",CCTV16 4K 「IPV6」•支持回看
 http://[2409:8087:2001:20:2800:0:df6e:eb04]/ott.mobaibox.com/PLTV/4/224/3221228314/index.m3u8
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="4K频道",CCTV1 4K「IPV6」•支持回看
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001331/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+http://[2409:8087:2001:20:2800:0:df6e:eb02]/ott.mobaibox.com/PLTV/3/224/3221228149/index.m3u8
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="4K频道",CCTV2 4K「IPV6」•支持回看
+http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221227543/index.m3u8
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="https://live.fanmingming.com/tv/CCTV3.png" group-title="4K频道",CCTV3 4K「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb21]/ott.mobaibox.com/PLTV/3/224/3221228499/index.m3u8
 #EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" group-title="4K频道",CCTV5 4K「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/3221228502/index.m3u8
+#EXTINF:-1 tvg-id="5+" tvg-name="CCTV5+" tvg-logo="https://live.fanmingming.com/tv/CCTV5+.png" group-title="4K频道",CCTV5+ 4K「IPV6」
+http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221227502/index.m3u8
 #EXTINF:-1 tvg-id="7" tvg-name="CCTV6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="4K频道",CCTV6 4K「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb23]/ott.mobaibox.com/PLTV/4/224/3221228516/index.m3u8
 #EXTINF:-1 tvg-id="9" tvg-name="CCTV8" tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" group-title="4K频道",CCTV8 4K「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb27]/ott.mobaibox.com/PLTV/4/224/3221228578/index.m3u8
-#EXTINF:-1 group-title="陕西移动IPv6",CCTV5+ Max16M1080
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001334/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="10" tvg-name="CCTV风云足球" tvg-logo="https://live.fanmingming.com/tv/CCTV风云足球.png" group-title="4K频道",CCTV风云足球「IPV6」
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002499/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 group-title="4K频道",CCTV16 4K-HLG 
@@ -151,21 +146,6 @@ http://[2409:8087:4402:20:1:1216:401:46]:80/iptv.cdn.ha.chinamobile.com/PLTV/888
 #EXTINF:-1 tvg-id="求索记录" tvg-name="求索记录" tvg-logo="https://live.fanmingming.com/tv/求索纪录.png" group-title="华数",求索纪录
 http://[2409:8087:4402:20:1:1216:401:38]:80/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226114/index.m3u8
 
-
-#EXTINF:-1 group-title="港澳台",东森电影
-http://162.19.247.76:22222/live/dsdyt/index.m3u8
-#EXTINF:-1 group-title="港澳台",东森洋片
-http://162.19.247.76:22222/live/dsypt/index.m3u8
-#EXTINF:-1 group-title="港澳台",翡翠台
-https://epg.pw/stream/0de2dc7588c3545cbba79d8a678b5fad71c548b1cf24d5c700364988cea2931a.ctv
-#EXTINF:-1 group-title="港澳台",无线新闻
-http://162.19.247.76:22222/live/tvbnews/index.m3u8
-#EXTINF:-1 group-title="港澳台",j2
-http://162.19.247.76:22222/live/tvbj2/index.m3u8
-#EXTINF:-1 group-title="港澳台",龙祥时代电影
-http://lcx-olt.8866.org:8181/tsfile/live/1077_1.m3u8
-#EXTINF:-1 tvg-id="6069" tvg-name="東森yoyo" tvg-logo="http://or00.stream-link.org/tv_logo/ebc-yoyo.png" group-title="港澳台",東森yoyo
-http://2023.stream-link.org/live/367293080
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/New_England_Sports_Network_%28logo%29.png/220px-New_England_Sports_Network_%28logo%29.png" group-title="4K频道",NESN UHD
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1124351&extension=ts
@@ -489,9 +469,9 @@ http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001273/index.m3
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001336/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 group-title="陕西移动IPv6",北京卫视 Max16M1080
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001335/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 group-title="陕西移动IPv6",天津卫视 12M1080
+#EXTINF:-1 group-title="陕西移动IPv6",天津卫视 Max16M1080
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001343/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 group-title="陕西移动IPv6",安徽卫视 12M1080
+#EXTINF:-1 group-title="陕西移动IPv6",安徽卫视 Max16M1080
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001346/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 group-title="陕西移动IPv6",山东卫视 Max16M1080
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001341/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
@@ -501,9 +481,9 @@ http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001337/index.m3
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001344/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 group-title="陕西移动IPv6",浙江卫视 Max16M1080
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001345/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 group-title="陕西移动IPv6",深圳卫视 12M1080
+#EXTINF:-1 group-title="陕西移动IPv6",深圳卫视 Max16M1080
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001342/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 group-title="陕西移动IPv6",湖北卫视 12M1080
+#EXTINF:-1 group-title="陕西移动IPv6",湖北卫视 Max16M1080
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001347/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 group-title="陕西移动IPv6",湖南卫视 Max16M1080
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001339/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
@@ -613,17 +593,6 @@ http://vl05t7es.rostelekom.xyz/iptv/QAX2K7HNCDZF2N/19402/index.m3u8
 #EXTINF:-1 group-title="RUSSIA",Liberty Эротика 4K
 http://vl05t7es.rostelekom.xyz/iptv/QAX2K7HNCDZF2N/16069/index.m3u8
 
-#EXTINF:-1 tvg-name="CCTV1" group-title="IPV6•4K",CCTV1 4K 「IPV6」•支持回看
-http://[2409:8087:2001:20:2800:0:df6e:eb03]/ott.mobaibox.com/PLTV/4/224/3221227896/index.m3u8
-#EXTINF:-1 tvg-name="CCTV16" group-title="IPV6•4K",CCTV16 4K 「IPV6」•支持回看
-http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/PLTV/3/224/3221228127/index.m3u8
-#EXTINF:-1 tvg-name="河南卫视" group-title="IPV6•4K",河南卫视 4K 「IPV6」•支持回看
-http://[2409:8087:4402:20:1:1216:401:13]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226526/index.m3u8
-#EXTINF:-1 tvg-name="欢笑剧场" group-title="IPV6•4K",SiTV欢笑剧场4K 「IPV6」
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002156/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-
-
-
 #EXTINF:-1 tvg-name="CETV1" group-title="IPV6•央视",CCTV中国教育「IPV6」
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225917/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-name="兵器科技" group-title="IPV6•央视",CCTV兵器科技「IPV6」
@@ -655,7 +624,6 @@ http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3
 http://[2409:8087:2001:20:2800:0:df6e:eb27]/wh7f454c46tw3352677969_1732462333/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8
 #EXTINF:-1 tvg-name="凤凰资讯" group-title="IPV6•数字",凤凰资讯「IPV6」•支持回看
 http://[2409:8087:2001:20:2800:0:df6e:eb24]/wh7f454c46tw3553140416_-2021535160/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8
-
 #EXTINF:-1 tvg-name="第一财经" group-title="IPV6•数字",第一财经「IPV6」•支持回看
 http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226966/index.m3u8
 
