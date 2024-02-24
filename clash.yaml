@@ -32,13 +32,13 @@ dns:
 
 
 proxies:
-  - {name: http1, type: http, server: 175.148.134.200, port: 7890}
+  - {name: http1, type: http, server: 123.159.86.232, port: 7890}
   - {name: http2, type: http, server: 8.140.63.50, port: 7890}
   - {name: http3, type: http, server: 39.68.50.63, port: 7890}
   - {name: http4, type: http, server: 47.108.72.141, port: 7890}
   - {name: http5, type: http, server: 221.1.101.185, port: 7890}
   - {name: http6, type: http, server: 139.227.109.2, port: 7890}
-  - {name: http7, type: http, server: 221.230.180.132, port: 7890}
+  - {name: http7, type: http, server: 5412838.xyz, port: 7890}
   - {name: http8, type: http, server: nas.zijian.asia, port: 7890}
   - {name: http9, type: http, server: pan.franktian.top, port: 7890}
   - {name: http10, type: http, server: 47.94.225.51, port: 17890}
