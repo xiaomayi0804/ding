@@ -80,15 +80,15 @@ proxy-groups:
 rules:
   - DOMAIN-KEYWORD,speedtest,DIRECT
   #- DOMAIN-KEYWORD,google,🍎 谷歌服务
-  - DOMAIN-KEYWORD,jable,🍎 谷歌服务
-  - DOMAIN-KEYWORD,cloudflare,🍎 谷歌服务
+  #- DOMAIN-KEYWORD,jable,🍎 谷歌服务
+  #- DOMAIN-KEYWORD,cloudflare,🍎 谷歌服务
   #- DOMAIN-KEYWORD,phncdn,🍎 谷歌服务
   #- DOMAIN-KEYWORD,bing,🍎 谷歌服务
-  - DOMAIN-KEYWORD,youtube,🍎 谷歌服务
+  #- DOMAIN-KEYWORD,youtube,🍎 谷歌服务
   - DOMAIN-KEYWORD,mushroom,DIRECT
   - DOMAIN-KEYWORD,alonestreaming,DIRECT
-  - IP-CIDR,91.108.0.0/16,🍎 谷歌服务,no-resolve
-  - IP-CIDR,109.239.140.0/24,🍎 谷歌服务,no-resolve
+  #- IP-CIDR,91.108.0.0/16,🍎 谷歌服务,no-resolve
+  #- IP-CIDR,109.239.140.0/24,🍎 谷歌服务,no-resolve
   #- PROCESS-NAME,onedrive.exe,DIRECT
 
   - RULE-SET,applications,DIRECT
