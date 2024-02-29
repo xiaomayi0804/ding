@@ -87,8 +87,8 @@ rules:
   #- DOMAIN-KEYWORD,youtube,🍎 谷歌服务
   - DOMAIN-KEYWORD,mushroom,DIRECT
   - DOMAIN-KEYWORD,alonestreaming,DIRECT
-  #- IP-CIDR,91.108.0.0/16,🍎 谷歌服务,no-resolve
-  #- IP-CIDR,109.239.140.0/24,🍎 谷歌服务,no-resolve
+  - IP-CIDR,91.108.0.0/16,🚀 节点选择,no-resolve
+  - IP-CIDR,109.239.140.0/24,🚀 节点选择,no-resolve
   #- PROCESS-NAME,onedrive.exe,DIRECT
 
   - RULE-SET,applications,DIRECT
