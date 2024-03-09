@@ -32,7 +32,7 @@ dns:
 
 
 proxies:
-  - {name: http1, type: http, server: 123.159.86.232, port: 7890}
+  - {name: http1, type: http, server: 14.145.152.120, port: 7890}
   - {name: http2, type: http, server: 8.140.63.50, port: 7890}
   - {name: http3, type: http, server: 39.68.50.63, port: 7890}
   - {name: http4, type: http, server: 47.108.72.141, port: 7890}
