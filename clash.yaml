@@ -33,12 +33,12 @@ dns:
 
 proxies:
   - {name: http1, type: http, server: 14.145.152.120, port: 7890}
-  - {name: http2, type: http, server: 8.140.63.50, port: 7890}
-  - {name: http3, type: http, server: 39.68.50.63, port: 7890}
-  - {name: http4, type: http, server: 47.108.72.141, port: 7890}
+  - {name: http2, type: http, server: 113.110.253.156, port: 7890}
+  - {name: http3, type: http, server: 61.157.50.181, port: 7890}
+  - {name: http4, type: http, server: 153.34.0.11, port: 7890}
   - {name: http5, type: http, server: 221.1.101.185, port: 7890}
-  - {name: http6, type: http, server: 139.227.109.2, port: 7890}
-  - {name: http7, type: http, server: 5412838.xyz, port: 7890}
+  - {name: http6, type: http, server: 121.239.77.90, port: 7890}
+  - {name: http7, type: http, server: 175.10.103.196, port: 7890}
   - {name: http8, type: http, server: nas.zijian.asia, port: 7890}
   - {name: http9, type: http, server: pan.franktian.top, port: 7890}
   - {name: http10, type: http, server: 47.94.225.51, port: 17890}
@@ -60,20 +60,20 @@ proxies:
   - {name: 14 vless-🇨🇳, type: vless, server: sg.1001dns.asia, port: 2052, uuid: 05fc5a1e-d306-4e14-9781-ba563fa3aca9, tls: false, udp: true, servername: vless1.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless1.xiaomayi0804.workers.dev}}}
   - {name: 15 vless-🇨🇳, type: vless, server: achk.cloudflarest.link, port: 2052, uuid: 05fc5a1e-d306-4e14-9781-ba563fa3aca9, tls: false, udp: true, servername: vless1.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless1.xiaomayi0804.workers.dev}}}
   
-  #- {name: 🇭🇰_分享日记, type: vless, server: proxyip.sg.fxxk.dedyn.io, port: 443, uuid: 9190f61a-fbca-4d5c-be59-d75d8c93c8e4, tls: true, udp: true, network: ws, ws-opts: {path: "/argox-vl?ed=2048", headers: {host: hk1123.xujiang.link}}}
-  - {"name":"TW_分享日记","type":"trojan","server":"ty11t.twty.dynu.net","port":13761,"udp":true,"password":"661ee645-8e3f-42ab-9e60-a19d5e7a89eb","sni":"ty11t.twty.dynu.net","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"GB_分享日记","type":"vless","server":"158.179.188.175","port":2087,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"06k.ylks.link","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"06k.ylks.link"}}}
-
+  
+  - {"name":"CN_分享日记_1","type":"vmess","server":"gzyd.pmxu.link","port":26841,"cipher":"auto","uuid":"32cd139b-237d-3574-bc52-64428e3e238d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"CN_分享日记_2","type":"vmess","server":"gzyd.pmxu.link","port":26841,"cipher":"auto","uuid":"32cd139b-237d-3574-bc52-64428e3e238d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"CN_分享日记_3","type":"vmess","server":"gzyd.pmxu.link","port":26841,"cipher":"auto","uuid":"32cd139b-237d-3574-bc52-64428e3e238d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
 
 proxy-groups:
   - {name: 🚀 节点选择, type: select, proxies: [🌍 自动选择, 🌍 手动选择1, 🌍 手动选择2, ⚖️ 负载均衡-轮询, ⚖️ 负载均衡-散列, DIRECT]}
-  - {name: 🌍 自动选择, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, proxies: ["1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇸🇬","6 vless-🇸🇬","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇭🇰","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳","TW_分享日记","GB_分享日记"]}
+  - {name: 🌍 自动选择, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, proxies: ["1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇸🇬","6 vless-🇸🇬","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇭🇰","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳"]}
   - {name: 🌍 手动选择1, type: select, use: [Jichang]}
-  - {name: 🌍 手动选择2, type: select, proxies: ["http1","http2","http3","http4","http5","http6","http7","http8","http9","http10","1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇸🇬","6 vless-🇸🇬","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇭🇰","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳","TW_分享日记","GB_分享日记"]}
+  - {name: 🌍 手动选择2, type: select, proxies: ["http1","http2","http3","http4","http5","http6","http7","http8","http9","http10","1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇸🇬","6 vless-🇸🇬","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇭🇰","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳"]}
   - {name: 🍎 谷歌服务, type: select, proxies: [🚀 节点选择, 🌍 自动选择, 🌍 手动选择1, 🌍 手动选择2,  DIRECT]}
   - {name: 🐟 漏网之鱼, type: select, proxies: [🚀 节点选择, 🌍 自动选择, 🌍 手动选择1, 🌍 手动选择2,  DIRECT]}
-  - {name: ⚖️ 负载均衡-散列, type: load-balance, url: http://www.google.com/generate_204, interval: 300, strategy: consistent-hashing, proxies: ["1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇸🇬","6 vless-🇸🇬","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇭🇰","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳","TW_分享日记","GB_分享日记"]}
-  - {name: ⚖️ 负载均衡-轮询, type: load-balance, url: http://www.google.com/generate_204, interval: 300, strategy: round-robin, proxies: ["1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇸🇬","6 vless-🇸🇬","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇭🇰","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳","TW_分享日记","GB_分享日记"]}
+  - {name: ⚖️ 负载均衡-散列, type: load-balance, url: http://www.google.com/generate_204, interval: 300, strategy: consistent-hashing, proxies: ["1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇸🇬","6 vless-🇸🇬","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇭🇰","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳"]}
+  - {name: ⚖️ 负载均衡-轮询, type: load-balance, url: http://www.google.com/generate_204, interval: 300, strategy: round-robin, proxies: ["1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇸🇬","6 vless-🇸🇬","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇭🇰","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳"]}
 
 
   
