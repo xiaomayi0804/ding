@@ -675,4 +675,135 @@ http://cdn.jdshipin.com:8880/yspgq.php?id=cctv17
 http://cdn.jdshipin.com:8880/yspgq.php?id=cctv4k
 
 
+#EXTM3U
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV1
+http://117.133.95.38:8887/rtp/228.1.1.28:8008
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV2
+http://117.133.95.38:8887/rtp/228.1.1.24:8084
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV3
+http://117.133.95.38:8887/rtp/228.1.1.191:8002
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV4
+http://117.133.95.38:8887/rtp/228.1.1.203:4220
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV4
+http://117.133.95.38:8887/rtp/228.1.1.213:4220
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV4
+http://117.133.95.38:8887/rtp/228.1.1.25:8092
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV5
+http://117.133.95.38:8887/rtp/228.1.1.192:8002
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV5+
+http://117.133.95.38:8887/rtp/228.1.1.23:8004
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV6
+http://117.133.95.38:8887/rtp/228.1.1.193:8002
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV7
+http://117.133.95.38:8887/rtp/228.1.1.26:8104
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV8
+http://117.133.95.38:8887/rtp/228.1.1.194:8002
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV9
+http://117.133.95.38:8887/rtp/228.1.1.27:8112
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV10
+http://117.133.95.38:8887/rtp/228.1.1.29:8116
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV11
+http://117.133.95.38:8887/rtp/228.1.1.182:8120
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV12
+http://117.133.95.38:8887/rtp/228.1.1.30:8124
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV13
+http://117.133.95.38:8887/rtp/228.1.1.212:8128
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV14
+http://117.133.95.38:8887/rtp/228.1.1.31:8132
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV15
+http://117.133.95.38:8887/rtp/228.1.1.183:8136
+#EXTINF:-1 group-title="北京电信组播-央视频道,#genre#",CCTV17
+http://117.133.95.38:8887/rtp/228.1.1.181:8144
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",湖南卫视
+http://117.133.95.38:8887/rtp/228.1.1.33:8012
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",浙江卫视
+http://117.133.95.38:8887/rtp/228.1.1.13:8036
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",江苏卫视
+http://117.133.95.38:8887/rtp/228.1.1.37:8028
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",北京卫视
+http://117.133.95.38:8887/rtp/228.1.1.115:8000
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",东方卫视
+http://117.133.95.38:8887/rtp/228.1.1.39:8032
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",安徽卫视
+http://117.133.95.38:8887/rtp/228.1.1.21:8064
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",广东卫视
+http://117.133.95.38:8887/rtp/228.1.1.17:8048
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",深圳卫视
+http://117.133.95.38:8887/rtp/228.1.1.36:8020
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",辽宁卫视
+http://117.133.95.38:8887/rtp/228.1.1.19:8056
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",山东卫视
+http://117.133.95.38:8887/rtp/228.1.1.18:8052
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",天津卫视
+http://117.133.95.38:8887/rtp/228.1.1.15:1234
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",重庆卫视
+http://117.133.95.38:8887/rtp/228.1.1.210:8160
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",东南卫视
+http://117.133.95.38:8887/rtp/228.1.1.185:8148
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",贵州卫视
+http://117.133.95.38:8887/rtp/228.1.1.188:8076
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",河北卫视
+http://117.133.95.38:8887/rtp/228.1.1.187:8072
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",黑龙江卫视
+http://117.133.95.38:8887/rtp/228.1.1.35:8016
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",湖北卫视
+http://117.133.95.38:8887/rtp/228.1.1.16:8044
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",江西卫视
+http://117.133.95.38:8887/rtp/228.1.1.211:8164
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",吉林卫视
+http://117.133.95.38:8887/rtp/228.1.1.214:8172
+#EXTINF:-1 group-title="北京电信组播-卫视频道,#genre#",卡酷动画
+http://117.133.95.38:8887/rtp/228.1.1.195:8000
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",4K
+http://117.133.95.38:8887/rtp/228.1.1.123:8001
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",BRTV体育休闲
+http://117.133.95.38:8887/rtp/228.1.1.117:8000
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",BRTV国际频道
+http://117.133.95.38:8887/rtp/228.1.1.111:8000
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",BRTV影视
+http://117.133.95.38:8887/rtp/228.1.1.190:8000
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",BRTV文艺
+http://117.133.95.38:8887/rtp/228.1.1.116:8000
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",BRTV新闻
+http://117.133.95.38:8887/rtp/228.1.1.189:8000
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",BRTV生活
+http://117.133.95.38:8887/rtp/228.1.1.198:8000
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",BRTV纪实科教
+http://117.133.95.38:8887/rtp/228.1.1.196:8000
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",BRTV财经
+http://117.133.95.38:8887/rtp/228.1.1.197:8000
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",中国交通
+http://117.133.95.38:8887/rtp/228.1.1.222:8002
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",房山电视台
+http://117.133.95.38:8887/rtp/228.1.1.139:8001
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",朝阳融媒
+http://117.133.95.38:8887/rtp/228.1.1.140:8001
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",淘Baby
+http://117.133.95.38:8887/rtp/228.1.1.128:8001
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",淘剧场
+http://117.133.95.38:8887/rtp/228.1.1.126:8001
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",淘娱乐
+http://117.133.95.38:8887/rtp/228.1.1.133:8001
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",淘电影
+http://117.133.95.38:8887/rtp/228.1.1.124:8001
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",淘精彩
+http://117.133.95.38:8887/rtp/228.1.1.202:8002
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",爱上4K
+http://117.133.95.38:8887/rtp/228.1.1.38:2000
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",睛彩广场舞
+http://117.133.95.38:8887/rtp/228.1.1.226:8002
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",睛彩竞技
+http://117.133.95.38:8887/rtp/228.1.1.223:8002
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",睛彩篮球
+http://117.133.95.38:8887/rtp/228.1.1.224:8002
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",睛彩羽毛球
+http://117.133.95.38:8887/rtp/228.1.1.225:8002
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",纪实人文
+http://117.133.95.38:8887/rtp/228.1.1.20:8060
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",萌宠TV
+http://117.133.95.38:8887/rtp/228.1.1.135:8002
+#EXTINF:-1 group-title="北京电信组播-北京地方频道,#genre#",金鹰纪实
+http://117.133.95.38:8887/rtp/228.1.1.34:8156
+
+
 
