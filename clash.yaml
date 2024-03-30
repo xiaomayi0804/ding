@@ -28,7 +28,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 
-#tun: { enable: true, stack: gvisor, auto-route: true, auto-detect-interface: true }  #stack: system
+tun: { enable: true, stack: gvisor, auto-route: true, auto-detect-interface: true }  #stack: system
 
 
 proxies:
