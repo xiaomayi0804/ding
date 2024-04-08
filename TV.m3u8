@@ -732,5 +732,7 @@ http://14.126.29.88:5000/udp/239.77.1.169:5146
 http://14.126.29.88:5000/udp/239.77.1.170:5146
 #EXTINF:-1 tvg-id="CCTV" tvg-name="CCTV" tvg-logo="https://live.fanmingming.com/tv/CCTV.png" group-title="广东电信",CCTV
 http://14.126.29.88:5000/udp/239.77.1.171:5146
-#EXTINF:-1 tvg-id="CCTV" tvg-name="CCTV" tvg-logo="https://live.fanmingming.com/tv/CCTV.png" group-title="广东电信",CCTV
+#EXTINF:-1 tvg-id="CCTV" tvg-name="CCTV16 4K" tvg-logo="https://live.fanmingming.com/tv/CCTV.png" group-title="广东电信",CCTV
 http://14.126.29.88:5000/udp/239.77.1.98:5146
+#EXTINF:-1 tvg-id="CCTV" tvg-name="CCTV4K" tvg-logo="https://live.fanmingming.com/tv/CCTV.png" group-title="广东电信",CCTV
+http://14.126.29.88:5000/udp/239.77.0.194:5146
