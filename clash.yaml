@@ -63,7 +63,7 @@ proxies:
   - {name: 16 vless-🇭🇰, type: vless, server: 8.217.145.40, port: 2052, uuid: 3d97c8b8-18ee-4d90-ab91-61df0c6c8894, tls: false, udp: true, servername: vless.leo726china.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.leo726china.workers.dev}}}
   - {name: 17 vless-🇭🇰, type: vless, server: 8.222.249.190, port: 2052, uuid: 3d97c8b8-18ee-4d90-ab91-61df0c6c8894, tls: false, udp: true, servername: vless.leo726china.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.leo726china.workers.dev}}}
   - {name: 18 vless-🇭🇰, type: vless, server: 8.217.85.14, port: 2052, uuid: 3d97c8b8-18ee-4d90-ab91-61df0c6c8894, tls: false, udp: true, servername: vless.leo726china.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.leo726china.workers.dev}}}
-  - {name: 19 vless-🇭🇰, type: vless, server: 8.217.91.121, port: 2052, uuid: 3d97c8b8-18ee-4d90-ab91-61df0c6c8894, tls: false, udp: true, servername: vless.leo726china.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.leo726china.workers.dev}}}
+  - {name: 19 vless-🇭🇰, type: vless, server: 8.218.201.73, port: 2052, uuid: 3d97c8b8-18ee-4d90-ab91-61df0c6c8894, tls: false, udp: true, servername: vless.leo726china.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.leo726china.workers.dev}}}
   - {name: 20 vless-🇭🇰, type: vless, server: 8.222.229.102, port: 2052, uuid: 3d97c8b8-18ee-4d90-ab91-61df0c6c8894, tls: false, udp: true, servername: vless.leo726china.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.leo726china.workers.dev}}}
 
   
