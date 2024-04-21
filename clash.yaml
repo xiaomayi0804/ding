@@ -118,4 +118,4 @@ rule-providers:
 proxy-providers:
   Jichang: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/linzjian666/chromego_extractor/main/outputs/clash_meta.yaml, path: ./Proxy/Jichang.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Vless3: {type: http, url: https://vless3.leo726china.workers.dev/auto, path: ./Proxy/Vless3.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
-  Eternity: {type: http, url: https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml, path: ./Proxy/Eternity.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
+  Eternity: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml, path: ./Proxy/Eternity.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
