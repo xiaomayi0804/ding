@@ -1,12 +1,3 @@
-https://www.gitlabip.xyz/Alvin9999/pac2/master/hysteria2/1/config.json
-https://www.githubip.xyz/Alvin9999/pac2/master/hysteria2/config.json
-https://www.gitlabip.xyz/Alvin9999/pac2/master/hysteria2/13/config.json
-https://www.githubip.xyz/Alvin9999/pac2/master/hysteria2/2/config.json
-
-Chrome-Go 含hysteria2节点(节点最全）
-https://mareep.netlify.app/sub/merged_warp_proxies_new.yaml
-https://mareep.netlify.app/sub/merged_proxies_new.yaml
-
 
 clash：https://fofa.info/result?qbase64=IntcImhlbGxvXCI6XCJjbGFzaFwifSI%3D
 clash.meta：https://fofa.info/result?qbase64=IntcImhlbGxvXCI6XCJjbGFzaC5tZXRhXCJ9Ig%3D%3D
@@ -17,3 +8,18 @@ SwitchyOmega：https://chrome.google.com/webstore/detail/proxy-switchyomega/pade
 clash Dashboard：http://clash.razord.top
 clash.meta Dashboard：http://clash.metacubex.one
 
+
+Redmi_xiaomayi-2.4
+StbZbqeINySH3tmKa
+
+xiaomayi0804@gmail.com
+0b8a708be8ab4fb7fbf46fa56d934f53135bc
+3632ef1988868a6db5505f83d64fb26e
+ddns  xiaomayi.cloudns.biz
+curl -s whatismyip.akamai.com
+
+456820
+6cbdb0dbdae462b94ad24d1567126133
+k3.xiaomayi0804.link
+
+https://mirror.ghproxy.com/https://github.com/xiaomayi0804/ding/blob/main/clash.yaml
