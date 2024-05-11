@@ -84,10 +84,10 @@ proxy-groups:
 
 
 rules:
-  - DOMAIN-KEYWORD,jable,🌍 自动选择
-  - DOMAIN-KEYWORD,google,🌍 自动选择
-  - DOMAIN-KEYWORD,pornhub,🌍 自动选择
-  - DOMAIN-KEYWORD,bing,🌍 自动选择
+  #- DOMAIN-KEYWORD,jable,🌍 自动选择
+  #- DOMAIN-KEYWORD,google,🌍 自动选择
+  #- DOMAIN-KEYWORD,pornhub,🌍 自动选择
+  #- DOMAIN-KEYWORD,bing,🌍 自动选择
   - DOMAIN-KEYWORD,mushroom,DIRECT
   - DOMAIN-KEYWORD,alonestreaming,DIRECT
   - IP-CIDR,91.108.0.0/16,🚀 节点选择,no-resolve
