@@ -1,0 +1,111 @@
+#!MANAGED-CONFIG https://xiaomayi.cloudns.biz/xiaomayi0804?surge interval=86400 strict=false
+
+[General]
+loglevel = notify
+bypass-system = true
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
+#DNS设置或根据自己网络情况进行相应设置
+bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+dns-server = 119.29.29.29,223.5.5.5,218.30.19.40,61.134.1.4
+external-controller-access = password@0.0.0.0:6170
+http-api = password@0.0.0.0:6171
+test-timeout = 5
+http-api-web-dashboard = true
+exclude-simple-hostnames = true
+allow-wifi-access = true
+http-listen = 0.0.0.0:6152
+socks5-listen = 0.0.0.0:6153
+wifi-access-http-port = 6152
+wifi-access-socks5-port = 6153
+
+[Script]
+http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+
+[Proxy]
+DIRECT = direct
+加入我的频道t.me/CMLiussss解锁更多优选节点 = trojan, cf.090227.xyz, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇸🇬 SG = trojan, 8.222.212.172, 2087, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇹🇼 TW = trojan, 103.137.63.3, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇦🇺 AU = trojan, 192.9.177.204, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇹🇼 TW 2 = trojan, 35.201.203.106, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇰🇷 KR = trojan, 3.35.139.150, 8443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇺🇸 US = trojan, 43.153.103.203, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇺🇸 US 2 = trojan, 91.149.239.145, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇸🇬 SG 2 = trojan, 8.219.126.240, 2096, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇺🇸 US 3 = trojan, 85.239.53.94, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇺🇸 US 4 = trojan, 91.149.239.62, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇮🇳 IN = trojan, 74.225.135.179, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇮🇳 IN 2 = trojan, 20.235.105.146, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇺🇸 US 5 = trojan, 192.9.246.112, 8443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇸🇬 SG 3 = trojan, 13.228.170.74, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇸🇬 SG 4 = trojan, 8.219.122.96, 2083, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇺🇸 US 6 = trojan, 103.170.72.207, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇭🇰 HK = trojan, 16.162.37.167, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇭🇰 HK 2 = trojan, 18.167.20.205, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇭🇰 HK 3 = trojan, 16.162.10.198, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇭🇰 HK 4 = trojan, 16.163.18.210, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇭🇰 HK 5 = trojan, 18.167.208.181, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇭🇰 HK 6 = trojan, 16.162.37.123, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇭🇰 HK 7 = trojan, 16.162.56.233, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇭🇰 HK 8 = trojan, 18.167.194.154, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇯🇵 JP = trojan, 43.153.181.217, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇯🇵 JP 2 = trojan, 176.126.114.97, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇯🇵 JP 3 = trojan, 13.230.34.30, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇯🇵 JP 4 = trojan, 18.183.158.211, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇯🇵 JP 5 = trojan, 3.112.21.102, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇯🇵 JP 6 = trojan, 54.248.121.219, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇯🇵 JP 7 = trojan, 138.2.36.157, 8443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇯🇵 JP 8 = trojan, 168.138.212.87, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇯🇵 JP 9 = trojan, 176.119.149.241, 3000, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇯🇵 JP 10 = trojan, 45.159.48.177, 58372, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇸🇬 SG 5 = trojan, 129.150.58.86, 57621, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇸🇬 SG 6 = trojan, 168.138.166.213, 10500, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇭🇰 HK 9 = trojan, 47.243.45.67, 34237, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇭🇰 HK 10 = trojan, 47.76.143.55, 7443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇰🇷 KR 2 = trojan, 175.215.82.175, 12263, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇰🇷 KR 3 = trojan, 124.53.83.5, 35549, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇰🇷 KR 4 = trojan, 118.217.254.146, 17509, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇰🇷 KR 5 = trojan, 222.108.106.148, 39704, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇺🇸 US 7 = trojan, 65.75.192.89, 34184, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇺🇸 US 8 = trojan, 154.17.27.49, 2003, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇺🇸 US 9 = trojan, 107.172.86.122, 20561, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+🇺🇸 US 10 = trojan, 136.175.176.49, 20443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+CMCC-IPV6 = trojan, 104.16.197.156, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+CMCC-IPV6 2 = trojan, 104.16.151.85, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+CMCC-IPV6 3 = trojan, 104.16.38.59, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+CMCC-IPV6 4 = trojan, 104.16.194.55, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+CMCC-IPV6 5 = trojan, 104.16.42.193, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+CMCC-IPV6 6 = trojan, 104.16.158.154, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+CMCC-IPV6 7 = trojan, 104.16.196.35, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+CMCC-IPV6 8 = trojan, 104.16.44.96, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+CMCC-IPV6 9 = trojan, 2606:4700:3036:0:d:e0a4:a4f3:9bb9, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+CMCC-IPV6 10 = trojan, 2606:4700:3036:6d54:f5a9:5353:35b9:ed3f, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+CMCC-IPV6 11 = trojan, 2606:4700:3036:e7bb:9e60:4ea7:e895:4080, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+CMCC-IPV6 12 = trojan, 2606:4700:3036::7a3f:b901:721b, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+CMCC-IPV6 13 = trojan, 2606:4700:3036:6dc8:9432:5edd:9f5:7e61, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+CMCC-IPV6 14 = trojan, 2606:4700:3036:81:2571:f56c:4fd4:f570, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+CMCC-IPV6 15 = trojan, 2606:4700:3036:0:fad6:5c19:2aab:e550, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+CMCC-IPV6 16 = trojan, 2606:4700:3036:81:25e7:b8a5:a601:b272, 443, password=xiaomayi0804, sni=xiaomayi.cloudns.biz, skip-cert-verify=true, ws=true, ws-path=/?ed=2560, ws-headers=Host:"xiaomayi.cloudns.biz", tfo=false, udp-relay=false
+
+[Proxy Group]
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,加入我的频道t.me/CMLiussss解锁更多优选节点,🇸🇬 SG,🇹🇼 TW,🇦🇺 AU,🇹🇼 TW 2,🇰🇷 KR,🇺🇸 US,🇺🇸 US 2,🇸🇬 SG 2,🇺🇸 US 3,🇺🇸 US 4,🇮🇳 IN,🇮🇳 IN 2,🇺🇸 US 5,🇸🇬 SG 3,🇸🇬 SG 4,🇺🇸 US 6,🇭🇰 HK,🇭🇰 HK 2,🇭🇰 HK 3,🇭🇰 HK 4,🇭🇰 HK 5,🇭🇰 HK 6,🇭🇰 HK 7,🇭🇰 HK 8,🇯🇵 JP,🇯🇵 JP 2,🇯🇵 JP 3,🇯🇵 JP 4,🇯🇵 JP 5,🇯🇵 JP 6,🇯🇵 JP 7,🇯🇵 JP 8,🇯🇵 JP 9,🇯🇵 JP 10,🇸🇬 SG 5,🇸🇬 SG 6,🇭🇰 HK 9,🇭🇰 HK 10,🇰🇷 KR 2,🇰🇷 KR 3,🇰🇷 KR 4,🇰🇷 KR 5,🇺🇸 US 7,🇺🇸 US 8,🇺🇸 US 9,🇺🇸 US 10,CMCC-IPV6,CMCC-IPV6 2,CMCC-IPV6 3,CMCC-IPV6 4,CMCC-IPV6 5,CMCC-IPV6 6,CMCC-IPV6 7,CMCC-IPV6 8,CMCC-IPV6 9,CMCC-IPV6 10,CMCC-IPV6 11,CMCC-IPV6 12,CMCC-IPV6 13,CMCC-IPV6 14,CMCC-IPV6 15,CMCC-IPV6 16
+♻️ 自动选择 = url-test,加入我的频道t.me/CMLiussss解锁更多优选节点,🇸🇬 SG,🇹🇼 TW,🇦🇺 AU,🇹🇼 TW 2,🇰🇷 KR,🇺🇸 US,🇺🇸 US 2,🇸🇬 SG 2,🇺🇸 US 3,🇺🇸 US 4,🇮🇳 IN,🇮🇳 IN 2,🇺🇸 US 5,🇸🇬 SG 3,🇸🇬 SG 4,🇺🇸 US 6,🇭🇰 HK,🇭🇰 HK 2,🇭🇰 HK 3,🇭🇰 HK 4,🇭🇰 HK 5,🇭🇰 HK 6,🇭🇰 HK 7,🇭🇰 HK 8,🇯🇵 JP,🇯🇵 JP 2,🇯🇵 JP 3,🇯🇵 JP 4,🇯🇵 JP 5,🇯🇵 JP 6,🇯🇵 JP 7,🇯🇵 JP 8,🇯🇵 JP 9,🇯🇵 JP 10,🇸🇬 SG 5,🇸🇬 SG 6,🇭🇰 HK 9,🇭🇰 HK 10,🇰🇷 KR 2,🇰🇷 KR 3,🇰🇷 KR 4,🇰🇷 KR 5,🇺🇸 US 7,🇺🇸 US 8,🇺🇸 US 9,🇺🇸 US 10,CMCC-IPV6,CMCC-IPV6 2,CMCC-IPV6 3,CMCC-IPV6 4,CMCC-IPV6 5,CMCC-IPV6 6,CMCC-IPV6 7,CMCC-IPV6 8,CMCC-IPV6 9,CMCC-IPV6 10,CMCC-IPV6 11,CMCC-IPV6 12,CMCC-IPV6 13,CMCC-IPV6 14,CMCC-IPV6 15,CMCC-IPV6 16,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
+🛑 全球拦截 = select,REJECT,DIRECT
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,加入我的频道t.me/CMLiussss解锁更多优选节点,🇸🇬 SG,🇹🇼 TW,🇦🇺 AU,🇹🇼 TW 2,🇰🇷 KR,🇺🇸 US,🇺🇸 US 2,🇸🇬 SG 2,🇺🇸 US 3,🇺🇸 US 4,🇮🇳 IN,🇮🇳 IN 2,🇺🇸 US 5,🇸🇬 SG 3,🇸🇬 SG 4,🇺🇸 US 6,🇭🇰 HK,🇭🇰 HK 2,🇭🇰 HK 3,🇭🇰 HK 4,🇭🇰 HK 5,🇭🇰 HK 6,🇭🇰 HK 7,🇭🇰 HK 8,🇯🇵 JP,🇯🇵 JP 2,🇯🇵 JP 3,🇯🇵 JP 4,🇯🇵 JP 5,🇯🇵 JP 6,🇯🇵 JP 7,🇯🇵 JP 8,🇯🇵 JP 9,🇯🇵 JP 10,🇸🇬 SG 5,🇸🇬 SG 6,🇭🇰 HK 9,🇭🇰 HK 10,🇰🇷 KR 2,🇰🇷 KR 3,🇰🇷 KR 4,🇰🇷 KR 5,🇺🇸 US 7,🇺🇸 US 8,🇺🇸 US 9,🇺🇸 US 10,CMCC-IPV6,CMCC-IPV6 2,CMCC-IPV6 3,CMCC-IPV6 4,CMCC-IPV6 5,CMCC-IPV6 6,CMCC-IPV6 7,CMCC-IPV6 8,CMCC-IPV6 9,CMCC-IPV6 10,CMCC-IPV6 11,CMCC-IPV6 12,CMCC-IPV6 13,CMCC-IPV6 14,CMCC-IPV6 15,CMCC-IPV6 16
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,🛑 全球拦截,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,🛑 全球拦截,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list,🚀 节点选择,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,🚀 节点选择,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list,🚀 节点选择,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 全球直连,update-interval=86400
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
+
