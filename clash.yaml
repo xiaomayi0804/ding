@@ -154,4 +154,9 @@ rule-providers:
   lancidr:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt", path: ./ruleset/lancidr.yaml, interval: 86400}
   applications:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt", path: ./ruleset/applications.yaml, interval: 86400}
 
-
+proxy-providers:
+  Jichang: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/linzjian666/chromego_extractor/main/outputs/clash_meta.yaml, path: ./Proxy/Jichang.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
+  Vless3: {type: http, url: https://vless3.leo726china.workers.dev/auto, path: ./Proxy/Vless3.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
+  Eternity: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml, path: ./Proxy/Eternity.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
+  Ripao: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash, path: ./Proxy/Ripao.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
+  Trojan: {type: http, url: https://xiaomayi.cloudns.biz/xiaomayi0804?clash, path: ./Proxy/Trojan.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
