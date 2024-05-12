@@ -86,29 +86,17 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  #- {name: http1, type: http, server: 14.145.152.120, port: 7890}
-  
-  - {name: 1 vless-🇯🇵, type: vless, server: 8.218.146.204, port: 2052, uuid: 05fc5a1e-d306-4e14-9781-ba563fa3aca9, tls: false, udp: true, servername: vless1.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless1.xiaomayi0804.workers.dev}}}
-  - {name: 2 vless-🇰🇷, type: vless, server: 47.242.234.127, port: 2052, uuid: 05fc5a1e-d306-4e14-9781-ba563fa3aca9, tls: false, udp: true, servername: vless1.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless1.xiaomayi0804.workers.dev}}}
-  - {name: 3 vless-🇰🇷, type: vless, server: 47.245.126.151, port: 2052, uuid: 05fc5a1e-d306-4e14-9781-ba563fa3aca9, tls: false, udp: true, servername: vless1.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless1.xiaomayi0804.workers.dev}}}
-  - {name: 4 vless-🇸🇬, type: vless, server: 47.242.176.237, port: 2052, uuid: 3d97c8b8-18ee-4d90-ab91-61df0c6c8894, tls: false, udp: true, servername: vless.leo726china.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.leo726china.workers.dev}}}
-  - {name: 5 vless-🇸🇬, type: vless, server: 8.218.174.118, port: 2052, uuid: 3d97c8b8-18ee-4d90-ab91-61df0c6c8894, tls: false, udp: true, servername: vless.leo726china.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.leo726china.workers.dev}}}
-  - {name: 6 vless-🇸🇬, type: vless, server: 47.236.144.208, port: 2052, uuid: 3d97c8b8-18ee-4d90-ab91-61df0c6c8894, tls: false, udp: true, servername: vless.leo726china.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.leo726china.workers.dev}}}
-  - {name: 7 vless-🇸🇬, type: vless, server: 8.210.174.156, port: 2052, uuid: 3d97c8b8-18ee-4d90-ab91-61df0c6c8894, tls: false, udp: true, servername: vless.leo726china.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.leo726china.workers.dev}}}
-  - {name: 8 vless-🇸🇬, type: vless, server: 47.245.107.174, port: 2052, uuid: 05fc5a1e-d306-4e14-9781-ba563fa3aca9, tls: false, udp: true, servername: vless1.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless1.xiaomayi0804.workers.dev}}}
-  - {name: 9 vless-🇸🇬, type: vless, server: 8.218.18.235, port: 2052, uuid: 05fc5a1e-d306-4e14-9781-ba563fa3aca9, tls: false, udp: true, servername: vless1.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless1.xiaomayi0804.workers.dev}}}
-  - {name: 10 vless-🇭🇰, type: vless, server: 8.219.200.145, port: 2052, uuid: 05fc5a1e-d306-4e14-9781-ba563fa3aca9, tls: false, udp: true, servername: vless1.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless1.xiaomayi0804.workers.dev}}}
-  - {name: 11 vless-🇨🇳, type: vless, server: bestproxy.onecf.eu.org, port: 2052, uuid: 05fc5a1e-d306-4e14-9781-ba563fa3aca9, tls: false, udp: true, servername: vless1.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless1.xiaomayi0804.workers.dev}}}
-  - {name: 12 vless-🇨🇳, type: vless, server: q.achen.link, port: 2052, uuid: 05fc5a1e-d306-4e14-9781-ba563fa3aca9, tls: false, udp: true, servername: vless1.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless1.xiaomayi0804.workers.dev}}}
-  - {name: 13 vless-🇨🇳, type: vless, server: acjp2.cloudflarest.link, port: 2052, uuid: 05fc5a1e-d306-4e14-9781-ba563fa3aca9, tls: false, udp: true, servername: vless1.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless1.xiaomayi0804.workers.dev}}}
-  - {name: 14 vless-🇨🇳, type: vless, server: proxy.xxxxxxxx.tk, port: 2052, uuid: 05fc5a1e-d306-4e14-9781-ba563fa3aca9, tls: false, udp: true, servername: vless1.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless1.xiaomayi0804.workers.dev}}}
-  - {name: 15 vless-🇨🇳, type: vless, server: cf.akaagiao.link, port: 2052, uuid: 05fc5a1e-d306-4e14-9781-ba563fa3aca9, tls: false, udp: true, servername: vless1.xiaomayi0804.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless1.xiaomayi0804.workers.dev}}}
-  - {name: 16 vless-🇭🇰, type: vless, server: 8.218.156.91, port: 2052, uuid: 3d97c8b8-18ee-4d90-ab91-61df0c6c8894, tls: false, udp: true, servername: vless.leo726china.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.leo726china.workers.dev}}}
-  - {name: 17 vless-🇭🇰, type: vless, server: 8.218.243.95, port: 2052, uuid: 3d97c8b8-18ee-4d90-ab91-61df0c6c8894, tls: false, udp: true, servername: vless.leo726china.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.leo726china.workers.dev}}}
-  - {name: 18 vless-🇭🇰, type: vless, server: 8.219.222.8, port: 2052, uuid: 3d97c8b8-18ee-4d90-ab91-61df0c6c8894, tls: false, udp: true, servername: vless.leo726china.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.leo726china.workers.dev}}}
-  - {name: 19 vless-🇭🇰, type: vless, server: 8.222.254.91, port: 2052, uuid: 3d97c8b8-18ee-4d90-ab91-61df0c6c8894, tls: false, udp: true, servername: vless.leo726china.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.leo726china.workers.dev}}}
-  - {name: 20 vless-🇭🇰, type: vless, server: 8.219.97.179, port: 2052, uuid: 3d97c8b8-18ee-4d90-ab91-61df0c6c8894, tls: false, udp: true, servername: vless.leo726china.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {host: vless.leo726china.workers.dev}}}
 
+  - {"name":"v2rayse_test_1","type":"ss","server":"198.57.27.218","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"v2rayse_test_2","type":"vmess","server":"154.23.190.162","port":443,"cipher":"auto","uuid":"b9984674-f771-4e67-a198-c7e60720ba2c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"v2rayse_test_3","type":"vmess","server":"154.23.190.162","port":443,"cipher":"auto","uuid":"b9984674-f771-4e67-a198-c7e60720ba2c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"defaultName_1","type":"ssr","server":"20.239.49.44","port":59814,"password":"3df57276-03ef-45cf-bdd4-4edb6dfaa0ef","cipher":"dummy","obfs":"plain","protocol":"origin","group":"https://v2rayse.com"}
+  - {"name":"v2rayse_test_4","type":"trojan","server":"ca-trojan.bonds.id","port":443,"udp":true,"password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","skip-cert-verify":true}
+  - {"name":"defaultName_2","type":"http","server":"124.15.12.24","port":251,"username":"username","password":"password"}
+  - {"name":"defaultName_3","type":"socks5","server":"124.15.12.24","port":2312}
+  - {"name":"Hys-1.2.3.4","type":"hysteria","server":"1.2.3.4","port":12854,"sni":"wechat.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"pekopeko","up":50,"down":250}
+  - {"name":"test","type":"vless","server":"1.2.3.4","port":7777,"uuid":"abc-def-ghi-fge-zsx","tls":true,"network":"tcp"}
+  - {"name":"defaultName_4","type":"socks5","server":"1.2.3.4","port":123,"username":"username","password":"password"}
  
 proxy-groups:
   - {name: 🚀 节点选择, type: select, proxies: [🌍 自动选择, 🌍 手动选择1, 🌍 手动选择2, 🌍 手动选择3, 🌍 手动选择4, 🌍 手动选择5, ⚖️ 负载均衡-轮询, ⚖️ 负载均衡-散列, DIRECT]}
