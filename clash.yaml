@@ -96,7 +96,7 @@ proxies:
   - {"name":"17 vless-🇭🇰","type":"vless","server":"8.218.243.95","port":2052,"udp":true,"uuid":"3d97c8b8-18ee-4d90-ab91-61df0c6c8894","tls":false,"servername":"vless.leo726china.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.leo726china.workers.dev"}}}
   - {"name":"18 vless-🇭🇰","type":"vless","server":"8.219.222.8","port":2052,"udp":true,"uuid":"3d97c8b8-18ee-4d90-ab91-61df0c6c8894","tls":false,"servername":"vless.leo726china.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.leo726china.workers.dev"}}}
   - {"name":"19 vless-🇭🇰","type":"vless","server":"8.222.254.91","port":2052,"udp":true,"uuid":"3d97c8b8-18ee-4d90-ab91-61df0c6c8894","tls":false,"servername":"vless.leo726china.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.leo726china.workers.dev"}}}
-  - {"name":"20 vless-🇭🇰","type":"vless","server":"8.219.97.179","port":2052,"udp":true,"uuid":"3d97c8b8-18ee-4d90-ab91-61df0c6c8894","tls":false,"servername":"vless.leo726china.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.leo726china.workers.dev"}}}
+  - {"name":"20 vless-🇭🇰","type":"vless","server":"8.217.167.88","port":2052,"udp":true,"uuid":"3d97c8b8-18ee-4d90-ab91-61df0c6c8894","tls":false,"servername":"vless.leo726china.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.leo726china.workers.dev"}}}
  
 proxy-groups:
   - {name: 🚀 节点选择, type: select, proxies: [🌍 自动选择, 🌍 手动选择1, 🌍 手动选择2, 🌍 手动选择3, 🌍 手动选择4, 🌍 手动选择5, ⚖️ 负载均衡-轮询, ⚖️ 负载均衡-散列, DIRECT]}
