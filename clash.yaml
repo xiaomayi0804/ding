@@ -160,5 +160,5 @@ proxy-providers:
   Vless3: {type: http, url: https://vless3.leo726china.workers.dev/auto, path: ./Proxy/Vless3.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Eternity: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml, path: ./Proxy/Eternity.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Ripao: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash, path: ./Proxy/Ripao.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
-  Trojan: {type: http, url: https://xiaomayi.cloudns.biz/xiaomayi0804?clash, path: ./Proxy/Trojan.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
+  Trojan: {type: http, url: https://xiaomayi.cloudns.biz/xiaomayi0804, path: ./Proxy/Trojan.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Hlsg: {type: http, url: https://moist.freenods.sbs/Trojan, path: ./Proxy/Hlsg.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
