@@ -114,7 +114,7 @@ proxy-groups:
 
 
 rules:
-  - DOMAIN-KEYWORD,cloudns,🚀 节点选择
+  - DOMAIN-KEYWORD,cloudns,1 vless-🇯🇵
   - DOMAIN-KEYWORD,mushroom,DIRECT
   - DOMAIN-KEYWORD,alonestreaming,DIRECT
   - IP-CIDR,91.108.0.0/16,🚀 节点选择,no-resolve
