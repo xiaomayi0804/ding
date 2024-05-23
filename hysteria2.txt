@@ -23,3 +23,23 @@ curl -s whatismyip.akamai.com
 k3.xiaomayi0804.link
 
 https://mirror.ghproxy.com/https://github.com/xiaomayi0804/ding/blob/main/clash.yaml
+
+要用SSH执行三行命令
+1：docker exec -i xiaoya sqlite3 data/data.db <<EOF
+2：select value from x_setting_items where key = "token";
+3:EOF
+也是不成功的正确的要docker ps  看容器名称，host模式下的容器名称是  xiaoya-hostmode   所以要在xiaoya后面加上-hostmode
+
+
+在OpenWrt的TTYD终端，执行安装命令：
+bash -c "$(curl --insecure -fsSL https://ddsrem.com/xiaoya_install.sh)"
+备用安装地址1：
+bash <(curl --insecure -fsSL https://ddsrem.com/xiaoya/all_in_one.sh)
+备用安装地址2：
+bash -c "$(curl --insecure -fsSL https://fastly.jsdelivr.net/gh/DDS-Derek/xiaoya-alist@latest/main.sh)"
+
+
+Ubuntu/Debian/Synology等基于Debian的Linux
+wget -qO pi.sh https://cafe.cpolar.cn/wkdaily/zero3/raw/branch/main/zero3/pi.sh && chmod +x pi.sh && ./pi.sh
+OpenWrt/iStoreOS 软路由系统
+wget -qO op.sh https://cafe.cpolar.cn/wkdaily/zero3/raw/branch/main/zero3/op.sh && chmod +x op.sh && ./op.sh
