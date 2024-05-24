@@ -43,3 +43,6 @@ Ubuntu/Debian/Synology等基于Debian的Linux
 wget -qO pi.sh https://cafe.cpolar.cn/wkdaily/zero3/raw/branch/main/zero3/pi.sh && chmod +x pi.sh && ./pi.sh
 OpenWrt/iStoreOS 软路由系统
 wget -qO op.sh https://cafe.cpolar.cn/wkdaily/zero3/raw/branch/main/zero3/op.sh && chmod +x op.sh && ./op.sh
+
+docker run -p 8080:80 nginx
+
