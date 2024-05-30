@@ -46,3 +46,6 @@ wget -qO op.sh https://cafe.cpolar.cn/wkdaily/zero3/raw/branch/main/zero3/op.sh 
 
 docker run -p 8080:80 nginx
 
+
+$ bash -c "$(curl -sLk https://xiaoyahelper.ddsrem.com/aliyun_clear.sh | tail -n +2)" -s 1 -tg
+
