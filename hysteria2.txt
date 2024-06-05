@@ -46,6 +46,10 @@ wget -qO op.sh https://cafe.cpolar.cn/wkdaily/zero3/raw/branch/main/zero3/op.sh 
 
 docker run -p 8080:80 nginx
 
-
 $ bash -c "$(curl -sLk https://xiaoyahelper.ddsrem.com/aliyun_clear.sh | tail -n +2)" -s 1 -tg
 
+
+原来的编译的luci是没有这个挂载点的，如下命令增加挂载点：
+opkg update
+opkg install block-mount
+重启路由即可出现 挂载点
