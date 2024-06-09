@@ -44,6 +44,9 @@ wget -qO pi.sh https://cafe.cpolar.cn/wkdaily/zero3/raw/branch/main/zero3/pi.sh 
 OpenWrt/iStoreOS 软路由系统
 wget -qO op.sh https://cafe.cpolar.cn/wkdaily/zero3/raw/branch/main/zero3/op.sh && chmod +x op.sh && ./op.sh
 
+一键emby
+bash -c "$(curl -sSLf https://xy.ggbond.org/xy/xy_install.sh)"
+
 docker run -p 8080:80 nginx
 
 $ bash -c "$(curl -sLk https://xiaoyahelper.ddsrem.com/aliyun_clear.sh | tail -n +2)" -s 1 -tg
