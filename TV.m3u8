@@ -89,8 +89,7 @@ http://php.jdshipin.com:8880/bst2.php?id=hxjc4k/15000000
 http://111.31.106.140/downflv.brtvcloud.com/8klive/8kliveok.m3u8
 #EXTINF:-1,苏州4K频道[3840x2160]
 http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
-#EXTINF:-1,江西卫视[1920x1080]
-http://php.jdshipin.com:8880/PLTV/hnyd.php?id=00000001000000060000000000000522
+
 
 #EXTINF:-1,凤凰中文[1920x1080]
 http://php.jdshipin.com:8880/jydx.php?id=37
@@ -211,6 +210,8 @@ http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010111/1.m3u8
 https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880
 #EXTINF:-1,山西卫视[1280x720]
 http://liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true
+#EXTINF:-1,江西卫视[1920x1080]
+http://php.jdshipin.com:8880/PLTV/hnyd.php?id=00000001000000060000000000000522
 #EXTINF:-1,西藏卫视[1920x1080]
 http://php.jdshipin.com:8880/xztv.php?id=ws
 #EXTINF:-1,兵团卫视[1920x1080]
