@@ -73,14 +73,16 @@ http://192.168.5.111:5000/tptv/G_CCTV-6-AVS-4K264?type=origin
 http://192.168.5.111:5000/tptv/G_CCTV-8-AVS-4K264?type=origin
 #EXTINF:-1,CCTV16-4K[3840x2160]-40M
 http://192.168.5.111:5000/ysp/cctv16-4k
-#EXTINF:-1,CCTV4K[3840x2160]-40M
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=cctv4k
+#EXTINF:-1,CCTV4K[3840x2160]-12M
+http://192.168.5.111:5000/tptv/G_CCTV-4K-HD?type=origin
 #EXTINF:-1,CCTV风云足球 8M
 http://192.168.5.111:5000/tptv/G_FENGSHANGZQ-CQ?type=origin
 #EXTINF:-1,CCTV风云台球 8M
 http://192.168.5.111:5000/tptv/G_TAIQIU-CQ?type=origin
 #EXTINF:-1,CCTV16-4K[3840x2160]
 http://php.jdshipin.com:8880/bst2.php?id=cctv16hd4k/15000000
+#EXTINF:-1,CCTV4K[3840x2160]-40M
+http://php.jdshipin.com:8880/PLTV/iptv.php?id=cctv4k
 #EXTINF:-1,CCTV8K超高清[3840x2160]
 https://tv.cry33.com/ys4k.php?id=8k
 #EXTINF:-1,CCTV8K超高清[1920x1080]
