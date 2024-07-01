@@ -114,6 +114,7 @@ proxy-groups:
 
 
 rules:
+  - DOMAIN-KEYWORD,ubtvfans,🚀 节点选择,no-resolve
   - DOMAIN-KEYWORD,cloudns,🌍 自动选择
   - DOMAIN-KEYWORD,v2rayse,🌍 自动选择
   - DOMAIN-KEYWORD,mushroom,DIRECT
@@ -130,13 +131,13 @@ rules:
   - RULE-SET,reject,REJECT
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT  
-  - RULE-SET,tld-not-cn,🚀 节点选择
-  - RULE-SET,gfw,🚀 节点选择
-  - RULE-SET,proxy,🚀 节点选择
+  - RULE-SET,tld-not-cn,🚀 节点选择,no-resolve
+  - RULE-SET,gfw,🚀 节点选择,no-resolve
+  - RULE-SET,proxy,🚀 节点选择,no-resolve
   - RULE-SET,direct,DIRECT
   - RULE-SET,lancidr,DIRECT
   - RULE-SET,cncidr,DIRECT
-  - RULE-SET,telegramcidr,🚀 节点选择
+  - RULE-SET,telegramcidr,🚀 节点选择,no-resolve
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,🐟 漏网之鱼
