@@ -49,14 +49,14 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     use:
-      Vless3, Trojan, Hlsg
+      [Vless3, Trojan, Hlsg]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 300
+    interval: 1800
     tolerance: 50
     use:
-      Vless3, Trojan, Hlsg
+      [Hlsg]
   - name: 📲 电报消息
     type: select
     proxies:
@@ -95,8 +95,6 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾节点
-      - 🇭🇰 香港节点
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -193,6 +191,13 @@ proxy-providers:
 
 
 rules:
+
+  - DOMAIN-KEYWORD,mobaibox,DIRECT
+  - DOMAIN-KEYWORD,mushroom,DIRECT
+  - DOMAIN-KEYWORD,alonestreaming,DIRECT
+  - DOMAIN-KEYWORD,v2rayse,🚀 节点选择
+  - DOMAIN-KEYWORD,cloudns,🚀 节点选择
+  - DOMAIN-KEYWORD,ubtvfans,🚀 节点选择
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
