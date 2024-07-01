@@ -114,6 +114,8 @@ proxy-groups:
 
 
 rules:
+  - DOMAIN-KEYWORD,doppiocdn,🚀 节点选择,no-resolve
+  - DOMAIN-KEYWORD,mobaibox,DIRECT
   - DOMAIN-KEYWORD,bing,🚀 节点选择,no-resolve
   - DOMAIN-KEYWORD,ubtvfans,🚀 节点选择,no-resolve
   - DOMAIN-KEYWORD,cloudns,🌍 自动选择
