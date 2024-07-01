@@ -114,6 +114,7 @@ proxy-groups:
 
 
 rules:
+  - DOMAIN-KEYWORD,bing,🚀 节点选择,no-resolve
   - DOMAIN-KEYWORD,ubtvfans,🚀 节点选择,no-resolve
   - DOMAIN-KEYWORD,cloudns,🌍 自动选择
   - DOMAIN-KEYWORD,v2rayse,🌍 自动选择
