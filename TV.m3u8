@@ -65,6 +65,14 @@ http://192.168.5.111:5000/tptv/HD-10000k-1080P-fhzixun5s?type=origin
 http://192.168.5.111:5000/tptv/HD-10000k-1080P-fhhongkong5s?type=origin
 #EXTINF:-1,香港RHK31[1920x1080]
 https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
+#EXTINF:-1,香港RHK32[1920x1080]
+http://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
+#EXTINF:-1,香港RHK33[1920x1080]
+https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8
+#EXTINF:-1,香港RHK34[1920x1080]
+https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8
+#EXTINF:-1,香港RHK35[1920x1080]
+https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8
 
 #EXTINF:-1,CCTV1-4K[3840x2160]-25M
 http://192.168.5.111:5000/tptv/G_CCTV-1-AVS-4K264?type=origin
