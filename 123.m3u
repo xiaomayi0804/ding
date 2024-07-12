@@ -1,0 +1,32 @@
+#EXTINF:1 group-title="TVB" tvg-id="tvb/tvbplus" tvg-logo="" provider="TVB" provider-logo="" provider-type="iptv",[TVB] TVB Plus
+https://mytv.btjson.us.kg/stream/tvb/tvbplus/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
+
+#EXTINF:2 group-title="TVB" tvg-id="tvb/null-1" tvg-logo="" provider="TVB" provider-logo="" provider-type="iptv",[TVB] 娛樂新聞台
+https://mytv.btjson.us.kg/stream/tvb/null-1/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
+
+#EXTINF:3 group-title="TVB" tvg-id="tvb/null-7" tvg-logo="" provider="TVB" provider-logo="" provider-type="iptv",[TVB] 戲劇電影
+https://mytv.btjson.us.kg/stream/tvb/null-7/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
+
+#EXTINF:4 group-title="TVB" tvg-id="tvb/null-6" tvg-logo="" provider="TVB" provider-logo="" provider-type="iptv",[TVB] 新聞財經
+https://mytv.btjson.us.kg/stream/tvb/null-6/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
+
+#EXTINF:5 group-title="TVB" tvg-id="tvb/null-5" tvg-logo="" provider="TVB" provider-logo="" provider-type="iptv",[TVB] 無線新聞台
+https://mytv.btjson.us.kg/stream/tvb/null-5/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
+
+#EXTINF:6 group-title="TVB" tvg-id="tvb/null" tvg-logo="" provider="TVB" provider-logo="" provider-type="iptv",[TVB] 翡翠台
+https://mytv.btjson.us.kg/stream/tvb/null/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
+
+#EXTINF:7 group-title="TVB" tvg-id="tvb/4k" tvg-logo="" provider="TVB" provider-logo="" provider-type="iptv",[TVB] 翡翠台 4K
+https://mytv.btjson.us.kg/stream/tvb/4k/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
+
+#EXTINF:8 group-title="TVB" tvg-id="tvb/null-2" tvg-logo="" provider="TVB" provider-logo="" provider-type="iptv",[TVB] 鳳凰衛視中文台
+https://mytv.btjson.us.kg/stream/tvb/null-2/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
+
+#EXTINF:9 group-title="TVB" tvg-id="tvb/null-3" tvg-logo="" provider="TVB" provider-logo="" provider-type="iptv",[TVB] 鳳凰衛視香港台
+https://mytv.btjson.us.kg/stream/tvb/null-3/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
+
+#EXTINF:10 group-title="TVB" tvg-id="tvb/null-4" tvg-logo="" provider="TVB" provider-logo="" provider-type="iptv",[TVB] 鳳凰資訊
+https://mytv.btjson.us.kg/stream/tvb/null-4/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
+
+#EXTINF:11 group-title="TVB" tvg-id="tvb/null-8" tvg-logo="" provider="TVB" provider-logo="" provider-type="iptv",[TVB] 黃金翡翠台
+https://mytv.btjson.us.kg/stream/tvb/null-8/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
