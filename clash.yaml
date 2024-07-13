@@ -164,7 +164,7 @@ rule-providers:
 proxy-providers:
   Jichang: {type: http, url: https://chromenodes.marcol.top/, path: ./Proxy/Jichang.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Vless3: {type: http, url: https://vless3.leo726china.workers.dev/auto, path: ./Proxy/Vless3.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
-  CM: {type: http, url: https://yue.btjson.us.kg/5eb5a617-ea5e-4305-9e3e-c40f54f7207d, path: ./Proxy/Eternity.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
+  CM: {type: http, url: https://yue.btjson.us.kg/5eb5a617-ea5e-4305-9e3e-c40f54f7207d, path: ./Proxy/CM.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Ripao: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash, path: ./Proxy/Ripao.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Trojan: {type: http, url: https://xiaomayi.cloudns.biz/xiaomayi0804, path: ./Proxy/Trojan.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Hlsg: {type: http, url: https://moist.freenods.sbs/Trojan, path: ./Proxy/Hlsg.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
