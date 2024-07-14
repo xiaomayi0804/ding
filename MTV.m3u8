@@ -934,7 +934,7 @@ http://192.9.178.181:5000/4gtv/286
 #EXTM3U
 #EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml"
 
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="綜合", 翡翠台
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="xg綜合", 翡翠台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0958b9c657622c465a6205eb2252b8ed:2d2fd7b1661b1e28de38268872b48480
@@ -964,49 +964,49 @@ http://xg.52sw.top:5000/mytvsuper/C
 #KODIPROP:inputstream.adaptive.license_key=e04facdd91354deee318c674993b74c1:8f97a629de680af93a652c3102b65898
 http://xg.52sw.top:5000/mytvsuper/P
 
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="myTV SUPER FREE" tvg-logo="https://assets.livednow.com/logo/MytvSuper.png" group-title="戲劇電影", myTV SUPER FREE
+#EXTINF:-1 tvg-id="MytvSuper" tvg-name="myTV SUPER FREE" tvg-logo="https://assets.livednow.com/logo/MytvSuper.png" group-title="電影戲劇", myTV SUPER FREE
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0737b75ee8906c00bb7bb8f666da72a0:15f515458cdb5107452f943a111cbe89
 http://xg.52sw.top:5000/mytvsuper/CWIN
 
-#EXTINF:-1 tvg-id="myTV-SUPER-18" tvg-name="myTV SUPER 18台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-18.png" group-title="戲劇電影", myTV SUPER 18台
+#EXTINF:-1 tvg-id="myTV-SUPER-18" tvg-name="myTV SUPER 18台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-18.png" group-title="電影戲劇", myTV SUPER 18台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=72de7d0a1850c8d40c5bdf9747a4ca7c:4967537ff0bc8209277160759de4adef
 http://xg.52sw.top:5000/mytvsuper/C18
 
-#EXTINF:-1 tvg-id="黃金翡翠台" tvg-name="黃金翡翠台" tvg-logo="https://assets.livednow.com/logo/黃金翡翠台.png" group-title="戲劇電影", 黃金翡翠台
+#EXTINF:-1 tvg-id="黃金翡翠台" tvg-name="黃金翡翠台" tvg-logo="https://assets.livednow.com/logo/黃金翡翠台.png" group-title="電影戲劇", 黃金翡翠台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8fe3db1a24969694ae3447f26473eb9f:5cce95833568b9e322f17c61387b306f
 http://xg.52sw.top:5000/mytvsuper/TVG
 
-#EXTINF:-1 tvg-id="千禧經典台" tvg-name="千禧經典台" tvg-logo="https://assets.livednow.com/logo/千禧經典台.png" group-title="戲劇電影", 千禧經典台
+#EXTINF:-1 tvg-id="千禧經典台" tvg-name="千禧經典台" tvg-logo="https://assets.livednow.com/logo/千禧經典台.png" group-title="電影戲劇", 千禧經典台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6c308490b3198b62a988917253653692:660578b8966fe8012ad51b9aae7a5d78
 http://xg.52sw.top:5000/mytvsuper/CTVC
 
-#EXTINF:-1 tvg-id="華語劇台" tvg-name="華語劇台" tvg-logo="https://assets.livednow.com/logo/華語劇台.png" group-title="戲劇電影", 華語劇台
+#EXTINF:-1 tvg-id="華語劇台" tvg-name="華語劇台" tvg-logo="https://assets.livednow.com/logo/華語劇台.png" group-title="電影戲劇", 華語劇台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=baae227b5fc06e2545868d4a1c9ced14:8cd460458b0bdecca5c12791b6409278
 http://xg.52sw.top:5000/mytvsuper/CDR3
 
-#EXTINF:-1 tvg-id="粵語片台" tvg-name="粵語片台" tvg-logo="https://assets.livednow.com/logo/粵語片台.png" group-title="戲劇電影", 粵語片台
+#EXTINF:-1 tvg-id="粵語片台" tvg-name="粵語片台" tvg-logo="https://assets.livednow.com/logo/粵語片台.png" group-title="電影戲劇", 粵語片台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5b90da7fd2f018bf85a757241075626f:75c0897b4cf5ce154ddae86eddb79cd3
 http://xg.52sw.top:5000/mytvsuper/CCLM
 
-#EXTINF:-1 tvg-id="亞洲劇台" tvg-name="亞洲劇台" tvg-logo="https://assets.livednow.com/logo/亞洲劇台.png" group-title="戲劇電影", 亞洲劇台
+#EXTINF:-1 tvg-id="亞洲劇台" tvg-name="亞洲劇台" tvg-logo="https://assets.livednow.com/logo/亞洲劇台.png" group-title="電影戲劇", 亞洲劇台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=df5c0e617dffc3e3c44cb733dccb33c0:7d00ec9cd4f54d5baf94c03edc8cfe25
 http://xg.52sw.top:5000/mytvsuper/CTVS
 
-#EXTINF:-1 tvg-id="黃金華劇台" tvg-name="黃金華劇台" tvg-logo="https://assets.livednow.com/logo/黃金華劇台.png" group-title="戲劇電影", 黃金華劇台
+#EXTINF:-1 tvg-id="黃金華劇台" tvg-name="黃金華劇台" tvg-logo="https://assets.livednow.com/logo/黃金華劇台.png" group-title="電影戲劇", 黃金華劇台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=acd93a5f665efd4feadb26f5ed48fd96:c6ce58ef9cce30638e0c2e9fc45a6dbd
@@ -1018,7 +1018,7 @@ http://xg.52sw.top:5000/mytvsuper/TVO
 #KODIPROP:inputstream.adaptive.license_key=6fa0e47750b5e2fb6adf9b9a0ac431a3:a256220e6c2beaa82f4ca5fba4ec1f95
 http://xg.52sw.top:5000/mytvsuper/CTVE
 
-#EXTINF:-1 tvg-id="戲曲台" tvg-name="戲曲台" tvg-logo="https://assets.livednow.com/logo/戲曲台.png" group-title="戲劇電影", 戲曲台
+#EXTINF:-1 tvg-id="戲曲台" tvg-name="戲曲台" tvg-logo="https://assets.livednow.com/logo/戲曲台.png" group-title="電影戲劇", 戲曲台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c91c296ef6c46b3f2af1da257553bd17:d6e92d5e594f6f8e494a6e1c9df75298
@@ -1048,61 +1048,61 @@ http://xg.52sw.top:5000/mytvsuper/CNIKO
 #KODIPROP:inputstream.adaptive.license_key=9f1385d2a12a67b572b9d968eb850337:3086bcd49a909606a8686858c05c7e33
 http://xg.52sw.top:5000/mytvsuper/CNIJR
 
-#EXTINF:-1 tvg-id="美亞電影台-HK" tvg-name="美亞電影台" tvg-logo="https://assets.livednow.com/logo/美亞電影台-HK.png" group-title="戲劇電影", 美亞電影台
+#EXTINF:-1 tvg-id="美亞電影台-HK" tvg-name="美亞電影台" tvg-logo="https://assets.livednow.com/logo/美亞電影台-HK.png" group-title="電影戲劇", 美亞電影台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c5d6f2afbd6b276312b0471a653828e1:ecbbb4a3ffa2200ae69058e20e71e91b
 http://xg.52sw.top:5000/mytvsuper/CMAM
 
-#EXTINF:-1 tvg-id="Thrill" tvg-name="Thrill" tvg-logo="https://assets.livednow.com/logo/Thrill.png" group-title="戲劇電影", Thrill
+#EXTINF:-1 tvg-id="Thrill" tvg-name="Thrill" tvg-logo="https://assets.livednow.com/logo/Thrill.png" group-title="電影戲劇", Thrill
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b22355363ab2b09a6def54be0c89b9f2:4b196c2bf24b37e82a81031246de6efe
 http://xg.52sw.top:5000/mytvsuper/CTHR
 
-#EXTINF:-1 tvg-id="天映經典頻道" tvg-name="天映經典頻道" tvg-logo="https://assets.livednow.com/logo/天映經典頻道.png" group-title="戲劇電影", 天映經典頻道
+#EXTINF:-1 tvg-id="天映經典頻道" tvg-name="天映經典頻道" tvg-logo="https://assets.livednow.com/logo/天映經典頻道.png" group-title="電影戲劇", 天映經典頻道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=627b6ca150887912bec47ae4a9b85269:2bf49b2105d20544a6db89c0577b9802
 http://xg.52sw.top:5000/mytvsuper/CCCM
 
-#EXTINF:-1 tvg-id="中國電影頻道" tvg-name="中國電影頻道" tvg-logo="https://assets.livednow.com/logo/中國電影頻道.png" group-title="戲劇電影", 中國電影頻道
+#EXTINF:-1 tvg-id="中國電影頻道" tvg-name="中國電影頻道" tvg-logo="https://assets.livednow.com/logo/中國電影頻道.png" group-title="電影戲劇", 中國電影頻道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cabb16d20e71b512f24e9ece0cb09396:2d43505980a22014ee1a476880982308
 http://xg.52sw.top:5000/mytvsuper/CMC
 
-#EXTINF:-1 tvg-id="Rock-Action-HK" tvg-name="ROCK Action" tvg-logo="https://assets.livednow.com/logo/Rock-Action-HK.png" group-title="戲劇電影", ROCK Action
+#EXTINF:-1 tvg-id="Rock-Action-HK" tvg-name="ROCK Action" tvg-logo="https://assets.livednow.com/logo/Rock-Action-HK.png" group-title="電影戲劇", ROCK Action
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=358eacad1f06e8e375493dabee96d865:461a02b2eb1232c6c100b95bd0bf40f8
 http://xg.52sw.top:5000/mytvsuper/CRTX
 
-#EXTINF:-1 tvg-id="KIX" tvg-name="KIX" tvg-logo="https://assets.livednow.com/logo/KIX.png" group-title="戲劇電影", KIX
+#EXTINF:-1 tvg-id="KIX" tvg-name="KIX" tvg-logo="https://assets.livednow.com/logo/KIX.png" group-title="電影戲劇", KIX
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3b4a44c5ef3217c55a357ad976d328b2:f3355e5a30722e631031b851642c27f1
 http://xg.52sw.top:5000/mytvsuper/CKIX
 
-#EXTINF:-1 tvg-id="Love-Nature-HK" tvg-name="Love Nature HD" tvg-logo="https://assets.livednow.com/logo/Love-Nature-HK.png" group-title="探索自然", Love Nature HD
+#EXTINF:-1 tvg-id="Love-Nature-HK" tvg-name="Love Nature HD" tvg-logo="https://assets.livednow.com/logo/Love-Nature-HK.png" group-title="生活旅逰", Love Nature HD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=03fb0f439f942f50d06bf23a511bf4f8:bae7115da07195263e50ae5fc8bbe4f3
 http://xg.52sw.top:5000/mytvsuper/LNH
 
-#EXTINF:-1 tvg-id="Love-Nature-4K-HK" tvg-name="Love Nature 4K" tvg-logo="https://assets.livednow.com/logo/Love-Nature-4K-HK.png" group-title="探索自然", Love Nature 4K
+#EXTINF:-1 tvg-id="Love-Nature-4K-HK" tvg-name="Love Nature 4K" tvg-logo="https://assets.livednow.com/logo/Love-Nature-4K-HK.png" group-title="生活旅逰", Love Nature 4K
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=037c644cb92137ac5c8d653e952e4c8f:b3b2fcbe576a63cf3bbb9425da3de4cf
 http://xg.52sw.top:5000/mytvsuper/LN4
 
-#EXTINF:-1 tvg-id="Global-Trekker-HK" tvg-name="Global Trekker" tvg-logo="https://assets.livednow.com/logo/Global-Trekker-HK.png" group-title="探索自然", Global Trekker
+#EXTINF:-1 tvg-id="Global-Trekker-HK" tvg-name="Global Trekker" tvg-logo="https://assets.livednow.com/logo/Global-Trekker-HK.png" group-title="生活旅逰", Global Trekker
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a8f381c2a3114cc6c55f50b6ff0c78f3:86922e5993788488e1eca857c00d4fab
 http://xg.52sw.top:5000/mytvsuper/SMS
 
-#EXTINF:-1 tvg-id="Rock-Entertainment-HK" tvg-name="ROCK 綜藝娛樂" tvg-logo="https://assets.livednow.com/logo/Rock-Entertainment-HK.png" group-title="戲劇電影", ROCK 綜藝娛樂
+#EXTINF:-1 tvg-id="Rock-Entertainment-HK" tvg-name="ROCK 綜藝娛樂" tvg-logo="https://assets.livednow.com/logo/Rock-Entertainment-HK.png" group-title="電影戲劇", ROCK 綜藝娛樂
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=002d034731b6ac938ea7ba85bc3dc759:6694258c023d73492a10acb860bc6161
@@ -1114,13 +1114,13 @@ http://xg.52sw.top:5000/mytvsuper/CRTE
 #KODIPROP:inputstream.adaptive.license_key=20bea0e14af0d3dcb63d4126e8b50172:07382de357a2b0cceabe82e0b37cb8de
 http://xg.52sw.top:5000/mytvsuper/CAXN
 
-#EXTINF:-1 tvg-id="Animax-HK" tvg-name="Animax" tvg-logo="https://assets.livednow.com/logo/Animax-HK.png" group-title="戲劇電影", Animax
+#EXTINF:-1 tvg-id="Animax-HK" tvg-name="Animax" tvg-logo="https://assets.livednow.com/logo/Animax-HK.png" group-title="電影戲劇", Animax
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b1a073dbd8272b0c99940db624ce8d74:9fec26ff4c6774a8bde881e5cb0fe82e
 http://xg.52sw.top:5000/mytvsuper/CANI
 
-#EXTINF:-1 tvg-id="tvN-HK" tvg-name="tvN" tvg-logo="https://assets.livednow.com/logo/tvN-HK.png" group-title="戲劇電影", tvN
+#EXTINF:-1 tvg-id="tvN-HK" tvg-name="tvN" tvg-logo="https://assets.livednow.com/logo/tvN-HK.png" group-title="電影戲劇", tvN
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=adcab9e8e5644ff35f04e4035cc6ad3b:d8e879e108a96fde6537c1b679c369b5
@@ -1138,7 +1138,7 @@ http://xg.52sw.top:5000/mytvsuper/CTS1
 #KODIPROP:inputstream.adaptive.license_key=adef00c5ba927d01642b1e6f3cedc9fb:b45d912fec43b5bbd418ea7ea1fbcb60
 http://xg.52sw.top:5000/mytvsuper/CRE
 
-#EXTINF:-1 tvg-id="FashionBox" tvg-name="FashionBox" tvg-logo="https://assets.livednow.com/logo/FashionBox.png" group-title="時尚", FashionBox
+#EXTINF:-1 tvg-id="FashionBox" tvg-name="FashionBox" tvg-logo="https://assets.livednow.com/logo/FashionBox.png" group-title="生活旅逰", FashionBox
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4df52671ef55d2a7ac03db75e9bba2f7:4a3c16e8098c5021f32c7d4f66122477
@@ -1174,7 +1174,7 @@ http://xg.52sw.top:5000/mytvsuper/PIN
 #KODIPROP:inputstream.adaptive.license_key=cde62e1056eb3615dab7a3efd83f5eb4:b8685fbecf772e64154630829cf330a3
 http://xg.52sw.top:5000/mytvsuper/PHK
 
-#EXTINF:-1 tvg-id="PopC" tvg-name="PopC" tvg-logo="https://assets.livednow.com/logo/PopC.png" group-title="戲劇電影", PopC
+#EXTINF:-1 tvg-id="PopC" tvg-name="PopC" tvg-logo="https://assets.livednow.com/logo/PopC.png" group-title="電影戲劇", PopC
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=221591babff135a71961d09399d2c922:c80ca4c7b801a76a07179dfb7debb57d
@@ -1269,5 +1269,3 @@ http://xg.52sw.top:5000/mytvsuper/EVT5
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e069fc056280e4caa7d0ffb99024c05a:d3693103f232f28b4781bbc7e499c43a
 http://xg.52sw.top:5000/mytvsuper/EVT6
-
-
