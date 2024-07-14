@@ -934,7 +934,7 @@ http://192.9.178.181:5000/4gtv/286
 #EXTM3U
 #EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml"
 
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="xg綜合", 翡翠台
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="綜合", 翡翠台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0958b9c657622c465a6205eb2252b8ed:2d2fd7b1661b1e28de38268872b48480
@@ -1084,19 +1084,19 @@ http://xg.52sw.top:5000/mytvsuper/CRTX
 #KODIPROP:inputstream.adaptive.license_key=3b4a44c5ef3217c55a357ad976d328b2:f3355e5a30722e631031b851642c27f1
 http://xg.52sw.top:5000/mytvsuper/CKIX
 
-#EXTINF:-1 tvg-id="Love-Nature-HK" tvg-name="Love Nature HD" tvg-logo="https://assets.livednow.com/logo/Love-Nature-HK.png" group-title="生活旅逰", Love Nature HD
+#EXTINF:-1 tvg-id="Love-Nature-HK" tvg-name="Love Nature HD" tvg-logo="https://assets.livednow.com/logo/Love-Nature-HK.png" group-title="生活旅遊", Love Nature HD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=03fb0f439f942f50d06bf23a511bf4f8:bae7115da07195263e50ae5fc8bbe4f3
 http://xg.52sw.top:5000/mytvsuper/LNH
 
-#EXTINF:-1 tvg-id="Love-Nature-4K-HK" tvg-name="Love Nature 4K" tvg-logo="https://assets.livednow.com/logo/Love-Nature-4K-HK.png" group-title="生活旅逰", Love Nature 4K
+#EXTINF:-1 tvg-id="Love-Nature-4K-HK" tvg-name="Love Nature 4K" tvg-logo="https://assets.livednow.com/logo/Love-Nature-4K-HK.png" group-title="生活旅遊", Love Nature 4K
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=037c644cb92137ac5c8d653e952e4c8f:b3b2fcbe576a63cf3bbb9425da3de4cf
 http://xg.52sw.top:5000/mytvsuper/LN4
 
-#EXTINF:-1 tvg-id="Global-Trekker-HK" tvg-name="Global Trekker" tvg-logo="https://assets.livednow.com/logo/Global-Trekker-HK.png" group-title="生活旅逰", Global Trekker
+#EXTINF:-1 tvg-id="Global-Trekker-HK" tvg-name="Global Trekker" tvg-logo="https://assets.livednow.com/logo/Global-Trekker-HK.png" group-title="生活旅遊", Global Trekker
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a8f381c2a3114cc6c55f50b6ff0c78f3:86922e5993788488e1eca857c00d4fab
@@ -1138,7 +1138,7 @@ http://xg.52sw.top:5000/mytvsuper/CTS1
 #KODIPROP:inputstream.adaptive.license_key=adef00c5ba927d01642b1e6f3cedc9fb:b45d912fec43b5bbd418ea7ea1fbcb60
 http://xg.52sw.top:5000/mytvsuper/CRE
 
-#EXTINF:-1 tvg-id="FashionBox" tvg-name="FashionBox" tvg-logo="https://assets.livednow.com/logo/FashionBox.png" group-title="生活旅逰", FashionBox
+#EXTINF:-1 tvg-id="FashionBox" tvg-name="FashionBox" tvg-logo="https://assets.livednow.com/logo/FashionBox.png" group-title="生活旅遊", FashionBox
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4df52671ef55d2a7ac03db75e9bba2f7:4a3c16e8098c5021f32c7d4f66122477
