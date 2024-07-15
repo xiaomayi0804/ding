@@ -1,4 +1,5 @@
-- {"name":"🇭🇰 香港 专线 A1 防失联duangweb.com","type":"ss","server":"abondon.ashjgltstgabhsdkonline.com","port":10001,"password":"cc66533d-e510-4189-a835-37d5ff3159b9","cipher":"aes-128-gcm"}
+proxies:
+  - {"name":"🇭🇰 香港 专线 A1 防失联duangweb.com","type":"ss","server":"abondon.ashjgltstgabhsdkonline.com","port":10001,"password":"cc66533d-e510-4189-a835-37d5ff3159b9","cipher":"aes-128-gcm"}
   - {"name":"🇭🇰 香港 专线 A2","type":"ss","server":"abondon.ashjgltstgabhsdkonline.com","port":10002,"password":"cc66533d-e510-4189-a835-37d5ff3159b9","cipher":"aes-128-gcm"}
   - {"name":"🇭🇰 香港 专线 A3","type":"ss","server":"abondon.ashjgltstgabhsdkonline.com","port":10003,"password":"cc66533d-e510-4189-a835-37d5ff3159b9","cipher":"aes-128-gcm"}
   - {"name":"🇭🇰 香港 专线 A4  |  NF","type":"ss","server":"abondon.ashjgltstgabhsdkonline.com","port":10004,"password":"cc66533d-e510-4189-a835-37d5ff3159b9","cipher":"aes-128-gcm"}
