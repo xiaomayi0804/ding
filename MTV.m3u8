@@ -44,7 +44,9 @@ https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 http://192.168.31.111:5000/itv/FifastbLive/3000000010000005180
 #EXTINF:-1 group-title="4K频道",咪咕体育2 4K
 http://192.168.31.111:5000/itv/FifastbLive/3000000010000015686
-#EXTINF:-1 group-title="4K频道",高清臻享咪咕足球[3840x2160]
+#EXTINF:-1 group-title="4K频道",高清臻享睛彩篮球[3840x2160]
+http://192.168.31.111:5000/tptv/miguaoyun01-AVS-4K01?type=origin
+#EXTINF:-1 group-title="4K频道",高清臻享睛彩竞技[3840x2160]
 http://192.168.31.111:5000/tptv/miguaoyun1-AVS?type=origin
 
 #EXTINF:-1,纯享4K[3840x2160]-40M
@@ -105,8 +107,8 @@ http://192.168.31.111:5000/tptv/G_CCTV-6-AVS-4K264?type=origin
 http://192.168.31.111:5000/tptv/G_CCTV-8-AVS-4K264?type=origin
 #EXTINF:-1,CCTV13[1920x1080]-12M
 http://192.168.31.111:5000/ysp/cctv13
-#EXTINF:-1,CCTV16-4K[3840x2160]-40M
-http://192.168.31.111:5000/ysp/cctv16-4k
+#EXTINF:-1,CCTV16-4K[3840x2160]-20M
+http://192.168.1.2:5000/tptv/G_CCTV-16-4K?type=origin
 #EXTINF:-1,CCTV4K[3840x2160]-12M
 http://192.168.31.111:5000/tptv/G_CCTV-4K-HD?type=origin
 #EXTINF:-1,CCTV风云足球 8M
