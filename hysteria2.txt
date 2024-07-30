@@ -56,3 +56,6 @@ $ bash -c "$(curl -sLk https://xiaoyahelper.ddsrem.com/aliyun_clear.sh | tail -n
 opkg update
 opkg install block-mount
 重启路由即可出现 挂载点
+
+
+https://freemyip.com/update?token=5ea2de8c14dd36407bf8bcec&domain=xiaomayi.freemyip.com
