@@ -27,8 +27,7 @@ http://live.iill.top/douyu.php?id=280087
 http://live.iill.top/douyin.php?id=405518163654
 
 
-#EXTINF:-1 group-title="4K频道",翡翠台 4K
-https://tvb.mytvsuper.us.kg/stream/tvb/4k/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
+
 #EXTINF:-1 group-title="4K频道",Bloomberg TV+ 4K
 https://bloomberg-bloomberg-2-nz.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="4K频道",Clarity 4K
@@ -95,12 +94,15 @@ https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8
 https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8
 
 
-
+#EXTINF:-1 group-title="4K频道",翡翠台 4K
+https://tvb.mytvsuper.us.kg/stream/tvb/4k/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
 #EXTINF:-1,CCTV1-4K[3840x2160]-25M
 http://192.168.31.111:5000/tptv/G_CCTV-1-AVS-4K264?type=origin
 #EXTINF:-1,CCTV3-4K[3840x2160]-25M
 http://192.168.31.111:5000/tptv/G_CCTV-3-AVS-4K264?type=origin
 #EXTINF:-1,CCTV5-4K[3840x2160]-25M
+http://192.168.31.111:5000/tptv/G_CCTV-5-AVS-4K264?type=origin
+#EXTINF:-1,CCTV5-4K[3840x2160]-25M -all
 http://tptv1.mobaibox.com/alcdnbacksourceflag_223.110.243.201:80/PLTV/4/224/3221228502/1.m3u8?accountinfo=9FI0YN4im9p9mqwUg8r4dw9Tq1%2FnkxhN31zsoFvGmxK48ClNCZpKa2J%2BvetU%2F9Cq3W3fUGrFDTXLZAK5xxW0l3Zw7QRRv6j9Nm7GCr2bPoypyIyq7Yd%2B%2FoThl3shrqDLRiUhXTPxHRgMyznyXBGqvQ%3D%3D%3A20240724145949%2C66a0a665056c0%2C112.25.7.219%2C20240724145949%2CG_CCTV-5-AVS-4K264%2C31901BE5D5B4C7C9B2132CA5C38E3623%2C%2C0%2C1%2C-1%2C%2C2%2C%2C-1%2C-3%2C2%2CEND&GuardEncType=2
 #EXTINF:-1,CCTV5+[1920x1080]-12M
 http://192.168.31.111:5000/ysp/cctv5p
@@ -111,7 +113,7 @@ http://192.168.31.111:5000/tptv/G_CCTV-8-AVS-4K264?type=origin
 #EXTINF:-1,CCTV13[1920x1080]-12M
 http://192.168.31.111:5000/ysp/cctv13
 #EXTINF:-1,CCTV16-4K[3840x2160]-20M
-http://192.168.1.2:5000/tptv/G_CCTV-16-4K?type=origin
+http://192.168.31.111:5000/tptv/G_CCTV-16-4K?type=origin
 #EXTINF:-1,CCTV4K[3840x2160]-12M
 http://192.168.31.111:5000/tptv/G_CCTV-4K-HD?type=origin
 #EXTINF:-1,CCTV风云足球 8M
@@ -231,77 +233,7 @@ http://192.168.31.111:5000/ysp/cgtn-dockmentary
 #EXTINF:-1 tvg-id="中国教育电视台-1" tvg-name="中国教育电视台 1" tvg-logo="https://assets.livednow.com/logo/中国教育电视台-1.png" group-title="央视", 中国教育电视台 1
 http://192.168.31.111:5000/ysp/cetv1
 
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://assets.livednow.com/logo/北京卫视.png" group-title="卫视", 北京卫视
-http://192.168.31.111:5000/ysp/beijing
 
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://assets.livednow.com/logo/江苏卫视.png" group-title="卫视", 江苏卫视
-http://192.168.31.111:5000/ysp/jiangsu
-
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://assets.livednow.com/logo/东方卫视.png" group-title="卫视", 东方卫视
-http://192.168.31.111:5000/ysp/dongfang
-
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://assets.livednow.com/logo/浙江卫视.png" group-title="卫视", 浙江卫视
-http://192.168.31.111:5000/ysp/zhejiang
-
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://assets.livednow.com/logo/湖南卫视.png" group-title="卫视", 湖南卫视
-http://192.168.31.111:5000/ysp/hunan
-
-#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://assets.livednow.com/logo/湖北卫视.png" group-title="卫视", 湖北卫视
-http://192.168.31.111:5000/ysp/hubei
-
-#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://assets.livednow.com/logo/天津卫视.png" group-title="卫视", 天津卫视
-http://192.168.31.111:5000/ysp/tianjin
-
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://assets.livednow.com/logo/广东卫视.png" group-title="卫视", 广东卫视
-http://192.168.31.111:5000/ysp/guangdong
-
-#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://assets.livednow.com/logo/广西卫视.png" group-title="卫视", 广西卫视
-http://192.168.31.111:5000/ysp/guangxi
-
-#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://assets.livednow.com/logo/黑龙江卫视.png" group-title="卫视", 黑龙江卫视
-http://192.168.31.111:5000/ysp/heilongjiang
-
-#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://assets.livednow.com/logo/海南卫视.png" group-title="卫视", 海南卫视
-http://192.168.31.111:5000/ysp/hainan
-
-#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://assets.livednow.com/logo/重庆卫视.png" group-title="卫视", 重庆卫视
-http://192.168.31.111:5000/ysp/chongqing
-
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://assets.livednow.com/logo/深圳卫视.png" group-title="卫视", 深圳卫视
-http://192.168.31.111:5000/ysp/shenzhen
-
-#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://assets.livednow.com/logo/四川卫视.png" group-title="卫视", 四川卫视
-http://192.168.31.111:5000/ysp/sichuan
-
-#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://assets.livednow.com/logo/河南卫视.png" group-title="卫视", 河南卫视
-http://192.168.31.111:5000/ysp/henan
-
-#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://assets.livednow.com/logo/东南卫视.png" group-title="卫视", 东南卫视
-http://192.168.31.111:5000/ysp/dongnan
-
-#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://assets.livednow.com/logo/贵州卫视.png" group-title="卫视", 贵州卫视
-http://192.168.31.111:5000/ysp/guizhou
-
-#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://assets.livednow.com/logo/江西卫视.png" group-title="卫视", 江西卫视
-http://192.168.31.111:5000/ysp/jiangxi
-
-#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://assets.livednow.com/logo/辽宁卫视.png" group-title="卫视", 辽宁卫视
-http://192.168.31.111:5000/ysp/liaoning
-
-#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://assets.livednow.com/logo/安徽卫视.png" group-title="卫视", 安徽卫视
-http://192.168.31.111:5000/ysp/anhui
-
-#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://assets.livednow.com/logo/河北卫视.png" group-title="卫视", 河北卫视
-http://192.168.31.111:5000/ysp/hebei
-
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://assets.livednow.com/logo/山东卫视.png" group-title="卫视", 山东卫视
-http://192.168.31.111:5000/ysp/shandong
-
-#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://assets.livednow.com/logo/新疆卫视.png" group-title="卫视", 新疆卫视
-http://192.168.31.111:5000/ysp/xinjiang
-
-#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://assets.livednow.com/logo/兵团卫视.png" group-title="卫视", 兵团卫视
-http://192.168.31.111:5000/ysp/bingtuan
 
 
 
