@@ -114,7 +114,7 @@ http://192.168.5.111:5000/tptv/G_CCTV-8-AVS-4K264?type=origin
 #EXTINF:-1,CCTV13[1920x1080]-12M
 http://192.168.5.111:5000/ysp/cctv13
 #EXTINF:-1,CCTV16-4K[3840x2160]-20M
-http://192.168.1.2:5000/tptv/G_CCTV-16-4K?type=origin
+http://192.168.5.111:5000/tptv/G_CCTV-16-4K?type=origin
 #EXTINF:-1,CCTV4K[3840x2160]-12M
 http://192.168.5.111:5000/tptv/G_CCTV-4K-HD?type=origin
 #EXTINF:-1,CCTV风云足球 8M
