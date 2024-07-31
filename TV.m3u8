@@ -3,10 +3,10 @@
 https://www.goodiptv.club/douyu/1863767
 #EXTINF:-1 group-title="斗鱼王者",王者官方35455
 http://159.75.85.63:35455/douyu/1863767
-#EXTINF:-1 group-title="斗鱼王者",王者官方live.iill
+#EXTINF:-1 group-title="斗鱼王者",王者官方iill
 http://live.iill.top/douyu.php?id=1863767
-#EXTINF:-1 group-title="斗鱼王者",王者官方pixman
-http://192.168.5.111:35455/douyu/1863767
+#EXTINF:-1 group-title="斗鱼王者",王者官方blog
+http://192.168.5.111:8090/douyu.php?id=1863767
 #EXTINF:-1 group-title="斗鱼王者",王者官方aptv
 http://live.aptvapp.com/live/douyu/1863767
 #EXTINF:-1 group-title="斗鱼王者",斗鱼托米
@@ -28,8 +28,6 @@ http://live.iill.top/douyin.php?id=405518163654
 
 
 
-#EXTINF:-1 group-title="4K频道",翡翠台 4K
-https://tvb.mytvsuper.us.kg/stream/tvb/4k/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
 #EXTINF:-1 group-title="4K频道",Bloomberg TV+ 4K
 https://bloomberg-bloomberg-2-nz.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="4K频道",Clarity 4K
@@ -96,7 +94,8 @@ https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8
 https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8
 
 
-
+#EXTINF:-1 group-title="4K频道",翡翠台 4K
+https://tvb.mytvsuper.us.kg/stream/tvb/4k/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
 #EXTINF:-1,CCTV1-4K[3840x2160]-25M
 http://192.168.5.111:5000/tptv/G_CCTV-1-AVS-4K264?type=origin
 #EXTINF:-1,CCTV3-4K[3840x2160]-25M
