@@ -75,7 +75,14 @@ http://192.168.5.111:5000/itv/wasusyt/6000000003000004748
 http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000014
 
 
-
+#EXTINF:-1,美亞電影台[1920x1080]
+https://tvb.mytvsuper.us.kg/stream/tvb/null-11/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
+#EXTINF:-1,無線衛星亞洲台[1920x1080]
+https://tvb.mytvsuper.us.kg/stream/tvb/null-14/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
+#EXTINF:-1,香港明珠pearl[1920x1080]
+https://tvb.mytvsuper.us.kg/stream/tvb/null-2/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
+#EXTINF:-1,TVB Plus[1920x1080]
+https://tvb.mytvsuper.us.kg/stream/tvb/tvbplus/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
 #EXTINF:-1,凤凰卫视中文[1920x1080]
 http://192.168.5.111:5000/tptv/HD-10000k-1080P-fhchinese5s?type=origin
 #EXTINF:-1,凤凰卫视资讯[1920x1080]
