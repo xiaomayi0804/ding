@@ -49,7 +49,7 @@ https://tvb.mytvsuper.us.kg/stream/tvb/4k/master.m3u8?u=btjson&p=213f2541f159ac2
 
 
 #EXTINF:-1,纯享4K[3840x2160]-40M
-http://18.162.122.10:5000/tptv/HD-20M-2160P-chunxiang4k?type=origin
+http://18.162.122.10:5000/itv/ystenlive/1000000004000011651
 #EXTINF:-1,华数4K影视[3840x2160]-16M
 http://18.162.122.10:5000/itv/wasusyt/6000000003000004748
 #EXTINF:-1 group-title="4K频道",咪咕体育1 4K
@@ -120,43 +120,43 @@ http://60.208.140.180:5544/NOW%E6%98%9F%E5%BD%B1/%E9%A6%99%E8%95%89%E5%93%A5%E4%
 #EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml"
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV 1" tvg-logo="https://assets.livednow.com/logo/CCTV1.png" group-title="央视", CCTV 1
-http://18.162.122.10:5000/ysp/cctv1
+http://18.162.122.10:5000/itv/bestzb/5000000004000002226
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV 2" tvg-logo="https://assets.livednow.com/logo/CCTV2.png" group-title="央视", CCTV 2
-http://18.162.122.10:5000/ysp/cctv2
+http://18.162.122.10:5000/itv/wasusyt/6000000001000014161
 #EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV 3" tvg-logo="https://assets.livednow.com/logo/CCTV3.png" group-title="央视", CCTV 3
-http://18.162.122.10:5000/ysp/cctv3
+http://18.162.122.10:5000/itv/wasusyt/6000000001000022313
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV 4" tvg-logo="https://assets.livednow.com/logo/CCTV4.png" group-title="央视", CCTV 4
-http://18.162.122.10:5000/ysp/cctv4
+http://18.162.122.10:5000/itv/bestzb/5000000011000031102
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV 5" tvg-logo="https://assets.livednow.com/logo/CCTV5.png" group-title="央视", CCTV 5
-http://18.162.122.10:5000/ysp/cctv5
+http://18.162.122.10:5000/itv/ystenlive/1000000005000025222
 #EXTINF:-1 tvg-id="CCTV5-plus" tvg-name="CCTV 5+" tvg-logo="https://assets.livednow.com/logo/CCTV5-plus.png" group-title="央视", CCTV 5+
-http://18.162.122.10:5000/ysp/cctv5p
+http://18.162.122.10:5000/itv/wasusyt/6000000001000015875
 #EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV 6" tvg-logo="https://assets.livednow.com/logo/CCTV6.png" group-title="央视", CCTV 6
-http://18.162.122.10:5000/ysp/cctv6
+http://18.162.122.10:5000/itv/wasusyt/6000000001000004574
 #EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV 7" tvg-logo="https://assets.livednow.com/logo/CCTV7.png" group-title="央视", CCTV 7
-http://18.162.122.10:5000/ysp/cctv7
+http://18.162.122.10:5000/itv/wasusyt/6000000001000009055
 #EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV 8" tvg-logo="https://assets.livednow.com/logo/CCTV8.png" group-title="央视", CCTV 8
-http://18.162.122.10:5000/ysp/cctv8
+http://18.162.122.10:5000/itv/wasusyt/6000000001000001070
 #EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV 9" tvg-logo="https://assets.livednow.com/logo/CCTV9.png" group-title="央视", CCTV 9
-http://18.162.122.10:5000/ysp/cctv9
+http://18.162.122.10:5000/itv/wasusyt/6000000001000032162
 #EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV 10" tvg-logo="https://assets.livednow.com/logo/CCTV10.png" group-title="央视", CCTV 10
-http://18.162.122.10:5000/ysp/cctv10
+http://18.162.122.10:5000/itv/bestzb/5000000004000012827
 #EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV 11" tvg-logo="https://assets.livednow.com/logo/CCTV11.png" group-title="央视", CCTV 11
-http://18.162.122.10:5000/ysp/cctv11
+http://18.162.122.10:5000/itv/bestzb/5000000011000031106
 #EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV 12" tvg-logo="https://assets.livednow.com/logo/CCTV12.png" group-title="央视", CCTV 12
-http://18.162.122.10:5000/ysp/cctv12
+http://18.162.122.10:5000/itv/wasusyt/6000000001000022586
 #EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV 13" tvg-logo="https://assets.livednow.com/logo/CCTV13.png" group-title="央视", CCTV 13
-http://18.162.122.10:5000/ysp/cctv13
+http://18.162.122.10:5000/itv/bestzb/5000000011000031108
 #EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV 14" tvg-logo="https://assets.livednow.com/logo/CCTV14.png" group-title="央视", CCTV 14
-http://18.162.122.10:5000/ysp/cctv14
+http://18.162.122.10:5000/itv/bestzb/5000000004000006673
 #EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV 15" tvg-logo="https://assets.livednow.com/logo/CCTV15.png" group-title="央视", CCTV 15
-http://18.162.122.10:5000/ysp/cctv15
+http://18.162.122.10:5000/itv/bestzb/5000000011000031109
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV 16" tvg-logo="https://assets.livednow.com/logo/CCTV16.png" group-title="央视", CCTV 16
-http://18.162.122.10:5000/ysp/cctv16
+http://18.162.122.10:5000/itv/ystenlive/1000000006000233002
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV 16 4K" tvg-logo="https://assets.livednow.com/logo/CCTV16.png" group-title="央视", CCTV 16 4K
-http://18.162.122.10:5000/ysp/cctv16-4k
+http://18.162.122.10:5000/itv/bestzb/5000000008000023254
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV 17" tvg-logo="https://assets.livednow.com/logo/CCTV17.png" group-title="央视", CCTV 17
-http://18.162.122.10:5000/ysp/cctv17
+http://18.162.122.10:5000/itv/ystenlive/1000000006000268004
 #EXTINF:-1 tvg-id="CCTV-4K" tvg-name="CCTV 4K" tvg-logo="https://assets.livednow.com/logo/CCTV-4K.png" group-title="央视", CCTV 4K
 http://18.162.122.10:5000/ysp/cctv4k
 
