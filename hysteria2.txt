@@ -59,3 +59,10 @@ opkg install block-mount
 
 
 https://freemyip.com/update?token=5ea2de8c14dd36407bf8bcec&domain=xiaomayi.freemyip.com
+
+18.162.122.10
+18.162.168.193
+38.207.161.225
+149.104.24.69
+209.146.124.22
+157.254.32.68
