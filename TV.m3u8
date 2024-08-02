@@ -161,6 +161,50 @@ http://18.162.122.10:5000/itv/ystenlive/1000000006000268004
 http://18.162.122.10:5000/ysp/cctv4k
 
 
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV 1" tvg-logo="https://assets.livednow.com/logo/CCTV1.png" group-title="央视+", CCTV 1
+http://192.168.5.111:35455/ysptp/cctv1.m3u8
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV 2" tvg-logo="https://assets.livednow.com/logo/CCTV2.png" group-title="央视+", CCTV 2
+http://192.168.5.111:35455/ysptp/cctv2.m3u8
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV 3" tvg-logo="https://assets.livednow.com/logo/CCTV3.png" group-title="央视+", CCTV 3
+http://192.168.5.111:35455/ysptp/cctv3.m3u8
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV 4" tvg-logo="https://assets.livednow.com/logo/CCTV4.png" group-title="央视+", CCTV 4
+http://192.168.5.111:35455/ysptp/cctv4.m3u8
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV 5" tvg-logo="https://assets.livednow.com/logo/CCTV5.png" group-title="央视+", CCTV 5
+http://192.168.5.111:35455/ysptp/cctv5.m3u8
+#EXTINF:-1 tvg-id="CCTV5-plus" tvg-name="CCTV 5+" tvg-logo="https://assets.livednow.com/logo/CCTV5-plus.png" group-title="央视+", CCTV 5+
+http://192.168.5.111:35455/ysptp/cctv5p.m3u8
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV 6" tvg-logo="https://assets.livednow.com/logo/CCTV6.png" group-title="央视+", CCTV 6
+http://192.168.5.111:35455/ysptp/cctv6.m3u8
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV 7" tvg-logo="https://assets.livednow.com/logo/CCTV7.png" group-title="央视+", CCTV 7
+http://192.168.5.111:35455/ysptp/cctv7.m3u8
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV 8" tvg-logo="https://assets.livednow.com/logo/CCTV8.png" group-title="央视+", CCTV 8
+http://192.168.5.111:35455/ysptp/cctv8.m3u8
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV 9" tvg-logo="https://assets.livednow.com/logo/CCTV9.png" group-title="央视+", CCTV 9
+http://192.168.5.111:35455/ysptp/cctv9.m3u8
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV 10" tvg-logo="https://assets.livednow.com/logo/CCTV10.png" group-title="央视+", CCTV 10
+http://192.168.5.111:35455/ysptp/cctv10.m3u8
+#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV 11" tvg-logo="https://assets.livednow.com/logo/CCTV11.png" group-title="央视+", CCTV 11
+http://192.168.5.111:35455/ysptp/cctv11.m3u8
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV 12" tvg-logo="https://assets.livednow.com/logo/CCTV12.png" group-title="央视+", CCTV 12
+http://192.168.5.111:35455/ysptp/cctv12.m3u8
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV 13" tvg-logo="https://assets.livednow.com/logo/CCTV13.png" group-title="央视+", CCTV 13
+http://192.168.5.111:35455/ysptp/cctv13.m3u8
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV 14" tvg-logo="https://assets.livednow.com/logo/CCTV14.png" group-title="央视+", CCTV 14
+http://192.168.5.111:35455/ysptp/cctv14.m3u8
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV 15" tvg-logo="https://assets.livednow.com/logo/CCTV15.png" group-title="央视+", CCTV 15
+http://192.168.5.111:35455/ysptp/cctv15.m3u8
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV 16" tvg-logo="https://assets.livednow.com/logo/CCTV16.png" group-title="央视+", CCTV 16
+http://192.168.5.111:35455/itv/5000000008000023254.m3u8?cdn=bestzb
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV 16 4K" tvg-logo="https://assets.livednow.com/logo/CCTV16.png" group-title="央视+", CCTV 16 4K
+http://192.168.5.111:35455/ysptp/cctv4k16.m3u8
+#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV 17" tvg-logo="https://assets.livednow.com/logo/CCTV17.png" group-title="央视+", CCTV 17
+http://192.168.5.111:35455/ysptp/cctv17.m3u8
+#EXTINF:-1 tvg-id="CCTV-4K" tvg-name="CCTV 4K" tvg-logo="https://assets.livednow.com/logo/CCTV-4K.png" group-title="央视+", CCTV 4K
+http://192.168.5.111:35455/ysptp/cctv4k.m3u8
+#EXTINF:-1,tvg-id="cctv8k" tvg-name="cctv8k" tvg-logo="https://epg.v1.mk/logo/cctv8k.png" group-title="8K频道",cctv8k_36m
+http://192.168.5.111:35455/ysptp/cctv8k_36m.m3u8
+
+
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://assets.livednow.com/logo/CGTN.png" group-title="央视", CGTN
 http://18.162.122.10:5000/itv/hnbblive/7745129417417101820
 #EXTINF:-1 tvg-id="CGTN-纪录" tvg-name="CGTN 记录" tvg-logo="https://assets.livednow.com/logo/CGTN-纪录.png" group-title="央视", CGTN 记录
