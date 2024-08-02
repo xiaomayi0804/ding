@@ -374,18 +374,6 @@ http://18.162.122.10:5000/itv/wasusyt/6000000006000180630
 http://18.162.122.10:5000/itv/wasusyt/6000000006000030630
 
 
-#EXTINF:-1,JStar極限台電影頻道[1920x1080]
-http://220.134.74.149:7878/udp/230.1.2.152:11111
-#EXTINF:-1,JStar極限台電影頻道ss1[1920x1080]
-http://220.134.74.149:7878/udp/224.1.4.68:11111
-#EXTINF:-1,JStar極限台電影頻道ss2[1920x1080]
-http://220.134.74.149:7878/udp/224.1.4.149:11111
-#EXTINF:-1,JStar極限台電影頻道ss3[1920x1080]
-http://220.134.74.149:7878/udp/224.1.4.253:11111
-#EXTINF:-1,JStar極限台電影頻道xj[1920x1080]
-http://220.134.74.149:7878/udp/224.1.4.205:11111
-
-
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/L5frXm2p/mg.jpg" group-title="•咪咕「IPV6」",咪咕直播4K Ⅰ「IPV6」
 http://[2409:8087:1a01:df::4001]/PLTV/88888888/224/3221225655/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/L5frXm2p/mg.jpg" group-title="•咪咕「IPV6」",咪咕直播4K Ⅱ「IPV6」
