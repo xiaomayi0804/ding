@@ -201,7 +201,7 @@ http://192.168.5.111:35455/ysptp/cctv4k16.m3u8
 http://192.168.5.111:35455/ysptp/cctv17.m3u8
 #EXTINF:-1 tvg-id="CCTV-4K" tvg-name="CCTV 4K" tvg-logo="https://assets.livednow.com/logo/CCTV-4K.png" group-title="央视+", CCTV 4K
 http://192.168.5.111:35455/ysptp/cctv4k.m3u8
-#EXTINF:-1,tvg-id="cctv8k" tvg-name="cctv8k" tvg-logo="https://epg.v1.mk/logo/cctv8k.png" group-title="8K频道",CCTV 8K_36m
+#EXTINF:-1,tvg-id="CCTV-8K" tvg-name="CCTV 8K" tvg-logo="https://epg.v1.mk/logo/cctv8k.png" group-title="央视+",CCTV 8K_36m
 http://192.168.5.111:35455/ysptp/cctv8k_36m.m3u8
 
 
