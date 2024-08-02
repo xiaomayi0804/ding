@@ -187,12 +187,12 @@ http://18.162.122.10:5000/itv/bestzb/5000000004000006211
 http://18.162.122.10:5000/itv/bestzb/5000000006000040016
 #EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://assets.livednow.com/logo/河南卫视.png" group-title="卫视", 河南卫视
 http://18.162.122.10:5000/itv/bestzb/5000000011000031119
-#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视 50 FPS" tvg-logo="https://assets.livednow.com/logo/黑龙江卫视.png" group-title="卫视", 黑龙江卫视 50 FPS
-http://18.162.122.10:5000/itv/wasusyt/6000000001000016510
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://assets.livednow.com/logo/黑龙江卫视.png" group-title="卫视", 黑龙江卫视
+http://192.168.5.111:5000/itv/ystenlive/1000000001000001925
 #EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视 50 FPS" tvg-logo="https://assets.livednow.com/logo/湖北卫视.png" group-title="卫视", 湖北卫视 50 FPS
 http://18.162.122.10:5000/itv/wasusyt/6000000001000015436
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视 50 FPS" tvg-logo="https://assets.livednow.com/logo/湖南卫视.png" group-title="卫视", 湖南卫视 50 FPS
-http://18.162.122.10:5000/itv/wasusyt/6000000001000018044
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://assets.livednow.com/logo/湖南卫视.png" group-title="卫视", 湖南卫视
+http://192.168.5.111:5000/itv/bestzb/5000000004000006692
 #EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://assets.livednow.com/logo/吉林卫视.png" group-title="卫视", 吉林卫视
 http://18.162.122.10:5000/itv/bestzb/5000000011000031117
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视 50 FPS" tvg-logo="https://assets.livednow.com/logo/江苏卫视.png" group-title="卫视", 江苏卫视 50 FPS
@@ -221,16 +221,16 @@ http://18.162.122.10:5000/itv/bestzb/5000000011000031123
 http://18.162.122.10:5000/itv/bestzb/5000000004000010282
 #EXTINF:-1 tvg-id="上海五星体育" tvg-name="上海五星体育" tvg-logo="https://assets.livednow.com/logo/上海五星体育.png" group-title="地方", 上海五星体育
 http://18.162.122.10:5000/itv/bestzb/5000000010000017540
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视 50 FPS" tvg-logo="https://assets.livednow.com/logo/深圳卫视.png" group-title="卫视", 深圳卫视 50 FPS
-http://18.162.122.10:5000/itv/wasusyt/6000000001000002116
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://assets.livednow.com/logo/深圳卫视.png" group-title="卫视", 深圳卫视
+http://192.168.5.111:5000/itv/bestzb/5000000004000007410
 #EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://assets.livednow.com/logo/四川卫视.png" group-title="卫视", 四川卫视
 http://18.162.122.10:5000/itv/bestzb/5000000004000006119
 #EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视 50 FPS" tvg-logo="https://assets.livednow.com/logo/天津卫视.png" group-title="卫视", 天津卫视 50 FPS
 http://18.162.122.10:5000/itv/wasusyt/6000000001000009186
 #EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://assets.livednow.com/logo/云南卫视.png" group-title="卫视", 云南卫视
 http://18.162.122.10:5000/itv/bestzb/5000000011000031120
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视 50 FPS" tvg-logo="https://assets.livednow.com/logo/浙江卫视.png" group-title="卫视", 浙江卫视 50 FPS
-http://18.162.122.10:5000/itv/bestzb/5000000004000007275
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://assets.livednow.com/logo/浙江卫视.png" group-title="卫视", 浙江卫视
+http://192.168.5.111:5000/itv/ystenlive/1000000001000014260
 #EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://assets.livednow.com/logo/重庆卫视.png" group-title="卫视", 重庆卫视
 http://18.162.122.10:5000/itv/ystenlive/1000000001000001096
 #EXTINF:-1 tvg-id="咪咕视频" tvg-name="咪咕全民热练" tvg-logo="https://assets.livednow.com/logo/咪咕视频.png" group-title="其他", 咪咕全民热练
@@ -752,5 +752,3 @@ http://18.162.122.10:5000/4gtv/174
 http://18.162.122.10:5000/4gtv/287
 #EXTINF:-1 tvg-id="東森購物" tvg-name="東森購物四台" tvg-logo="https://assets.livednow.com/logo/東森購物.png" group-title="其他", 東森購物四台
 http://18.162.122.10:5000/4gtv/286
-
-
