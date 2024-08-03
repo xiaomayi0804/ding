@@ -114,7 +114,7 @@ proxy-groups:
   - {name: 🚀 节点选择, type: select, proxies: [🌍 自动选择, 🌍 手动选择1, 🌍 自动选择2, 🌍 自动选择3, 🌍 自动选择4, 🌍 手动选择5, ⚖️ 负载均衡-轮询, ⚖️ 负载均衡-散列, DIRECT]}
   - {name: 🌍 自动选择, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, proxies: ["1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇸🇬","6 vless-🇸🇬","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇭🇰","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳","16 vless-🇭🇰","17 vless-🇭🇰","18 vless-🇭🇰","19 vless-🇭🇰","20 vless-🇭🇰"]}
   - {name: 🌍 手动选择1, type: select, use: [Vip, TCorg, Vless3, Trojan, Ripao]}
-  - {name: 🌍 自动选择2, type: select, use: [Vip]}
+  - {name: 🌍 自动选择2, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [Vip]}
   - {name: 🌍 自动选择3, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [Hlsg]}
   - {name: 🌍 自动选择4, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [Trojan]}
   - {name: 🌍 手动选择5, type: select, proxies: ["1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇸🇬","6 vless-🇸🇬","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇭🇰","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳","16 vless-🇭🇰","17 vless-🇭🇰","18 vless-🇭🇰","19 vless-🇭🇰","20 vless-🇭🇰"]}
