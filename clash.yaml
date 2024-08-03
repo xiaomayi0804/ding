@@ -76,6 +76,17 @@ dns:
     ipcidr:
       - 240.0.0.0/4
       - 0.0.0.0/32
+
+tcp-concurrent: true
+use-hosts: true
+hosts:
+  cache.ott.ystenlive.itv.cmvideo.cn: pixman.io.ystenlive.dnsany.com
+  cache.ott.bestlive.itv.cmvideo.cn: pixman.io.bestlive.dnsany.com
+  cache.ott.wasulive.itv.cmvideo.cn: pixman.io.wasulive.dnsany.com
+  cache.ott.fifalive.itv.cmvideo.cn: pixman.io.fifalive.dnsany.com
+  cache.ott.hnbblive.itv.cmvideo.cn: pixman.io.hnbblive.dnsany.com
+
+
 proxies:
   - {"name":"1 vless-🇯🇵","type":"vless","server":"47.236.144.208","port":2052,"udp":true,"uuid":"05fc5a1e-d306-4e14-9781-ba563fa3aca9","tls":false,"servername":"vless1.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless1.xiaomayi0804.workers.dev"}}}
   - {"name":"2 vless-🇰🇷","type":"vless","server":"8.218.211.17","port":2052,"udp":true,"uuid":"05fc5a1e-d306-4e14-9781-ba563fa3aca9","tls":false,"servername":"vless1.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless1.xiaomayi0804.workers.dev"}}}
@@ -100,20 +111,22 @@ proxies:
   
  
 proxy-groups:
-  - {name: 🚀 节点选择, type: select, proxies: [🌍 自动选择, 🌍 手动选择1, 🌍 手动选择2, 🌍 自动选择3, 🌍 自动选择4, 🌍 手动选择5, ⚖️ 负载均衡-轮询, ⚖️ 负载均衡-散列, DIRECT]}
+  - {name: 🚀 节点选择, type: select, proxies: [🌍 自动选择, 🌍 手动选择1, 🌍 自动选择2, 🌍 自动选择3, 🌍 自动选择4, 🌍 手动选择5, ⚖️ 负载均衡-轮询, ⚖️ 负载均衡-散列, DIRECT]}
   - {name: 🌍 自动选择, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, proxies: ["1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇸🇬","6 vless-🇸🇬","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇭🇰","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳","16 vless-🇭🇰","17 vless-🇭🇰","18 vless-🇭🇰","19 vless-🇭🇰","20 vless-🇭🇰"]}
-  - {name: 🌍 手动选择1, type: select, use: [Vip, TCorg]}
-  - {name: 🌍 手动选择2, type: select, use: [Vless3, Trojan, Ripao]}
+  - {name: 🌍 手动选择1, type: select, use: [TCorg, Vless3, Trojan, Ripao]}
+  - {name: 🌍 自动选择2, type: select, use: [Vip]}
   - {name: 🌍 自动选择3, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [Hlsg]}
   - {name: 🌍 自动选择4, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [Trojan]}
   - {name: 🌍 手动选择5, type: select, proxies: ["1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇸🇬","6 vless-🇸🇬","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇭🇰","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳","16 vless-🇭🇰","17 vless-🇭🇰","18 vless-🇭🇰","19 vless-🇭🇰","20 vless-🇭🇰"]}
-  - {name: 🍎 谷歌服务, type: select, proxies: [🚀 节点选择, 🌍 自动选择, 🌍 手动选择1, 🌍 手动选择2, 🌍 自动选择3, 🌍 自动选择4, 🌍 手动选择5, DIRECT]}
-  - {name: 🐟 漏网之鱼, type: select, proxies: [🚀 节点选择, 🌍 自动选择, 🌍 手动选择1, 🌍 手动选择2, 🌍 自动选择3, 🌍 自动选择4, 🌍 手动选择5, DIRECT]}
+  - {name: 🍎 谷歌服务, type: select, proxies: [🚀 节点选择, 🌍 自动选择, 🌍 手动选择1, 🌍 自动选择2, 🌍 自动选择3, 🌍 自动选择4, 🌍 手动选择5, DIRECT]}
+  - {name: 🐟 漏网之鱼, type: select, proxies: [🚀 节点选择, 🌍 自动选择, 🌍 手动选择1, 🌍 自动选择2, 🌍 自动选择3, 🌍 自动选择4, 🌍 手动选择5, DIRECT]}
   - {name: ⚖️ 负载均衡-散列, type: load-balance, url: http://www.google.com/generate_204, interval: 300, strategy: consistent-hashing, proxies: ["1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇸🇬","6 vless-🇸🇬","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇭🇰","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳","16 vless-🇭🇰","17 vless-🇭🇰","18 vless-🇭🇰","19 vless-🇭🇰","20 vless-🇭🇰"]}
   - {name: ⚖️ 负载均衡-轮询, type: load-balance, url: http://www.google.com/generate_204, interval: 300, strategy: round-robin, proxies: ["1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇸🇬","6 vless-🇸🇬","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇭🇰","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳","16 vless-🇭🇰","17 vless-🇭🇰","18 vless-🇭🇰","19 vless-🇭🇰","20 vless-🇭🇰"]}
 
 
 rules:
+  - DOMAIN-SUFFIX,cmvideo.cn,DIRECT
+  - DOMAIN-SUFFIX,dnsany.com,DIRECT
   - DOMAIN-KEYWORD,doppiocdn,🚀 节点选择
   - DOMAIN-KEYWORD,mobaibox,DIRECT
   - DOMAIN-KEYWORD,bing,🚀 节点选择
