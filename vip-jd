@@ -86,5 +86,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1ZjdiZmJhNS02MDdjLTRjMGQtODQ1NC1hZDI3MDhiMzl
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1ZjdiZmJhNS02MDdjLTRjMGQtODQ1NC1hZDI3MDhiMzliNDc=@qc456987.xiyunchen.cn:24792#%F0%9F%87%AF%F0%9F%87%B5Japan%2004
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1ZjdiZmJhNS02MDdjLTRjMGQtODQ1NC1hZDI3MDhiMzliNDc=@qc456987.xiyunchen.cn:24790#%F0%9F%87%B9%F0%9F%87%BCTaiwan%2004
 
+proxies:
+- {"name":"🇭🇰 香港 - IEPL - SS/SSR - 11","type":"ss","server":"cm1-hk.hutaonode3.top","port":12461,"password":"HuTaoCloud","cipher":"chacha20-ietf","plugin":"obfs","plugin-opts":{"mode":"http","host":"32d5932505.microsoft.com"}}
 
 
