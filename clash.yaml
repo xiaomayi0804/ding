@@ -125,7 +125,6 @@ proxy-groups:
 
 
 rules:
-  - DOMAIN-SUFFIX,orz-7.com,🚀 节点选择
   - DOMAIN-SUFFIX,dnsany.com,DIRECT
   - DOMAIN-SUFFIX,cmvideo.cn,DIRECT
   - DOMAIN-SUFFIX,chinamobile.com,DIRECT
@@ -144,12 +143,10 @@ rules:
 
   # 台湾
   - DOMAIN-SUFFIX,cdn.hinet.net,🌍 台湾节点
-
+  - DOMAIN-SUFFIX,orz-7.com,🌍 台湾节点
   
   
-
   - DOMAIN-KEYWORD,doppiocdn,🚀 节点选择
-
   - DOMAIN-KEYWORD,bing,🚀 节点选择
   - DOMAIN-KEYWORD,ubtvfans,🚀 节点选择
   - DOMAIN-KEYWORD,cloudns,🚀 节点选择
