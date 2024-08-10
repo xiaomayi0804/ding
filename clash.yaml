@@ -125,6 +125,7 @@ proxy-groups:
 
 
 rules:
+  - DOMAIN-SUFFIX,us.kg,DIRECT
   - DOMAIN-SUFFIX,dnsany.com,DIRECT
   - DOMAIN-SUFFIX,cmvideo.cn,DIRECT
   - DOMAIN-SUFFIX,chinamobile.com,DIRECT
