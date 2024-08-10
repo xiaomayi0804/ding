@@ -203,6 +203,6 @@ proxy-providers:
   Hlsg: {type: http, url: https://moist.freenods.sbs/Trojan, path: ./Proxy/Hlsg.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Vip: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaomayi0804/ding/main/vip-jd, path: ./Proxy/Vip.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Vip1: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaomayi0804/ding/main/vip-jd1, path: ./Proxy/Vip1.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
-  Vip2: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaomayi0804/ding/main/vip-jd2, path: ./Proxy/Vip2.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
+  Vip2: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaomayi0804/ding/main/vip-tw, path: ./Proxy/Vip-tw.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
 
   
