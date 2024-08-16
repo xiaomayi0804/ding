@@ -147,6 +147,7 @@ rules:
   - DOMAIN-SUFFIX,orz-7.com,🌍 台湾节点
   
   
+  - DOMAIN-KEYWORD,teamviewer,DIRECT
   - DOMAIN-KEYWORD,doppiocdn,🚀 节点选择
   - DOMAIN-KEYWORD,bing,🚀 节点选择
   - DOMAIN-KEYWORD,ubtvfans,🚀 节点选择
