@@ -34,8 +34,7 @@ https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_
 http://muzzik-live.morescreens.com/mts-a6/playlist.m3u8
 #EXTINF:-1 group-title="4K频道",Loupe 4K
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
-#EXTINF:-1 group-title="4K频道",翡翠台 4K
-http://www.mytvsuper.us.kg/live.php?id=feicui4k
+
 
 
 #EXTINF:-1,纯享4K[3840x2160]-40M
@@ -64,6 +63,19 @@ http://webmail.axxe.top:4022/udp/239.3.1.238:8001
 http://60.208.140.180:5544/NOW爆谷/香蕉哥专用-易發TV.live.flv
 #EXTINF:-1,星影台[1920x1080]
 http://60.208.140.180:5544/NOW%E6%98%9F%E5%BD%B1/%E9%A6%99%E8%95%89%E5%93%A5%E4%B8%93%E7%94%A8-%E6%98%93%E7%99%BCTV.live.flv
+#EXTINF:-1 group-title="4K频道",翡翠台 4K
+http://www.mytvsuper.us.kg/live.php?id=feicui4k
+#EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://assets.livednow.com/logo/明珠台.png" group-title="新聞財經", 明珠台
+http://www.mytvsuper.us.kg/live.php?id=pearl
+#EXTINF:-1 tvg-id="TVB Plus" tvg-name="TVB Plus" tvg-logo="https://assets.livednow.com/logo/TVB-Plus.png" group-title="综合", TVB Plus
+http://www.mytvsuper.us.kg/live.php?id=tvbplus
+#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://assets.livednow.com/logo/鳳凰中文.png" group-title="综合", 鳳凰衛視中文台
+http://www.mytvsuper.us.kg/live.php?id=pcc
+#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://assets.livednow.com/logo/鳳凰資訊.png" group-title="新聞財經", 鳳凰衛視資訊台
+http://www.mytvsuper.us.kg/live.php?id=pin
+#EXTINF:-1 tvg-id="鳳凰香港" tvg-name="鳳凰香港" tvg-logo="https://assets.livednow.com/logo/鳳凰香港.png" group-title="综合", 鳳凰衛視香港台
+http://www.mytvsuper.us.kg/live.php?id=phk
+
 
 #EXTM3U
 #EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml"
