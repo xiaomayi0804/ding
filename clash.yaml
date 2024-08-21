@@ -145,7 +145,7 @@ rules:
   # 台湾
   - DOMAIN-SUFFIX,cdn.hinet.net,🌍 台湾节点
   - DOMAIN-SUFFIX,orz-7.com,🌍 台湾节点
-  
+  - DOMAIN-SUFFIX,stream-link.org,🚀 节点选择
   
   - DOMAIN-KEYWORD,teamviewer,DIRECT
   - DOMAIN-KEYWORD,doppiocdn,🚀 节点选择
