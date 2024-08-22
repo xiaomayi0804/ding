@@ -113,10 +113,10 @@ proxies:
 proxy-groups:
   - {name: 🚀 节点选择, type: select, proxies: [🌍 自动选择, 🌍 手动选择1, 🌍 自动选择2, 🌍 自动选择3, 🌍 自动选择4, 🌍 台湾节点, ⚖️ 负载均衡-轮询, ⚖️ 负载均衡-散列, DIRECT]}
   - {name: 🌍 自动选择, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, proxies: ["1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇸🇬","6 vless-🇸🇬","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇭🇰","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳","16 vless-🇭🇰","17 vless-🇭🇰","18 vless-🇭🇰","19 vless-🇭🇰","20 vless-🇭🇰"]}
-  - {name: 🌍 手动选择1, type: select, use: [Vip, Vip1, TCorg, Vless3, Trojan, Ripao]}
+  - {name: 🌍 手动选择1, type: select, use: [Vip, Vip1, TCorg, TCorg1, Trojan, Ripao]}
   - {name: 🌍 自动选择2, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [Vip,Vip1]}
   - {name: 🌍 自动选择3, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [Hlsg]}
-  - {name: 🌍 自动选择4, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [TCorg]}
+  - {name: 🌍 自动选择4, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [TCorg, TCorg1]}
   - {name: 🌍 台湾节点, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [Vip2]}
   - {name: 🍎 谷歌服务, type: select, proxies: [🚀 节点选择, 🌍 自动选择, 🌍 手动选择1, 🌍 自动选择2, 🌍 自动选择3, 🌍 自动选择4, 🌍 台湾节点, DIRECT]}
   - {name: 🐟 漏网之鱼, type: select, proxies: [🚀 节点选择, 🌍 自动选择, 🌍 手动选择1, 🌍 自动选择2, 🌍 自动选择3, 🌍 自动选择4, 🌍 台湾节点, DIRECT]}
@@ -195,8 +195,8 @@ rule-providers:
   applications:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt", path: ./ruleset/applications.yaml, interval: 86400}
 
 proxy-providers:
-  Vless3: {type: http, url: https://vless3.leo726china.workers.dev/auto, path: ./Proxy/Vless3.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
-  TCorg: {type: http, url: https://altrojan.comorg.us.kg/TCorg, path: ./Proxy/TCorg.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
+  TCorg1: {type: http, url: https://sotrojan.comorg.filegear-sg.me/SM818, path: ./Proxy/TCorg1.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
+  TCorg: {type: http, url: https://sovless.tcorg.us.kg/SM818, path: ./Proxy/TCorg.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Ripao: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash, path: ./Proxy/Ripao.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Trojan: {type: http, url: https://xiaomayi.cloudns.biz/xiaomayi0804, path: ./Proxy/Trojan.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Hlsg: {type: http, url: https://moist.freenods.sbs/Trojan, path: ./Proxy/Hlsg.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
