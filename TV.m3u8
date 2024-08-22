@@ -79,18 +79,19 @@ http://www.mytvsuper.us.kg/live.php?id=phk
 
 
 
-#EXTINF:-1,CCTV5[1920x1080]-12M
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5[1920x1080]-12M" tvg-logo="https://assets.livednow.com/logo/CCTV5.png" group-title="央视", CCTV 5
 http://192.168.5.111:5000/ysp/cctv5
-#EXTINF:-1,CCTV5+[1920x1080]-12M
+#EXTINF:-1 tvg-id="CCTV5-plus" tvg-name="CCTV5+[1920x1080]-12M" tvg-logo="https://assets.livednow.com/logo/CCTV5-plus.png" group-title="央视", CCTV 5+
 http://192.168.5.111:5000/ysp/cctv5p
-#EXTINF:-1,CCTV13[1920x1080]-12M
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13[1920x1080]-12M" tvg-logo="https://assets.livednow.com/logo/CCTV13.png" group-title="央视", CCTV 13
 http://192.168.5.111:5000/ysp/cctv13
-#EXTINF:-1,CCTV4K[3840x2160]-40M
+#EXTINF:-1 tvg-id="CCTV-4K" tvg-name="CCTV4K[3840x2160]-40M" tvg-logo="https://assets.livednow.com/logo/CCTV-4K.png" group-title="央视", CCTV 4K
 http://192.168.5.111:35442/home/cctv4k/cctv4k.m3u8
-#EXTINF:-1,CCTV8K[3840x2160]-40M
+#EXTINF:-1,tvg-id="CCTV-8K" tvg-name="CCTV8K[3840x2160]-40M" tvg-logo="https://epg.v1.mk/logo/cctv8k.png" group-title="央视+",CCTV 8K_36m
 http://192.168.5.111:35442/home/cctv8k36m/cctv8k_36m.m3u8
-#EXTINF:-1,CCTV16[3840x2160]-40M
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16[3840x2160]-40M" tvg-logo="https://assets.livednow.com/logo/CCTV16.png" group-title="央视", CCTV 16 4K
 http://192.168.5.111:35442/home/cctv4k16/cctv4k16.m3u8
+
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV 1" tvg-logo="https://assets.livednow.com/logo/CCTV1.png" group-title="央视", CCTV 1
 http://192.168.5.111:5000/itv/bestzb/5000000004000002226
