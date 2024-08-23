@@ -64,7 +64,7 @@ http://webmail.axxe.top:4022/udp/239.3.1.238:8001
 http://60.208.140.180:5544/NOW爆谷/香蕉哥专用-易發TV.live.flv
 #EXTINF:-1,星影台[1920x1080]
 http://60.208.140.180:5544/NOW%E6%98%9F%E5%BD%B1/%E9%A6%99%E8%95%89%E5%93%A5%E4%B8%93%E7%94%A8-%E6%98%93%E7%99%BCTV.live.flv
-#EXTINF:-1 group-title="4K频道",翡翠台 4K
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台 4K" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="综合", 翡翠台 4K
 http://www.mytvsuper.us.kg/live.php?id=feicui4k
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://assets.livednow.com/logo/明珠台.png" group-title="新聞財經", 明珠台
 http://www.mytvsuper.us.kg/live.php?id=pearl
@@ -79,21 +79,18 @@ http://www.mytvsuper.us.kg/live.php?id=phk
 
 
 
-#EXTM3U
-
-
-#EXTINF:-1,CCTV5 [1920x1080]-12M
-http://192.168.31.111:5000/ysp/cctv5
-#EXTINF:-1,CCTV5+[1920x1080]-12M
-http://192.168.31.111:5000/ysp/cctv5p
-#EXTINF:-1,CCTV13[1920x1080]-12M
-http://192.168.31.111:5000/ysp/cctv13
-#EXTINF:-1,CCTV4K[3840x2160]-40M
-http://192.168.31.111:35442/home/cctv4k/cctv4k.m3u8
-#EXTINF:-1,CCTV8K[3840x2160]-40M
-http://192.168.31.111:35442/home/cctv8k36m/cctv8k_36m.m3u8
-#EXTINF:-1,CCTV16[3840x2160]-40M
-http://192.168.31.111:35442/home/cctv4k16/cctv4k16.m3u8
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5[1920x1080]-12M" tvg-logo="https://assets.livednow.com/logo/CCTV5.png" group-title="央视", CCTV5[1920x1080]-12M
+http://192.168.5.111:5000/ysp/cctv5
+#EXTINF:-1 tvg-id="CCTV5-plus" tvg-name="CCTV5+[1920x1080]-12M" tvg-logo="https://assets.livednow.com/logo/CCTV5-plus.png" group-title="央视", CCTV5+[1920x1080]-12M
+http://192.168.5.111:5000/ysp/cctv5p
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13[1920x1080]-12M" tvg-logo="https://assets.livednow.com/logo/CCTV13.png" group-title="央视", CCTV13[1920x1080]-12M
+http://192.168.5.111:5000/ysp/cctv13
+#EXTINF:-1 tvg-id="CCTV-4K" tvg-name="CCTV4K[3840x2160]-40M" tvg-logo="https://assets.livednow.com/logo/CCTV-4K.png" group-title="央视", CCTV4K[3840x2160]-40M
+http://192.168.5.111:35442/home/cctv4k/cctv4k.m3u8
+#EXTINF:-1,tvg-id="CCTV-8K" tvg-name="CCTV8K[3840x2160]-40M" tvg-logo="https://epg.v1.mk/logo/cctv8k.png" group-title="央视+",CCTV8K[3840x2160]-40M
+http://192.168.5.111:35442/home/cctv8k36m/cctv8k_36m.m3u8
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16[3840x2160]-40M" tvg-logo="https://assets.livednow.com/logo/CCTV16.png" group-title="央视", CCTV16[3840x2160]-40M
+http://192.168.5.111:35442/home/cctv4k16/cctv4k16.m3u8
 
 
 
