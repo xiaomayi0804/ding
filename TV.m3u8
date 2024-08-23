@@ -64,6 +64,12 @@ http://webmail.axxe.top:4022/udp/239.3.1.238:8001
 http://60.208.140.180:5544/NOW爆谷/香蕉哥专用-易發TV.live.flv
 #EXTINF:-1,星影台[1920x1080]
 http://60.208.140.180:5544/NOW%E6%98%9F%E5%BD%B1/%E9%A6%99%E8%95%89%E5%93%A5%E4%B8%93%E7%94%A8-%E6%98%93%E7%99%BCTV.live.flv
+
+
+#EXTINF:-1 tvg-id="ELTA體育-1台" tvg-name="愛爾達體育1台 [3840x2160]-16M" tvg-logo="https://assets.livednow.com/logo/ELTA體育-1台.png" group-title="體育", 愛爾達體育1台
+http://192.168.5.111:5000/hami/OTT_LIVE_0000001744
+#EXTINF:-1 tvg-id="ELTA體育-2台" tvg-name="愛爾達體育2台 [3840x2160]-16M" tvg-logo="https://assets.livednow.com/logo/ELTA體育-2台.png" group-title="體育", 愛爾達體育2台
+http://192.168.5.111:5000/hami/OTT_LIVE_0000001743
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台 4K" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="综合", 翡翠台 4K
 http://www.mytvsuper.us.kg/live.php?id=feicui4k
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://assets.livednow.com/logo/明珠台.png" group-title="新聞財經", 明珠台
@@ -405,8 +411,7 @@ http://[2409:8087:1a01:df::4046]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 
 
 
-#EXTM3U
-#EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml"
+
 #EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://assets.livednow.com/logo/民視.png" group-title="綜合", 民視
 http://192.168.5.111:5000/litv/4gtv-4gtv155
 #EXTINF:-1 tvg-id="民視第一台" tvg-name="民視第一台" tvg-logo="https://assets.livednow.com/logo/民視第一台.png" group-title="綜合", 民視第一台
@@ -695,8 +700,6 @@ http://192.168.5.111:5000/4gtv/287
 http://192.168.5.111:5000/4gtv/286
 
 
-#EXTM3U
-#EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml"
 
 #EXTINF:-1 tvg-id="ELTA綜合" tvg-name="愛爾達綜合台" tvg-logo="https://assets.livednow.com/logo/ELTA綜合.png" group-title="綜合", 愛爾達綜合台
 http://192.168.5.111:5000/hami/OTT_LIVE_0000001573
