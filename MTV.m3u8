@@ -1,4 +1,6 @@
-#EXTM3U8                                                         
+#EXTM3U8  
+#EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml"
+
 #EXTINF:-1 group-title="斗鱼王者",王者官方iill
 http://live.iill.top/douyu.php?id=1863767
 #EXTINF:-1 group-title="斗鱼王者",王者官方aptv
@@ -78,7 +80,7 @@ http://www.mytvsuper.us.kg/live.php?id=phk
 
 
 #EXTM3U
-#EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml"
+
 
 #EXTINF:-1,CCTV5 [1920x1080]-12M
 http://192.168.31.111:5000/ysp/cctv5
