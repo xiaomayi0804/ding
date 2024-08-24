@@ -71,17 +71,17 @@ http://192.168.5.111:5000/hami/OTT_LIVE_0000001744
 #EXTINF:-1 tvg-id="ELTA體育-2台" tvg-name="愛爾達體育2台 [3840x2160]-16M" tvg-logo="https://assets.livednow.com/logo/ELTA體育-2台.png" group-title="體育", 愛爾達體育2台
 http://192.168.5.111:5000/hami/OTT_LIVE_0000001743
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台 4K" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="综合", 翡翠台 4K
-http://www.mytvsuper.us.kg/live.php?id=feicui4k
+http://192.168.5.111:35443/stream/4k/4k/master.m3u8
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://assets.livednow.com/logo/明珠台.png" group-title="新聞財經", 明珠台
-http://www.mytvsuper.us.kg/live.php?id=pearl
+http://192.168.5.111:35443/stream/4k/null/master.m3u8
 #EXTINF:-1 tvg-id="TVB Plus" tvg-name="TVB Plus" tvg-logo="https://assets.livednow.com/logo/TVB-Plus.png" group-title="综合", TVB Plus
-http://www.mytvsuper.us.kg/live.php?id=tvbplus
+http://192.168.5.111:35443/stream/4k/tvbplus/master.m3u8
 #EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://assets.livednow.com/logo/鳳凰中文.png" group-title="综合", 鳳凰衛視中文台
-http://www.mytvsuper.us.kg/live.php?id=pcc
+http://192.168.5.111:35443/stream/4k/null-9/master.m3u8
 #EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://assets.livednow.com/logo/鳳凰資訊.png" group-title="新聞財經", 鳳凰衛視資訊台
-http://www.mytvsuper.us.kg/live.php?id=pin
+http://192.168.5.111:35443/stream/4k/null-10/master.m3u8
 #EXTINF:-1 tvg-id="鳳凰香港" tvg-name="鳳凰香港" tvg-logo="https://assets.livednow.com/logo/鳳凰香港.png" group-title="综合", 鳳凰衛視香港台
-http://www.mytvsuper.us.kg/live.php?id=phk
+http://192.168.5.111:35443/stream/4k/null-11/master.m3u8
 
 
 
@@ -819,190 +819,70 @@ http://192.168.5.111:5000/hami/OTT_LIVE_0000001508
 http://192.168.5.111:5000/hami/OTT_LIVE_0000001553
 
 
-
-#EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml,https://epg.aptv.app/xml,https://epg.aptv.app/pp.xml.gz,http://epg.51zmt.top:8000/e.xml.gz,https://epg.v1.mk/fy.xml"
-
-
-
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="综合", 翡翠台
-http://www.mytvsuper.us.kg/live.php?id=feicui
-
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="综合", 翡翠台 4K
-http://www.mytvsuper.us.kg/live.php?id=feicui4k
-
-#EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://assets.livednow.com/logo/明珠台.png" group-title="新聞財經", 明珠台
-http://www.mytvsuper.us.kg/live.php?id=pearl
-
-#EXTINF:-1 tvg-id="TVB Plus" tvg-name="TVB Plus" tvg-logo="https://assets.livednow.com/logo/TVB-Plus.png" group-title="综合", TVB Plus
-http://www.mytvsuper.us.kg/live.php?id=tvbplus
-
-
-#EXTINF:-1 tvg-id="無線新聞台" tvg-name="無線新聞台" tvg-logo="https://assets.livednow.com/logo/無線新聞台.png" group-title="新聞財經", 無線新聞台
-http://www.mytvsuper.us.kg/live.php?id=wirelessnewschannel
-
-#EXTINF:-1 tvg-id="華語劇台" tvg-name="華語劇台" tvg-logo="https://assets.livednow.com/logo/華語劇台.png" group-title="戲劇電影", 華語劇台
-http://www.mytvsuper.us.kg/live.php?id=cdr3
-
-#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://assets.livednow.com/logo/鳳凰中文.png" group-title="综合", 鳳凰衛視中文台
-http://www.mytvsuper.us.kg/live.php?id=pcc
-
-#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://assets.livednow.com/logo/鳳凰資訊.png" group-title="新聞財經", 鳳凰衛視資訊台
-http://www.mytvsuper.us.kg/live.php?id=pin
-
-#EXTINF:-1 tvg-id="鳳凰香港" tvg-name="鳳凰香港" tvg-logo="https://assets.livednow.com/logo/鳳凰香港.png" group-title="综合", 鳳凰衛視香港台
-http://www.mytvsuper.us.kg/live.php?id=phk
-
-#EXTINF:-1 tvg-id="黃金翡翠台" tvg-name="黃金翡翠台" tvg-logo="https://assets.livednow.com/logo/黃金翡翠台.png" group-title="戲劇電影", 黃金翡翠台
-http://www.mytvsuper.us.kg/live.php?id=huangjinfeicui
-
-#EXTINF:-1 tvg-id="黃金華劇台" tvg-name="黃金華劇台" tvg-logo="https://assets.livednow.com/logo/黃金華劇台.png" group-title="戲劇電影", 黃金華劇台
-http://www.mytvsuper.us.kg/live.php?id=tvo
-
-#EXTINF:-1 tvg-id="亞洲劇台" tvg-name="亞洲劇台" tvg-logo="https://assets.livednow.com/logo/亞洲劇台.png" group-title="戲劇電影", 亞洲劇台
-http://www.mytvsuper.us.kg/live.php?id=ctvs
-
-#EXTINF:-1 tvg-id="亞洲新聞台" tvg-name="亞洲新聞台" tvg-logo="https://assets.livednow.com/logo/亞洲新聞台.png" group-title="新聞財經", 亞洲新聞台
-http://www.mytvsuper.us.kg/live.php?id=ccna
-
-#EXTINF:-1 tvg-id="千禧經典台" tvg-name="千禧經典台" tvg-logo="https://assets.livednow.com/logo/千禧經典台.png" group-title="戲劇電影", 千禧經典台
-http://www.mytvsuper.us.kg/live.php?id=ctvc
-
-#EXTINF:-1 tvg-id="天映經典頻道" tvg-name="天映經典頻道" tvg-logo="https://assets.livednow.com/logo/天映經典頻道.png" group-title="戲劇電影", 天映經典頻道
-http://www.mytvsuper.us.kg/live.php?id=cccm
-
-#EXTINF:-1 tvg-id="娛樂新聞台" tvg-name="娛樂新聞台" tvg-logo="https://assets.livednow.com/logo/娛樂新聞台.png" group-title="新聞財經", 娛樂新聞台
-http://www.mytvsuper.us.kg/live.php?id=ctve
-
-#EXTINF:-1 tvg-id="戲曲台" tvg-name="戲曲台" tvg-logo="https://assets.livednow.com/logo/戲曲台.png" group-title="戲劇電影", 戲曲台
-http://www.mytvsuper.us.kg/live.php?id=ccoc
-
-#EXTINF:-1 tvg-id="東方衛視國際頻道" tvg-name="東方衛視國際頻道" tvg-logo="https://assets.livednow.com/logo/東方衛視國際頻道.png" group-title="综合", 東方衛視國際頻道
-http://www.mytvsuper.us.kg/live.php?id=dtv
-
-#EXTINF:-1 tvg-id="無線衛星亞洲台" tvg-name="無線衛星亞洲台" tvg-logo="https://assets.livednow.com/logo/無線衛星亞洲台.png" group-title="新聞財經", 無線衛星亞洲台
-http://www.mytvsuper.us.kg/live.php?id=cts1
-
-#EXTINF:-1 tvg-id="myTV-SUPER-18" tvg-name="myTV SUPER 18" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-18.png" group-title="戲劇電影", myTV SUPER 18台
-http://www.mytvsuper.us.kg/live.php?id=mytvsuper18
-
-#EXTINF:-1 tvg-id="創世電視" tvg-name="創世電視" tvg-logo="https://assets.livednow.com/logo/創世電視.png" group-title="戲劇電影", 創世電視
-http://www.mytvsuper.us.kg/live.php?id=cre
-
-
-#EXTINF:-1 tvg-id="無線衛星新聞台" tvg-name="無線衛星新聞台" tvg-logo="https://assets.livednow.com/logo/無線衛星新聞台.png" group-title="新聞財經", 無線衛星新聞台
-http://www.mytvsuper.us.kg/live.php?id=ctsn
-
-#EXTINF:-1 tvg-id="神州新聞台" tvg-name="神州新聞台" tvg-logo="https://assets.livednow.com/logo/神州新聞台.png" group-title="新聞財經", 神州新聞台
-http://www.mytvsuper.us.kg/live.php?id=cmn1
-
-#EXTINF:-1 tvg-id="粵語片台" tvg-name="粵語片台" tvg-logo="https://assets.livednow.com/logo/粵語片台.png" group-title="戲劇電影", 粵語片台
-http://www.mytvsuper.us.kg/live.php?id=cclm
-
-#EXTINF:-1 tvg-id="美亞電影台-HK" tvg-name="美亞電影台" tvg-logo="https://assets.livednow.com/logo/美亞電影台-HK.png" group-title="戲劇電影", 美亞電影台
-http://www.mytvsuper.us.kg/live.php?id=cmam
-
-#EXTINF:-1 tvg-id="中國電影頻道" tvg-name="中國電影頻道" tvg-logo="https://assets.livednow.com/logo/中國電影頻道.png" group-title="戲劇電影", 中國電影頻道
-http://www.mytvsuper.us.kg/live.php?id=cmc
-
-
-
-
-#EXTINF:-1 tvg-id="Animax-HK" tvg-name="Animax" tvg-logo="https://assets.livednow.com/logo/Animax-HK.png" group-title="戲劇電影", Animax
-http://www.mytvsuper.us.kg/live.php?id=animax
-
-#EXTINF:-1 tvg-id="Arirang-HK" tvg-name="Arirang TV" tvg-logo="https://assets.livednow.com/logo/Arirang-HK.png" group-title="综合", Arirang TV
-http://www.mytvsuper.us.kg/live.php?id=arirangtv
-
-#EXTINF:-1 tvg-id="AXN" tvg-name="AXN" tvg-logo="https://assets.livednow.com/logo/AXN.png" group-title="戲劇電影", AXN
-http://www.mytvsuper.us.kg/live.php?id=axn
-
-
-#EXTINF:-1 tvg-id="中國環球電視網-英語頻道" tvg-name="中國環球電視網 記錄頻道" tvg-logo="https://assets.livednow.com/logo/中國環球電視網-英語頻道.png" group-title="综合", CGTN (中國環球電視網)英語頻道
-http://www.mytvsuper.us.kg/live.php?id=cgtn-1
-
-#EXTINF:-1 tvg-id="中國環球電視網-記錄頻道" tvg-name="中國環球電視網 英語頻道" tvg-logo="https://assets.livednow.com/logo/中國環球電視網-記錄頻道.png" group-title="综合", CGTN (中國環球電視網)記錄頻道
-http://www.mytvsuper.us.kg/live.php?id=cgtn
-
-#EXTINF:-1 tvg-id="NHK-World-Japan" tvg-name="NHK World-Japan" tvg-logo="https://assets.livednow.com/logo/NHK-HK.png" group-title="新聞財經", NHK World-Japan
-http://www.mytvsuper.us.kg/live.php?id=nhkworldjapan
-
-#EXTINF:-1 tvg-id="Nick-Jr." tvg-name="Nick Jr." tvg-logo="https://assets.livednow.com/logo/Nick-Jr..png" group-title="少兒", Nick Jr.
-http://www.mytvsuper.us.kg/live.php?id=nickjr
-
-#EXTINF:-1 tvg-id="Nickelodeon" tvg-name="Nickelodeon" tvg-logo="https://assets.livednow.com/logo/Nickelodeon.png" group-title="少兒", Nickelodeon
-http://www.mytvsuper.us.kg/live.php?id=nickelodeon
-
-#EXTINF:-1 tvg-id="PopC" tvg-name="PopC" tvg-logo="https://assets.livednow.com/logo/PopC.png" group-title="戲劇電影", PopC
-http://www.mytvsuper.us.kg/live.php?id=popc
-
-#EXTINF:-1 tvg-id="Rock-Action-HK" tvg-name="Rock Action" tvg-logo="https://assets.livednow.com/logo/Rock-Action-HK.png" group-title="戲劇電影", ROCK Action
-http://www.mytvsuper.us.kg/live.php?id=rockaction
-
-#EXTINF:-1 tvg-id="Rock-Entertainment-HK" tvg-name="ROCK 綜藝娛樂" tvg-logo="https://assets.livednow.com/logo/Rock-Entertainment-HK.png" group-title="戲劇電影", ROCK 綜藝娛樂
-http://www.mytvsuper.us.kg/live.php?id=rock
-
-#EXTINF:-1 tvg-id="SUPER-Kids-Channel" tvg-name="SUPER Kids Channel" tvg-logo="https://assets.livednow.com/logo/SUPER-Kids-Channel.png" group-title="少兒", SUPER Kids
-http://www.mytvsuper.us.kg/live.php?id=superkidschannel
-
-#EXTINF:-1 tvg-id="Thrill" tvg-name="Thrill" tvg-logo="https://assets.livednow.com/logo/Thrill.png" group-title="戲劇電影", Thrill
-http://www.mytvsuper.us.kg/live.php?id=thrill
-
-#EXTINF:-1 tvg-id="tvN-HK" tvg-name="tvN" tvg-logo="https://assets.livednow.com/logo/tvN-HK.png" group-title="戲劇電影", tvN
-http://www.mytvsuper.us.kg/live.php?id=tvn
-
-#EXTINF:-1 tvg-id="ZooMoo" tvg-name="ZooMoo" tvg-logo="https://assets.livednow.com/logo/ZooMoo.png" group-title="少兒", ZooMoo
-http://www.mytvsuper.us.kg/live.php?id=zoomoo
-
-#EXTINF:-1 tvg-id="中央電視台综合頻道-港澳版" tvg-name="中央電視台综合頻道 (港澳版)" tvg-logo="https://assets.livednow.com/logo/中央電視台综合頻道-港澳版.png" group-title="综合", 中央電視台综合頻道 (港澳版)
-http://www.mytvsuper.us.kg/live.php?id=cctvintegratedchannel
-
-#EXTINF:-1 tvg-id="半島電視台英語頻道" tvg-name="半島電視台英語頻道" tvg-logo="https://assets.livednow.com/logo/半島電視台英語頻道.png" group-title="新聞財經", 半島電視台英語頻道
-http://www.mytvsuper.us.kg/live.php?id=cjaz
-
-#EXTINF:-1 tvg-id="DW-HK" tvg-name="DW" tvg-logo="https://assets.livednow.com/logo/DW-HK.png" group-title="新聞財經", DW
-http://www.mytvsuper.us.kg/live.php?id=dw
-
-#EXTINF:-1 tvg-id="FashionBox" tvg-name="FashionBox" tvg-logo="https://assets.livednow.com/logo/FashionBox.png" group-title="時尚", FashionBox
-http://www.mytvsuper.us.kg/live.php?id=fashionbox
-
-#EXTINF:-1 tvg-id="France-24-HK" tvg-name="France 24" tvg-logo="https://assets.livednow.com/logo/France-24-HK.png" group-title="新聞財經", France 24
-http://www.mytvsuper.us.kg/live.php?id=france24
-
-#EXTINF:-1 tvg-id="Global-Trekker-HK" tvg-name="Global Trekker" tvg-logo="https://assets.livednow.com/logo/Global-Trekker-HK.png" group-title="探索自然", Global Trekker
-http://www.mytvsuper.us.kg/live.php?id=globaltrekker
-
-#EXTINF:-1 tvg-id="KIX" tvg-name="KIX" tvg-logo="https://assets.livednow.com/logo/KIX.png" group-title="戲劇電影", KIX
-http://www.mytvsuper.us.kg/live.php?id=kix
-
-#EXTINF:-1 tvg-id="Love-Nature-HD" tvg-name="Love Nature HD" tvg-logo="https://assets.livednow.com/logo/Love-Nature-HK.png" group-title="探索自然", Love Nature HD
-http://www.mytvsuper.us.kg/live.php?id=lovenaturehd
-
-#EXTINF:-1 tvg-id="Love-Nature-4K-HK" tvg-name="Love Nature 4K" tvg-logo="https://assets.livednow.com/logo/Love-Nature-4K-HK.png" group-title="探索自然", Love Nature 4K
-http://www.mytvsuper.us.kg/live.php?id=lovenature4k
-
-#EXTINF:-1 tvg-id="Mezzo-Live-HD" tvg-name="Mezzo Live HD" tvg-logo="https://assets.livednow.com/logo/Mezzo-Live-HK.png" group-title="音樂綜藝", Mezzo Live HD
-http://www.mytvsuper.us.kg/live.php?id=mezzolivehd
-
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="myTV SUPER FREE" tvg-logo="https://assets.livednow.com/logo/MytvSuper.png" group-title="戲劇電影", myTV SUPER FREE
-http://www.mytvsuper.us.kg/live.php?id=mytvsuperfree
-
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="互動窗 1" tvg-logo="https://assets.livednow.com/logo/MytvSuper.png" group-title="体育", 互動窗 1
-http://www.mytvsuper.us.kg/live.php?id=1
-
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="互動窗 2" tvg-logo="https://assets.livednow.com/logo/MytvSuper.png" group-title="体育", 互動窗 2
-http://www.mytvsuper.us.kg/live.php?id=2
-
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="myTV SUPER 直播足球3台" tvg-logo="https://assets.livednow.com/logo/MytvSuper.png" group-title="体育", myTV SUPER 直播足球3台
-http://www.mytvsuper.us.kg/live.php?id=mytvsuper3
-
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="myTV SUPER 直播足球4台" tvg-logo="https://assets.livednow.com/logo/MytvSuper.png" group-title="体育", myTV SUPER 直播足球4台
-http://www.mytvsuper.us.kg/live.php?id=mytvsuper4
-
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="myTV SUPER 直播足球5台" tvg-logo="https://assets.livednow.com/logo/MytvSuper.png" group-title="体育", myTV SUPER 直播足球5台
-http://www.mytvsuper.us.kg/live.php?id=mytvsuper5
-
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="myTV SUPER 直播足球6台" tvg-logo="https://assets.livednow.com/logo/MytvSuper.png" group-title="体育", myTV SUPER 直播足球6台
-http://www.mytvsuper.us.kg/live.php?id=mytvsuper6
+#EXTINF:-1tvg-id="翡翠台"tvg-name="翡翠台4K"tvg-logo="https://assets.livednow.com/logo/翡翠台.png"group-title="綜合",翡翠台4K
+http://192.168.5.111:35443/stream/4k/4k/master.m3u8
+#EXTINF:-1tvg-id="TVB-Plus"tvg-name="TVBPlus"tvg-logo="https://assets.livednow.com/logo/TVB-Plus.png"group-title="綜合",TVBPlus
+http://192.168.5.111:35443/stream/4k/tvbplus/master.m3u8
+#EXTINF:-1tvg-id="明珠台"tvg-name="明珠台"tvg-logo="https://assets.livednow.com/logo/明珠台.png"group-title="新聞財經",明珠台
+http://192.168.5.111:35443/stream/4k/null/master.m3u8
+#EXTINF:-1tvg-id="MytvSuper"tvg-name="myTVSUPERFREE"tvg-logo="https://assets.livednow.com/logo/MytvSuper.png"group-title="戲劇電影",myTVSUPERFREE
+http://192.168.5.111:35443/stream/4k/mytvsuperfree/master.m3u8
+#EXTINF:-1tvg-id="myTV-SUPER-18"tvg-name="myTVSUPER18台"tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-18.png"group-title="戲劇電影",myTVSUPER18台
+http://192.168.5.111:35443/stream/4k/mytvsuper18/master.m3u8
+#EXTINF:-1tvg-id="黃金翡翠台"tvg-name="黃金翡翠台"tvg-logo="https://assets.livednow.com/logo/黃金翡翠台.png"group-title="戲劇電影",黃金翡翠台
+http://192.168.5.111:35443/stream/4k/null-1/master.m3u8
+#EXTINF:-1tvg-id="千禧經典台"tvg-name="千禧經典台"tvg-logo="https://assets.livednow.com/logo/千禧經典台.png"group-title="戲劇電影",千禧經典台
+http://192.168.5.111:35443/stream/4k/null-2/master.m3u8
+#EXTINF:-1tvg-id="粵語片台"tvg-name="粵語片台"tvg-logo="https://assets.livednow.com/logo/粵語片台.png"group-title="戲劇電影",粵語片台
+http://192.168.5.111:35443/stream/4k/null-3/master.m3u8
+#EXTINF:-1tvg-id="亞洲劇台"tvg-name="亞洲劇台"tvg-logo="https://assets.livednow.com/logo/亞洲劇台.png"group-title="戲劇電影",亞洲劇台
+http://192.168.5.111:35443/stream/4k/null-4/master.m3u8
+#EXTINF:-1tvg-id="黃金華劇台"tvg-name="黃金華劇台"tvg-logo="https://assets.livednow.com/logo/黃金華劇台.png"group-title="戲劇電影",黃金華劇台
+http://192.168.5.111:35443/stream/4k/null-5/master.m3u8
+#EXTINF:-1tvg-id="娛樂新聞台"tvg-name="娛樂新聞台"tvg-logo="https://assets.livednow.com/logo/娛樂新聞台.png"group-title="新聞財經",娛樂新聞台
+http://192.168.5.111:35443/stream/4k/null-6/master.m3u8
+#EXTINF:-1tvg-id="SUPER-Kids-Channel"tvg-name="SUPERKidsChannel"tvg-logo="https://assets.livednow.com/logo/SUPER-Kids-Channel.png"group-title="少兒",SUPERKidsChannel
+http://192.168.5.111:35443/stream/4k/superkids/master.m3u8
+#EXTINF:-1tvg-id="ZooMoo"tvg-name="ZooMoo"tvg-logo="https://assets.livednow.com/logo/ZooMoo.png"group-title="少兒",ZooMoo
+http://192.168.5.111:35443/stream/4k/zoomoo/master.m3u8
+#EXTINF:-1tvg-id="Nickelodeon"tvg-name="Nickelodeon"tvg-logo="https://assets.livednow.com/logo/Nickelodeon.png"group-title="少兒",Nickelodeon
+http://192.168.5.111:35443/stream/4k/nickelodeon/master.m3u8
+#EXTINF:-1tvg-id="Nick-Jr."tvg-name="NickJr."tvg-logo="https://assets.livednow.com/logo/Nick-Jr..png"group-title="少兒",NickJr.
+http://192.168.5.111:35443/stream/4k/nickjr/master.m3u8
+#EXTINF:-1tvg-id="美亞電影台-HK"tvg-name="美亞電影台"tvg-logo="https://assets.livednow.com/logo/美亞電影台-HK.png"group-title="戲劇電影",美亞電影台
+http://192.168.5.111:35443/stream/4k/null-7/master.m3u8
+#EXTINF:-1tvg-id="Rock-Action-HK"tvg-name="ROCKAction"tvg-logo="https://assets.livednow.com/logo/Rock-Action-HK.png"group-title="戲劇電影",ROCKAction
+http://192.168.5.111:35443/stream/4k/rockaction/master.m3u8
+#EXTINF:-1tvg-id="KIX"tvg-name="KIX"tvg-logo="https://assets.livednow.com/logo/KIX.png"group-title="戲劇電影",KIX
+http://192.168.5.111:35443/stream/4k/kix/master.m3u8
+#EXTINF:-1tvg-id="Love-Nature-4K-HK"tvg-name="LoveNature4K"tvg-logo="https://assets.livednow.com/logo/Love-Nature-4K-HK.png"group-title="探索自然",LoveNature4K
+http://192.168.5.111:35443/stream/4k/lovenature4k/master.m3u8
+#EXTINF:-1tvg-id="Global-Trekker-HK"tvg-name="GlobalTrekker"tvg-logo="https://assets.livednow.com/logo/Global-Trekker-HK.png"group-title="探索自然",GlobalTrekker
+http://192.168.5.111:35443/stream/4k/globaltrekker/master.m3u8
+#EXTINF:-1tvg-id="Rock-Entertainment-HK"tvg-name="ROCK綜藝娛樂"tvg-logo="https://assets.livednow.com/logo/Rock-Entertainment-HK.png"group-title="戲劇電影",ROCK綜藝娛樂
+http://192.168.5.111:35443/stream/4k/rock/master.m3u8
+#EXTINF:-1tvg-id="AXN"tvg-name="AXN"tvg-logo="https://assets.livednow.com/logo/AXN.png"group-title="其他",AXN
+http://192.168.5.111:35443/stream/4k/axn/master.m3u8
+#EXTINF:-1tvg-id="Animax-HK"tvg-name="Animax"tvg-logo="https://assets.livednow.com/logo/Animax-HK.png"group-title="戲劇電影",Animax
+http://192.168.5.111:35443/stream/4k/animax/master.m3u8
+#EXTINF:-1tvg-id="tvN-HK"tvg-name="tvN"tvg-logo="https://assets.livednow.com/logo/tvN-HK.png"group-title="戲劇電影",tvN
+http://192.168.5.111:35443/stream/4k/tvn/master.m3u8
+#EXTINF:-1tvg-id="無線衛星亞洲台"tvg-name="無線衛星亞洲台"tvg-logo="https://assets.livednow.com/logo/無線衛星亞洲台.png"group-title="新聞財經",無線衛星亞洲台
+http://192.168.5.111:35443/stream/4k/null-8/master.m3u8
+#EXTINF:-1tvg-id="FashionBox"tvg-name="FashionBox"tvg-logo="https://assets.livednow.com/logo/FashionBox.png"group-title="時尚",FashionBox
+http://192.168.5.111:35443/stream/4k/fashionbox/master.m3u8
+#EXTINF:-1tvg-id="Mezzo-Live-HK"tvg-name="MezzoLiveHD"tvg-logo="https://assets.livednow.com/logo/Mezzo-Live-HK.png"group-title="音樂綜藝",MezzoLiveHD
+http://192.168.5.111:35443/stream/4k/mezzolivehd/master.m3u8
+#EXTINF:-1tvg-id="鳳凰中文"tvg-name="鳳凰衛視中文台"tvg-logo="https://assets.livednow.com/logo/鳳凰中文.png"group-title="綜合",鳳凰衛視中文台
+http://192.168.5.111:35443/stream/4k/null-9/master.m3u8
+#EXTINF:-1tvg-id="鳳凰資訊"tvg-name="鳳凰衛視資訊台"tvg-logo="https://assets.livednow.com/logo/鳳凰資訊.png"group-title="新聞財經",鳳凰衛視資訊台
+http://192.168.5.111:35443/stream/4k/null-10/master.m3u8
+#EXTINF:-1tvg-id="鳳凰香港"tvg-name="鳳凰衛視香港台"tvg-logo="https://assets.livednow.com/logo/鳳凰香港.png"group-title="綜合",鳳凰衛視香港台
+http://192.168.5.111:35443/stream/4k/null-11/master.m3u8
+#EXTINF:-1tvg-id="PopC"tvg-name="PopC"tvg-logo="https://assets.livednow.com/logo/PopC.png"group-title="戲劇電影",PopC
+http://192.168.5.111:35443/stream/4k/popc/master.m3u8
+#EXTINF:-1tvg-id="無線衛星新聞台"tvg-name="無線衛星新聞台"tvg-logo="https://assets.livednow.com/logo/無線衛星新聞台.png"group-title="新聞財經",無線衛星新聞台
+http://192.168.5.111:35443/stream/4k/null-12/master.m3u8
 
 
 
