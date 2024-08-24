@@ -1,2 +1,1 @@
-vmess://eyJhZGQiOiIxNjIuMTU5LjEzMy4xNjAiLCJhaWQiOiIwIiwiaG9zdCI6InYycmF5LnJ5aW4udmlwIiwiaWQiOiJmMmE1OGRjOS1hMjcyLTQyNjgtODU4OC03MDU0ODdkZmEzZDEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvcnlpbnNvY2tzdjJib2FyZCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh63wn4ewIOmmmea4ry1ISy0gMDEiLCJzY3kiOiJhdXRvIiwic25pIjoidjJyYXkucnlpbi52aXAiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
-
+- {"name":"1 vless-🇯🇵","type":"vless","server":"47.236.144.208","port":2052,"udp":true,"uuid":"5603909e-cb20-4f4f-a4c7-07a666f83394","tls":false,"servername":"vless1.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless1.xiaomayi0804.workers.dev"}}}
