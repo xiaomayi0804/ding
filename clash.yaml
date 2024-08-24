@@ -120,7 +120,7 @@ proxy-groups:
   - {name: 🌍 香港节点, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [TCorg, TCorg1], filter: "(?i)港|hk|hongkong|hong kong"}
   - {name: 🌍 日本节点, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [TCorg, TCorg1], filter: "(?i)日本|jp|japan"}
   - {name: 🌍 新加坡节点, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [TCorg, TCorg1], filter: "(?i)新|sg|singapore"}
-  - {name: 🌍 台湾节点, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [TCorg, TCorg1], filter: "(?i)台|tw|taiwan"}
+  - {name: 🌍 台湾节点, type: select, use: [TCorg, TCorg1], filter: "(?i)台|tw|tpe|taiwan"}
   #- {name: 🍎 谷歌服务, type: select, proxies: [🚀 节点选择, 🌍 自动选择, 🌍 手动选择1, 🌍 自动选择2, 🌍 自动选择3, DIRECT]}
   - {name: 🐟 漏网之鱼, type: select, proxies: [🚀 节点选择, 🌍 自动选择, 🌍 手动选择1, 🌍 自动选择2, 🌍 自动选择3, DIRECT]}
   - {name: ⚖️ 负载均衡-散列, type: load-balance, url: http://www.google.com/generate_204, interval: 300, strategy: consistent-hashing, proxies: ["1 vless-🇯🇵","2 vless-🇰🇷","3 vless-🇰🇷","4 vless-🇸🇬","5 vless-🇸🇬","6 vless-🇸🇬","7 vless-🇸🇬","8 vless-🇸🇬","9 vless-🇸🇬","10 vless-🇭🇰","11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳","16 vless-🇭🇰","17 vless-🇭🇰","18 vless-🇭🇰","19 vless-🇭🇰","20 vless-🇭🇰"]}
