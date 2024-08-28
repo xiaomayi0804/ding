@@ -116,7 +116,7 @@ proxy-groups:
   - {name: 🌍 手动选择1, type: select, use: [Ripao, TCorg, TCorg1]}
   - {name: 🌍 手动选择2, type: select, use: [Vip,Vip1,Vip2]}
   - {name: 🌍 自动选择3, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [Hlsg]}
-  - {name: 🌍 自动选择4, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600,, use: [Trojan]}
+  - {name: 🌍 自动选择4, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [Trojan]}
   - {name: 🌍 香港节点, type: select, use: [TCorg, TCorg1], filter: "(?i)港|hk|hongkong|hong kong"}
   - {name: 🌍 日本节点, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [TCorg, TCorg1], filter: "(?i)日本|jp|japan"}
   - {name: 🌍 新加坡节点, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [TCorg, TCorg1], filter: "(?i)新|sg|singapore"}
