@@ -1,1 +1,1 @@
-vmess://eyJhZGQiOiJoaC0wMS5jZG4tc2dwLnh5eiIsImFpZCI6IjAiLCJob3N0IjoiIiwiaWQiOiJmNTAzODliMy1iM2ZhLTQzZjYtODAzYS1jMDRlNDViMWQ1NjUiLCJuZXQiOiJ3cyIsInBhdGgiOiIiLCJwb3J0IjoiNDAwMTUiLCJwcyI6IuWFrOebinzlj7Dmub58VjJ85o6o6I2QIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
+- {"name":"defaultName","server":"91.185.190.159","port":58999,"password":"admin","uuid":"39e8b439-06be-4783-ad52-6357fc5e8743","sni":"www.bing.com","alpn":["h3"],"udp-relay-mode":"native","congestion_control":"bbr"}
