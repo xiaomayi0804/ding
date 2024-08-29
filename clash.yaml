@@ -150,6 +150,8 @@ rules:
   - DOMAIN-SUFFIX,orz-7.com,🌍 台湾节点
   - DOMAIN-SUFFIX,tvb.com,🌍 香港节点
   - DOMAIN-KEYWORD,stream-link,🚀 节点选择
+  - DOMAIN-SUFFIX,asuscomm.com,🚀 节点选择
+  
   
   - DOMAIN-KEYWORD,teamviewer,DIRECT
   - DOMAIN-KEYWORD,doppiocdn,🚀 节点选择
