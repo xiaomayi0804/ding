@@ -202,8 +202,8 @@ rule-providers:
   applications:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt", path: ./ruleset/applications.yaml, interval: 86400}
 
 proxy-providers:
-  TCorg1: {type: http, url: https://sotrojan.comorg.filegear-sg.me/SM818, path: ./Proxy/TCorg1.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
-  TCorg: {type: http, url: https://sovless.tcorg.us.kg/SM818, path: ./Proxy/TCorg.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
+  TCorg1: {type: http, url: https://sotrojan.comorg.filegear-sg.me/SM616, path: ./Proxy/TCorg1.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
+  TCorg: {type: http, url: https://sovless.tcorg.us.kg/SM616, path: ./Proxy/TCorg.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Ripao: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash, path: ./Proxy/Ripao.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Trojan: {type: http, url: https://xiaomayi.cloudns.biz/xiaomayi0804, path: ./Proxy/Trojan.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Hlsg: {type: http, url: https://moist.freenods.sbs/Trojan, path: ./Proxy/Hlsg.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
