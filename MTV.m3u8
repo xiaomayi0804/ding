@@ -64,18 +64,24 @@ http://webmail.axxe.top:4022/udp/239.3.1.238:8001
 http://60.208.140.180:5544/NOW爆谷/香蕉哥专用-易發TV.live.flv
 #EXTINF:-1,星影台[1920x1080]
 http://60.208.140.180:5544/NOW%E6%98%9F%E5%BD%B1/%E9%A6%99%E8%95%89%E5%93%A5%E4%B8%93%E7%94%A8-%E6%98%93%E7%99%BCTV.live.flv
+
+#EXTINF:-1 tvg-id="ELTA體育-1台" tvg-name="愛爾達體育1台 [3840x2160]-16M" tvg-logo="https://assets.livednow.com/logo/ELTA體育-1台.png" group-title="體育", 愛爾達體育1台
+http://192.168.31.111:5000/hami/OTT_LIVE_0000001744
+#EXTINF:-1 tvg-id="ELTA體育-2台" tvg-name="愛爾達體育2台 [3840x2160]-16M" tvg-logo="https://assets.livednow.com/logo/ELTA體育-2台.png" group-title="體育", 愛爾達體育2台
+http://192.168.31.111:5000/hami/OTT_LIVE_0000001743
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台 4K" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="综合", 翡翠台 4K
-http://www.mytvsuper.us.kg/live.php?id=feicui4k
+http://192.168.31.111:35443/stream/4k/4k/master.m3u8
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://assets.livednow.com/logo/明珠台.png" group-title="新聞財經", 明珠台
-http://www.mytvsuper.us.kg/live.php?id=pearl
+http://192.168.31.111:35443/stream/4k/null/master.m3u8
 #EXTINF:-1 tvg-id="TVB Plus" tvg-name="TVB Plus" tvg-logo="https://assets.livednow.com/logo/TVB-Plus.png" group-title="综合", TVB Plus
-http://www.mytvsuper.us.kg/live.php?id=tvbplus
+http://192.168.31.111:35443/stream/4k/tvbplus/master.m3u8
 #EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://assets.livednow.com/logo/鳳凰中文.png" group-title="综合", 鳳凰衛視中文台
-http://www.mytvsuper.us.kg/live.php?id=pcc
+http://192.168.31.111:35443/stream/4k/null-9/master.m3u8
 #EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://assets.livednow.com/logo/鳳凰資訊.png" group-title="新聞財經", 鳳凰衛視資訊台
-http://www.mytvsuper.us.kg/live.php?id=pin
+http://192.168.31.111:35443/stream/4k/null-10/master.m3u8
 #EXTINF:-1 tvg-id="鳳凰香港" tvg-name="鳳凰香港" tvg-logo="https://assets.livednow.com/logo/鳳凰香港.png" group-title="综合", 鳳凰衛視香港台
-http://www.mytvsuper.us.kg/live.php?id=phk
+http://192.168.31.111:35443/stream/4k/null-11/master.m3u8
+
 
 
 
