@@ -30,4 +30,5 @@ vless://d7dd3a35-b68b-4992-b319-a85b8a1fc8e5@125.133.233.48:30046?security=tls&s
 vless://d7dd3a35-b68b-4992-b319-a85b8a1fc8e5@45.86.229.176:8443?security=tls&sni=dns68.putata.eu.org&fp=random&type=ws&path=/?ed%3D2048&host=dns68.putata.eu.org&encryption=none#TWTG%E6%90%9C@freejiedian88
 
 
-
+trojan://f653ef08c54e21b3@139.162.111.25:3306?security=tls&sni=TG.WangCai2&allowInsecure=1&type=ws&path=/gateway/connect&host=TG.WangCai_1#%F0%9F%87%AF%F0%9F%87%B5JP_f653%20@WangCai_8
+trojan://7ac49a893e0bd10c@139.162.111.25:3306?security=tls&sni=TG.WangCai2&allowInsecure=1&type=ws&path=/gateway/connect&host=TG.WangCai_1#%F0%9F%87%AF%F0%9F%87%B5JP_7ac4%20@WangCai_8
