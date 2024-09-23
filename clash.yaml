@@ -108,10 +108,15 @@ proxies:
   - {"name":"18 vless-🇭🇰","type":"vless","server":"8.210.34.188","port":2052,"udp":true,"uuid":"688ee9a9-087b-4d02-ad23-c0b01c9671af","tls":false,"servername":"vless.leo726china.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.leo726china.workers.dev"}}}
   - {"name":"19 vless-🇭🇰","type":"vless","server":"8.217.159.210","port":2052,"udp":true,"uuid":"688ee9a9-087b-4d02-ad23-c0b01c9671af","tls":false,"servername":"vless.leo726china.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.leo726china.workers.dev"}}}
   - {"name":"20 vless-🇭🇰","type":"vless","server":"hk.1001dns.asia","port":2052,"udp":true,"uuid":"688ee9a9-087b-4d02-ad23-c0b01c9671af","tls":false,"servername":"vless.leo726china.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.leo726china.workers.dev"}}}
-
+  - {"name":"PL-Atman_Sp._z_o.o.","type":"hysteria2","server":"85.194.243.117","port":58666,"udp":true,"sni":"www.bing.com","password":"hkoqsZtSdqv98yq9.","skip-cert-verify":true}
+    
+    
+    
+    
+    
  
 proxy-groups:
-  - {name: 🚀 节点选择, type: select, proxies: [🌍 自动选择, 🌍 手动选择1, 🌍 手动选择2, 🌍 自动选择3, 🌍 自动选择4, 🌍 香港节点, 🌍 日本节点, 🌍 新加坡节点, 🌍 台湾节点, ⚖️ 负载均衡-轮询, ⚖️ 负载均衡-散列, DIRECT]}
+  - {name: 🚀 节点选择, type: select, proxies: [🌍 自动选择, 🌍 手动选择1, 🌍 手动选择2, 🌍 自动选择3, 🌍 自动选择4, 🌍 香港节点, 🌍 日本节点, 🌍 新加坡节点, 🌍 台湾节点, ⚖️ 负载均衡-轮询, ⚖️ 负载均衡-散列, DIRECT, PL-Atman_Sp._z_o.o.]}
   - {name: 🌍 自动选择, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, proxies: ["11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳","16 vless-🇭🇰","17 vless-🇭🇰","18 vless-🇭🇰","19 vless-🇭🇰","20 vless-🇭🇰"]}
   - {name: 🌍 手动选择1, type: select, use: [Ripao, TCorg, TCorg1, Edgetunnel]}
   - {name: 🌍 手动选择2, type: select, use: [Vip,Vip1,Vip2]}
