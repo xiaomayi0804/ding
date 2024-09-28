@@ -71,10 +71,27 @@ http://www.weec.top:2222/udp/239.3.1.178:8001
 http://www.weec.top:2222/udp/239.3.1.102:8001
 #EXTINF:-1,北京IPTV淘BABY[1920x1080]
 http://webmail.axxe.top:4022/udp/239.3.1.238:8001
-#EXTINF:-1,爆谷台[1920x1080]
-http://60.208.140.180:5544/NOW爆谷/香蕉哥专用-易發TV.live.flv
-#EXTINF:-1,星影台[1920x1080]
-http://60.208.140.180:5544/NOW%E6%98%9F%E5%BD%B1/%E9%A6%99%E8%95%89%E5%93%A5%E4%B8%93%E7%94%A8-%E6%98%93%E7%99%BCTV.live.flv
+#EXTINF:-1,HBO-M
+http://cookies.elementfx.com/ublive/ublive.php?id=2986
+#EXTINF:-1,CNN
+http://cookies.elementfx.com/ublive/ublive.php?id=1507
+
+
+#EXTINF:-1,松视1
+http://cookies.elementfx.com/ublive/ublive.php?id=404
+#EXTINF:-1,Jstar
+http://cookies.elementfx.com/ublive/ublive.php?id=2909
+#EXTINF:-1,潘朵拉完美
+http://cookies.elementfx.com/ublive/ublive.php?id=410
+#EXTINF:-1,HAPPY
+http://cookies.elementfx.com/ublive/ublive.php?id=2908
+#EXTINF:-1,彩虹E
+http://cookies.elementfx.com/ublive/ublive.php?id=406
+#EXTINF:-1,彩虹K
+http://cookies.elementfx.com/ublive/ublive.php?id=415
+#EXTINF:-1,CUM 4K
+http://cookies.elementfx.com/ublive/ublive.php?id=3094
+
 
 
 #EXTINF:-1 tvg-id="ELTA體育-1台" tvg-name="愛爾達體育1台 [3840x2160]-16M" tvg-logo="https://assets.livednow.com/logo/ELTA體育-1台.png" group-title="體育", 愛爾達體育1台
@@ -108,6 +125,10 @@ http://192.168.5.111:35442/home/cctv4k/cctv4k.m3u8
 http://192.168.5.111:35442/home/cctv8k36m/cctv8k_36m.m3u8
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16[3840x2160]-40M" tvg-logo="https://assets.livednow.com/logo/CCTV16.png" group-title="央视", CCTV16[3840x2160]-40M
 http://192.168.5.111:35442/home/cctv4k16/cctv4k16.m3u8
+
+
+
+
 
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV 1" tvg-logo="https://assets.livednow.com/logo/CCTV1.png" group-title="央视", CCTV 1
