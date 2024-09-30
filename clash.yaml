@@ -208,7 +208,7 @@ rule-providers:
 
 proxy-providers:
   TCorg1: {type: http, url: https://sotrojan.comorg.filegear-sg.me/ZY100, path: ./Proxy/TCorg1.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
-  TCorg: {type: http, url: https://ssvless.sosorg.nyc.mn/ZY100, path: ./Proxy/TCorg.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
+  TCorg: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaomayi0804/ding/main/d-vless, path: ./Proxy/TCorg.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Ripao: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash, path: ./Proxy/Ripao.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Edgetunnel: {type: http, url: https://c543a30d-e872-49ad-8be6-2836890f3d20.b9caf607-1ef7-4fd2-be07-224869a92bdf.accesscam.org/edgetunnel-cja.pages.dev/f2b3219c-215f-4b7e-96d8-25b751d79988, path: ./Proxy/Edgetunnel.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Hlsg: {type: http, url: https://moist.freenods.sbs/Trojan, path: ./Proxy/Hlsg.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
