@@ -120,7 +120,7 @@ proxy-groups:
   - {name: 🌍 自动选择, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, proxies: ["11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳","16 vless-🇭🇰","17 vless-🇭🇰","18 vless-🇭🇰","19 vless-🇭🇰","20 vless-🇭🇰"]}
   - {name: 🌍 手动选择1, type: select, use: [Ripao, TCorg, TCorg1, Edgetunnel]}
   - {name: 🌍 手动选择2, type: select, use: [Vip,Vip1,Vip2]}
-  - {name: 🌍 自动选择3, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [Hlsg]}
+  - {name: 🌍 自动选择3, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [Ghostcc]}
   - {name: 🌍 自动选择4, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [Edgetunnel]}
   - {name: 🌍 香港节点, type: select, use: [TCorg, TCorg1, Vip, Vip1, Edgetunnel], filter: "(?i)港|hk|hongkong|hong kong"}
   - {name: 🌍 日本节点, type: select, use: [TCorg, TCorg1, Vip, Vip1, Edgetunnel], filter: "(?i)日本|jp|japan"}
@@ -207,11 +207,11 @@ rule-providers:
   applications:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt", path: ./ruleset/applications.yaml, interval: 86400}
 
 proxy-providers:
-  TCorg1: {type: http, url: https://sotrojan.comorg.filegear-sg.me/ZY100, path: ./Proxy/TCorg1.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
+  TCorg1: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaomayi0804/ding/main/d-trojan, path: ./Proxy/TCorg1.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   TCorg: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaomayi0804/ding/main/d-vless, path: ./Proxy/TCorg.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Ripao: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash, path: ./Proxy/Ripao.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Edgetunnel: {type: http, url: https://c543a30d-e872-49ad-8be6-2836890f3d20.b9caf607-1ef7-4fd2-be07-224869a92bdf.accesscam.org/edgetunnel-cja.pages.dev/f2b3219c-215f-4b7e-96d8-25b751d79988, path: ./Proxy/Edgetunnel.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
-  Hlsg: {type: http, url: https://moist.freenods.sbs/Trojan, path: ./Proxy/Hlsg.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
+  Ghostcc: {type: http, url: https://ghostcc.cc/ss.cn/cn.ovg, path: ./Proxy/Hlsg.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Vip: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaomayi0804/ding/main/vip-jd, path: ./Proxy/Vip.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Vip1: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaomayi0804/ding/main/vip-jd1, path: ./Proxy/Vip1.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Vip2: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaomayi0804/ding/main/vip-tw, path: ./Proxy/Vip-tw.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
