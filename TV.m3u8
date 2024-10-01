@@ -37,18 +37,6 @@ http://muzzik-live.morescreens.com/mts-a6/playlist.m3u8
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 
 
-#EXTINF:-1, SBS[1920x1080]-18M
-http://neonsky.asuscomm.com:9981/stream/channelid/430428119?profile=pass
-#EXTINF:-1, KBS1[1920x1080]-18M
-http://neonsky.asuscomm.com:9981/stream/channelid/184721977?profile=pass
-#EXTINF:-1, KBS2[1920x1080]-18M
-http://neonsky.asuscomm.com:9981/stream/channelid/1972976023?profile=pass
-#EXTINF:-1, KBS2[1920x1080]-18M
-http://neonsky.asuscomm.com:9981/stream/channelid/2098734655?profile=pass
-#EXTINF:-1, EBS Digital[1920x1080]-18M
-http://neonsky.asuscomm.com:9981/stream/channelid/1871934545?profile=pass
-
-
 #EXTINF:-1,纯享4K[3840x2160]-40M
 http://192.168.5.111:5000/itv/ystenlive/1000000004000011651
 #EXTINF:-1,华数4K影视[3840x2160]-16M
