@@ -91,19 +91,16 @@
       "tag": "select",
       "outbounds": [
         "url-test",
-        "PL-Atman_Sp._z_o.o.",
-        "yxvm-hk",
         "yxvm-hk-vl",
-        "edgetunnel-U",
-        "edgetunnel",
-        "Vmessws-s10-leo726",
         "韩国首尔",
         "韩国（三网优化）01",
-        "美国 Oracle",
         "香港 01",
-        "美国 GPT 专用 1",
+        "edgetunnel-U",
+        "Vmessws-s10-leo726",
+        "加拿大 IPv6",
+        "PL-Atman_Sp._z_o.o.",
         "新加坡 oracle hy2",
-        "加拿大 IPv6"
+        "edgetunnel"
       ],
       "default": "url-test"
     },
@@ -111,50 +108,20 @@
       "type": "urltest",
       "tag": "url-test",
       "outbounds": [
-        "PL-Atman_Sp._z_o.o.",
-        "yxvm-hk",
         "yxvm-hk-vl",
-        "edgetunnel-U",
-        "edgetunnel",
-        "Vmessws-s10-leo726",
         "韩国首尔",
         "韩国（三网优化）01",
-        "美国 Oracle",
         "香港 01",
-        "美国 GPT 专用 1",
+        "edgetunnel-U",
+        "Vmessws-s10-leo726",
+        "加拿大 IPv6",
+        "PL-Atman_Sp._z_o.o.",
         "新加坡 oracle hy2",
-        "加拿大 IPv6"
+        "edgetunnel"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
       "tolerance": 50
-    },
-    {
-      "type": "hysteria2",
-      "tag": "PL-Atman_Sp._z_o.o.",
-      "server": "85.194.243.117",
-      "server_port": 58666,
-      "password": "hkoqsZtSdqv98yq9"
-    },
-    {
-      "type": "vless",
-      "tag": "yxvm-hk",
-      "server": "46.3.107.208",
-      "server_port": 24852,
-      "uuid": "27b46024-7a03-49e4-9369-b8b507af7504",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "-wHwsGhA7eL6OuKzu2m55VANJnqGbp6fCUHM-v_41Sg",
-          "short_id": "42fb2285"
-        }
-      }
     },
     {
       "type": "vless",
@@ -177,31 +144,31 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "韩国首尔",
+      "server": "krseoul.aikunapp.com",
+      "server_port": 5002,
+      "password": "4dda03a9-a0ba-46a6-add2-6fdba9a2fb40"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "韩国（三网优化）01",
+      "server": "krseoul.aikunapp.com",
+      "server_port": 5001,
+      "password": "2136dc6c-5fd4-4bfd-88a1-2aeea9888f8b"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "香港 01",
+      "server": "aws-hkhk.981545.xyz",
+      "server_port": 5002,
+      "password": "4dda03a9-a0ba-46a6-add2-6fdba9a2fb40"
+    },
+    {
       "type": "vless",
       "tag": "edgetunnel-U",
       "server": "www.xxxxxxx.nyc.mn",
       "server_port": 2053,
-      "uuid": "f2b3219c-215f-4b7e-96d8-25b751d79988",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "edgetunnel-cja.pages.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "edgetunnel",
-      "server": "edgetunnel-cja.pages.dev",
-      "server_port": 443,
       "uuid": "f2b3219c-215f-4b7e-96d8-25b751d79988",
       "tls": {
         "enabled": true,
@@ -239,38 +206,17 @@
     },
     {
       "type": "hysteria2",
-      "tag": "韩国首尔",
-      "server": "krseoul.aikunapp.com",
-      "server_port": 5002,
-      "password": "4dda03a9-a0ba-46a6-add2-6fdba9a2fb40"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "韩国（三网优化）01",
-      "server": "krseoul.aikunapp.com",
-      "server_port": 5001,
+      "tag": "加拿大 IPv6",
+      "server": "[2607:5300:205:200::3017]",
+      "server_port": 5021,
       "password": "2136dc6c-5fd4-4bfd-88a1-2aeea9888f8b"
     },
     {
       "type": "hysteria2",
-      "tag": "美国 Oracle",
-      "server": "us-oracle.aikunapp.com",
-      "server_port": 5001,
-      "password": "2136dc6c-5fd4-4bfd-88a1-2aeea9888f8b"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "香港 01",
-      "server": "aws-hkhk.981545.xyz",
-      "server_port": 5002,
-      "password": "4dda03a9-a0ba-46a6-add2-6fdba9a2fb40"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "美国 GPT 专用 1",
-      "server": "216.73.156.98",
-      "server_port": 5002,
-      "password": "4dda03a9-a0ba-46a6-add2-6fdba9a2fb40"
+      "tag": "PL-Atman_Sp._z_o.o.",
+      "server": "85.194.243.117",
+      "server_port": 58666,
+      "password": "hkoqsZtSdqv98yq9"
     },
     {
       "type": "hysteria2",
@@ -280,11 +226,25 @@
       "password": "4dda03a9-a0ba-46a6-add2-6fdba9a2fb40"
     },
     {
-      "type": "hysteria2",
-      "tag": "加拿大 IPv6",
-      "server": "[2607:5300:205:200::3017]",
-      "server_port": 5021,
-      "password": "2136dc6c-5fd4-4bfd-88a1-2aeea9888f8b"
+      "type": "vless",
+      "tag": "edgetunnel",
+      "server": "edgetunnel-cja.pages.dev",
+      "server_port": 443,
+      "uuid": "f2b3219c-215f-4b7e-96d8-25b751d79988",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "edgetunnel-cja.pages.dev"
+        }
+      }
     },
     {
       "type": "direct",
