@@ -91,7 +91,6 @@
       "tag": "select",
       "outbounds": [
         "url-test",
-        "PL-Atman_Sp._z_o.o.",
         "yxvm-hk",
         "yxvm-hk-vl",
         "edgetunnel-U",
@@ -111,7 +110,6 @@
       "type": "urltest",
       "tag": "url-test",
       "outbounds": [
-        "PL-Atman_Sp._z_o.o.",
         "yxvm-hk",
         "yxvm-hk-vl",
         "edgetunnel-U",
@@ -128,13 +126,6 @@
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
       "tolerance": 50
-    },
-    {
-      "type": "hysteria2",
-      "tag": "PL-Atman_Sp._z_o.o.",
-      "server": "85.194.243.117",
-      "server_port": 58666,
-      "password": "hkoqsZtSdqv98yq9"
     },
     {
       "type": "vless",
