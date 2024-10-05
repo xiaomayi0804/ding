@@ -1,441 +1,15 @@
 {
-  "log": {
-    "disabled": false,
-    "level": "info",
-    "timestamp": true
-  },
-  "experimental": {
-    "cache_file": {
-      "enabled": true,
-      "path": "cache.db",
-      "cache_id": "my_profile2",
-      "store_fakeip": true
-    },
-    "clash_api": {
-      "external_ui": "ui",
-      "external_controller": "0.0.0.0:9090",
-      "external_ui_download_detour": "Proxy",
-      "default_mode": "rule"
-    }
-  },
-  "dns": {
-    "servers": [
-      {
-        "tag": "google",
-        "address": "tls://8.8.8.8",
-        "detour": "Proxy"
-      },
-      {
-        "tag": "fallback",
-        "address": "8.8.8.8",
-        "address_resolver": "google",
-        "detour": "Proxy"
-      },
-      {
-        "tag": "local-dns",
-        "address": "223.5.5.5",
-        "detour": "direct"
-      },
-      {
-        "tag": "fakeip-dns",
-        "address": "fakeip"
-      },
-      {
-        "tag": "block-dns",
-        "address": "rcode://success"
-      }
-    ],
-    "rules": [
-      {
-        "outbound": "any",
-        "server": "local-dns"
-      },
-      {
-        "rule_set": [
-          "Youtube0"
-        ],
-        "server": "fakeip-dns"
-      },
-      {
-        "rule_set": [
-          "Telegram1"
-        ],
-        "server": "fakeip-dns"
-      },
-      {
-        "rule_set": [
-          "Github0"
-        ],
-        "server": "fakeip-dns"
-      },
-      {
-        "rule_set": [
-          "Openai0"
-        ],
-        "server": "fakeip-dns"
-      },
-      {
-        "rule_set": [
-          "Netflix0"
-        ],
-        "server": "fakeip-dns"
-      },
-      {
-        "rule_set": [
-          "Google0"
-        ],
-        "server": "fakeip-dns"
-      },
-      {
-        "rule_set": [
-          "Direct1"
-        ],
-        "server": "local-dns"
-      },
-      {
-        "query_type": [
-          "A"
-        ],
-        "rewrite_ttl": 1,
-        "server": "fakeip-dns"
-      }
-    ],
-    "strategy": "ipv4_only",
-    "fakeip": {
-      "enabled": true,
-      "inet4_range": "198.18.0.0/15"
-    }
-  },
-  "inbounds": [
-    {
-      "type": "mixed",
-      "tag": "mixed-in",
-      "listen": "::",
-      "listen_port": 8888,
-      "sniff": true
-    },
-    {
-      "type": "tproxy",
-      "tag": "tproxy-in",
-      "listen": "::",
-      "listen_port": 9888,
-      "sniff_override_destination": true,
-      "sniff": true
-    },
-    {
-      "type": "direct",
-      "listen": "::",
-      "listen_port": 53,
-      "sniff": true,
-      "tag": "dns-in"
-    }
-  ],
-  "route": {
-    "rule_set": [
-      {
-        "type": "remote",
-        "format": "binary",
-        "download_detour": "Proxy",
-        "tag": "Youtube0",
-        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geosite/youtube.srs"
-      },
-      {
-        "type": "remote",
-        "format": "binary",
-        "download_detour": "Proxy",
-        "tag": "Telegram0",
-        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geoip/telegram.srs"
-      },
-      {
-        "type": "remote",
-        "format": "binary",
-        "download_detour": "Proxy",
-        "tag": "Telegram1",
-        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geosite/telegram.srs"
-      },
-      {
-        "type": "remote",
-        "format": "binary",
-        "download_detour": "Proxy",
-        "tag": "Github0",
-        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geosite/github.srs"
-      },
-      {
-        "type": "remote",
-        "format": "binary",
-        "download_detour": "Proxy",
-        "tag": "Openai0",
-        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geosite/openai.srs"
-      },
-      {
-        "type": "remote",
-        "format": "binary",
-        "download_detour": "Proxy",
-        "tag": "Netflix0",
-        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geosite/netflix.srs"
-      },
-      {
-        "type": "remote",
-        "format": "binary",
-        "download_detour": "Proxy",
-        "tag": "Netflix1",
-        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/netflix.srs"
-      },
-      {
-        "type": "remote",
-        "format": "binary",
-        "download_detour": "Proxy",
-        "tag": "Google0",
-        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geosite/google.srs"
-      },
-      {
-        "type": "remote",
-        "format": "binary",
-        "download_detour": "Proxy",
-        "tag": "Direct0",
-        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geoip/cn.srs"
-      },
-      {
-        "type": "remote",
-        "format": "binary",
-        "download_detour": "Proxy",
-        "tag": "Direct1",
-        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geosite/cn.srs"
-      }
-    ],
-    "rules": [
-      {
-        "protocol": "dns",
-        "outbound": "dns-out"
-      },
-      {
-        "port": 53,
-        "outbound": "dns-out"
-      },
-      {
-        "type": "logical",
-        "mode": "or",
-        "rules": [
-          {
-            "port": 853
-          },
-          {
-            "network": "udp",
-            "port": 443
-          },
-          {
-            "protocol": "stun"
-          }
-        ],
-        "outbound": "block"
-      },
-      {
-        "rule_set": [
-          "Youtube0"
-        ],
-        "outbound": "Youtube"
-      },
-      {
-        "rule_set": [
-          "Telegram0",
-          "Telegram1"
-        ],
-        "outbound": "Telegram"
-      },
-      {
-        "rule_set": [
-          "Github0"
-        ],
-        "outbound": "Github"
-      },
-      {
-        "rule_set": [
-          "Openai0"
-        ],
-        "outbound": "Openai"
-      },
-      {
-        "rule_set": [
-          "Netflix0",
-          "Netflix1"
-        ],
-        "outbound": "Netflix"
-      },
-      {
-        "rule_set": [
-          "Google0"
-        ],
-        "outbound": "Google"
-      },
-      {
-        "rule_set": [
-          "Direct0",
-          "Direct1"
-        ],
-        "outbound": "direct"
-      },
-      {
-        "ip_is_private": true,
-        "outbound": "direct"
-      }
-    ],
-    "auto_detect_interface": true,
-    "final": "Proxy"
-  },
   "outbounds": [
     {
-      "tag": "Proxy",
-      "outbounds": [
-        "🇭🇰 香港",
-        "🇯🇵 日本",
-        "🇹🇼 台湾",
-        "🇸🇬 新加坡"
-      ],
-      "interrupt_exist_connections": true,
-      "type": "selector"
-    },
-    {
-      "tag": "Youtube",
-      "outbounds": [
-        "Proxy",
-        "🇭🇰 香港",
-        "🇯🇵 日本",
-        "🇹🇼 台湾",
-        "🇸🇬 新加坡"
-      ],
-      "interrupt_exist_connections": true,
-      "type": "selector"
-    },
-    {
-      "tag": "Telegram",
-      "outbounds": [
-        "Proxy",
-        "🇭🇰 香港",
-        "🇯🇵 日本",
-        "🇹🇼 台湾",
-        "🇸🇬 新加坡"
-      ],
-      "interrupt_exist_connections": true,
-      "type": "selector"
-    },
-    {
-      "tag": "Github",
-      "outbounds": [
-        "Proxy",
-        "🇭🇰 香港",
-        "🇯🇵 日本",
-        "🇹🇼 台湾",
-        "🇸🇬 新加坡"
-      ],
-      "interrupt_exist_connections": true,
-      "type": "selector"
-    },
-    {
-      "tag": "Openai",
-      "outbounds": [
-        "Proxy",
-        "🇭🇰 香港",
-        "🇯🇵 日本",
-        "🇹🇼 台湾",
-        "🇸🇬 新加坡"
-      ],
-      "interrupt_exist_connections": true,
-      "type": "selector"
-    },
-    {
-      "tag": "Netflix",
-      "outbounds": [
-        "Proxy",
-        "🇭🇰 香港",
-        "🇯🇵 日本",
-        "🇹🇼 台湾",
-        "🇸🇬 新加坡"
-      ],
-      "interrupt_exist_connections": true,
-      "type": "selector"
-    },
-    {
-      "tag": "Google",
-      "outbounds": [
-        "Proxy",
-        "🇭🇰 香港",
-        "🇯🇵 日本",
-        "🇹🇼 台湾",
-        "🇸🇬 新加坡"
-      ],
-      "interrupt_exist_connections": true,
-      "type": "selector"
-    },
-    {
-      "tag": "🇭🇰 香港",
-      "outbounds": [
-        "yxvm-hk-vl",
-        "yxvm-hk"
-      ],
-      "interrupt_exist_connections": true,
-      "type": "selector"
-    },
-    {
-      "tag": "🇯🇵 日本",
-      "outbounds": [
-        "日本01",
-        "日本02",
-        "日本03",
-        "日本04"
-      ],
-      "interrupt_exist_connections": true,
-      "type": "selector"
-    },
-    {
-      "tag": "🇹🇼 台湾",
-      "outbounds": [
-        "台湾01",
-        "台湾02",
-        "台湾03",
-        "台湾04",
-        "TW"
-      ],
-      "interrupt_exist_connections": true,
-      "type": "selector"
-    },
-    {
-      "tag": "🇸🇬 新加坡",
-      "outbounds": [
-        "新加坡01",
-        "新加坡02",
-        "新加坡03",
-        "新加坡04"
-      ],
-      "interrupt_exist_connections": true,
-      "type": "selector"
-    },
-    {
-      "type": "direct",
-      "tag": "➜ Direct"
-    },
-    {
-      "type": "direct",
-      "tag": "direct"
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
-    },
-    {
-      "type": "block",
-      "tag": "block"
-    },
-    {
       "tag": "yxvm-hk-vl",
+      "type": "vless",
       "server": "46.3.110.235",
       "server_port": 26549,
-      "type": "vless",
       "uuid": "0b646a90-b899-419a-9ed7-e0914787e41d",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "insecure": true,
         "server_name": "www.yahoo.com",
+        "insecure": false,
         "reality": {
           "enabled": true,
           "public_key": "dtmFWU1LXqYzLE_95PZthZSsVQrG53Isfwwbr2Cq9Vw",
@@ -445,19 +19,31 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "PL-Atman_Sp._z_o.o.",
+      "type": "hysteria2",
+      "server": "85.194.243.117",
+      "server_port": 58666,
+      "password": "hkoqsZtSdqv98yq9",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     },
     {
       "tag": "yxvm-hk",
+      "type": "vless",
       "server": "46.3.107.208",
       "server_port": 24852,
-      "type": "vless",
       "uuid": "27b46024-7a03-49e4-9369-b8b507af7504",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "insecure": true,
         "server_name": "www.yahoo.com",
+        "insecure": false,
         "reality": {
           "enabled": true,
           "public_key": "-wHwsGhA7eL6OuKzu2m55VANJnqGbp6fCUHM-v_41Sg",
@@ -467,297 +53,360 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
+      },
+      "flow": "xtls-rprx-vision"
     },
     {
       "tag": "edgetunnel-U",
+      "type": "vless",
       "server": "www.xxxxxxx.nyc.mn",
       "server_port": 2053,
-      "type": "vless",
       "uuid": "f2b3219c-215f-4b7e-96d8-25b751d79988",
       "tls": {
         "enabled": true,
-        "insecure": true,
         "server_name": "edgetunnel-cja.pages.dev",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         }
       },
       "transport": {
-        "path": "/?ed=2560",
+        "type": "ws",
         "headers": {
           "Host": "edgetunnel-cja.pages.dev"
         },
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
       }
     },
     {
       "tag": "edgetunnel",
+      "type": "vless",
       "server": "edgetunnel-cja.pages.dev",
       "server_port": 443,
-      "type": "vless",
       "uuid": "f2b3219c-215f-4b7e-96d8-25b751d79988",
       "tls": {
         "enabled": true,
-        "insecure": true,
         "server_name": "edgetunnel-cja.pages.dev",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         }
       },
       "transport": {
-        "path": "/?ed=2560",
+        "type": "ws",
         "headers": {
           "Host": "edgetunnel-cja.pages.dev"
         },
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
       }
     },
     {
       "tag": "Vmessws-s10-leo726",
+      "type": "vmess",
       "server": "www.xxxxxxx.nyc.mn",
       "server_port": 443,
-      "type": "vmess",
       "uuid": "424b5970-06b5-4a67-8a75-32de83a37d9a",
-      "security": "auto",
-      "network": "tcp",
+      "security": "none",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
-        "insecure": true,
         "server_name": "cdn.xiaomayi.nyc.mn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": false
       },
       "transport": {
-        "path": "/serv00?ed=2048",
+        "type": "ws",
         "headers": {
           "Host": "cdn.xiaomayi.nyc.mn"
         },
-        "type": "ws"
-      },
-      "alter_id": 0
+        "path": "/serv00",
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2048
+      }
+    },
+    {
+      "tag": "韩国首尔",
+      "type": "hysteria2",
+      "server": "krseoul.aikunapp.com",
+      "server_port": 5002,
+      "password": "4dda03a9-a0ba-46a6-add2-6fdba9a2fb40",
+      "tls": {
+        "enabled": true,
+        "server_name": "d1--cn-gotcha204-3.bilivideo.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "韩国（三网优化）01",
+      "type": "hysteria2",
+      "server": "krseoul.aikunapp.com",
+      "server_port": 5001,
+      "password": "2136dc6c-5fd4-4bfd-88a1-2aeea9888f8b",
+      "tls": {
+        "enabled": true,
+        "server_name": "d1--cn-gotcha204-4.bilivideo.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "美国 Oracle",
+      "type": "hysteria2",
+      "server": "us-oracle.aikunapp.com",
+      "server_port": 5001,
+      "password": "2136dc6c-5fd4-4bfd-88a1-2aeea9888f8b",
+      "tls": {
+        "enabled": true,
+        "server_name": "d1--cn-gotcha204-4.bilivideo.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "香港 01",
+      "type": "hysteria2",
+      "server": "aws-hkhk.981545.xyz",
+      "server_port": 5002,
+      "password": "4dda03a9-a0ba-46a6-add2-6fdba9a2fb40",
+      "tls": {
+        "enabled": true,
+        "server_name": "d1--cn-gotcha204-3.bilivideo.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "美国 GPT 专用 1",
+      "type": "hysteria2",
+      "server": "216.73.156.98",
+      "server_port": 5002,
+      "password": "4dda03a9-a0ba-46a6-add2-6fdba9a2fb40",
+      "tls": {
+        "enabled": true,
+        "server_name": "d1--cn-gotcha204-3.bilivideo.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "新加坡 oracle hy2",
+      "type": "hysteria2",
+      "server": "sg-oracle.aikunapp.com",
+      "server_port": 5002,
+      "password": "4dda03a9-a0ba-46a6-add2-6fdba9a2fb40",
+      "tls": {
+        "enabled": true,
+        "server_name": "d1--cn-gotcha204-3.bilivideo.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "加拿大 IPv6",
+      "type": "hysteria2",
+      "server": "2607:5300:205:200::3017",
+      "server_port": 5021,
+      "password": "2136dc6c-5fd4-4bfd-88a1-2aeea9888f8b",
+      "tls": {
+        "enabled": true,
+        "server_name": "d1--cn-gotcha204-4.bilivideo.com",
+        "insecure": true
+      }
     },
     {
       "tag": "vpnhat.t.me",
+      "type": "vmess",
       "server": "43.241.50.78",
       "server_port": 40201,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "m3u86.t.me",
+      "type": "vmess",
       "server": "43.241.50.78",
       "server_port": 40201,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "台湾01",
+      "type": "vmess",
       "server": "43.241.50.78",
       "server_port": 40201,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "台湾02",
+      "type": "vmess",
       "server": "43.241.50.78",
       "server_port": 40202,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "台湾03",
+      "type": "vmess",
       "server": "43.241.50.78",
       "server_port": 40203,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "台湾04",
+      "type": "vmess",
       "server": "43.241.50.78",
       "server_port": 40204,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "新加坡01",
+      "type": "vmess",
       "server": "43.241.50.78",
       "server_port": 40301,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "新加坡02",
+      "type": "vmess",
       "server": "43.241.50.78",
       "server_port": 40302,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "新加坡03",
+      "type": "vmess",
       "server": "43.241.50.78",
       "server_port": 40303,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "新加坡04",
+      "type": "vmess",
       "server": "43.241.50.78",
       "server_port": 40304,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "越南01",
+      "type": "vmess",
       "server": "43.241.50.78",
       "server_port": 40401,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "日本01",
+      "type": "vmess",
       "server": "110.42.11.240",
       "server_port": 40701,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "日本02",
+      "type": "vmess",
       "server": "110.42.11.240",
       "server_port": 40702,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "日本03",
+      "type": "vmess",
       "server": "110.42.11.240",
       "server_port": 40703,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "日本04",
+      "type": "vmess",
       "server": "110.42.11.240",
       "server_port": 40704,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "美国01",
+      "type": "vmess",
       "server": "110.42.11.240",
       "server_port": 40901,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "美国02",
+      "type": "vmess",
       "server": "110.42.11.240",
       "server_port": 40902,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "美国03",
+      "type": "vmess",
       "server": "110.42.11.240",
       "server_port": 40903,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "美国04",
+      "type": "vmess",
       "server": "110.42.11.240",
       "server_port": 40904,
-      "type": "vmess",
       "uuid": "5fa2fe34-9cbf-4173-9cbf-1e9f19b5cfd7",
       "security": "auto",
-      "network": "tcp",
       "alter_id": 0
     },
     {
       "tag": "TW",
+      "type": "vless",
       "server": "210.61.97.241",
       "server_port": 81,
-      "type": "vless",
       "uuid": "f2b3219c-215f-4b7e-96d8-25b751d79988",
       "tls": {
         "enabled": true,
-        "insecure": true,
         "server_name": "edgetunnel.xiaomayi.nyc.mn",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "random"
         }
       },
       "transport": {
-        "path": "/?ed=2560",
+        "type": "ws",
         "headers": {
           "Host": "edgetunnel.xiaomayi.nyc.mn"
         },
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
       }
     }
   ]
