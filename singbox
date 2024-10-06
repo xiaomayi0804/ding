@@ -363,31 +363,6 @@
       }
     },
     {
-      "tag": "🇭🇰HK_@WangCai_8",
-      "server": "106.75.178.154",
-      "server_port": 8969,
-      "type": "vless",
-      "uuid": "ca8692b7-8f6f-4346-a916-c1e9798ab91b",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "freenodes.repe.gay",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "path": "Telegram🇨🇳 @WangCai_8 /?ed=2048",
-        "headers": {
-          "Host": "freenodes.repe.gay"
-        },
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
       "tag": "🇭🇰HK_@WangCai_8 12",
       "server": "46.3.104.43",
       "server_port": 38255,
