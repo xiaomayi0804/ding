@@ -43,6 +43,36 @@ http://192.168.5.111:5000/itv/FifastbLive/3000000010000005180
 #EXTINF:-1 group-title="4K频道",咪咕体育2 4K
 http://192.168.5.111:5000/itv/FifastbLive/3000000010000015686
 
+#EXTINF:-1 group-title="4K频道",高清臻享睛彩篮球[3840x2160]
+http://192.168.5.111:5000/tptv/miguaoyun01-AVS-4K01?type=origin
+#EXTINF:-1 group-title="4K频道",高清臻享睛彩竞技[3840x2160]
+http://192.168.5.111:5000/tptv/miguaoyun1-AVS?type=origin
+#EXTINF:-1,凤凰卫视中文[1920x1080]
+http://192.168.5.111:5000/tptv/HD-10000k-1080P-fhchinese5s?type=origin
+#EXTINF:-1,凤凰卫视资讯[1920x1080]
+http://192.168.5.111:5000/tptv/HD-10000k-1080P-fhzixun5s?type=origin
+#EXTINF:-1,凤凰卫视香港[1920x1080]
+http://192.168.5.111:5000/tptv/HD-10000k-1080P-fhhongkong5s?type=origin
+#EXTINF:-1,CCTV1-4K[3840x2160]-25M
+http://192.168.5.111:5000/tptv/G_CCTV-1-AVS-4K264?type=origin
+#EXTINF:-1,CCTV3-4K[3840x2160]-25M
+http://192.168.5.111:5000/tptv/G_CCTV-3-AVS-4K264?type=origin
+#EXTINF:-1,CCTV5-4K[3840x2160]-25M
+http://192.168.5.111:5000/tptv/G_CCTV-5-AVS-4K264?type=origin
+#EXTINF:-1,CCTV6-4K[3840x2160]-25M
+http://192.168.5.111:5000/tptv/G_CCTV-6-AVS-4K264?type=origin
+#EXTINF:-1,CCTV8-4K[3840x2160]-25M
+http://192.168.5.111:5000/tptv/G_CCTV-8-AVS-4K264?type=origin
+#EXTINF:-1,CCTV16-4K[3840x2160]-20M
+http://192.168.5.111:5000/tptv/G_CCTV-16-4K?type=origin
+#EXTINF:-1,CCTV4K[3840x2160]-12M
+http://192.168.5.111:5000/tptv/G_CCTV-4K-HD?type=origin
+#EXTINF:-1,CCTV风云足球 8M
+http://192.168.5.111:5000/tptv/G_FENGSHANGZQ-CQ?type=origin
+#EXTINF:-1,CCTV风云台球 8M
+http://192.168.5.111:5000/tptv/G_TAIQIU-CQ?type=origin
+
+
 
 #EXTINF:-1,北京IPTV4K超清[3840x2160]
 http://www.weec.top:2222/udp/239.3.1.249:8001
@@ -56,26 +86,6 @@ http://www.weec.top:2222/udp/239.3.1.178:8001
 http://www.weec.top:2222/udp/239.3.1.102:8001
 #EXTINF:-1,北京IPTV淘BABY[1920x1080]
 http://webmail.axxe.top:4022/udp/239.3.1.238:8001
-#EXTINF:-1,HBO-M
-http://cookies.elementfx.com/ublive/ublive.php?id=2986
-#EXTINF:-1,CNN
-http://cookies.elementfx.com/ublive/ublive.php?id=1507
-
-
-#EXTINF:-1,松视1
-http://cookies.elementfx.com/ublive/ublive.php?id=404
-#EXTINF:-1,Jstar
-http://cookies.elementfx.com/ublive/ublive.php?id=2909
-#EXTINF:-1,潘朵拉完美
-http://cookies.elementfx.com/ublive/ublive.php?id=410
-#EXTINF:-1,HAPPY
-http://cookies.elementfx.com/ublive/ublive.php?id=2908
-#EXTINF:-1,彩虹E
-http://cookies.elementfx.com/ublive/ublive.php?id=406
-#EXTINF:-1,彩虹K
-http://cookies.elementfx.com/ublive/ublive.php?id=415
-#EXTINF:-1,CUM 4K
-http://cookies.elementfx.com/ublive/ublive.php?id=3094
 
 
 
