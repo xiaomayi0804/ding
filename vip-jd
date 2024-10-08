@@ -6,5 +6,21 @@ vless://f2b3219c-215f-4b7e-96d8-25b751d79988@www.xxxxxxx.nyc.mn:2053?security=tl
 vless://f2b3219c-215f-4b7e-96d8-25b751d79988@edgetunnel-cja.pages.dev:443?security=tls&sni=edgetunnel-cja.pages.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=edgetunnel-cja.pages.dev&encryption=none#edgetunnel
 vmess://eyJhZGQiOiJ3d3cueHh4eHh4eC5ueWMubW4iLCJhaWQiOiIwIiwiaG9zdCI6ImNkbi54aWFvbWF5aS5ueWMubW4iLCJpZCI6IjQyNGI1OTcwLTA2YjUtNGE2Ny04YTc1LTMyZGU4M2EzN2Q5YSIsIm5ldCI6IndzIiwicGF0aCI6Ii9zZXJ2MDA/ZWQ9MjA0OCIsInBvcnQiOiI0NDMiLCJwcyI6IlZtZXNzd3MtczEwLWxlbzcyNiIsInNjeSI6Im5vbmUiLCJzbmkiOiJjZG4ueGlhb21heWkubnljLm1uIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
 
-hy2://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@krseoul.aikunapp.com:5002/?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E9%9F%A9%E5%9B%BD%E9%A6%96%E5%B0%94
-hy2://2136dc6c-5fd4-4bfd-88a1-2aeea9888f8b@krseoul.aikunapp.com:5001?insecure=1&sni=d1--cn-gotcha204-4.bilivideo.com#%E9%9F%A9%E5%9B%BD%EF%BC%88%E4%B8%89%E7%BD%91%E4%BC%98%E5%8C%96%EF%BC%8901
+
+vless://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@krvl.aikunapp.com:5849?security=tls&sni=www.apple.com&allowInsecure=1&type=tcp&flow=xtls-rprx-vision&encryption=none#%E9%9F%A9%E5%9B%BD%20vless%2001
+hy2://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@aws-jpjp.aikunapp.com:5002?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E6%97%A5%E6%9C%AC%2001
+vless://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@aws-sgvl.aikunapp.com:5849?security=tls&sni=www.apple.com&allowInsecure=1&type=tcp&flow=xtls-rprx-vision&encryption=none#%E6%96%B0%E5%8A%A0%E5%9D%A1%20vless%2001
+vless://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@lin-tyo-vl.aikunapp.com:5849?security=tls&sni=www.apple.com&allowInsecure=1&type=tcp&flow=xtls-rprx-vision&encryption=none#%E6%97%A5%E6%9C%AC%2002%20%E7%A7%BB%E5%8A%A8%E4%BC%98%E5%8C%96
+hy2://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@krseoul.aikunapp.com:5002?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E9%9F%A9%E5%9B%BD%E9%A6%96%E5%B0%94
+vless://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@aws-hkvl.aikunapp.com:5849?security=tls&sni=www.apple.com&allowInsecure=1&type=tcp&flow=xtls-rprx-vision&encryption=none#%E9%A6%99%E6%B8%AF%20vless%2001
+vless://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@lin-sgp-vl.aikunapp.com:5849?security=tls&sni=www.apple.com&allowInsecure=1&type=tcp&flow=xtls-rprx-vision&encryption=none#%E6%96%B0%E5%8A%A0%E5%9D%A1%2002%20%E7%A7%BB%E5%8A%A8%E4%BC%98%E5%8C%96
+vless://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@aws-jpvl.aikunapp.com:5849?security=tls&sni=www.apple.com&allowInsecure=1&type=tcp&flow=xtls-rprx-vision&encryption=none#%E6%97%A5%E6%9C%AC%20vless%2001
+trojan://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@tj-jp-1.aikunapp.com:6002?security=tls&sni=s0.awsstatic.com&allowInsecure=1&type=tcp#%E6%97%A5%E6%9C%AC%20Trojan%200.5x
+hy2://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@216.73.156.98:5002?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E7%BE%8E%E5%9B%BD%20GPT%20%E4%B8%93%E7%94%A8%201
+hy2://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@[2607:5300:205:200::3017]:5022?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E5%8A%A0%E6%8B%BF%E5%A4%A7%20IPv6
+hy2://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@aws-hkhk.981545.xyz:5002?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E9%A6%99%E6%B8%AF%2001
+vless://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@hktddns2.aikunapp.com:5849?security=tls&sni=www.apple.com&allowInsecure=1&type=tcp&flow=xtls-rprx-vision&encryption=none#%E9%A6%99%E6%B8%AF%20vless%2002%20%E5%8E%9F%E7%94%9FIP
+trojan://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@tj-hk.aikunapp.com:5002?security=tls&sni=www.apple.com&allowInsecure=1&type=tcp#%E9%A6%99%E6%B8%AF%20HKT%20%2002%EF%BC%88%E5%8E%9F%E7%94%9Fip%EF%BC%89
+trojan://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@tj-hk.aikunapp.com:5002?security=tls&sni=www.apple.com&allowInsecure=1&type=tcp#%E9%A6%99%E6%B8%AF%20HKT%20%2001%EF%BC%88%E5%8E%9F%E7%94%9Fip%EF%BC%89
+hy2://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@aws-sgsg.aikunapp.com:5002?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E6%96%B0%E5%8A%A0%E5%9D%A1%2001
+hy2://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@sg-oracle.aikunapp.com:5002?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E6%96%B0%E5%8A%A0%E5%9D%A1%20oracle%20hy2
