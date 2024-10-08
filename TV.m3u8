@@ -1,27 +1,24 @@
 #EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml,https://epg.aptv.app/xml,https://epg.aptv.app/pp.xml.gz,http://epg.51zmt.top:8000/e.xml.gz,https://epg.v1.mk/fy.xml"                                                 
 
-#EXTINF:-1 group-title="斗鱼王者",王者官方iill
-http://live.iill.top/douyu.php?id=1863767
+
 #EXTINF:-1 group-title="斗鱼王者",王者官方blog
 http://192.168.5.111:8090/douyu.php?id=1863767
-#EXTINF:-1 group-title="斗鱼王者",王者官方aptv
-http://live.aptvapp.com/live/douyu/1863767
 #EXTINF:-1 group-title="斗鱼王者",斗鱼托米
-http://live.iill.top/douyu.php?id=793400
+http://192.168.5.111:8090/douyu.php?id=793400
 #EXTINF:-1 group-title="斗鱼王者",斗鱼午夜抹抹茶
-http://live.iill.top/douyu.php?id=80432
+http://192.168.5.111:8090/douyu.php?id=80432
 #EXTINF:-1 group-title="斗鱼王者",斗鱼阿飞
-http://live.iill.top/douyu.php?id=84452
+http://192.168.5.111:8090/douyu.php?id=84452
 #EXTINF:-1 group-title="斗鱼王者",斗鱼荣耀洋洋
-http://live.iill.top/douyu.php?id=557171
+http://192.168.5.111:8090/douyu.php?id=557171
 #EXTINF:-1 group-title="斗鱼王者",斗鱼肖九拙
-http://live.iill.top/douyu.php?id=4369877
+http://192.168.5.111:8090/douyu.php?id=4369877
 #EXTINF:-1 group-title="斗鱼王者",斗鱼九妹笑笑
-http://live.iill.top/douyu.php?id=6264482
+http://192.168.5.111:8090/douyu.php?id=6264482
 #EXTINF:-1 group-title="斗鱼王者",斗鱼欠你幸福
-http://live.iill.top/douyu.php?id=280087
+http://192.168.5.111:8090/douyu.php?id=280087
 #EXTINF:-1 group-title="斗鱼王者",抖音唐艺
-http://live.iill.top/douyin.php?id=405518163654
+http://192.168.5.111:8090/douyin.php?id=405518163654
 
 #EXTINF:-1 group-title="4K频道",Bloomberg TV+ 4K
 https://bloomberg-bloomberg-2-nz.samsung.wurl.tv/playlist.m3u8
