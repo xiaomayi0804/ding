@@ -88,48 +88,26 @@ hosts:
 
 
 proxies:
-  #- {"name":"1 vless-🇯🇵","type":"vless","server":"47.236.144.208","port":2052,"udp":true,"uuid":"5603909e-cb20-4f4f-a4c7-07a666f83394","tls":false,"servername":"v1.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v1.xiaomayi0804.workers.dev"}}}
-  #- {"name":"2 vless-🇰🇷","type":"vless","server":"8.218.211.17","port":2052,"udp":true,"uuid":"5603909e-cb20-4f4f-a4c7-07a666f83394","tls":false,"servername":"v1.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v1.xiaomayi0804.workers.dev"}}}
-  #- {"name":"3 vless-🇰🇷","type":"vless","server":"8.217.248.220","port":2052,"udp":true,"uuid":"5603909e-cb20-4f4f-a4c7-07a666f83394","tls":false,"servername":"v1.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v1.xiaomayi0804.workers.dev"}}}
-  #- {"name":"4 vless-🇸🇬","type":"vless","server":"47.243.255.224","port":2052,"udp":true,"uuid":"688ee9a9-087b-4d02-ad23-c0b01c9671af","tls":false,"servername":"vless.leo726china.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.leo726china.workers.dev"}}}
-  #- {"name":"5 vless-🇸🇬","type":"vless","server":"8.210.85.222","port":2052,"udp":true,"uuid":"688ee9a9-087b-4d02-ad23-c0b01c9671af","tls":false,"servername":"vless.leo726china.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.leo726china.workers.dev"}}}
-  #- {"name":"6 vless-🇸🇬","type":"vless","server":"8.219.194.170","port":2052,"udp":true,"uuid":"688ee9a9-087b-4d02-ad23-c0b01c9671af","tls":false,"servername":"vless.leo726china.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.leo726china.workers.dev"}}}
-  #- {"name":"7 vless-🇸🇬","type":"vless","server":"47.243.70.186","port":2052,"udp":true,"uuid":"688ee9a9-087b-4d02-ad23-c0b01c9671af","tls":false,"servername":"vless.leo726china.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.leo726china.workers.dev"}}}
-  #- {"name":"8 vless-🇸🇬","type":"vless","server":"8.218.3.12","port":2052,"udp":true,"uuid":"5603909e-cb20-4f4f-a4c7-07a666f83394","tls":false,"servername":"v1.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v1.xiaomayi0804.workers.dev"}}}
-  #- {"name":"9 vless-🇸🇬","type":"vless","server":"8.210.55.134","port":2052,"udp":true,"uuid":"5603909e-cb20-4f4f-a4c7-07a666f83394","tls":false,"servername":"v1.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v1.xiaomayi0804.workers.dev"}}}
-  #- {"name":"10 vless-🇭🇰","type":"vless","server":"8.218.201.76","port":2052,"udp":true,"uuid":"5603909e-cb20-4f4f-a4c7-07a666f83394","tls":false,"servername":"v1.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v1.xiaomayi0804.workers.dev"}}}
-  - {"name":"11 vless-🇨🇳","type":"vless","server":"bestproxy.onecf.eu.org","port":2052,"udp":true,"uuid":"5603909e-cb20-4f4f-a4c7-07a666f83394","tls":false,"servername":"v1.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v1.xiaomayi0804.workers.dev"}}}
-  - {"name":"12 vless-🇨🇳","type":"vless","server":"q.achen.link","port":80,"udp":true,"uuid":"5603909e-cb20-4f4f-a4c7-07a666f83394","tls":false,"servername":"v1.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v1.xiaomayi0804.workers.dev"}}}
-  - {"name":"13 vless-🇨🇳","type":"vless","server":"sg.1001dns.asia","port":80,"udp":true,"uuid":"5603909e-cb20-4f4f-a4c7-07a666f83394","tls":false,"servername":"v1.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v1.xiaomayi0804.workers.dev"}}}
-  - {"name":"14 vless-🇨🇳","type":"vless","server":"proxy.xxxxxxxx.tk","port":2052,"udp":true,"uuid":"5603909e-cb20-4f4f-a4c7-07a666f83394","tls":false,"servername":"v1.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v1.xiaomayi0804.workers.dev"}}}
-  - {"name":"15 vless-🇨🇳","type":"vless","server":"cf.akaagiao.link","port":2052,"udp":true,"uuid":"5603909e-cb20-4f4f-a4c7-07a666f83394","tls":false,"servername":"v1.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v1.xiaomayi0804.workers.dev"}}}
-  - {"name":"16 vless-🇭🇰","type":"vless","server":"8.217.149.28","port":2052,"udp":true,"uuid":"688ee9a9-087b-4d02-ad23-c0b01c9671af","tls":false,"servername":"vless.leo726china.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.leo726china.workers.dev"}}}
-  - {"name":"17 vless-🇭🇰","type":"vless","server":"8.218.204.128","port":2052,"udp":true,"uuid":"688ee9a9-087b-4d02-ad23-c0b01c9671af","tls":false,"servername":"vless.leo726china.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.leo726china.workers.dev"}}}
-  - {"name":"18 vless-🇭🇰","type":"vless","server":"8.210.34.188","port":2052,"udp":true,"uuid":"688ee9a9-087b-4d02-ad23-c0b01c9671af","tls":false,"servername":"vless.leo726china.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.leo726china.workers.dev"}}}
-  - {"name":"19 vless-🇭🇰","type":"vless","server":"8.217.159.210","port":2052,"udp":true,"uuid":"688ee9a9-087b-4d02-ad23-c0b01c9671af","tls":false,"servername":"vless.leo726china.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.leo726china.workers.dev"}}}
-  - {"name":"20 vless-🇭🇰","type":"vless","server":"hk.1001dns.asia","port":2052,"udp":true,"uuid":"688ee9a9-087b-4d02-ad23-c0b01c9671af","tls":false,"servername":"vless.leo726china.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless.leo726china.workers.dev"}}}
   - {"name":"PL-Atman_Sp._z_o.o.","type":"hysteria2","server":"85.194.243.117","port":58666,"udp":true,"sni":"www.bing.com","password":"hkoqsZtSdqv98yq9.","skip-cert-verify":true}
     
     
-    
-    
-    
+        
  
 proxy-groups:
   - {name: 🚀 节点选择, type: select, proxies: [🌍 自动选择, 🌍 手动选择1, 🌍 手动选择2, 🌍 自动选择3, 🌍 自动选择4, 🌍 香港节点, 🌍 日本节点, 🌍 新加坡节点, 🌍 台湾节点, ⚖️ 负载均衡-轮询, ⚖️ 负载均衡-散列, DIRECT, PL-Atman_Sp._z_o.o.]}
-  - {name: 🌍 自动选择, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, proxies: ["11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳","16 vless-🇭🇰","17 vless-🇭🇰","18 vless-🇭🇰","19 vless-🇭🇰","20 vless-🇭🇰"]}
+  - {name: 🌍 自动选择, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [vip, vip1, vip2]}
   - {name: 🌍 手动选择1, type: select, use: [Ripao, TCorg, TCorg1, Edgetunnel]}
   - {name: 🌍 手动选择2, type: select, use: [Vip,Vip1,Vip2]}
   - {name: 🌍 自动选择3, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [Ghostcc]}
   - {name: 🌍 自动选择4, type: url-test, url: http://www.gstatic.com/generate_204, interval: 3600, use: [Edgetunnel]}
-  - {name: 🌍 香港节点, type: select, use: [TCorg, TCorg1, Vip, Vip1, Edgetunnel, Ghostcc], filter: "(?i)港|hk|hongkong|hong kong"}
-  - {name: 🌍 日本节点, type: select, use: [TCorg, TCorg1, Vip, Vip1, Edgetunnel, Ghostcc], filter: "(?i)日本|jp|japan"}
-  - {name: 🌍 新加坡节点, type: select, use: [TCorg, TCorg1, Vip, Vip1, Edgetunnel, Ghostcc], filter: "(?i)新|sg|singapore"}
+  - {name: 🌍 香港节点, type: select, use: [TCorg, TCorg1, Vip, Vip1, Vip2, Edgetunnel, Ghostcc], filter: "(?i)港|hk|hongkong|hong kong"}
+  - {name: 🌍 日本节点, type: select, use: [TCorg, TCorg1, Vip, Vip1, Vip2, Edgetunnel, Ghostcc], filter: "(?i)日本|jp|japan"}
+  - {name: 🌍 新加坡节点, type: select, use: [TCorg, TCorg1, Vip, Vip1, Vip2, Edgetunnel, Ghostcc], filter: "(?i)新|sg|singapore"}
   - {name: 🌍 台湾节点, type: select, use: [TCorg, TCorg1, Vip, Vip1, Vip2, Edgetunnel, Ghostcc], filter: "(?i)台|tw|tpe|taiwan"}
   - {name: 🌍 订阅节点, type: select, proxies: [🚀 节点选择, 🌍 自动选择, 🌍 手动选择1, 🌍 手动选择2, 🌍 自动选择3, 🌍 自动选择4, 🌍 香港节点, 🌍 日本节点, 🌍 新加坡节点, 🌍 台湾节点, DIRECT]}
   - {name: 🐟 漏网之鱼, type: select, proxies: [🚀 节点选择, 🌍 自动选择, 🌍 手动选择1, 🌍 手动选择2, 🌍 自动选择3, 🌍 自动选择4, DIRECT]}
-  - {name: ⚖️ 负载均衡-散列, type: load-balance, url: http://www.google.com/generate_204, interval: 300, strategy: consistent-hashing, proxies: ["11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳","16 vless-🇭🇰","17 vless-🇭🇰","18 vless-🇭🇰","19 vless-🇭🇰","20 vless-🇭🇰"]}
-  - {name: ⚖️ 负载均衡-轮询, type: load-balance, url: http://www.google.com/generate_204, interval: 300, strategy: round-robin, proxies: ["11 vless-🇨🇳","12 vless-🇨🇳","13 vless-🇨🇳","14 vless-🇨🇳","15 vless-🇨🇳","16 vless-🇭🇰","17 vless-🇭🇰","18 vless-🇭🇰","19 vless-🇭🇰","20 vless-🇭🇰"]}
+  #- {name: ⚖️ 负载均衡-散列, type: load-balance, url: http://www.google.com/generate_204, interval: 300, strategy: consistent-hashing, proxies: [   ]}
+  #- {name: ⚖️ 负载均衡-轮询, type: load-balance, url: http://www.google.com/generate_204, interval: 300, strategy: round-robin, proxies: [  ]}
 
 
 rules:
