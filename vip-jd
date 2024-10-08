@@ -24,3 +24,5 @@ trojan://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@tj-hk.aikunapp.com:5002?security=t
 trojan://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@tj-hk.aikunapp.com:5002?security=tls&sni=www.apple.com&allowInsecure=1&type=tcp#%E9%A6%99%E6%B8%AF%20HKT%20%2001%EF%BC%88%E5%8E%9F%E7%94%9Fip%EF%BC%89
 hy2://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@aws-sgsg.aikunapp.com:5002?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E6%96%B0%E5%8A%A0%E5%9D%A1%2001
 hy2://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@sg-oracle.aikunapp.com:5002?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E6%96%B0%E5%8A%A0%E5%9D%A1%20oracle%20hy2
+hy2://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@216.73.156.50:5002?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E7%BE%8E%E5%9B%BD%20GPT%20%E4%B8%93%E7%94%A8%202
+hy2://4dda03a9-a0ba-46a6-add2-6fdba9a2fb40@us-oracle.aikunapp.com:5002?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E7%BE%8E%E5%9B%BD%20hy2
