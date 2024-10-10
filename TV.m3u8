@@ -88,7 +88,10 @@ http://www.weec.top:2222/udp/239.3.1.178:8001
 http://www.weec.top:2222/udp/239.3.1.102:8001
 #EXTINF:-1,北京IPTV淘BABY[1920x1080]
 http://webmail.axxe.top:4022/udp/239.3.1.238:8001
-
+#EXTINF:-1 tvg-id="Astro-SuperSport-2" tvg-name="Astro SuperSport 2" tvg-logo="https://assets.livednow.com/logo/Astro-SuperSport-2.png" group-title="Sports", Astro SuperSport 2
+http://192.168.5.111:5000/dlhd/Astro-SuperSport-2
+#EXTINF:-1 tvg-id="Astro-SuperSport-4" tvg-name="Astro SuperSport 4" tvg-logo="https://assets.livednow.com/logo/Astro-SuperSport-4.png" group-title="Sports", Astro SuperSport 4
+http://192.168.5.111:5000/dlhd/Astro-SuperSport-4
 
 
 #EXTINF:-1 tvg-id="ELTA體育-1台" tvg-name="愛爾達體育1台 [3840x2160]-16M" tvg-logo="https://assets.livednow.com/logo/ELTA體育-1台.png" group-title="體育", 愛爾達體育1台
