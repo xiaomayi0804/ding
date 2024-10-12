@@ -49,25 +49,25 @@ http://192.168.5.111:5000/itv/FifastbLive/3000000010000015686
 http://192.168.5.111:5000/tptv/miguaoyun01-AVS-4K01?type=origin
 #EXTINF:-1 group-title="4K频道",高清臻享睛彩竞技[3840x2160]
 http://192.168.5.111:5000/tptv/miguaoyun1-AVS?type=origin
-#EXTINF:-1,凤凰卫视中文[1920x1080]
+#EXTINF:-1,tvg-id="凤凰卫视中文" tvg-name="凤凰卫视中文" tvg-logo="https://epg.v1.mk/logo/凤凰卫视中文.png" group-title="4K频道",凤凰卫视中文[1920x1080]
 http://192.168.5.111:5000/tptv/HD-10000k-1080P-fhchinese5s?type=origin
-#EXTINF:-1,凤凰卫视资讯[1920x1080]
+#EXTINF:-1,tvg-id="凤凰卫视资讯" tvg-name="凤凰卫视资讯" tvg-logo="https://epg.v1.mk/logo/凤凰卫视资讯.png" group-title="4K频道",凤凰卫视资讯[1920x1080]
 http://192.168.5.111:5000/tptv/HD-10000k-1080P-fhzixun5s?type=origin
-#EXTINF:-1,凤凰卫视香港[1920x1080]
+#EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="4K频道",凤凰卫视香港[1920x1080]
 http://192.168.5.111:5000/tptv/HD-10000k-1080P-fhhongkong5s?type=origin
-#EXTINF:-1,CCTV1-4K[3840x2160]-25M
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="4K频道",CCTV1-4K[3840x2160]-25M
 http://192.168.5.111:5000/tptv/G_CCTV-1-AVS-4K264?type=origin
-#EXTINF:-1,CCTV3-4K[3840x2160]-25M
+#EXTINF:-1,tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="4K频道",CCTV3-4K[3840x2160]-25M
 http://192.168.5.111:5000/tptv/G_CCTV-3-AVS-4K264?type=origin
-#EXTINF:-1,CCTV5-4K[3840x2160]-25M
+#EXTINF:-1,tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="4K频道",CCTV5-4K[3840x2160]-25M
 http://192.168.5.111:5000/tptv/G_CCTV-5-AVS-4K264?type=origin
-#EXTINF:-1,CCTV6-4K[3840x2160]-25M
+#EXTINF:-1,tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="4K频道",CCTV6-4K[3840x2160]-25M
 http://192.168.5.111:5000/tptv/G_CCTV-6-AVS-4K264?type=origin
-#EXTINF:-1,CCTV8-4K[3840x2160]-25M
+#EXTINF:-1,tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="4K频道",CCTV8-4K[3840x2160]-25M
 http://192.168.5.111:5000/tptv/G_CCTV-8-AVS-4K264?type=origin
-#EXTINF:-1,CCTV16-4K[3840x2160]-20M
+#EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="4K频道",CCTV16-4K[3840x2160]-20M
 http://192.168.5.111:5000/tptv/G_CCTV-16-4K?type=origin
-#EXTINF:-1,CCTV4K[3840x2160]-12M
+#EXTINF:-1,tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="4K频道",CCTV4K[3840x2160]-12M
 http://192.168.5.111:5000/tptv/G_CCTV-4K-HD?type=origin
 #EXTINF:-1,CCTV风云足球 8M
 http://192.168.5.111:5000/tptv/G_FENGSHANGZQ-CQ?type=origin
