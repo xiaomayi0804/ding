@@ -188,7 +188,7 @@ rule-providers:
 proxy-providers:
   TCorg1: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaomayi0804/ding/main/d-trojan, path: ./Proxy/TCorg1.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   TCorg: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaomayi0804/ding/main/d-vless, path: ./Proxy/TCorg.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
-  WangCai: {type: http, url: https://igdux.top/~vless/clash, path: ./Proxy/WangCai.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
+  WangCai: {type: http, url: https://igdux.top/~Nekobox, path: ./Proxy/WangCai.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Edgetunnel: {type: http, url: https://478a9f2a-0d66-4035-a797-06e9c83c6739.3869fe04-6fcd-4ad4-a8f4-40582f4fa0c4.giize.com/edgetunnel-cja.pages.dev/f2b3219c-215f-4b7e-96d8-25b751d79988, path: ./Proxy/Edgetunnel.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Ghostcc: {type: http, url: https://ghostcc.cc/ss.cn/cn.ovg, path: ./Proxy/Hlsg.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
   Vip: {type: http, url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaomayi0804/ding/main/vip-jd, path: ./Proxy/Vip.yaml, interval: 86400, health-check: {enable: false, interval: 600, url: https://www.gstatic.com/generate_204}}
