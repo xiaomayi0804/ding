@@ -104,7 +104,7 @@ proxy-groups:
   - {name: 🌍 香港节点, type: select, use: [TCorg, TCorg1, Vip, Vip1, Vip2, Edgetunnel, Ghostcc, WangCai], filter: "(?i)港|🇭🇰|hk|hongkong|hong kong"}
   - {name: 🌍 日本节点, type: select, use: [TCorg, TCorg1, Vip, Vip1, Vip2, Edgetunnel, Ghostcc, WangCai], filter: "(?i)日本|🇯🇵|jp|japan"}
   - {name: 🌍 新加坡节点, type: select, use: [TCorg, TCorg1, Vip, Vip1, Vip2, Edgetunnel, Ghostcc, WangCai], filter: "(?i)新|🇸🇬|sg|singapore"}
-  - {name: 🌍 台湾节点, type: select, use: [TCorg, TCorg1, Vip, Vip1, Vip2, Edgetunnel, Ghostcc, WangCai], filter: "(?i)台|🇹🇼|tw|tpe|taiwan"}
+  - {name: 🌍 台湾节点, type: select, use: [TCorg, TCorg1, Vip, Vip1, Vip2, Edgetunnel, Ghostcc, WangCai], filter: "(?i)台|🇹🇼|🇨🇳|tw|tpe|taiwan"}
   - {name: 🌍 订阅节点, type: select, proxies: [🚀 节点选择, 🌍 自动选择, 🌍 手动选择1, 🌍 手动选择2, 🌍 自动选择3, 🌍 自动选择4, 🌍 自动选择5, 🌍 香港节点, 🌍 日本节点, 🌍 新加坡节点, 🌍 台湾节点, DIRECT]}
   - {name: 🐟 漏网之鱼, type: select, proxies: [🚀 节点选择, 🌍 自动选择, 🌍 手动选择1, 🌍 手动选择2, 🌍 自动选择3, 🌍 自动选择4, 🌍 自动选择5, DIRECT]}
   #- {name: ⚖️ 负载均衡-散列, type: load-balance, url: http://www.google.com/generate_204, interval: 300, strategy: consistent-hashing, proxies: [   ]}
