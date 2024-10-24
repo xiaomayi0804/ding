@@ -1,39 +1,4 @@
 vless://f2b3219c-215f-4b7e-96d8-25b751d79988@210.61.97.241:81?security=tls&sni=edgetunnel.xiaomayi.nyc.mn&fp=random&type=ws&path=/?ed%3D2560&host=edgetunnel.xiaomayi.nyc.mn&encryption=none#TW
 
-trojan://2a8d6d93-3aab-49d0-9968-6801aa0f273d@tj-jp-1.aikunapp.com:6002?security=tls&sni=s0.awsstatic.com&allowInsecure=1&fp=chrome&type=tcp#%E6%97%A5%E6%9C%AC%20Trojan%200.5x
-vless://2a8d6d93-3aab-49d0-9968-6801aa0f273d@aws-hkvl.aikunapp.com:5202?security=tls&sni=www.apple.com&allowInsecure=1&fp=chrome&type=tcp&flow=xtls-rprx-vision&encryption=none#%E9%A6%99%E6%B8%AF%20vless%2001
-vless://2a8d6d93-3aab-49d0-9968-6801aa0f273d@krvl.aikunapp.com:5202?security=tls&sni=www.apple.com&allowInsecure=1&fp=chrome&type=tcp&flow=xtls-rprx-vision&encryption=none#%E9%9F%A9%E5%9B%BD%20vless%2001
-vless://2a8d6d93-3aab-49d0-9968-6801aa0f273d@lin-sgp-vl.aikunapp.com:5202?security=tls&sni=www.apple.com&allowInsecure=1&fp=chrome&type=tcp&flow=xtls-rprx-vision&encryption=none#%E6%96%B0%E5%8A%A0%E5%9D%A1%2002%20%E7%A7%BB%E5%8A%A8%E4%BC%98%E5%8C%96
-vless://2a8d6d93-3aab-49d0-9968-6801aa0f273d@aws-jpvl.aikunapp.com:5202?security=tls&sni=www.apple.com&allowInsecure=1&fp=chrome&type=tcp&flow=xtls-rprx-vision&encryption=none#%E6%97%A5%E6%9C%AC%20vless%2001
-vless://2a8d6d93-3aab-49d0-9968-6801aa0f273d@aws-sgvl.aikunapp.com:5202?security=tls&sni=www.apple.com&allowInsecure=1&fp=chrome&type=tcp&flow=xtls-rprx-vision&encryption=none#%E6%96%B0%E5%8A%A0%E5%9D%A1%20vless%2001
-vless://2a8d6d93-3aab-49d0-9968-6801aa0f273d@lin-tyo-vl.aikunapp.com:5202?security=tls&sni=www.apple.com&allowInsecure=1&fp=chrome&type=tcp&flow=xtls-rprx-vision&encryption=none#%E6%97%A5%E6%9C%AC%2002%20%E7%A7%BB%E5%8A%A8%E4%BC%98%E5%8C%96
-vless://2a8d6d93-3aab-49d0-9968-6801aa0f273d@hktddns2.aikunapp.com:5849?security=tls&sni=www.apple.com&allowInsecure=1&fp=chrome&type=tcp&flow=xtls-rprx-vision&encryption=none#%E9%A6%99%E6%B8%AF%20vless%2002%20%E5%8E%9F%E7%94%9FIP
-hy2://2a8d6d93-3aab-49d0-9968-6801aa0f273d@sg-oracle.aikunapp.com:5002?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E6%96%B0%E5%8A%A0%E5%9D%A1%20oracle%20hy2
-hy2://2a8d6d93-3aab-49d0-9968-6801aa0f273d@us-oracle.aikunapp.com:5002?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E7%BE%8E%E5%9B%BD%20hy2
-hy2://2a8d6d93-3aab-49d0-9968-6801aa0f273d@aws-sgsg.aikunapp.com:5002?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E6%96%B0%E5%8A%A0%E5%9D%A1%2001
-hy2://2a8d6d93-3aab-49d0-9968-6801aa0f273d@aws-hkhk.981545.xyz:5002?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E9%A6%99%E6%B8%AF%2001
-hy2://2a8d6d93-3aab-49d0-9968-6801aa0f273d@krseoul.aikunapp.com:5002?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E9%9F%A9%E5%9B%BD%E9%A6%96%E5%B0%94
-hy2://2a8d6d93-3aab-49d0-9968-6801aa0f273d@aws-jpjp.aikunapp.com:5002?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E6%97%A5%E6%9C%AC%2001
-hy2://2a8d6d93-3aab-49d0-9968-6801aa0f273d@jp-oracle.aikunapp.com:5002?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E6%97%A5%E6%9C%AC%20oracle%20hy2
-hy2://2a8d6d93-3aab-49d0-9968-6801aa0f273d@jp-linode.aikunapp.com:5002?insecure=1&sni=d1--cn-gotcha204-3.bilivideo.com#%E6%97%A5%E6%9C%AC%20Linode%20%EF%BC%88%E8%81%94%E9%80%9A%E4%BC%98%E5%8C%96%EF%BC%89
-trojan://2a8d6d93-3aab-49d0-9968-6801aa0f273d@tj-hk.aikunapp.com:5002?security=tls&sni=www.apple.com&allowInsecure=1&fp=chrome&type=tcp#%E9%A6%99%E6%B8%AF%20HKT%20%2001%EF%BC%88%E5%8E%9F%E7%94%9Fip%EF%BC%89
 
-
-vless://de02ad7f-f076-4e8d-abe8-9f2b21a557b5@146.56.143.181:443?security=tls&sni=djdownloadkr.xn--4gq62f52gopi49k.com&fp=ios&type=tcp&flow=xtls-rprx-vision&encryption=none#%F0%9F%87%B0%F0%9F%87%B7%E9%9F%A9%E5%9B%BD%E9%A6%96%E5%B0%94
-vless://de02ad7f-f076-4e8d-abe8-9f2b21a557b5@132.226.172.30:443?security=tls&sni=djdownloadkr1.xn--4gq62f52gopi49k.com&fp=firefox&type=tcp&flow=xtls-rprx-vision&encryption=none#%F0%9F%87%B0%F0%9F%87%B7%E9%9F%A9%E5%9B%BD%E9%A6%96%E5%B0%942
-hy2://de02ad7f-f076-4e8d-abe8-9f2b21a557b5@152.67.200.22:50000?mport=50000-53000&insecure=1&sni=www.hoyoverse.com#%F0%9F%87%B0%F0%9F%87%B7%E9%9F%A9%E5%9B%BD%E6%98%A5%E5%B7%9D2-1.5%E5%80%8D%E7%8E%87
-vless://de02ad7f-f076-4e8d-abe8-9f2b21a557b5@c8217-b2a.h1.49d2.5e11.613.b297.djjsvip.cfd:443?security=tls&sni=djdownloadtw1.xn--4gq62f52gopi49k.com&fp=safari&type=tcp&flow=xtls-rprx-vision&encryption=none#%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E6%B9%BE%E2%80%94TK%E4%B8%93%E7%BA%BF
-vless://de02ad7f-f076-4e8d-abe8-9f2b21a557b5@c8217-b2a.h3.49d2.5e11.613.b297.djjsvip.cfd:443?security=tls&sni=djdownloadhk2.xn--4gq62f52gopi49k.com&fp=safari&type=tcp&flow=xtls-rprx-vision&encryption=none#%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AFhkt2-1.5%E5%80%8D
-vless://de02ad7f-f076-4e8d-abe8-9f2b21a557b5@150.230.120.55:443?security=tls&sni=djdownloadgb.xn--4gq62f52gopi49k.com&fp=ios&type=tcp&flow=xtls-rprx-vision&encryption=none#%F0%9F%87%AC%F0%9F%87%A7%E8%8B%B1%E5%9B%BD%E4%BC%A6%E6%95%A6-1%E5%80%8D
-hy2://de02ad7f-f076-4e8d-abe8-9f2b21a557b5@158.101.37.59:50000?mport=50000-53000&insecure=1&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E3%E5%8F%B7
-hy2://de02ad7f-f076-4e8d-abe8-9f2b21a557b5@129.153.75.202:50000?mport=50000-53000&insecure=1&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E1%E5%8F%B7
-vless://de02ad7f-f076-4e8d-abe8-9f2b21a557b5@129.153.197.187:443?security=tls&sni=djdownloadus.xn--4gq62f52gopi49k.com&fp=safari&type=tcp&flow=xtls-rprx-vision&encryption=none#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E-0.1%E5%80%8D
-hy2://de02ad7f-f076-4e8d-abe8-9f2b21a557b5@129.146.249.162:50000?mport=50000-53000&insecure=1&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E4%E5%8F%B7
-hy2://de02ad7f-f076-4e8d-abe8-9f2b21a557b5@163.123.192.167:50000?mport=50000-50080&insecure=1&sni=www.microsoft.com#@vpnhat
-vless://de02ad7f-f076-4e8d-abe8-9f2b21a557b5@c8217-b2a.h2.49d2.5e11.613.b297.djjsvip.cfd:443?security=tls&sni=djdownloadhk1.xn--4gq62f52gopi49k.com&fp=safari&type=tcp&flow=xtls-rprx-vision&encryption=none#%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AFhkt-2%E5%80%8D
-hy2://de02ad7f-f076-4e8d-abe8-9f2b21a557b5@146.56.114.61:50000?mport=50000-53000&insecure=1&sni=www.hoyoverse.com#%F0%9F%87%B0%F0%9F%87%B7%E9%9F%A9%E5%9B%BD%E6%98%A5%E5%B7%9D-1.5%E5%80%8D%E7%8E%87
-hy2://de02ad7f-f076-4e8d-abe8-9f2b21a557b5@193.123.229.26:50000?mport=50000-53000&insecure=1&sni=www.hoyoverse.com#%F0%9F%87%B0%F0%9F%87%B7%E9%9F%A9%E5%9B%BD%E9%A6%96%E5%B0%94-3%E5%80%8D%E7%8E%87
-hy2://de02ad7f-f076-4e8d-abe8-9f2b21a557b5@146.56.148.206:50000?mport=50000-53000&insecure=1&sni=www.hoyoverse.com#%F0%9F%87%B0%F0%9F%87%B7%E9%9F%A9%E5%9B%BD%E9%A6%96%E5%B0%942-3%E5%80%8D%E7%8E%87
-hy2://de02ad7f-f076-4e8d-abe8-9f2b21a557b5@140.245.52.9:50000?mport=50000-53000&insecure=1&sni=www.microsoft.com#%F0%9F%87%B8%F0%9F%87%AC%E6%96%B0%E5%8A%A0%E5%9D%A1hy
-hy2://de02ad7f-f076-4e8d-abe8-9f2b21a557b5@131.186.42.162:50000?mport=50000-53000&insecure=1&sni=www.microsoft.com#%F0%9F%87%AF%F0%9F%87%B5%E6%97%A5%E6%9C%AC
 
