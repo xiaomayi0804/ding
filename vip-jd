@@ -19,8 +19,5 @@ ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@54.213.247.125:443#US,%20Dallas%202
 
 
 trojan://dns68@183.240.196.236:443?security=tls&sni=trojan.putata.us.kg&alpn=http/1.1&fp=randomized&type=ws&path=/?ed%3D2560&host=trojan.putata.us.kg#HKG
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.3.10:80?security=&type=ws&path=/?ed%3D2048&host=uni.fi&encryption=none
-vless://02d1a8d0-607c-48da-97ca-aecc6c529158@hk2.youxuan.wiki:8080?security=reality&sni=zabbix.mikunet.work&fp=chrome&pbk=ykBTZq-ZnVnRyHzfeZ0n2Tgbnjs6XutIHZDfKDPGDHc&sid=b6e0cf87&type=tcp&flow=xtls-rprx-vision&encryption=none#%F0%9F%87%AD%F0%9F%87%B0HK_@anzhuoapk
-trojan://dns68@175.125.207.253:12048?security=tls&sni=trojan.putata.us.kg&alpn=h3&fp=randomized&type=ws&path=/?proxyip%3D175.125.207.253:12048&host=trojan.putata.us.kg#KR
 
 
