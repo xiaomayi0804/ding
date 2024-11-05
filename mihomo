@@ -16,7 +16,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "订阅链接2"
+    url: "https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd"
 
 
 unified-delay: true
