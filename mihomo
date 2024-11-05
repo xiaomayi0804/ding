@@ -17,6 +17,24 @@ proxy-providers:
       interval: 300
     proxy: 🟢 直连
     url: "https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd"
+  Airport_03:
+    type: http
+    interval: 1800
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 🟢 直连
+    url: "https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd1"
+  Airport_04:
+    type: http
+    interval: 1800
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 🟢 直连
+    url: "https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-tw"
 
 
 unified-delay: true
@@ -62,7 +80,7 @@ proxy-groups:
   - {name: 🎯 全球直连, type: select, proxies: [🟢 直连, 🚀 节点选择]}
   - {name: 🐟 漏网之鱼, <<: *pr}
   - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: "(?i)港|hk|hongkong|hong kong"}
-  - {name: 🇹🇼 台湾节点, type: select, include-all: true, filter: "(?i)港|tw|taiwan|tai wan"}
+  - {name: 🇹🇼 台湾节点, type: select, include-all: true, filter: "(?i)湾|tw|taiwan|tai wan"}
   - {name: 🇯🇵 日本节点, type: select, include-all: true, filter: "(?i)日|jp|japan"}
   - {name: 🇺🇲 美国节点, type: select, include-all: true, filter: "(?i)美|us|unitedstates|united states"}
   - {name: 🔯 香港故转, type: fallback, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
