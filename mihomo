@@ -43,10 +43,10 @@ proxies:
   type: direct
   udp: true
 
-pr: &pr {type: select, proxies: [🚀 节点选择, 🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 🟢 直连]}
+pr: &pr {type: select, proxies: [🚀 节点选择, 🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 🟢 直连]}
 
 proxy-groups:
-  - {name: 🚀 节点选择, type: select, proxies: [🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 🟢 直连]}
+  - {name: 🚀 节点选择, type: select, proxies: [🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 🟢 直连]}
   - {name: 📹 YouTube, <<: *pr}
   - {name: 🍀 Google, <<: *pr}
   - {name: 🤖 ChatGPT, <<: *pr}
@@ -62,6 +62,7 @@ proxy-groups:
   - {name: 🎯 全球直连, type: select, proxies: [🟢 直连, 🚀 节点选择]}
   - {name: 🐟 漏网之鱼, <<: *pr}
   - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: "(?i)港|hk|hongkong|hong kong"}
+  - {name: 🇹🇼 台湾节点, type: select, include-all: true, filter: "(?i)港|tw|taiwan|tai wan"}
   - {name: 🇯🇵 日本节点, type: select, include-all: true, filter: "(?i)日|jp|japan"}
   - {name: 🇺🇲 美国节点, type: select, include-all: true, filter: "(?i)美|us|unitedstates|united states"}
   - {name: 🔯 香港故转, type: fallback, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
@@ -71,7 +72,33 @@ proxy-groups:
   - {name: ♻️ 美国自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美|US|(?i)States|America))^((?!(港|台|日|韩|新)).)*$"}
   - {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连)).)*$"}
   - {name: 🌐 全部节点, type: select, include-all: true}
+
 rules:
+  - DOMAIN-SUFFIX,us.kg,🚀 节点选择
+  - DOMAIN-SUFFIX,dnsany.com,🟢 直连
+  - DOMAIN-SUFFIX,cmvideo.cn,🟢 直连
+  - DOMAIN-SUFFIX,chinamobile.com,🟢 直连
+  - DOMAIN-SUFFIX,mobaibox.com,🟢 直连
+  - DOMAIN-SUFFIX,gitv.tv,🟢 直连
+  - DOMAIN-SUFFIX,cctv.cn,🟢 直连
+  - DOMAIN-SUFFIX,yangshipin.cn,🟢 直连
+  - DOMAIN-SUFFIX,gcable.cn,🟢 直连
+
+  # 自行测试当地是否能够直连，不能直连删掉下面这行
+  #- DOMAIN,beesport.livednow.com,DIRECT
+
+  # 台湾
+  - DOMAIN-SUFFIX,cdn.hinet.net,🇹🇼 台湾节点
+  - DOMAIN-SUFFIX,orz-7.com,🇹🇼 台湾节点
+  - DOMAIN-SUFFIX,tvb.com,🇭🇰 香港节点
+  - DOMAIN-KEYWORD,stream-link,🚀 节点选择
+  - DOMAIN-SUFFIX,asuscomm.com,🚀 节点选择
+  - DOMAIN-KEYWORD,teamviewer,🟢 直连
+  - DOMAIN-KEYWORD,doppiocdn,🚀 节点选择
+  - DOMAIN-KEYWORD,bing,🚀 节点选择
+  - DOMAIN-KEYWORD,mushroom,🟢 直连
+  - DOMAIN-KEYWORD,alonestreaming,🟢 直连
+
   - RULE-SET,private_domain,🟢 直连
   - RULE-SET,direct1,🟢 直连
   - RULE-SET,apple_domain,🍎 Apple
@@ -122,3 +149,12 @@ rule-providers:
   google_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs" }
   telegram_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs" }
   netflix_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs" }
+
+tcp-concurrent: true
+use-hosts: true
+hosts:
+  cache.ott.ystenlive.itv.cmvideo.cn: pixman.io.ystenlive.dnsany.com
+  cache.ott.bestlive.itv.cmvideo.cn: pixman.io.bestlive.dnsany.com
+  cache.ott.wasulive.itv.cmvideo.cn: pixman.io.wasulive.dnsany.com
+  cache.ott.fifalive.itv.cmvideo.cn: pixman.io.fifalive.dnsany.com
+  cache.ott.hnbblive.itv.cmvideo.cn: pixman.io.hnbblive.dnsany.com
