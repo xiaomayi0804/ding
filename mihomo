@@ -7,7 +7,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://github.com/xiaomayi0804/ding/raw/refs/heads/main/vip-jd"
+    url: "https://subscribe.cloudlion.me/api/v1/client/subscribe?token=409eae0b4ce8a5e3dc0ad1f500265165"
   Airport_02:
     type: http
     interval: 1800
