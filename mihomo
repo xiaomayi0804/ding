@@ -160,7 +160,6 @@ rule-providers:
   telegram_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs" }
   netflix_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs" }
 
-tcp-concurrent: true
 use-hosts: true
 hosts:
   cache.ott.ystenlive.itv.cmvideo.cn: pixman.io.ystenlive.dnsany.com
