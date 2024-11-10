@@ -60,8 +60,6 @@ http://www.weec.top:2222/udp/239.3.1.102:8001
 http://webmail.axxe.top:4022/udp/239.3.1.238:8001
 
 
-
-
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台 4K" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="综合", 翡翠台 4K
 http://192.168.5.111:35443/stream/4k/4k/master.m3u8
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://assets.livednow.com/logo/明珠台.png" group-title="新聞財經", 明珠台
@@ -74,8 +72,28 @@ http://192.168.5.111:35443/stream/4k/null-9/master.m3u8
 http://192.168.5.111:35443/stream/4k/null-10/master.m3u8
 #EXTINF:-1 tvg-id="鳳凰香港" tvg-name="鳳凰香港" tvg-logo="https://assets.livednow.com/logo/鳳凰香港.png" group-title="综合", 鳳凰衛視香港台
 http://192.168.5.111:35443/stream/4k/null-11/master.m3u8
-
-
+#EXTINF:-1,Eurosport 1
+https://192.168.5.111:5000/Eurosport_1_Live_TV
+#EXTINF:-1,Sky Sports Football
+https://tv.iill.top/beesport/Sky_Sports_Football_Live_TV
+#EXTINF:-1,Sky Sports Premier League
+https://tv.iill.top/beesport/Sky_Sports_Premier_League
+#EXTINF:-1,HBO 1
+https://tv.iill.top/beesport/HBO_Live_TV
+#EXTINF:-1,HBO 2
+https://tv.iill.top/beesport/HBO_2_Live_TV
+#EXTINF:-1,SuperSport Football
+https://tv.iill.top/beesport/SuperSport_Football_Live_TV
+#EXTINF:-1,SuperSport Premier League
+https://tv.iill.top/beesport/SuperSport_Premier_League_Live_TV
+#EXTINF:-1,Premier Sports 1
+https://tv.iill.top/beesport/Premier_Sports_1
+#EXTINF:-1,Premier Sports 2
+https://tv.iill.top/beesport/Premier_Sports_2
+#EXTINF:-1,ESPN
+https://tv.iill.top/beesport/ESPN_Live_TV
+#EXTINF:-1,ESPN2
+https://tv.iill.top/beesport/ESPN_2_Live_TV
 
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5[1920x1080]-12M" tvg-logo="https://assets.livednow.com/logo/CCTV5.png" group-title="央视", CCTV5[1920x1080]-12M
 http://192.168.5.111:5000/ysp/cctv5
@@ -89,7 +107,6 @@ http://192.168.5.111:35442/home/cctv4k/cctv4k.m3u8
 http://192.168.5.111:35442/home/cctv8k36m/cctv8k_36m.m3u8
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16[3840x2160]-40M" tvg-logo="https://assets.livednow.com/logo/CCTV16.png" group-title="央视", CCTV16[3840x2160]-40M
 http://192.168.5.111:35442/home/cctv4k16/cctv4k16.m3u8
-
 
 
 
