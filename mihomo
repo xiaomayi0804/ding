@@ -95,6 +95,8 @@ rules:
   - DOMAIN-SUFFIX,tvb.com,🇭🇰 香港节点
   - DOMAIN-KEYWORD,stream-link,🚀 节点选择
   - DOMAIN-SUFFIX,asuscomm.com,🚀 节点选择
+  - DOMAIN-KEYWORD,onedrive,🟢 直连
+  - DOMAIN-KEYWORD,sharepoint,🟢 直连
   - DOMAIN-KEYWORD,copilot,🚀 节点选择
   - DOMAIN-KEYWORD,teamviewer,🟢 直连
   - DOMAIN-KEYWORD,doppiocdn,🚀 节点选择
