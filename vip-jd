@@ -13,12 +13,14 @@ vmess://eyJhZGQiOiIxMTEuNi44Ni43NCIsImFpZCI6IjIiLCJob3N0Ijoid3d3LmJpbmcuY29tIiwi
 vmess://eyJhZGQiOiIxMTEuNi44Ni43NCIsImFpZCI6IjAiLCJob3N0Ijoid3d3LmJpbmcuY29tIiwiaWQiOiIxNmJiYzIxYy1kM2U5LTMwOWYtOGE2Ny1kYmU0ZmMzMzI2MzQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZ2FtZSIsInBvcnQiOiI3Nzc3IiwicHMiOiLmlrDliqDlnaEgMTA05Y+3KOmdnuiHquWItk5ldGZsaXh8Y2hhdGdwdHxEaXNuZXkrKSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
 
 
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@54.249.197.65:443#HK,%20Kowloon
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@47.129.50.131:443#HK,%20New%20Territories
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@47.129.170.82:443#JP,%20Tokyo
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@54.213.247.125:443#US,%20Dallas%202
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@57.180.42.246:443#HK,%20New%20Territories
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@3.112.128.236:443#JP,%20Tokyo
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@52.199.172.25:443#TW,%20Taipei
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@18.183.171.233:443#KR,%20Incheon
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@52.196.65.55:443#JP,%20Osaka
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@3.112.246.107:443#SG,%20Singapore
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@47.129.50.131:443#JP,%20Tokyo%202
 
 
-trojan://dns68@183.240.196.236:443?security=tls&sni=trojan.putata.us.kg&alpn=http/1.1&fp=randomized&type=ws&path=/?ed%3D2560&host=trojan.putata.us.kg#HKG
 
 
