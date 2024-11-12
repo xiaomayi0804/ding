@@ -6,6 +6,9 @@ vless://f2b3219c-215f-4b7e-96d8-25b751d79988@www.xxxxxxx.nyc.mn:2053?security=tl
 vless://f2b3219c-215f-4b7e-96d8-25b751d79988@edgetunnel-cja.pages.dev:443?security=tls&sni=edgetunnel-cja.pages.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=edgetunnel-cja.pages.dev&encryption=none#edgetunnel
 vmess://eyJhZGQiOiJ3d3cueHh4eHh4eC5ueWMubW4iLCJhaWQiOiIwIiwiaG9zdCI6ImNkbi54aWFvbWF5aS5ueWMubW4iLCJpZCI6IjQyNGI1OTcwLTA2YjUtNGE2Ny04YTc1LTMyZGU4M2EzN2Q5YSIsIm5ldCI6IndzIiwicGF0aCI6Ii9zZXJ2MDA/ZWQ9MjA0OCIsInBvcnQiOiI0NDMiLCJwcyI6IlZtZXNzd3MtczEwLWxlbzcyNiIsInNjeSI6Im5vbmUiLCJzbmkiOiJjZG4ueGlhb21heWkubnljLm1uIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
 vless://f2b3219c-215f-4b7e-96d8-25b751d79988@210.61.97.241:81?security=tls&sni=edgetunnel.xiaomayi.nyc.mn&fp=random&type=ws&path=/?ed%3D2560&host=edgetunnel.xiaomayi.nyc.mn&encryption=none#TW
+vless://f2b3219c-215f-4b7e-96d8-25b751d79988@visa.com.tw:8443?security=tls&sni=edgetunnel-cja.pages.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=edgetunnel-cja.pages.dev&encryption=none#edgetunnel-U1
+vless://f2b3219c-215f-4b7e-96d8-25b751d79988@usa.visa.com:2053?security=tls&sni=edgetunnel-cja.pages.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=edgetunnel-cja.pages.dev&encryption=none#edgetunnel-U2
+vless://f2b3219c-215f-4b7e-96d8-25b751d79988@www.wto.org:8443?security=tls&sni=edgetunnel-cja.pages.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=edgetunnel-cja.pages.dev&encryption=none#edgetunnel-U3
 
 
 vmess://eyJhZGQiOiIxMTEuNi44Ni43NCIsImFpZCI6IjAiLCJob3N0Ijoid3d3LmJpbmcuY29tIiwiaWQiOiIxNmJiYzIxYy1kM2U5LTMwOWYtOGE2Ny1kYmU0ZmMzMzI2MzQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZ2FtZSIsInBvcnQiOiI2NjY2IiwicHMiOiLpppnmuK8gNzjlj7co5paw5Yqg5Z2hbmV0ZmxpeHxEaXNuZXkpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
