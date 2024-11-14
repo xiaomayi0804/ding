@@ -5,6 +5,8 @@
 http://www.52sw.top:678/play/douyu.php?id=1863767
 #EXTINF:-1 group-title="斗鱼王者",王者官方iill
 http://dns.yiandrive.com:16813/douyu/1863767
+#EXTINF:-1 group-title="斗鱼王者",王者官方docker
+http://192.168.5.111:35455/douyu/1863767
 #EXTINF:-1 group-title="斗鱼王者",斗鱼托米
 http://192.168.5.111:35455/douyu/793400
 #EXTINF:-1 group-title="斗鱼王者",斗鱼午夜抹抹茶
@@ -43,7 +45,6 @@ http://192.168.5.111:35442/itv/1000000004000011651.m3u8?cdn=ystenlive
 http://192.168.5.111:35442/itv/3000000010000005180.m3u8?cdn=FifastbLive
 #EXTINF:-1,tvg-id="咪咕4K" tvg-name="咪咕4K" tvg-logo="https://epg.v1.mk/logo/咪咕4K.png" group-title="4K频道",咪咕4K-2
 http://192.168.5.111:35442/itv/3000000010000015686.m3u8?cdn=FifastbLive
-
 
 
 #EXTINF:-1,北京IPTV4K超清[3840x2160]
