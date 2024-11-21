@@ -16,7 +16,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://subscribe.cloudlion.top/api/v1/client/subscribe?token=36706ef791313e564cfbdbfac83417f5"
+    url: "https://igdux.top/~Nekobox"
   Airport_03:
     type: http
     interval: 1800
@@ -25,7 +25,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    #url: "https://igdux.top/~Nekobox"
+    url: ""
 
 
 unified-delay: true
