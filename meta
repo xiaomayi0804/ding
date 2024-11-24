@@ -7,12 +7,12 @@ proxy-providers:
   # 第一个代理提供者
   provider1:
     <<: *p  # 继承通用配置
-    url: "https://ghp.ci/https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial.yaml"
+    url: "https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd"
 
   # 第二个代理提供者
   provider2:
     <<: *p  # 继承通用配置
-    url: "https://ghp.ci/https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml"
+    url: ""
 
 # URL 测试配置
 u:: &u
