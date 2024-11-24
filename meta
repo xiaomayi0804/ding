@@ -242,16 +242,12 @@ pr: &pr {type: select, proxies: [🚀节点选择, 🎯全球直连, ♻️自�
 proxies: 
 proxy-groups:
   - {name: 🚀节点选择, type: select, proxies: [🎯全球直连, ♻️自动选择, ⚡️均衡负载, 🔯故障转移, 🇭🇰香港, 🇹🇼台湾, 🇯🇵日本, 🇺🇸美国, 🇸🇬新加坡, 🏴󠁵󠁳󠁬󠁡󠁿洛杉矶, 🇬🇧英国, 🇩🇪德国, 🇫🇷法国, 🇨🇦加拿大, 🇦🇺澳大利亚, 🇰🇷韩国, 🇷🇺俄罗斯, 🇳🇱荷兰, 🇮🇳印度, 🇲🇾马来西亚, 🇵🇱波兰, 🇪🇪爱沙尼亚, 🇦🇪阿联酋, 🇳🇬尼日利亚, 🇧🇬保加利亚, 🇸🇨塞舌尔, 🇪🇸西班牙, 🇻🇳越南, 🇸🇽荷属圣马丁, 🇲🇴澳门, 🇵🇭菲律宾, 🇹🇭泰国, 🇲🇳蒙古, 🏴󠁧󠁢󠁥󠁮󠁧󠁿英格兰, 🌐其它地区]}
-
   - {name: 🚫广告拦截, udp: true, type: select, proxies: [REJECT, 🎯全球直连, 🚀节点选择]}
-
   - {name: 🎯全球直连, udp: true, type: select, proxies: [DIRECT, ♻️自动选择, 🔯故障转移]}
-
   - {name: ♻️自动选择, <<: *u, interval: 2, type: url-test}
-
   - {name: ⚡️均衡负载, <<: *u, strategy: round-robin, type: load-balance}
-
   - {name: 🔯故障转移, <<: *u, type: fallback}
+  - {name: 🐟 漏网之鱼, type: select, proxies: [DIRECT, ♻️自动选择, 🔯故障转移]}
 
   # 应用分组
   - {name: Apple, <<: *pr, type: select, icon: "https://www.apple.com.cn/ac/structured-data/images/knowledge_graph_logo.png"}
@@ -355,9 +351,9 @@ rules:
   - DOMAIN-SUFFIX,cctv.cn,🟢 直连
   - DOMAIN-SUFFIX,yangshipin.cn,🟢 直连
   - DOMAIN-SUFFIX,gcable.cn,🟢 直连
-  - DOMAIN-SUFFIX,cdn.hinet.net,🇹🇼 台湾节点
-  - DOMAIN-SUFFIX,orz-7.com,🇹🇼 台湾节点
-  - DOMAIN-SUFFIX,tvb.com,🇭🇰 香港节点
+  - DOMAIN-SUFFIX,cdn.hinet.net,🇹🇼台湾
+  - DOMAIN-SUFFIX,orz-7.com,🇹🇼台湾
+  - DOMAIN-SUFFIX,tvb.com,🇭🇰香港
   - DOMAIN-KEYWORD,stream-link,🚀 节点选择
   - DOMAIN-SUFFIX,asuscomm.com,🚀 节点选择
   - DOMAIN-KEYWORD,onedrive,🟢 直连
@@ -412,7 +408,7 @@ rules:
   - GEOIP,CN,🎯全球直连
 
   # 节点代理
-  - MATCH,🚀节点选择
+  - MATCH,🐟 漏网之鱼
 
 rule-anchor:
   ipcidr: &ipcidr {type: http, interval: 600, behavior: ipcidr, format: yaml}
