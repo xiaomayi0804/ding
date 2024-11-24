@@ -9,6 +9,7 @@ vless://f2b3219c-215f-4b7e-96d8-25b751d79988@210.61.97.241:81?security=tls&sni=e
 vless://f2b3219c-215f-4b7e-96d8-25b751d79988@visa.com.tw:8443?security=tls&sni=edgetunnel-cja.pages.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=edgetunnel-cja.pages.dev&encryption=none#edgetunnel-U1
 vless://f2b3219c-215f-4b7e-96d8-25b751d79988@usa.visa.com:2053?security=tls&sni=edgetunnel-cja.pages.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=edgetunnel-cja.pages.dev&encryption=none#edgetunnel-U2
 vless://f2b3219c-215f-4b7e-96d8-25b751d79988@www.wto.org:8443?security=tls&sni=edgetunnel-cja.pages.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=edgetunnel-cja.pages.dev&encryption=none#edgetunnel-U3
+vless://8a56c666-b1e6-46df-a1f1-6a70eeee8e6a@72a07882.edgetunnel-6ne.pages.dev:443?security=tls&sni=72a07882.edgetunnel-6ne.pages.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=72a07882.edgetunnel-6ne.pages.dev&encryption=none#xiaomayi
 
 
 vmess://eyJhZGQiOiIxMTEuNi44Ni43NCIsImFpZCI6IjAiLCJob3N0Ijoid3d3LmJpbmcuY29tIiwiaWQiOiIxNmJiYzIxYy1kM2U5LTMwOWYtOGE2Ny1kYmU0ZmMzMzI2MzQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZ2FtZSIsInBvcnQiOiI2NjY2IiwicHMiOiLpppnmuK8gNzjlj7co5paw5Yqg5Z2hbmV0ZmxpeHxEaXNuZXkpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
@@ -16,7 +17,8 @@ vmess://eyJhZGQiOiIxMTEuNi44Ni43NCIsImFpZCI6IjIiLCJob3N0Ijoid3d3LmJpbmcuY29tIiwi
 vmess://eyJhZGQiOiIxMTEuNi44Ni43NCIsImFpZCI6IjAiLCJob3N0Ijoid3d3LmJpbmcuY29tIiwiaWQiOiIxNmJiYzIxYy1kM2U5LTMwOWYtOGE2Ny1kYmU0ZmMzMzI2MzQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZ2FtZSIsInBvcnQiOiI3Nzc3IiwicHMiOiLmlrDliqDlnaEgMTA05Y+3KOmdnuiHquWItk5ldGZsaXh8Y2hhdGdwdHxEaXNuZXkrKSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
 
 
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@52.69.236.102:443#JP,%20Osaka
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@54.95.5.168:443#JP,%20Tokyo
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@57.180.42.246:443#KR,%20Incheon
 
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowZTkxYTI5YS05ODlkLTQ5MzQtYTFmYi03YjY1MzMxOTM5N2Y=@120.232.217.70:50102#%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AFHytron-D
