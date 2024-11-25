@@ -16,7 +16,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://igdux.top/~Nekobox"
+    #url: "https://igdux.top/~Nekobox"
   Airport_03:
     type: http
     interval: 1800
