@@ -97,7 +97,7 @@ https://tv.iill.top/beesport/ESPN_Live_TV
 https://tv.iill.top/beesport/ESPN_2_Live_TV
 
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5[1920x1080]-12M" tvg-logo="https://assets.livednow.com/logo/CCTV5.png" group-title="央视", CCTV5[1920x1080]-12M
-http://192.168.5.111:5000/ysp/cctv5
+http://192.168.5.111:35455/itv/1000000005000025222.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-id="CCTV5-plus" tvg-name="CCTV5+[1920x1080]-12M" tvg-logo="https://assets.livednow.com/logo/CCTV5-plus.png" group-title="央视", CCTV5+[1920x1080]-12M
 http://192.168.5.111:5000/ysp/cctv5p
 #EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13[1920x1080]-12M" tvg-logo="https://assets.livednow.com/logo/CCTV13.png" group-title="央视", CCTV13[1920x1080]-12M
@@ -124,7 +124,7 @@ http://192.168.5.111:35455/ysptp/cctv5.m3u8
 #EXTINF:-1 tvg-id="CCTV5-plus" tvg-name="CCTV 5+" tvg-logo="https://assets.livednow.com/logo/CCTV5-plus.png" group-title="央视+", CCTV 5+
 http://192.168.5.111:35455/ysptp/cctv5p.m3u8
 #EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV 6" tvg-logo="https://assets.livednow.com/logo/CCTV6.png" group-title="央视+", CCTV 6
-http://192.168.5.111:35455/itv/6000000001000004574.m3u8?cdn=wasusyt
+http://192.168.5.111:35455/itv/1000000001000001737.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV 7" tvg-logo="https://assets.livednow.com/logo/CCTV7.png" group-title="央视+", CCTV 7
 http://192.168.5.111:35455/ysptp/cctv7.m3u8
 #EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV 8" tvg-logo="https://assets.livednow.com/logo/CCTV8.png" group-title="央视+", CCTV 8
