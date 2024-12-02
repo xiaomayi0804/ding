@@ -16,8 +16,8 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    #url: "https://igdux.top/~Nekobox"
-  Airport_03:
+    url: "https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd1"
+    Airport_03:
     type: http
     interval: 1800
     health-check:
@@ -25,7 +25,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: ""
+    #url: "https://igdux.top/~Nekobox"
 
 
 mixed-port: 7890
