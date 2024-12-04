@@ -17,7 +17,7 @@ proxy-providers:
       interval: 300
     proxy: 🟢 直连
     url: "https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd1"
-    Airport_03:
+  Airport_03:
     type: http
     interval: 1800
     health-check:
