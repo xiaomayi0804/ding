@@ -1,4 +1,19 @@
 proxies:
+  - name: edgetunnel
+    port: 443
+    server: xiaoxiaomayi.leo726china.workers.dev
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: xiaoxiaomayi.leo726china.workers.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: xiaoxiaomayi.leo726china.workers.dev
+    uuid: e4fe88c4-b5a5-4d69-a639-55d146e3888e
+    client-fingerprint: randomized
   - name: 台北Hinet-D_1
     port: 33404
     server: 113.56.218.13
