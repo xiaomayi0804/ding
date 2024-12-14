@@ -5,7 +5,11 @@ vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@daphne.ns.cloudflare.com:80?securit
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@www.wto.org:80?security=&sni=xiaoxiaomayi.leo726china.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726china.workers.dev&encryption=none#edgetunnel
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@usa.visa.com:80?security=&sni=xiaoxiaomayi.leo726china.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726china.workers.dev&encryption=none#edgetunnel
 
-
+hy2://de5d32ff-ce3b-4a38-8467-3772235dbd7e@gyjp1.mlshu.top:30001?insecure=1#%F0%9F%87%AF%F0%9F%87%B5%E6%97%A5%E6%9C%AC-%E5%85%AC%E5%BC%80
+hy2://de5d32ff-ce3b-4a38-8467-3772235dbd7e@gysg1.mlshu.top:50001?insecure=1#%F0%9F%87%B8%F0%9F%87%AC%E6%96%B0%E5%8A%A0%E5%9D%A1-%E5%85%AC%E5%BC%80
+trojan://3648425794742788096@52.74.162.69:443?security=tls&sni=patient-ghost.treefrog761.one&type=tcp#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%E8%A5%BF%E9%83%A8
+hy2://de5d32ff-ce3b-4a38-8467-3772235dbd7e@gyus1.mlshu.top:30001?insecure=1#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD-%E5%85%AC%E5%BC%801
+hy2://de5d32ff-ce3b-4a38-8467-3772235dbd7e@node18.mlshu.top:30001?insecure=1#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD-%E5%85%AC%E5%BC%802
 
 
 
