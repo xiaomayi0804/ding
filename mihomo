@@ -7,7 +7,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd"
+    url: "https://ghgo.xyz/https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd"
   Airport_02:
     type: http
     interval: 1800
@@ -16,7 +16,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd1"
+    url: "https://ghgo.xyz/https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd1"
   Airport_03:
     type: http
     interval: 1800
@@ -34,7 +34,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    #url: "https://xiaoxiaomayi.leo726china.workers.dev/e4fe88c4-b5a5-4d69-a639-55d146e3888e"
+    #url: ""
 
 mixed-port: 7890
 allow-lan: true
