@@ -122,7 +122,7 @@ hosts:
 ## 策略组
 proxy-groups:
   ## 手动选择国家或地区节点；根据“国家或地区策略组”名称对 `proxies` 值进行增删改，须一一对应
-  - {name: 🚀 节点选择, type: select, proxies: [🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🆓 免费节点]}
+  - {name: 🚀 节点选择, type: select, proxies: [🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🌐 全部节点, 🆓 免费节点]}
   - {name: 🐟 漏网之鱼, type: select, proxies: [🎯 全球直连, 🚀 节点选择]}
   ## 选择`🎯 全球直连`为测试本地网络（运营商网络速度和 IPv6 支持情况），可选择其它节点用于测试机场节点速度和 IPv6 支持情况
   - {name: 📈 网络测试, type: select, proxies: [🎯 全球直连, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🆓 免费节点]}
@@ -162,6 +162,62 @@ rule-providers:
     url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/ads.mrs"
     interval: 86400
 
+  youtube_domain:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/youtube.mrs
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"
+    interval: 86400  
+  
+  google_domain:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/google.mrs
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"
+    interval: 86400   
+ 
+  github_domain:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/github.mrs
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs"
+    interval: 86400  
+
+  telegram_domain:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/telegram.mrs
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs"
+    interval: 86400      
+
+  tiktok_domain:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/tiktok.mrs
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs"
+    interval: 86400      
+
+  gfw_domain:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/gfw.mrs
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gfw.mrs"
+    interval: 86400      
+
+  cn_domain:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/cn_domain.mrs
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs"
+    interval: 86400   
+    
   ai:
     type: http
     behavior: domain
@@ -194,6 +250,32 @@ rule-providers:
     url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/telegramip.mrs"
     interval: 86400
 
+  geolocation-!cn:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    path: ./rules/geolocation-!cn.mrs
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs"
+    interval: 86400
+
+  cn_ip:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    path: ./rules/cn_ip.mrs
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.mrs"
+    interval: 86400
+
+  google_ip:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    path: ./rules/google_ip.mrs
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs"
+    interval: 86400
+
+ 
+  
 ## 规则
 rules:
   - DOMAIN-SUFFIX,us.kg,🚀 节点选择
@@ -219,10 +301,20 @@ rules:
   - DOMAIN-KEYWORD,mushroom,🟢 直连
   - DOMAIN-KEYWORD,alonestreaming,🟢 直连
 
+  - RULE-SET,youtube_domain,🚀 节点选择
+  - RULE-SET,google_domain,🚀 节点选择
+  - RULE-SET,github_domain,🚀 节点选择
+  - RULE-SET,telegram_domain,🚀 节点选择
+  - RULE-SET,tiktok_domain,🚀 节点选择
+  - RULE-SET,gfw_domain,🚀 节点选择
+  - RULE-SET,cn_domain,DIRECT
   - RULE-SET,private,🔒 私有网络
   - RULE-SET,ads,🛑 广告拦截
   - RULE-SET,ai,🤖 人工智能
   - RULE-SET,networktest,📈 网络测试
   - RULE-SET,proxy,🪜 代理域名
   - RULE-SET,telegramip,📲 电报消息,no-resolve
+  - RULE-SET,geolocation-!cn,🚀 节点选择,no-resolve
+  - RULE-SET,google_ip,🚀 节点选择,no-resolve
+  - RULE-SET,cn_ip,DIRECT,no-resolve
   - MATCH,🐟 漏网之鱼
