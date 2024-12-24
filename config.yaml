@@ -47,6 +47,77 @@ proxies:
     sni: www.bing.com
     password: hkoqsZtSdqv98yq9
     skip-cert-verify: true
+  - name: "🟢 直连"
+    type: direct
+    udp: true
+
+mixed-port: 7890
+allow-lan: true
+unified-delay: true
+tcp-concurrent: true
+external-controller: 0.0.0.0:9090
+### 如果使用的是裸核，需要将下面的注释去掉，方便ui界面的使用
+# external-ui: ui
+# external-ui-url: 'https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip'
+find-process-mode: strict
+global-client-fingerprint: chrome
+profile:
+  store-selected: true
+  store-fake-ip: true
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  skip-domain:
+    - "Mijia Cloud"
+    - "+.push.apple.com"
+tun:
+  enable: true
+  stack: system
+  device: mihomo
+  dns-hijack:
+    - - tcp://any:53
+  auto-route: true
+  auto-detect-interface: true
+  strict-route: true
+  # 如果有使用zerotier或者headscale等，需要自己配置排除自己的网段
+  # route-exclude-address: ["192.168.110.0/24"]
+dns:
+  enable: true
+  ipv6: false
+  prefer-h3: true
+  respect-rules: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 28.0.0.1/8
+  nameserver:
+    # 网络环境文明的话推荐直接使用运营商的DNS服务器 或者 沿用上游的DNS服务器
+    - system
+    - https://223.5.5.5/dns-query
+    - https://doh.pub/dns-query
+  proxy-server-nameserver:
+    - https://223.5.5.5/dns-query
+    - https://doh.pub/dns-query
+mode: rule
+log-level: warning
+ipv6: false
+udp: true
+
+
+use-hosts: true
+hosts:
+  cache.ott.ystenlive.itv.cmvideo.cn: pixman.io.ystenlive.dnsany.com
+  cache.ott.bestlive.itv.cmvideo.cn: pixman.io.bestlive.dnsany.com
+  cache.ott.wasulive.itv.cmvideo.cn: pixman.io.wasulive.dnsany.com
+  cache.ott.fifalive.itv.cmvideo.cn: pixman.io.fifalive.dnsany.com
+  cache.ott.hnbblive.itv.cmvideo.cn: pixman.io.hnbblive.dnsany.com
+
+
 
 ## 策略组
 proxy-groups:
@@ -71,7 +142,8 @@ proxy-groups:
   - {name: 🇯🇵 日本节点, type: url-test, tolerance: 50, include-all-providers: true, filter: "(?i)日本|jp|japan"}
   - {name: 🇸🇬 新加坡节点, type: url-test, tolerance: 50, use: [🛫 我的机场 1, 🛫 我的机场 2], filter: "(?i)新|sg|singapore"}
   - {name: 🇺🇸 美国节点, type: url-test, tolerance: 50, use: [🛫 我的机场 1, 🛫 我的机场 2], filter: "(?i)美|us|unitedstates|united states"}
-
+  - {name: 🌐 全部节点, type: select, include-all: true}
+  
 ## 规则集（yaml 文件每天自动更新）
 rule-providers:
   private:
@@ -124,6 +196,29 @@ rule-providers:
 
 ## 规则
 rules:
+  - DOMAIN-SUFFIX,us.kg,🚀 节点选择
+  - DOMAIN-SUFFIX,dnsany.com,🟢 直连
+  - DOMAIN-SUFFIX,cmvideo.cn,🟢 直连
+  - DOMAIN-SUFFIX,chinamobile.com,🟢 直连
+  - DOMAIN-SUFFIX,mobaibox.com,🟢 直连
+  - DOMAIN-SUFFIX,gitv.tv,🟢 直连
+  - DOMAIN-SUFFIX,cctv.cn,🟢 直连
+  - DOMAIN-SUFFIX,yangshipin.cn,🟢 直连
+  - DOMAIN-SUFFIX,gcable.cn,🟢 直连
+  - DOMAIN-SUFFIX,cdn.hinet.net,🇹🇼 台湾节点
+  - DOMAIN-SUFFIX,orz-7.com,🇹🇼 台湾节点
+  - DOMAIN-SUFFIX,tvb.com,🇭🇰 香港节点
+  - DOMAIN-KEYWORD,stream-link,🚀 节点选择
+  - DOMAIN-SUFFIX,asuscomm.com,🚀 节点选择
+  - DOMAIN-KEYWORD,onedrive,🟢 直连
+  - DOMAIN-KEYWORD,sharepoint,🟢 直连
+  - DOMAIN-KEYWORD,copilot,🚀 节点选择
+  - DOMAIN-KEYWORD,teamviewer,🟢 直连
+  - DOMAIN-KEYWORD,doppiocdn,🚀 节点选择
+  - DOMAIN-KEYWORD,bing,🌐 全部节点
+  - DOMAIN-KEYWORD,mushroom,🟢 直连
+  - DOMAIN-KEYWORD,alonestreaming,🟢 直连
+
   - RULE-SET,private,🔒 私有网络
   - RULE-SET,ads,🛑 广告拦截
   - RULE-SET,ai,🤖 人工智能
