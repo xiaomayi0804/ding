@@ -1,7 +1,7 @@
 proxies:
-  - name: 台北Hinet-D_1
-    port: 33404
-    server: 113.56.218.13
+  - name: 香港GCore-H
+    port: 33318
+    server: 120.226.29.91
     type: vmess
     network: ws
     tls: true
