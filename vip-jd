@@ -6,10 +6,21 @@ vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@xiaoxiaomayi.leo726china.workers.de
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@usa.visa.com:80?security=&sni=xiaoxiaomayi.leo726china.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726china.workers.dev&encryption=none#edgetunnel
 
 
-hy2://338b9800-fb4d-4934-8425-388f6d4342f5@tw2.akebi.cc:33750?sni=tw2.akebi.cc#%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E6%B9%BE%EF%BD%9C02%EF%BD%9C%E5%8E%9F%E7%94%9FIP
 vless://40d11375-f419-4617-91b8-e97edf972632@ww.shopify.com:443?security=tls&sni=cna.bgm2024.us.kg&type=ws&path=/?ed%3D2560&host=cna.bgm2024.us.kg&encryption=none#TW1
-hy2://338b9800-fb4d-4934-8425-388f6d4342f5@tw3.akebi.cc:2000?sni=hk03.akebi.cc#%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AF%EF%BD%9C02
-hy2://338b9800-fb4d-4934-8425-388f6d4342f5@tw2.akebi.cc:2002?sni=hk03.akebi.cc#%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AF%EF%BD%9C03
 hy2://dongtaiwang.com@46.17.41.189:50717?insecure=1&sni=www.bing.com#%F0%9F%87%B7%F0%9F%87%BA%20RU-Hysteria2-TW
+
+
+hy2://338b9800-fb4d-4934-8425-388f6d4342f5@tw3.akebi.cc:5006?sni=tw3.akebi.cc#%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E6%B9%BE%EF%BD%9C03%EF%BD%9C%E5%8E%9F%E7%94%9FIP
+hy2://338b9800-fb4d-4934-8425-388f6d4342f5@tw2.akebi.cc:33750?sni=tw2.akebi.cc#%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E6%B9%BE%EF%BD%9C02%EF%BD%9C%E5%8E%9F%E7%94%9FIP
+hy2://338b9800-fb4d-4934-8425-388f6d4342f5@tw.akebi.cc:30000?sni=tw.akebi.cc#%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E6%B9%BE%EF%BD%9C01%EF%BD%9C%E5%8E%9F%E7%94%9FIP
+hy2://338b9800-fb4d-4934-8425-388f6d4342f5@tw4.akebi.cc:33751?sni=tw04.akebi.cc#%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E6%B9%BE%EF%BD%9C05%EF%BD%9C%E5%8E%9F%E7%94%9FIP
+hy2://338b9800-fb4d-4934-8425-388f6d4342f5@[2001:e42:102:1208:153:121:74:219]:3000?sni=jp01.akebi.cc#%F0%9F%87%AF%F0%9F%87%B5%E6%97%A5%E6%9C%AC%EF%BD%9C02%EF%BD%9C%E5%8E%9F%E7%94%9FIP%EF%BD%9CIPV6
+hy2://338b9800-fb4d-4934-8425-388f6d4342f5@tw4.akebi.cc:33750?sni=tw04.akebi.cc#%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E6%B9%BE%EF%BD%9C04%EF%BD%9C%E5%8E%9F%E7%94%9FIP
+hy2://338b9800-fb4d-4934-8425-388f6d4342f5@tw3.akebi.cc:2015?sni=jp01.akebi.cc#%F0%9F%87%AF%F0%9F%87%B5%E6%97%A5%E6%9C%AC%EF%BD%9C03%EF%BD%9C%E5%8E%9F%E7%94%9FIP
+hy2://338b9800-fb4d-4934-8425-388f6d4342f5@tw3.akebi.cc:2000?sni=hk03.akebi.cc#%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AF%EF%BD%9C02
+hy2://338b9800-fb4d-4934-8425-388f6d4342f5@tw.akebi.cc:1000?sni=hk03.akebi.cc#%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AF%EF%BD%9C01
+hy2://338b9800-fb4d-4934-8425-388f6d4342f5@tw2.akebi.cc:2002?sni=hk03.akebi.cc#%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AF%EF%BD%9C03
+hy2://338b9800-fb4d-4934-8425-388f6d4342f5@tw3.akebi.cc:2016?sni=kr02.akebi.cc#%F0%9F%87%B0%F0%9F%87%B7%E9%9F%A9%E5%9B%BD%E4%B8%A801
 hy2://338b9800-fb4d-4934-8425-388f6d4342f5@tw2.akebi.cc:3010?sni=kr02.akebi.cc#%F0%9F%87%B0%F0%9F%87%B7%E9%9F%A9%E5%9B%BD%E4%B8%A802
+hy2://338b9800-fb4d-4934-8425-388f6d4342f5@jp.akebi.cc:20440?sni=jp.akebi.cc#%F0%9F%87%AF%F0%9F%87%B5%E6%97%A5%E6%9C%AC%EF%BD%9C01%EF%BD%9C%E4%BD%8F%E5%AE%85IP
 
