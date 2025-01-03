@@ -1,3 +1,17 @@
+docker run -d --restart always --net=host --privileged=true -p 35455:35455 --name allinone youshandefeiyang/allinone -tv=true -aesKey=ihqmvvai8x4oevxarzrn028q8h7ofnih -userid=668014216 -token=e499209262a8658a36f427ede8c78211110e7b04c1207346db397c0eb8a063fed3d2c20472510c76027cf723fbba2857645cf35044d2ee6aefb044e8380803ca88341a503138
+
+services:
+  allinone:
+    image: youshandefeiyang/allinone
+    container_name: allinone
+    privileged: true
+    restart: always
+    ports:
+      - "35455:35455"
+    network_mode: host
+    command: -tv=true -aesKey=ihqmvvai8x4oevxarzrn028q8h7ofnih -userid=668014216 -token=e499209262a8658a36f427ede8c78211110e7b04c1207346db397c0eb8a063fed3d2c20472510c76027cf723fbba2857645cf35044d2ee6aefb044e8380803ca88341a503138
+
+
 
 clash：https://fofa.info/result?qbase64=IntcImhlbGxvXCI6XCJjbGFzaFwifSI%3D
 clash.meta：https://fofa.info/result?qbase64=IntcImhlbGxvXCI6XCJjbGFzaC5tZXRhXCJ9Ig%3D%3D
