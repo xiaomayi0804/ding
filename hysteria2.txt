@@ -1,4 +1,4 @@
-docker run -d --restart always --net=host --privileged=true -p 35455:35455 --name allinone youshandefeiyang/allinone -tv=true -aesKey=ihqmvvai8x4oevxarzrn028q8h7ofnih -userid=668014216 -token=e499209262a8658a36f427ede8c78211110e7b04c1207346db397c0eb8a063fed3d2c20472510c76027cf723fbba2857645cf35044d2ee6aefb044e8380803ca88341a503138
+docker run -d --restart always --privileged=true -p 35455:35455 --name allinone youshandefeiyang/allinone -tv=true -aesKey=z06aiecreyhgr6jfeewmbtj5hix8a95g -userid=668014216 -token=28706b4db4fd8410f9ffe8e964dbc4102f6b86f46ca5dbfe66a2014051313357179c468b7fe626df53a85924f806a40d59d592a2390836c4a81643d3fe487c0054ad4ecd54b0
 
 services:
   allinone:
@@ -8,8 +8,9 @@ services:
     restart: always
     ports:
       - "35455:35455"
-    network_mode: host
-    command: -tv=true -aesKey=ihqmvvai8x4oevxarzrn028q8h7ofnih -userid=668014216 -token=e499209262a8658a36f427ede8c78211110e7b04c1207346db397c0eb8a063fed3d2c20472510c76027cf723fbba2857645cf35044d2ee6aefb044e8380803ca88341a503138
+    network_mode: bridge
+    command: -tv=true -aesKey=z06aiecreyhgr6jfeewmbtj5hix8a95g -userid=668014216 -token=28706b4db4fd8410f9ffe8e964dbc4102f6b86f46ca5dbfe66a2014051313357179c468b7fe626df53a85924f806a40d59d592a2390836c4a81643d3fe487c0054ad4ecd54b0
+
 
 
 
