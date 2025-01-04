@@ -1,38 +1,4 @@
 proxies:
-  - name: 香港GCore-H
-    port: 33318
-    server: 120.226.29.91
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /ray
-      headers:
-        host: ""
-    cipher: auto
-    uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-    alterId: 0
-  - name: 新北Hinet-D
-    port: 33412
-    server: 122.195.189.124
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /ray
-      headers:
-        host: ""
-    cipher: auto
-    uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-    alterId: 0
   - name: 香港2012Limited-D_1
     port: 33410
     server: 113.56.218.13
@@ -50,57 +16,7 @@ proxies:
     cipher: auto
     uuid: 9204afcd-023e-781f-1abc-c12efccd1344
     alterId: 0
-  - name: Seoul-SKB-D_1
-    port: 33201
-    server: 43.248.119.145
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /ray
-      headers:
-        host: ""
-    cipher: auto
-    uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-    alterId: 0
-  - name: 香港Spike-D_1
-    port: 33416
-    server: 113.56.219.216
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /ray
-      headers:
-        host: ""
-    cipher: auto
-    uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-    alterId: 0
-  - name: 香港Spike-D_2
-    port: 33418
-    server: 183.232.197.223
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /ray
-      headers:
-        host: ""
-    cipher: auto
-    uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-    alterId: 0
+
   - name: 香港2012Limited-D_2
     port: 33410
     server: 122.195.189.124
@@ -118,23 +34,7 @@ proxies:
     cipher: auto
     uuid: 9204afcd-023e-781f-1abc-c12efccd1344
     alterId: 0
-  - name: 香港Spike-D_3
-    port: 33418
-    server: 36.155.23.137
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /ray
-      headers:
-        host: ""
-    cipher: auto
-    uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-    alterId: 0
+  
   - name: 香港2012Limited-D_3
     port: 33410
     server: 122.195.189.124
@@ -152,37 +52,4 @@ proxies:
     cipher: auto
     uuid: 9204afcd-023e-781f-1abc-c12efccd1344
     alterId: 0
-  - name: 台北Hinet-D_2
-    port: 33404
-    server: 113.56.219.216
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /ray
-      headers:
-        host: ""
-    cipher: auto
-    uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-    alterId: 0
-  - name: Seoul-SKB-D_2
-    port: 33201
-    server: 113.56.218.13
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /ray
-      headers:
-        host: ""
-    cipher: auto
-    uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-    alterId: 0
+ 
