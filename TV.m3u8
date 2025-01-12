@@ -65,40 +65,35 @@ http://www.weec.top:2222/udp/239.3.1.102:8001
 http://webmail.axxe.top:4022/udp/239.3.1.238:8001
 
 
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台 4K" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="综合", 翡翠台 4K
-http://192.168.5.111:35443/stream/4k/4k/master.m3u8
-#EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://assets.livednow.com/logo/明珠台.png" group-title="新聞財經", 明珠台
-http://192.168.5.111:35443/stream/4k/null/master.m3u8
-#EXTINF:-1 tvg-id="TVB Plus" tvg-name="TVB Plus" tvg-logo="https://assets.livednow.com/logo/TVB-Plus.png" group-title="综合", TVB Plus
-http://192.168.5.111:35443/stream/4k/tvbplus/master.m3u8
-#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://assets.livednow.com/logo/鳳凰中文.png" group-title="综合", 鳳凰衛視中文台
-http://192.168.5.111:35443/stream/4k/null-9/master.m3u8
-#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://assets.livednow.com/logo/鳳凰資訊.png" group-title="新聞財經", 鳳凰衛視資訊台
-http://192.168.5.111:35443/stream/4k/null-10/master.m3u8
-#EXTINF:-1 tvg-id="鳳凰香港" tvg-name="鳳凰香港" tvg-logo="https://assets.livednow.com/logo/鳳凰香港.png" group-title="综合", 鳳凰衛視香港台
-http://192.168.5.111:35443/stream/4k/null-11/master.m3u8
-#EXTINF:-1,Eurosport 1
-https://192.168.5.111:5000/Eurosport_1_Live_TV
-#EXTINF:-1,Sky Sports Football
-https://tv.iill.top/beesport/Sky_Sports_Football_Live_TV
-#EXTINF:-1,Sky Sports Premier League
-https://tv.iill.top/beesport/Sky_Sports_Premier_League
-#EXTINF:-1,HBO 1
-https://tv.iill.top/beesport/HBO_Live_TV
-#EXTINF:-1,HBO 2
-https://tv.iill.top/beesport/HBO_2_Live_TV
-#EXTINF:-1,SuperSport Football
-https://tv.iill.top/beesport/SuperSport_Football_Live_TV
-#EXTINF:-1,SuperSport Premier League
-https://tv.iill.top/beesport/SuperSport_Premier_League_Live_TV
-#EXTINF:-1,Premier Sports 1
-https://tv.iill.top/beesport/Premier_Sports_1
-#EXTINF:-1,Premier Sports 2
-https://tv.iill.top/beesport/Premier_Sports_2
-#EXTINF:-1,ESPN
-https://tv.iill.top/beesport/ESPN_Live_TV
-#EXTINF:-1,ESPN2
-https://tv.iill.top/beesport/ESPN_2_Live_TV
+#EXTINF:-1 group-title="4K频道",高清臻享睛彩篮球[3840x2160]
+http://123.249.40.108:8989/tptv.php?p=gitv&id=miguaoyun01-AVS-4K01?type=origin
+#EXTINF:-1 group-title="4K频道",高清臻享睛彩竞技[3840x2160]
+http://123.249.40.108:8989/tptv.php?p=gitv&id=miguaoyun1-AVS?type=origin
+#EXTINF:-1,tvg-id="凤凰卫视中文" tvg-name="凤凰卫视中文[1920x1080]" tvg-logo="https://epg.v1.mk/logo/凤凰卫视中文.png" group-title="4K频道"
+http://123.249.40.108:8989/tptv.php?p=gitv&id=HD-10000k-1080P-fhchinese5s?type=origin
+#EXTINF:-1,tvg-id="凤凰卫视资讯" tvg-name="凤凰卫视资讯[1920x1080]" tvg-logo="https://epg.v1.mk/logo/凤凰卫视资讯.png" group-title="4K频道"
+http://123.249.40.108:8989/tptv.php?p=gitv&id=HD-10000k-1080P-fhzixun5s?type=origin
+#EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港[1920x1080]" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="4K频道"
+http://123.249.40.108:8989/tptv.php?p=gitv&id=HD-10000k-1080P-fhhongkong5s?type=origin
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1-4K[3840x2160]-25M" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="4K频道"
+http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-1-AVS-4K264?type=origin
+#EXTINF:-1,tvg-id="cctv3" tvg-name="CCTV3-4K[3840x2160]-25M" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="4K频道"
+http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-3-AVS-4K264?type=origin
+#EXTINF:-1,tvg-id="cctv5" tvg-name="CCTV5-4K[3840x2160]-25M" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="4K频道"
+http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-5-AVS-4K264?type=origin
+#EXTINF:-1,tvg-id="cctv6" tvg-name="CCTV6-4K[3840x2160]-25M" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="4K频道"
+http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-6-AVS-4K264?type=origin
+#EXTINF:-1,tvg-id="cctv8" tvg-name="CCTV8-4K[3840x2160]-25M" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="4K频道"
+http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-8-AVS-4K264?type=origin
+#EXTINF:-1,tvg-id="cctv16" tvg-name="CCTV16-4K[3840x2160]-20M" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="4K频道"
+http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-16-4K?type=origin
+#EXTINF:-1,tvg-id="cctv4k" tvg-name="CCTV4K[3840x2160]-12M" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="4K频道"
+http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-4K-HD?type=origin
+#EXTINF:-1,CCTV风云足球 8M
+http://123.249.40.108:8989/tptv.php?p=gitv&id=G_FENGSHANGZQ-CQ?type=origin
+#EXTINF:-1,CCTV风云台球 8M
+http://123.249.40.108:8989/tptv.php?p=gitv&id=G_TAIQIU-CQ?type=origin
+
 
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5[1920x1080]-12M" tvg-logo="https://assets.livednow.com/logo/CCTV5.png" group-title="央视", CCTV5[1920x1080]-12M
 http://192.168.5.111:35455/itv/1000000005000025222.m3u8?cdn=ystenlive
