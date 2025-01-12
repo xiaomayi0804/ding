@@ -66,33 +66,33 @@ http://webmail.axxe.top:4022/udp/239.3.1.238:8001
 
 
 #EXTINF:-1 group-title="4K频道",高清臻享睛彩篮球[3840x2160]
-http://123.249.40.108:8989/tptv.php?p=gitv&id=miguaoyun01-AVS-4K01?type=origin
+http://123.249.40.108:8989/tptv.php?p=gitv&id=miguaoyun01-AVS-4K01
 #EXTINF:-1 group-title="4K频道",高清臻享睛彩竞技[3840x2160]
-http://123.249.40.108:8989/tptv.php?p=gitv&id=miguaoyun1-AVS?type=origin
+http://123.249.40.108:8989/tptv.php?p=gitv&id=miguaoyun1-AVS
 #EXTINF:-1,tvg-id="凤凰卫视中文" tvg-name="凤凰卫视中文[1920x1080]" tvg-logo="https://epg.v1.mk/logo/凤凰卫视中文.png" group-title="4K频道"
-http://123.249.40.108:8989/tptv.php?p=gitv&id=HD-10000k-1080P-fhchinese5s?type=origin
+http://123.249.40.108:8989/tptv.php?p=gitv&id=HD-10000k-1080P-fhchinese5s
 #EXTINF:-1,tvg-id="凤凰卫视资讯" tvg-name="凤凰卫视资讯[1920x1080]" tvg-logo="https://epg.v1.mk/logo/凤凰卫视资讯.png" group-title="4K频道"
-http://123.249.40.108:8989/tptv.php?p=gitv&id=HD-10000k-1080P-fhzixun5s?type=origin
+http://123.249.40.108:8989/tptv.php?p=gitv&id=HD-10000k-1080P-fhzixun5s
 #EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港[1920x1080]" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="4K频道"
-http://123.249.40.108:8989/tptv.php?p=gitv&id=HD-10000k-1080P-fhhongkong5s?type=origin
+http://123.249.40.108:8989/tptv.php?p=gitv&id=HD-10000k-1080P-fhhongkong5s
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1-4K[3840x2160]-25M" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="4K频道"
-http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-1-AVS-4K264?type=origin
+http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-1-AVS-4K264
 #EXTINF:-1,tvg-id="cctv3" tvg-name="CCTV3-4K[3840x2160]-25M" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="4K频道"
-http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-3-AVS-4K264?type=origin
+http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-3-AVS-4K264
 #EXTINF:-1,tvg-id="cctv5" tvg-name="CCTV5-4K[3840x2160]-25M" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="4K频道"
-http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-5-AVS-4K264?type=origin
+http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-5-AVS-4K264
 #EXTINF:-1,tvg-id="cctv6" tvg-name="CCTV6-4K[3840x2160]-25M" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="4K频道"
-http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-6-AVS-4K264?type=origin
+http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-6-AVS-4K264
 #EXTINF:-1,tvg-id="cctv8" tvg-name="CCTV8-4K[3840x2160]-25M" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="4K频道"
-http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-8-AVS-4K264?type=origin
+http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-8-AVS-4K264
 #EXTINF:-1,tvg-id="cctv16" tvg-name="CCTV16-4K[3840x2160]-20M" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="4K频道"
-http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-16-4K?type=origin
+http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-16-4K
 #EXTINF:-1,tvg-id="cctv4k" tvg-name="CCTV4K[3840x2160]-12M" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="4K频道"
-http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-4K-HD?type=origin
+http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-4K-HD
 #EXTINF:-1,CCTV风云足球 8M
-http://123.249.40.108:8989/tptv.php?p=gitv&id=G_FENGSHANGZQ-CQ?type=origin
+http://123.249.40.108:8989/tptv.php?p=gitv&id=G_FENGSHANGZQ-CQ
 #EXTINF:-1,CCTV风云台球 8M
-http://123.249.40.108:8989/tptv.php?p=gitv&id=G_TAIQIU-CQ?type=origin
+http://123.249.40.108:8989/tptv.php?p=gitv&id=G_TAIQIU-CQ
 
 
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5[1920x1080]-12M" tvg-logo="https://assets.livednow.com/logo/CCTV5.png" group-title="央视", CCTV5[1920x1080]-12M
