@@ -57,11 +57,14 @@ http://123.249.40.108:8989/tptv.php?p=gitv&id=miguaoyun01-AVS-4K01
 #EXTINF:-1 group-title="4K频道",高清臻享睛彩竞技[3840x2160]
 http://123.249.40.108:8989/tptv.php?p=gitv&id=miguaoyun1-AVS
 #EXTINF:-1,tvg-id="凤凰卫视中文" tvg-name="凤凰卫视中文[1920x1080]" tvg-logo="https://epg.v1.mk/logo/凤凰卫视中文.png" group-title="4K频道"
-http://ali.hlspull.yximgs.com/live/diyp_fh2.flv
+http://123.249.40.108:8989/tptv.php?p=cntv&id=HD-10000k-1080P-fhchinese5s.m3u8
+#http://ali.hlspull.yximgs.com/live/diyp_fh2.flv
 #EXTINF:-1,tvg-id="凤凰卫视资讯" tvg-name="凤凰卫视资讯[1920x1080]" tvg-logo="https://epg.v1.mk/logo/凤凰卫视资讯.png" group-title="4K频道"
-http://ali.hlspull.yximgs.com/live/diyp_fh1.flv
+http://123.249.40.108:8989/tptv.php?p=cntv&id=HD-10000k-1080P-fhzixun5s.m3u8
+#http://ali.hlspull.yximgs.com/live/diyp_fh1.flv
 #EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港[1920x1080]" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="4K频道"
-http://ali.hlspull.yximgs.com/live/diyp_fh3.flv
+http://123.249.40.108:8989/tptv.php?p=cntv&id=HD-10000k-1080P-fhhongkong5s
+#http://ali.hlspull.yximgs.com/live/diyp_fh3.flv
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1-4K[3840x2160]-25M" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="4K频道"
 http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-1-AVS-4K264
 #EXTINF:-1,tvg-id="cctv3" tvg-name="CCTV3-4K[3840x2160]-25M" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="4K频道"
