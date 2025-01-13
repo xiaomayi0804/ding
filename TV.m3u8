@@ -63,7 +63,7 @@ http://123.249.40.108:8989/tptv.php?p=cntv&id=HD-10000k-1080P-fhchinese5s.m3u8
 http://123.249.40.108:8989/tptv.php?p=cntv&id=HD-10000k-1080P-fhzixun5s.m3u8
 #http://ali.hlspull.yximgs.com/live/diyp_fh1.flv
 #EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港[1920x1080]" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="4K频道"
-http://123.249.40.108:8989/tptv.php?p=cntv&id=HD-10000k-1080P-fhhongkong5s
+http://123.249.40.108:8989/tptv.php?p=cntv&id=HD-10000k-1080P-fhhongkong5s.m3u8
 #http://ali.hlspull.yximgs.com/live/diyp_fh3.flv
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1-4K[3840x2160]-25M" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="4K频道"
 http://123.249.40.108:8989/tptv.php?p=gitv&id=G_CCTV-1-AVS-4K264
