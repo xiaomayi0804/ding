@@ -91,11 +91,10 @@ http://123.249.40.108:8989/tptv.php?p=gitv&id=G_TAIQIU-CQ
 
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5[1920x1080]-12M" tvg-logo="https://assets.livednow.com/logo/CCTV5.png" group-title="央视", CCTV5[1920x1080]-12M
 http://192.168.5.111:35455/itv/1000000005000025222.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="CCTV5-plus" tvg-name="CCTV5+[1920x1080]-12M" tvg-logo="https://assets.livednow.com/logo/CCTV5-plus.png" group-title="央视", CCTV5+[1920x1080]-8M
+#EXTINF:-1 tvg-id="CCTV5-plus" tvg-name="CCTV5+[1920x1080]-8M" tvg-logo="https://assets.livednow.com/logo/CCTV5-plus.png" group-title="央视", CCTV5+[1920x1080]-8M
 http://192.168.5.111:35455/itv/6000000001000015875.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13[1920x1080]-12M" tvg-logo="https://assets.livednow.com/logo/CCTV13.png" group-title="央视", CCTV13[1920x1080]-12M
-http://192.168.5.111:35455/gaoma/cctv13.m3u8
-#http://192.168.5.111:35455/itv/5000000011000031108.m3u8?cdn=bestzb
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13[1920x1080]-8M" tvg-logo="https://assets.livednow.com/logo/CCTV13.png" group-title="央视", CCTV13[1920x1080]-8M
+http://192.168.5.111:35455/itv/5000000011000031108.m3u8?cdn=bestzb
 #EXTINF:-1 tvg-id="CCTV-4K" tvg-name="CCTV4K[3840x2160]-40M" tvg-logo="https://assets.livednow.com/logo/CCTV-4K.png" group-title="央视", CCTV4K[3840x2160]-40M
 http://192.168.5.111:35455/gaoma/cctv4k.m3u8
 #EXTINF:-1,tvg-id="CCTV-8K" tvg-name="CCTV8K[3840x2160]-40M" tvg-logo="https://epg.v1.mk/logo/cctv8k.png" group-title="央视+",CCTV8K[3840x2160]-40M
