@@ -54,6 +54,20 @@ http://192.168.5.111:35455/itv/3000000010000005180.m3u8?cdn=FifastbLive
 #EXTINF:-1,tvg-id="咪咕4K" tvg-name="咪咕4K" tvg-logo="https://epg.v1.mk/logo/咪咕4K.png" group-title="4K频道",咪咕4K-2
 http://192.168.5.111:35455/itv/3000000010000015686.m3u8?cdn=FifastbLive
 
+#EXTINF:-1,北京IPTV4K超清[3840x2160]
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226550/1.m3u8?GuardEncType=2&accountinfo=~~V2.0~e2qS8h6u-xp3gd50vNr1sw~_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNPPFD3HVWEytEVyliOxehfe%2CEND#EXTINF:-1,北京IPTV淘电影[1920x1080]
+#EXTINF:-1,北京IPTV淘电影[1920x1080]
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226552/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EXOsrWMA-UCdUl1hQSR9EKw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNg3bzRax0E9tLmO9xgXVx8%2CEND
+#EXTINF:-1,北京IPTV淘娱乐[1920x1080]
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226551/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Ex0efg9fpenP8E8lWJUb5Lg%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNg3bzRax0E9tLmO9xgXVx8%2CEND#EXTINF:-1,北京IPTV淘精彩[1920x1080]
+#EXTINF:-1,北京IPTV淘剧场[1920x1080]
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226553/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EQaJ92NID2SpQlY6_VJVogg%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNOuQYJeiYEeFWTkFfE86Vq-%2CEND
+#EXTINF:-1,北京IPTV淘萌宠[1920x1080]
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226555/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E_PpxWPtvSZRFtu_Ged_-vQ%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNO0istnBuoA2R9ODSCqyIyS%2CEND
+#EXTINF:-1,北京IPTV淘BABY[1920x1080]
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226554/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EN0sbBMpQv4sLsW5foy3YfA%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNg3bzRax0E9tLmO9xgXVx8%2CEND
+#EXTINF:-1,北京IPTV重温经典[1920x1080]
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226556/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Eg58chGORQFpH6J3zm0kF5g%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNPAP4UJ9bY8mj3RcXbpDq31%2CEND
 
 
 #EXTINF:-1 group-title="4K频道",高清臻享睛彩篮球[3840x2160]
