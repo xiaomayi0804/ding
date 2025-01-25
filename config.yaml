@@ -3,7 +3,7 @@ proxy-providers:
   🛫 我的机场 1:
     type: http
     ## 机场订阅链接，使用 Clash 链接
-    url: "https://ghgo.xyz/https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd"
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd"
     path: ./proxies/airport1.yaml
     interval: 86400
     ## 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
@@ -22,7 +22,7 @@ proxy-providers:
 
   🛫 我的机场 2:
     type: http
-    url: "https://ghgo.xyz/https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd1"
+    url: "https://mxlsub.me/free"
     path: ./proxies/airport2.yaml
     interval: 43200
     #filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states"
@@ -40,16 +40,13 @@ proxy-providers:
 ## 单个出站代理节点（以 vless 为例）
 proxies:
   - name: 🆓 免费节点
-    port: 58666
-    server: 85.194.243.117
+    port: 2532
+    server: 128.204.223.99
     type: hysteria2
     udp: true
     sni: www.bing.com
-    password: hkoqsZtSdqv98yq9
+    password: f9d4745c-8c72-497c-b878-bd623537e202
     skip-cert-verify: true
-  - name: "🟢 直连"
-    type: direct
-    udp: true
 
 mixed-port: 7890
 allow-lan: true
