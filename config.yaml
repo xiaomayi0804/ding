@@ -125,14 +125,7 @@ proxy-groups:
   - {name: 🚀 节点选择, type: select, proxies: [🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🌐 全部节点, 🆓 免费节点]}
   - {name: 🐟 漏网之鱼, type: select, proxies: [🎯 全球直连, 🚀 节点选择]}
   ## 选择`🎯 全球直连`为测试本地网络（运营商网络速度和 IPv6 支持情况），可选择其它节点用于测试机场节点速度和 IPv6 支持情况
-  - {name: 📈 网络测试, type: select, proxies: [🎯 全球直连, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🆓 免费节点]}
-  - {name: 🤖 人工智能, type: select, proxies: [🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点]}
-  - {name: 🪜 代理域名, type: select, proxies: [🚀 节点选择, 🎯 全球直连]}
-  - {name: 📲 电报消息, type: select, proxies: [🚀 节点选择]}
-  - {name: 🔒 私有网络, type: select, proxies: [🎯 全球直连]}
-  - {name: 🛑 广告拦截, type: select, proxies: [REJECT]}
-  - {name: 🎯 全球直连, type: select, proxies: [DIRECT]}
-
+  
   ## ----------------国家或地区策略组---------------------
   ## 自动选择节点，即按照 url 测试结果使用延迟最低的节点；测试后容差大于 50ms 才会切换到延迟低的那个节点；筛选出“香港”节点，支持正则表达式
   - {name: 🇭🇰 香港节点, type: url-test, tolerance: 50, use: [🛫 我的机场 1, 🛫 我的机场 2], filter: "(?i)港|hk|hongkong|hong kong"}
@@ -144,178 +137,74 @@ proxy-groups:
   - {name: 🇺🇸 美国节点, type: url-test, tolerance: 50, use: [🛫 我的机场 1, 🛫 我的机场 2], filter: "(?i)美|us|unitedstates|united states"}
   - {name: 🌐 全部节点, type: select, include-all: true}
   
-## 规则集（yaml 文件每天自动更新）
-rule-providers:
-  private:
-    type: http
-    behavior: domain
-    format: mrs
-    path: ./rules/private.mrs
-    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/private.mrs"
-    interval: 86400
-
-  ads:
-    type: http
-    behavior: domain
-    format: mrs
-    path: ./rules/ads.mrs
-    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/ads.mrs"
-    interval: 86400
-
-  youtube_domain:
-    type: http
-    behavior: domain
-    format: mrs
-    path: ./rules/youtube.mrs
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"
-    interval: 86400  
-  
-  google_domain:
-    type: http
-    behavior: domain
-    format: mrs
-    path: ./rules/google.mrs
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"
-    interval: 86400   
- 
-  github_domain:
-    type: http
-    behavior: domain
-    format: mrs
-    path: ./rules/github.mrs
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs"
-    interval: 86400  
-
-  telegram_domain:
-    type: http
-    behavior: domain
-    format: mrs
-    path: ./rules/telegram.mrs
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs"
-    interval: 86400      
-
-  tiktok_domain:
-    type: http
-    behavior: domain
-    format: mrs
-    path: ./rules/tiktok.mrs
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs"
-    interval: 86400      
-
-  gfw_domain:
-    type: http
-    behavior: domain
-    format: mrs
-    path: ./rules/gfw.mrs
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gfw.mrs"
-    interval: 86400      
-
-  cn_domain:
-    type: http
-    behavior: domain
-    format: mrs
-    path: ./rules/cn_domain.mrs
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs"
-    interval: 86400   
-    
-  ai:
-    type: http
-    behavior: domain
-    format: mrs
-    path: ./rules/ai.mrs
-    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/ai.mrs"
-    interval: 86400
-
-  networktest:
-    type: http
-    behavior: classical
-    format: text
-    path: ./rules/networktest.list
-    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/networktest.list"
-    interval: 86400
-
-  proxy:
-    type: http
-    behavior: domain
-    format: mrs
-    path: ./rules/proxy.mrs
-    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/proxy.mrs"
-    interval: 86400
-
-  telegramip:
-    type: http
-    behavior: ipcidr
-    format: mrs
-    path: ./rules/telegramip.mrs
-    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/telegramip.mrs"
-    interval: 86400
-
-  geolocation-!cn:
-    type: http
-    behavior: ipcidr
-    format: mrs
-    path: ./rules/geolocation-!cn.mrs
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs"
-    interval: 86400
-
-  cn_ip:
-    type: http
-    behavior: ipcidr
-    format: mrs
-    path: ./rules/cn_ip.mrs
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.mrs"
-    interval: 86400
-
-  google_ip:
-    type: http
-    behavior: ipcidr
-    format: mrs
-    path: ./rules/google_ip.mrs
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs"
-    interval: 86400
-
- 
-  
-## 规则
 rules:
   - DOMAIN-SUFFIX,us.kg,🚀 节点选择
-  - DOMAIN-SUFFIX,freemyip.com,🟢 直连
-  - DOMAIN-SUFFIX,dnsany.com,🟢 直连
-  - DOMAIN-SUFFIX,cmvideo.cn,🟢 直连
-  - DOMAIN-SUFFIX,chinamobile.com,🟢 直连
-  - DOMAIN-SUFFIX,mobaibox.com,🟢 直连
-  - DOMAIN-SUFFIX,gitv.tv,🟢 直连
-  - DOMAIN-SUFFIX,cctv.cn,🟢 直连
-  - DOMAIN-SUFFIX,yangshipin.cn,🟢 直连
-  - DOMAIN-SUFFIX,gcable.cn,🟢 直连
+  - DOMAIN-SUFFIX,dnsany.com,DIRECT
+  - DOMAIN-SUFFIX,cmvideo.cn,DIRECT
+  - DOMAIN-SUFFIX,chinamobile.com,DIRECT
+  - DOMAIN-SUFFIX,mobaibox.com,DIRECT
+  - DOMAIN-SUFFIX,gitv.tv,DIRECT
+  - DOMAIN-SUFFIX,cctv.cn,DIRECT
+  - DOMAIN-SUFFIX,yangshipin.cn,DIRECT
+  - DOMAIN-SUFFIX,gcable.cn,DIRECT
+  - IP-CIDR,183.206.0.0/15,DIRECT,no-resolve
+  - IP-CIDR,223.5.5.5/32,DIRECT,no-resolve
+  - IP-CIDR,27.36.0.0/14,DIRECT,no-resolve
+  - IP-CIDR,183.238.66.0/24,DIRECT,no-resolve
+
+  # 自行测试当地是否能够直连，不能直连删掉下面这行
+  #- DOMAIN,beesport.livednow.com,DIRECT
+
+  # 台湾
   - DOMAIN-SUFFIX,cdn.hinet.net,🇹🇼 台湾节点
   - DOMAIN-SUFFIX,orz-7.com,🇹🇼 台湾节点
   - DOMAIN-SUFFIX,tvb.com,🇭🇰 香港节点
   - DOMAIN-KEYWORD,stream-link,🚀 节点选择
   - DOMAIN-SUFFIX,asuscomm.com,🚀 节点选择
-  - DOMAIN-KEYWORD,onedrive,🟢 直连
-  - DOMAIN-KEYWORD,sharepoint,🟢 直连
-  - DOMAIN-KEYWORD,copilot,🚀 节点选择
-  - DOMAIN-KEYWORD,teamviewer,🟢 直连
+  
+  
+  - DOMAIN-KEYWORD,teamviewer,DIRECT
   - DOMAIN-KEYWORD,doppiocdn,🚀 节点选择
-  - DOMAIN-KEYWORD,bing,🌐 全部节点
-  - DOMAIN-KEYWORD,mushroom,🟢 直连
-  - DOMAIN-KEYWORD,alonestreaming,🟢 直连
+  - DOMAIN-KEYWORD,bing,🚀 节点选择
+  - DOMAIN-KEYWORD,ubtvfans,🚀 节点选择
+  - DOMAIN-KEYWORD,workers.dev,🚀 节点选择
+  - DOMAIN-KEYWORD,v2rayse,🚀 节点选择
+  - DOMAIN-KEYWORD,mushroom,DIRECT
+  - DOMAIN-KEYWORD,alonestreaming,DIRECT
+  - IP-CIDR,91.108.0.0/16,🚀 节点选择,no-resolve
+  - IP-CIDR,109.239.140.0/24,🚀 节点选择,no-resolve
+  - IP-CIDR,149.154.175.0/24,🚀 节点选择,no-resolve
+  #- PROCESS-NAME,onedrive.exe,DIRECT
 
-  - RULE-SET,youtube_domain,🚀 节点选择
-  - RULE-SET,google_domain,🚀 节点选择
-  - RULE-SET,github_domain,🚀 节点选择
-  - RULE-SET,telegram_domain,🚀 节点选择
-  - RULE-SET,tiktok_domain,🚀 节点选择
-  - RULE-SET,gfw_domain,🚀 节点选择
-  - RULE-SET,cn_domain,DIRECT
-  - RULE-SET,private,🔒 私有网络
-  - RULE-SET,ads,🛑 广告拦截
-  - RULE-SET,ai,🤖 人工智能
-  - RULE-SET,networktest,📈 网络测试
-  - RULE-SET,proxy,🪜 代理域名
-  - RULE-SET,telegramip,📲 电报消息,no-resolve
-  - RULE-SET,geolocation-!cn,🚀 节点选择,no-resolve
-  - RULE-SET,google_ip,🚀 节点选择,no-resolve
-  - RULE-SET,cn_ip,DIRECT,no-resolve
+  - RULE-SET,applications,DIRECT
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,icloud,DIRECT
+  - RULE-SET,apple,DIRECT  
+  - RULE-SET,tld-not-cn,🚀 节点选择,no-resolve
+  - RULE-SET,gfw,🚀 节点选择,no-resolve
+  - RULE-SET,proxy,🚀 节点选择,no-resolve
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,lancidr,DIRECT
+  - RULE-SET,cncidr,DIRECT
+  - RULE-SET,telegramcidr,🚀 节点选择,no-resolve
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
   - MATCH,🐟 漏网之鱼
+
+rule-providers:
+  reject:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt", path: ./ruleset/reject.yaml, interval: 86400}
+  icloud:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt", path: ./ruleset/icloud.yaml, interval: 86400}
+  apple:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt", path: ./ruleset/apple.yaml, interval: 86400}
+  google:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt", path: ./ruleset/google.yaml, interval: 86400}
+  proxy:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt", path: ./ruleset/proxy.yaml, interval: 86400}
+  direct:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt", path: ./ruleset/direct.yaml, interval: 86400}
+  private:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt", path: ./ruleset/private.yaml, interval: 86400}
+  gfw:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt", path: ./ruleset/gfw.yaml, interval: 86400}
+  tld-not-cn:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt", path: ./ruleset/tld-not-cn.yaml, interval: 86400}
+  telegramcidr:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt", path: ./ruleset/telegramcidr.yaml, interval: 86400}
+  cncidr:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt", path: ./ruleset/cncidr.yaml, interval: 86400}
+  lancidr:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt", path: ./ruleset/lancidr.yaml, interval: 86400}
+  applications:  {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt", path: ./ruleset/applications.yaml, interval: 86400}
