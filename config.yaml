@@ -39,6 +39,9 @@ proxy-providers:
 
 ## 单个出站代理节点（以 vless 为例）
 proxies:
+  - name: "🟢 直连"
+    type: direct
+    udp: true
   - name: 🆓 免费节点
     port: 2532
     server: 128.204.223.99
