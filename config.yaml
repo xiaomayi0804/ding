@@ -43,7 +43,6 @@ proxies:
     type: direct
     udp: true
   - name: 🆓 免费节点
-  - name: Hy2-s5-edwardchina
     type: hysteria2
     server: 128.204.223.99
     port: 16101
