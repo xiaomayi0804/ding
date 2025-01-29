@@ -110,13 +110,14 @@ proxies:
   type: direct
   udp: true
 - name: Hy2-s5-edwardchina
-  port: 2532
-  server: 128.204.223.99
   type: hysteria2
-  udp: true
+  server: 128.204.223.99
+  port: 16101
+  password: 8da2fa74-5ddc-4861-bc44-ded1209154f5
   sni: www.bing.com
-  password: f9d4745c-8c72-497c-b878-bd623537e202
   skip-cert-verify: true
+  fast-open: false
+  ip-version: dual
 
 pr: &pr {type: select, proxies: [🚀 节点选择, 🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 🟢 直连]}
 
