@@ -95,16 +95,6 @@ ipv6: false
 udp: true
 
 
-use-hosts: true
-hosts:
-  cache.ott.ystenlive.itv.cmvideo.cn: pixman.io.ystenlive.dnsany.com
-  cache.ott.bestlive.itv.cmvideo.cn: pixman.io.bestlive.dnsany.com
-  cache.ott.wasulive.itv.cmvideo.cn: pixman.io.wasulive.dnsany.com
-  cache.ott.fifalive.itv.cmvideo.cn: pixman.io.fifalive.dnsany.com
-  cache.ott.hnbblive.itv.cmvideo.cn: pixman.io.hnbblive.dnsany.com
-
-
-
 proxies:
 - name: "🟢 直连"
   type: direct
