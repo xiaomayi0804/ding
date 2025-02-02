@@ -1,4 +1,7 @@
 hy2://8da2fa74-5ddc-4861-bc44-ded1209154f5@128.204.223.99:16101?insecure=1&sni=www.bing.com#Hy2-s5-edwardchina
+hy2://c2e56ee9-65c4-4d8a-b9da-5ab16fefd8f8@128.204.223.112:2538?insecure=1&sni=www.bing.com#Hy2-s10-leo726
+
+
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@www.wto.org:80?security=&sni=xiaoxiaomayi.leo726china.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726china.workers.dev&encryption=none#edgetunnel
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@daphne.ns.cloudflare.com:80?security=&sni=xiaoxiaomayi.leo726china.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726china.workers.dev&encryption=none#edgetunnel
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@xiaoxiaomayi.leo726china.workers.dev:443?security=tls&sni=xiaoxiaomayi.leo726china.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726china.workers.dev&encryption=none#edgetunnel
