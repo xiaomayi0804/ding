@@ -102,8 +102,17 @@ proxies:
 - name: Hy2-s5-edwardchina
   type: hysteria2
   server: 128.204.223.99
-  port: 16101
-  password: 8da2fa74-5ddc-4861-bc44-ded1209154f5
+  port: 38083
+  password: 34e1ec9a-2c6c-461c-b3fe-659df3f75759
+  sni: www.bing.com
+  skip-cert-verify: true
+  fast-open: false
+  ip-version: dual
+- name: Hy2-s10-leo726
+  type: hysteria2
+  server: 128.204.223.112
+  port: 2538
+  password: c2e56ee9-65c4-4d8a-b9da-5ab16fefd8f8
   sni: www.bing.com
   skip-cert-verify: true
   fast-open: false
@@ -112,7 +121,7 @@ proxies:
 pr: &pr {type: select, proxies: [🚀 节点选择, 🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 🟢 直连]}
 
 proxy-groups:
-  - {name: 🚀 节点选择, type: select, proxies: [🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, Hy2-s5-edwardchina, 🟢 直连]}
+  - {name: 🚀 节点选择, type: select, proxies: [🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, Hy2-s5-edwardchina, Hy2-s10-leo726, 🟢 直连]}
   - {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连)).)*$"}
   - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: "(?i)港|hk|hongkong|hong kong"}
   - {name: 🇹🇼 台湾节点, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?i)台|tw|taiwan|tai wan|TW|Tai Wan|🇹🇼|TaiWan"}
