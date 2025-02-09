@@ -2,6 +2,15 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjdiOTA2Yi00ODNhLTRkOWEtODAxMC02YzcxNTA4NDh
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjdiOTA2Yi00ODNhLTRkOWEtODAxMC02YzcxNTA4NDhkNzY=@relay001.xiaoniuyun.cc:31001#%E9%A6%99%E6%B8%AF1-%E4%B8%93%E7%BA%BF%20[ss]%20[Netflix]
 
 
+trojan://127b906b-483a-4d9a-8010-6c7150848d76@relay001.xiaoniuyun.cc:37001?security=tls&sni=hk001.xiaoniuyun.cc&type=tcp#%E9%A6%99%E6%B8%AF1-%E4%B8%93%E7%BA%BF%20[trojan]%20[ChatGpt,Netflix,TikTok]
+vless://127b906b-483a-4d9a-8010-6c7150848d76@relay002.xiaoniuyun.cc:20112?security=tls&sni=hk002.xiaoniuyun.cc&type=ws&path=/&host=hk002.xiaoniuyun.cc&encryption=none#%E9%A6%99%E6%B8%AF2-%E4%B8%93%E7%BA%BF2%20[vless]%20[ChatGpt,Netflix,TikTok]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjdiOTA2Yi00ODNhLTRkOWEtODAxMC02YzcxNTA4NDhkNzY=@relay001.xiaoniuyun.cc:30000#%E9%A6%99%E6%B8%AF3-%E4%B8%93%E7%BA%BF%20[ss]%20[Netflix]
+vless://127b906b-483a-4d9a-8010-6c7150848d76@relay001.xiaoniuyun.cc:20111?security=tls&sni=hk001.xiaoniuyun.cc&type=ws&path=/&host=hk001.xiaoniuyun.cc&encryption=none#%E9%A6%99%E6%B8%AF1-%E4%B8%93%E7%BA%BF%20[vless]%20[Netflix]
+trojan://127b906b-483a-4d9a-8010-6c7150848d76@relay001.xiaoniuyun.cc:38007?security=tls&sni=sg001.xiaoniuyun.cc&type=tcp#%E6%96%B0%E5%8A%A0%E5%9D%A11-%E4%B8%93%E7%BA%BF%20[trojan]%20[ChatGpt,Netflix,TikTok]
+vless://127b906b-483a-4d9a-8010-6c7150848d76@relay001.xiaoniuyun.cc:35001?security=tls&sni=jp001.xiaoniuyun.cc&type=ws&path=/&host=jp001.xiaoniuyun.cc&encryption=none#%E6%97%A5%E6%9C%AC1-%E4%B8%93%E7%BA%BF%20[vless]%20[ChatGpt,Netflix,TikTok]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjdiOTA2Yi00ODNhLTRkOWEtODAxMC02YzcxNTA4NDhkNzY=@relay002.xiaoniuyun.cc:33005#%E6%97%A5%E6%9C%AC5-%E4%B8%93%E7%BA%BF2%20[ss]%20[ChatGpt,Netflix,TikTok]
+
+
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4OTdlYTcyZi04YjMxLTQ1YTMtOTEzOS0wNThlOTA4YTBhYTQ=@node4.721579.xyz:20002#%F0%9F%87%AD%F0%9F%87%B0%20@MxlShare%20%E9%A6%99%E6%B8%AF%20%7C%20HKG%205
 hy2://049f6d29-6b89-49b1-b0c4-440fcbf281b4@107.149.242.62:39739?insecure=1&sni=www.bing.com#%F0%9F%87%AD%F0%9F%87%B0%20@MxlShare%20%E9%A6%99%E6%B8%AF%20%7C%20HKG
 hy2://3e62210d-f3a1-4a0c-840c-5cbb1fd9c664@107.149.242.75:65128?insecure=1&sni=www.bing.com#%F0%9F%87%AD%F0%9F%87%B0%20@MxlShare%20%E9%A6%99%E6%B8%AF%20%7C%20HKG%202
