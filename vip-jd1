@@ -2,9 +2,34 @@ ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@52.78.5.163:443#1%E9%A6%99%E6%B8%AF%20TG@W
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@52.68.141.225:443#3%E6%97%A5%E6%9C%AC%20TG@WFVPN
 
 
-vless://edadc2f8-50b1-4049-9625-6fd5b4cb130a@lynn.ns.cloudflare.com:undefined?security=none&encryption=none&headerType=none#US_%E5%88%86%E4%BA%AB%E6%97%A5%E8%AE%B0_1
-vless://edadc2f8-50b1-4049-9625-6fd5b4cb130a@kip.ns.cloudflare.com:undefined?security=none&encryption=none&headerType=none#US_%E5%88%86%E4%BA%AB%E6%97%A5%E8%AE%B0_2
-vless://edadc2f8-50b1-4049-9625-6fd5b4cb130a@pranab.ns.cloudflare.com:undefined?security=none&encryption=none&headerType=none#US_%E5%88%86%E4%BA%AB%E6%97%A5%E8%AE%B0_3
-vless://edadc2f8-50b1-4049-9625-6fd5b4cb130a@arvind.ns.cloudflare.com:undefined?security=none&encryption=none&headerType=none#US_%E5%88%86%E4%BA%AB%E6%97%A5%E8%AE%B0_4
-vless://edadc2f8-50b1-4049-9625-6fd5b4cb130a@thaddeus.ns.cloudflare.com:undefined?security=none&encryption=none&headerType=none#US_%E5%88%86%E4%BA%AB%E6%97%A5%E8%AE%B0_5
-
+proxies:
+  - name: US_分享日记_1
+    type: vless
+    server: lynn.ns.cloudflare.com
+    uuid: edadc2f8-50b1-4049-9625-6fd5b4cb130a
+    tls: false
+    ip-version: dual
+  - name: US_分享日记_2
+    type: vless
+    server: kip.ns.cloudflare.com
+    uuid: edadc2f8-50b1-4049-9625-6fd5b4cb130a
+    tls: false
+    ip-version: dual
+  - name: US_分享日记_3
+    type: vless
+    server: pranab.ns.cloudflare.com
+    uuid: edadc2f8-50b1-4049-9625-6fd5b4cb130a
+    tls: false
+    ip-version: dual
+  - name: US_分享日记_4
+    type: vless
+    server: arvind.ns.cloudflare.com
+    uuid: edadc2f8-50b1-4049-9625-6fd5b4cb130a
+    tls: false
+    ip-version: dual
+  - name: US_分享日记_5
+    type: vless
+    server: thaddeus.ns.cloudflare.com
+    uuid: edadc2f8-50b1-4049-9625-6fd5b4cb130a
+    tls: false
+    ip-version: dual
