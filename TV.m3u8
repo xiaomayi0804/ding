@@ -41,6 +41,7 @@ http://muzzik-live.morescreens.com/mts-a6/playlist.m3u8
 #EXTINF:-1 group-title="4K频道",Loupe 4K
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 
+
 #EXTINF:-1,tvg-id="华数4K" tvg-name="华数4K" tvg-logo="https://epg.v1.mk/logo/华数4K.png" group-title="4K频道",华数-4K
 http://192.168.5.111:35455/itv/6000000003000004748.m3u8?cdn=wasusyt
 #EXTINF:-1,tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://epg.v1.mk/logo/纯享4K.png" group-title="4K频道",纯享-4K
@@ -49,7 +50,28 @@ http://192.168.5.111:35455/itv/1000000004000011651.m3u8?cdn=ystenlive
 http://192.168.5.111:35455/itv/3000000010000005180.m3u8?cdn=FifastbLive
 #EXTINF:-1,tvg-id="咪咕4K" tvg-name="咪咕4K" tvg-logo="https://epg.v1.mk/logo/咪咕4K.png" group-title="4K频道",咪咕4K-2
 http://192.168.5.111:35455/itv/3000000010000015686.m3u8?cdn=FifastbLive
-
+#EXTINF:-1 group-title="北京IPTV",重温经典
+https://gdcucc.v1.mk/gdcucc/cwjd.m3u8
+#EXTINF:-1 group-title="北京IPTV",CHC家庭影院
+https://gdcucc.v1.mk/gdcucc/chcjtyy.m3u8
+#EXTINF:-1 group-title="北京IPTV",北京纪实科教8K
+https://gdcucc.v1.mk/gdcucc/brtv8k.m3u8
+#EXTINF:-1 group-title="北京IPTV",北京IPTV4K
+http://192.168.5.111:35455/bptv/10000100000000050000000003887500.m3u8
+#EXTINF:-1 group-title="北京IPTV",淘电影
+http://192.168.5.111:35455/bptv/10000100000000050000000003887498.m3u8
+#EXTINF:-1 group-title="北京IPTV",淘娱乐
+http://192.168.5.111:35455/bptv/10000100000000050000000003887499.m3u8
+#EXTINF:-1 group-title="北京IPTV",淘剧场
+http://192.168.5.111:35455/bptv/10000100000000050000000003887497.m3u8
+#EXTINF:-1 group-title="北京IPTV",北京卡酷少儿
+http://192.168.5.111:35455/itv/5000000011000265008.m3u8?cdn=bestzb
+#EXTINF:-1 group-title="北京IPTV",淘BABY
+http://192.168.5.111:35455/bptv/10000100000000050000000003887496.m3u8
+#EXTINF:-1 group-title="北京IPTV",萌宠TV
+http://192.168.5.111:35455/bptv/10000100000000050000000003887495.m3u8
+#EXTINF:-1 group-title="北京IPTV",北京新闻
+http://192.168.5.111:35455/bptv/10000100000000050000000003870780.m3u8
 
 
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5[1920x1080]-12M" tvg-logo="https://assets.livednow.com/logo/CCTV5.png" group-title="央视", CCTV5[1920x1080]-12M
