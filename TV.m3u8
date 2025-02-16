@@ -53,29 +53,29 @@ http://192.168.5.111:35455/itv/3000000010000015686.m3u8?cdn=FifastbLive
 
 
 #EXTINF:-1 group-title="北京IPTV",重温经典
-https://gdcucc.v1.mk/gdcucc/cwjd.m3u8
+https://gdcucc.v1.mk/gdcucc/cwjd.m3u8?cdn=wasusyt
 #EXTINF:-1 group-title="北京IPTV",CHC家庭影院
-https://gdcucc.v1.mk/gdcucc/chcjtyy.m3u8
+https://gdcucc.v1.mk/gdcucc/chcjtyy.m3u8?cdn=wasusyt
 #EXTINF:-1 group-title="北京IPTV",北京纪实科教8K
-https://gdcucc.v1.mk/gdcucc/brtv8k.m3u8
+https://gdcucc.v1.mk/gdcucc/brtv8k.m3u8?cdn=wasusyt
 #EXTINF:-1 group-title="北京IPTV",北京IPTV4K
-http://192.168.5.111:35455/bptv/10000100000000050000000003887500.m3u8
+http://192.168.5.111:35455/bptv/10000100000000050000000003887500.m3u8?cdn=wasusyt
 #EXTINF:-1 group-title="北京IPTV",淘电影
-http://192.168.5.111:35455/bptv/10000100000000050000000003887498.m3u8
+http://192.168.5.111:35455/bptv/10000100000000050000000003887498.m3u8?cdn=wasusyt
 #EXTINF:-1 group-title="北京IPTV",淘娱乐
-http://192.168.5.111:35455/bptv/10000100000000050000000003887499.m3u8
+http://192.168.5.111:35455/bptv/10000100000000050000000003887499.m3u8?cdn=wasusyt
 #EXTINF:-1 group-title="北京IPTV",淘剧场
-http://192.168.5.111:35455/bptv/10000100000000050000000003887497.m3u8
+http://192.168.5.111:35455/bptv/10000100000000050000000003887497.m3u8?cdn=wasusyt
 #EXTINF:-1 group-title="北京IPTV",北京卡酷少儿
 http://192.168.5.111:35455/itv/5000000011000265008.m3u8?cdn=ystenlive
 #EXTINF:-1 group-title="北京IPTV",淘BABY
-http://192.168.5.111:35455/bptv/10000100000000050000000003887496.m3u8
+http://192.168.5.111:35455/bptv/10000100000000050000000003887496.m3u8?cdn=wasusyt
 #EXTINF:-1 group-title="北京IPTV",萌宠TV
-http://192.168.5.111:35455/bptv/10000100000000050000000003887495.m3u8
+http://192.168.5.111:35455/bptv/10000100000000050000000003887495.m3u8?cdn=wasusyt
 #EXTINF:-1 group-title="北京IPTV",北京新闻
-http://192.168.5.111:35455/bptv/10000100000000050000000003870780.m3u8
+http://192.168.5.111:35455/bptv/10000100000000050000000003870780.m3u8?cdn=wasusyt
 #EXTINF:-1 group-title="北京IPTV",北京体育休闲
-http://192.168.5.111:35455/bptv/10000100000000050000000003870779.m3u8
+http://192.168.5.111:35455/bptv/10000100000000050000000003870779.m3u8?cdn=wasusyt
 
 
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5[1920x1080]-12M" tvg-logo="https://assets.livednow.com/logo/CCTV5.png" group-title="央视", CCTV5[1920x1080]-12M
@@ -85,55 +85,55 @@ http://192.168.5.111:35455/itv/6000000001000015875.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13[1920x1080]-8M" tvg-logo="https://assets.livednow.com/logo/CCTV13.png" group-title="央视", CCTV13[1920x1080]-8M
 http://192.168.5.111:35455/itv/5000000011000031108.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV-4K" tvg-name="CCTV4K[3840x2160]-40M" tvg-logo="https://assets.livednow.com/logo/CCTV-4K.png" group-title="央视", CCTV4K[3840x2160]-40M
-http://192.168.5.111:35455/gaoma/cctv4k.m3u8
+http://192.168.5.111:35455/gaoma/cctv4k.m3u8?cdn=wasusyt
 #EXTINF:-1,tvg-id="CCTV-8K" tvg-name="CCTV8K[3840x2160]-40M" tvg-logo="https://epg.v1.mk/logo/cctv8k.png" group-title="央视+",CCTV8K[3840x2160]-40M
-http://192.168.5.111:35455/gaoma/cctv8k_36m.m3u8
+http://192.168.5.111:35455/gaoma/cctv8k_36m.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16[3840x2160]-40M" tvg-logo="https://assets.livednow.com/logo/CCTV16.png" group-title="央视", CCTV16[3840x2160]-40M
-http://192.168.5.111:35455/gaoma/cctv4k16.m3u8
+http://192.168.5.111:35455/gaoma/cctv4k16.m3u8?cdn=wasusyt
 
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV 1" tvg-logo="https://assets.livednow.com/logo/CCTV1.png" group-title="央视+", CCTV 1
-http://192.168.5.111:35455/gaoma/cctv1.m3u8
+http://192.168.5.111:35455/gaoma/cctv1.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV 2" tvg-logo="https://assets.livednow.com/logo/CCTV2.png" group-title="央视+", CCTV 2
-http://192.168.5.111:35455/gaoma/cctv2.m3u8
+http://192.168.5.111:35455/gaoma/cctv2.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV 3" tvg-logo="https://assets.livednow.com/logo/CCTV3.png" group-title="央视+", CCTV 3
-http://192.168.5.111:35455/gaoma/cctv3.m3u8
+http://192.168.5.111:35455/gaoma/cctv3.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV 4" tvg-logo="https://assets.livednow.com/logo/CCTV4.png" group-title="央视+", CCTV 4
-http://192.168.5.111:35455/gaoma/cctv4.m3u8
+http://192.168.5.111:35455/gaoma/cctv4.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV 5" tvg-logo="https://assets.livednow.com/logo/CCTV5.png" group-title="央视+", CCTV 5
-http://192.168.5.111:35455/gaoma/cctv5.m3u8
+http://192.168.5.111:35455/gaoma/cctv5.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV5-plus" tvg-name="CCTV 5+" tvg-logo="https://assets.livednow.com/logo/CCTV5-plus.png" group-title="央视+", CCTV 5+
-http://192.168.5.111:35455/gaoma/cctv5p.m3u8
+http://192.168.5.111:35455/gaoma/cctv5p.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV 6" tvg-logo="https://assets.livednow.com/logo/CCTV6.png" group-title="央视+", CCTV 6
 http://192.168.5.111:35455/itv/1000000001000001737.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV 7" tvg-logo="https://assets.livednow.com/logo/CCTV7.png" group-title="央视+", CCTV 7
-http://192.168.5.111:35455/gaoma/cctv7.m3u8
+http://192.168.5.111:35455/gaoma/cctv7.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV 8" tvg-logo="https://assets.livednow.com/logo/CCTV8.png" group-title="央视+", CCTV 8
-http://192.168.5.111:35455/gaoma/cctv8.m3u8
+http://192.168.5.111:35455/gaoma/cctv8.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV 9" tvg-logo="https://assets.livednow.com/logo/CCTV9.png" group-title="央视+", CCTV 9
-http://192.168.5.111:35455/gaoma/cctv9.m3u8
+http://192.168.5.111:35455/gaoma/cctv9.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV 10" tvg-logo="https://assets.livednow.com/logo/CCTV10.png" group-title="央视+", CCTV 10
-http://192.168.5.111:35455/gaoma/cctv10.m3u8
+http://192.168.5.111:35455/gaoma/cctv10.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV 11" tvg-logo="https://assets.livednow.com/logo/CCTV11.png" group-title="央视+", CCTV 11
-http://192.168.5.111:35455/gaoma/cctv11.m3u8
+http://192.168.5.111:35455/gaoma/cctv11.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV 12" tvg-logo="https://assets.livednow.com/logo/CCTV12.png" group-title="央视+", CCTV 12
-http://192.168.5.111:35455/gaoma/cctv12.m3u8
+http://192.168.5.111:35455/gaoma/cctv12.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV 13" tvg-logo="https://assets.livednow.com/logo/CCTV13.png" group-title="央视+", CCTV 13
-http://192.168.5.111:35455/gaoma/cctv13.m3u8
+http://192.168.5.111:35455/gaoma/cctv13.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV 14" tvg-logo="https://assets.livednow.com/logo/CCTV14.png" group-title="央视+", CCTV 14
-http://192.168.5.111:35455/gaoma/cctv14.m3u8
+http://192.168.5.111:35455/gaoma/cctv14.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV 15" tvg-logo="https://assets.livednow.com/logo/CCTV15.png" group-title="央视+", CCTV 15
-http://192.168.5.111:35455/gaoma/cctv15.m3u8
+http://192.168.5.111:35455/gaoma/cctv15.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV 16" tvg-logo="https://assets.livednow.com/logo/CCTV16.png" group-title="央视+", CCTV 16
 http://192.168.5.111:35455/itv/5000000008000023254.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV 16 4K" tvg-logo="https://assets.livednow.com/logo/CCTV16.png" group-title="央视+", CCTV 16 4K
-http://192.168.5.111:35455/gaoma/cctv4k16.m3u8
+http://192.168.5.111:35455/gaoma/cctv4k16.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV 17" tvg-logo="https://assets.livednow.com/logo/CCTV17.png" group-title="央视+", CCTV 17
-http://192.168.5.111:35455/gaoma/cctv17.m3u8
+http://192.168.5.111:35455/gaoma/cctv17.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV-4K" tvg-name="CCTV 4K" tvg-logo="https://assets.livednow.com/logo/CCTV-4K.png" group-title="央视+", CCTV 4K
-http://192.168.5.111:35455/gaoma/cctv4k.m3u8
+http://192.168.5.111:35455/gaoma/cctv4k.m3u8?cdn=wasusyt
 #EXTINF:-1,tvg-id="CCTV-8K" tvg-name="CCTV 8K" tvg-logo="https://epg.v1.mk/logo/cctv8k.png" group-title="央视+",CCTV 8K_36m
-http://192.168.5.111:35455/gaoma/cctv8k_36m.m3u8
+http://192.168.5.111:35455/gaoma/cctv8k_36m.m3u8?cdn=wasusyt
 
 
 #EXTINF:-1,tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://epg.v1.mk/logo/北京卫视.png" group-title="北京",北京卫视
