@@ -102,8 +102,8 @@ proxies:
 - name: Hy2-s5-edwardchina
   type: hysteria2
   server: 128.204.223.99
-  port: 38083
-  password: 34e1ec9a-2c6c-461c-b3fe-659df3f75759
+  port: 49628
+  password: f448cb78-89ce-4a9a-9291-cfd8aaa5233a
   sni: www.bing.com
   skip-cert-verify: true
   fast-open: false
