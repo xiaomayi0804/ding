@@ -83,6 +83,13 @@ http://192.168.5.111:35455/bptv/10000100000000050000000004270525.m3u8?cdn=wasusy
 #EXTINF:-1 group-title="北京IPTV",小公视
 https://livecdn9.ptsplus.tv/pts-youth-A/playlist.m3u8
 
+#EXTINF:-1 group-title="北京IPTV",凤凰卫视
+http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+#EXTINF:-1 group-title="北京IPTV",凤凰资讯
+http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+#EXTINF:-1 group-title="北京IPTV",凤凰香港
+http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
+
 
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5[1920x1080]-12M" tvg-logo="https://assets.livednow.com/logo/CCTV5.png" group-title="央视", CCTV5[1920x1080]-12M
 http://192.168.5.111:35455/itv/1000000005000025222.m3u8?cdn=ystenlive
