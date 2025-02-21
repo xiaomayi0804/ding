@@ -1,4 +1,4 @@
-proxies:
+proxies: 
   - name: 🇭🇰 Hongkong 018
     type: ss
     server: console.01.aliyun.aq.kunlunaqs.com
