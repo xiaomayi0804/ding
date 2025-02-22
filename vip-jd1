@@ -12,34 +12,3 @@ ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@34.220.211.62:443#US,%20Houston
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@18.237.113.248:443#HK,%20Los%20Angeles
 
 
-proxies:
-  - {"sni":"vn.mjt000.com","type":"trojan","password":"f89748f5-cee5-44dd-89fd-f6d49645d060","server":"vn.mjt000.com","port":443,"name":"VN"}
-  - {"name":"JP, Tokyo 2","type":"ss","server":"54.169.188.250","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"SG, Singapore","type":"ss","server":"54.169.104.136","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"TW, Taipei","type":"ss","server":"13.212.32.201","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"JP, Tokyo","type":"ss","server":"13.229.180.183","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"HK, New Territories","type":"ss","server":"13.229.59.137","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"KR, Incheon","type":"ss","server":"13.212.143.247","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"HK, Kowloon","type":"ss","server":"54.169.215.32","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"US, Houston","type":"ss","server":"34.220.211.62","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"HK, Los Angeles","type":"ss","server":"18.237.113.248","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇭🇰 Hongkong 077","type":"ss","server":"console.02.aliyun.aq.kunlunaqs.com","port":45578,"cipher":"chacha20-ietf-poly1305","password":"7243745919d6de49a5db","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇭🇰 Hongkong 018","type":"ss","server":"console.01.aliyun.aq.kunlunaqs.com","port":45902,"cipher":"aes-128-gcm","password":"0a74c9e4565e935cf1ac","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇭🇰 Hongkong 017","type":"ss","server":"console.01.aliyun.aq.kunlunaqs.com","port":45900,"cipher":"aes-128-gcm","password":"51f8c7454c93d0d83c29","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇭🇰 Hongkong 020","type":"ss","server":"console.01.aliyun.aq.kunlunaqs.com","port":45904,"cipher":"aes-128-gcm","password":"6113536135af69e572c6","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇭🇰 Hongkong 016","type":"ss","server":"console.01.aliyun.aq.kunlunaqs.com","port":45901,"cipher":"aes-128-gcm","password":"7338d988d71591d76b3f","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇭🇰 Hongkong 019","type":"ss","server":"console.01.aliyun.aq.kunlunaqs.com","port":45903,"cipher":"aes-128-gcm","password":"b16cb18d8992f3b83b7d","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"to.FlyintPro.om","type":"ss","server":"console.02.aliyun.aq.kunlunaqs.com","port":45936,"cipher":"aes-128-gcm","password":"a643f6f3733c9962851d","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇭🇰 Hongkong 008","type":"ss","server":"console.02.aliyun.aq.kunlunaqs.com","port":45936,"cipher":"aes-128-gcm","password":"a643f6f3733c9962851d","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇸🇬 Singapore 032","type":"ss","server":"console.03.aliyun.aq.kunlunaqs.com","port":45917,"cipher":"aes-128-gcm","password":"f4cd0a554e9d0558c581","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇹🇼 Taiwan 065","type":"ss","server":"console.03.aliyun.aq.kunlunaqs.com","port":45916,"cipher":"aes-128-gcm","password":"cfc6f3f75f5ef7b2665c","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇸🇬 Singapore 078","type":"ss","server":"console.03.aliyun.aq.kunlunaqs.com","port":45579,"cipher":"aes-128-gcm","password":"0722bd4137ff579e6917","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇸🇬 Singapore 057","type":"ss","server":"console.03.aliyun.aq.kunlunaqs.com","port":45937,"cipher":"aes-128-gcm","password":"4092a0d31011e2046687","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇯🇵 Japan 083","type":"ss","server":"console.02.aliyun.aq.kunlunaqs.com","port":45581,"cipher":"aes-128-gcm","password":"6014caa3a323920c7fd0","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇹🇼 Taiwan 030","type":"ss","server":"console.03.aliyun.aq.kunlunaqs.com","port":45914,"cipher":"aes-128-gcm","password":"b270fd77db2ecb7acbc8","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇯🇵 Japan 050","type":"ss","server":"console.02.aliyun.aq.kunlunaqs.com","port":45939,"cipher":"aes-128-gcm","password":"97b53b570db0917935e0","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇹🇼 Taiwan 031","type":"ss","server":"console.03.aliyun.aq.kunlunaqs.com","port":45915,"cipher":"aes-128-gcm","password":"b74518fb49bd645e6ce7","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇯🇵 Japan 029","type":"ss","server":"console.02.aliyun.aq.kunlunaqs.com","port":45913,"cipher":"aes-128-gcm","password":"c8960ca4a0add435fc34","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇹🇼 TaiwanDynamicIP","type":"ss","server":"console.03.aliyun.aq.kunlunaqs.com","port":45573,"cipher":"aes-128-gcm","password":"3e26a8cfb09fda219b36","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇯🇵 Japan 027","type":"ss","server":"console.02.aliyun.aq.kunlunaqs.com","port":45911,"cipher":"aes-128-gcm","password":"69dc0306f1bfb1af49a5","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇯🇵 Japan 028","type":"ss","server":"console.02.aliyun.aq.kunlunaqs.com","port":45912,"cipher":"aes-128-gcm","password":"97998add7bf4fea885ef","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
