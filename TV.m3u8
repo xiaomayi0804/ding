@@ -100,7 +100,7 @@ http://192.168.5.111:35455/gaoma/cctv5.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV5-plus" tvg-name="CCTV 5+" tvg-logo="https://assets.livednow.com/logo/CCTV5-plus.png" group-title="央视+", CCTV 5+
 http://192.168.5.111:35455/gaoma/cctv5p.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV 6" tvg-logo="https://assets.livednow.com/logo/CCTV6.png" group-title="央视+", CCTV 6
-http://la1.wqwqwq.sbs/itv/6000000001000004574.m3u8?cdn=wasusyt
+http://192.168.5.111:35455/bptv/10000100000000050000000003870749.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV 7" tvg-logo="https://assets.livednow.com/logo/CCTV7.png" group-title="央视+", CCTV 7
 http://192.168.5.111:35455/gaoma/cctv7.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV 8" tvg-logo="https://assets.livednow.com/logo/CCTV8.png" group-title="央视+", CCTV 8
