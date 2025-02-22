@@ -1,14 +1,4 @@
 proxies:
-  - {"sni":"vn.mjt000.com","type":"trojan","password":"f89748f5-cee5-44dd-89fd-f6d49645d060","server":"vn.mjt000.com","port":443,"name":"VN"}
-  - {"name":"JP, Tokyo 2","type":"ss","server":"54.169.188.250","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"SG, Singapore","type":"ss","server":"54.169.104.136","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"TW, Taipei","type":"ss","server":"13.212.32.201","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"JP, Tokyo","type":"ss","server":"13.229.180.183","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"HK, New Territories","type":"ss","server":"13.229.59.137","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"KR, Incheon","type":"ss","server":"13.212.143.247","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"HK, Kowloon","type":"ss","server":"54.169.215.32","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"US, Houston","type":"ss","server":"34.220.211.62","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"HK, Los Angeles","type":"ss","server":"18.237.113.248","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
   - {"name":"🇭🇰 Hongkong 077","type":"ss","server":"console.02.aliyun.aq.kunlunaqs.com","port":45578,"cipher":"chacha20-ietf-poly1305","password":"7243745919d6de49a5db","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
   - {"name":"🇭🇰 Hongkong 018","type":"ss","server":"console.01.aliyun.aq.kunlunaqs.com","port":45902,"cipher":"aes-128-gcm","password":"0a74c9e4565e935cf1ac","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
   - {"name":"🇭🇰 Hongkong 017","type":"ss","server":"console.01.aliyun.aq.kunlunaqs.com","port":45900,"cipher":"aes-128-gcm","password":"51f8c7454c93d0d83c29","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
