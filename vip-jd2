@@ -19,7 +19,7 @@ proxies:
   - {"name":"🇹🇼 TaiwanDynamicIP","type":"ss","server":"console.03.aliyun.aq.kunlunaqs.com","port":45573,"cipher":"aes-128-gcm","password":"3e26a8cfb09fda219b36","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
   - {"name":"🇯🇵 Japan 027","type":"ss","server":"console.02.aliyun.aq.kunlunaqs.com","port":45911,"cipher":"aes-128-gcm","password":"69dc0306f1bfb1af49a5","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
   - {"name":"🇯🇵 Japan 028","type":"ss","server":"console.02.aliyun.aq.kunlunaqs.com","port":45912,"cipher":"aes-128-gcm","password":"97998add7bf4fea885ef","plugin":"obfs","plugin-opts":{"mode":"http","host":"215996dd9f1c3db1e54b.microsoft.com"}}
-  - {"name":"🇨🇳TW_44 @WangCai_8","type":"ss","server":"125.227.86.44","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","plugin":"obfs","plugin-opts":{"mode":"http","host":"(TG @WangCai2)7a76833:92178"}}
+  - {"name":"🇨🇳TW_44 @WangCai_8","type":"ss","server":"125.227.86.44","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","plugin":"obfs","plugin-opts":{"mode":"tls","host":"(TG @WangCai2)7a76833:92178"}}
 
 
 
