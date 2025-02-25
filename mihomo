@@ -118,7 +118,7 @@ proxies:
   fast-open: false
   ip-version: dual
 
-pr: &pr {type: select, proxies: [🚀 节点选择, 🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 🟢 直连]}
+pr: &pr {type: select, proxies: [🚀 节点选择, 🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, ♻️ Airport_01, ♻️ Airport_02, ♻️ Airport_03, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 🟢 直连]}
 
 proxy-groups:
   - {name: 🚀 节点选择, type: select, proxies: [🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, ♻️ Airport_01, ♻️ Airport_02, ♻️ Airport_03, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, Hy2-s5-edwardchina, Hy2-s10-leo726, 🟢 直连]}
