@@ -1,4 +1,4 @@
-proxies:
+proxies: 
   - {"name":"🇯🇵JP_139 @wangcai_8","type":"ss","server":"52.195.228.139","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","plugin":"obfs","plugin-opts":{"mode":"tls","host":"(TG @WangCai2)4a81070:6193"}}
   - {"name":"🇯🇵JP_122 @wangcai_8","type":"ss","server":"18.181.146.122","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","plugin":"obfs","plugin-opts":{"mode":"tls","host":"(TG @WangCai2)4a81070:6193"}}
   - {"name":"🇯🇵JP_206 @wangcai_8","type":"ss","server":"43.207.207.206","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","plugin":"obfs","plugin-opts":{"mode":"tls","host":"(TG @WangCai2)4a81070:6193"}}
