@@ -1,4 +1,4 @@
-proxies: 
+proxies:
   - {"name":"🇨🇳TW_44 @WangCai_8","type":"ss","server":"125.227.86.44","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","plugin":"obfs","plugin-opts":{"mode":"tls","host":"(TG @WangCai2)4a81070:6193"}}
   - {"name":"🇨🇳TW_32 @WangCai_8","type":"ss","server":"61.216.165.232","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","plugin":"obfs","plugin-opts":{"mode":"tls","host":"(TG @WangCai2)4a81070:6193"}}
   - {"name":"🇨🇳TW_33 @WangCai_8","type":"ss","server":"61.216.165.233","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","plugin":"obfs","plugin-opts":{"mode":"tls","host":"(TG @WangCai2)4a81070:6193"}}
