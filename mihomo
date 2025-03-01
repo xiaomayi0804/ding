@@ -86,9 +86,11 @@ dns:
     - system
     - https://223.5.5.5/dns-query
     - https://doh.pub/dns-query
+    - tls://223.5.5.5
   proxy-server-nameserver:
     - https://223.5.5.5/dns-query
     - https://doh.pub/dns-query
+    - https://120.53.53.53/dns-query
 mode: rule
 log-level: warning
 ipv6: false
