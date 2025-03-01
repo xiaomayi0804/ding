@@ -10,9 +10,6 @@ vless://742470f1-57e2-48ea-a946-2ffeaab31b24@inputbugwildcard.cloudproxyip.my.id
 vless://4aecf25c-5119-40c7-bafb-e97d89bdd4bf@inputbugwildcard.cloudproxyip.my.id:443?security=tls&sni=inputbugwildcard.cloudproxyip.my.id.winner.cloudproxyip.my.id&type=ws&path=/Free-CF-Proxy-DE2&host=inputbugwildcard.cloudproxyip.my.id.winner.cloudproxyip.my.id&encryption=none#%F0%9F%87%A9%F0%9F%87%AA+(DE)+INTERNATIONAL+HOSTING+COMPANY+LIMITED%0D
 vless://208cb3d6-daca-4b66-af87-a990b96f66a7@inputbugwildcard.cloudproxyip.my.id:443?security=tls&sni=inputbugwildcard.cloudproxyip.my.id.winner.cloudproxyip.my.id&type=ws&path=/Free-CF-Proxy-DE13&host=inputbugwildcard.cloudproxyip.my.id.winner.cloudproxyip.my.id&encryption=none#%F0%9F%87%A9%F0%9F%87%AA+(DE)+OVH+SAS%0D
 
-vless://208cb3d6-daca-4b66-af87-a990b96f66a7@inputbugwildcard.cloudproxyip.my.id:443?security=tls&type=ws&path=%2FFree-CF-Proxy-DE13&host=inputbugwildcard.cloudproxyip.my.id.winner.cloudproxyip.my.id&sni=inputbugwildcard.cloudproxyip.my.id.winner.cloudproxyip.my.id#%F0%9F%87%A9%F0%9F%87%AA%2B(DE)%2BOVH%2BSAS%0D
-vless://4aecf25c-5119-40c7-bafb-e97d89bdd4bf@inputbugwildcard.cloudproxyip.my.id:443?security=tls&type=ws&path=%2FFree-CF-Proxy-DE2&host=inputbugwildcard.cloudproxyip.my.id.winner.cloudproxyip.my.id&sni=inputbugwildcard.cloudproxyip.my.id.winner.cloudproxyip.my.id#%F0%9F%87%A9%F0%9F%87%AA%2B(DE)%2BINTERNATIONAL%2BHOSTING%2BCOMPANY%2BLIMITED%0D
-vless://742470f1-57e2-48ea-a946-2ffeaab31b24@inputbugwildcard.cloudproxyip.my.id:443?security=tls&type=ws&path=%2FFree-CF-Proxy-FI4&host=inputbugwildcard.cloudproxyip.my.id.winner.cloudproxyip.my.id&sni=inputbugwildcard.cloudproxyip.my.id.winner.cloudproxyip.my.id#%F0%9F%87%AB%F0%9F%87%AE%2B(FI)%2BGoogle%2BCloud%0D
 
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@54.64.124.92:443#SG,%20Singapore
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@18.181.198.147:443#SG,%20Singapore
