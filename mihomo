@@ -112,9 +112,9 @@ proxies:
   ip-version: dual
 - name: Hy2-s10-leo726
   type: hysteria2
-  server: 128.204.223.112
-  port: 2538
-  password: c2e56ee9-65c4-4d8a-b9da-5ab16fefd8f8
+  server: 128.204.223.111
+  port: 25747
+  password: f4dc7e8c-bdaa-40a6-a57a-69a33601e9ed
   sni: www.bing.com
   skip-cert-verify: true
   fast-open: false
