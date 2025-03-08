@@ -25,7 +25,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd2"
+    url: "https://igdux.top/~Clash"
   Airport_04:
     type: http
     interval: 1800
