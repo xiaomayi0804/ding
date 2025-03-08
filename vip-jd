@@ -1,5 +1,8 @@
 hysteria2://f448cb78-89ce-4a9a-9291-cfd8aaa5233a@128.204.223.99:49628/?sni=www.bing.com&alpn=h3&insecure=1#Hy2-s5-edwardchina
 hysteria2://f4dc7e8c-bdaa-40a6-a57a-69a33601e9ed@128.204.223.111:25747/?sni=www.bing.com&alpn=h3&insecure=1#Hy2-s10-leo726
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com:80?security=&sni=Join--E-L-i-V-2-R-A-Y.net&type=ws&path=/channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed%3D2560&host=Join--E-L-i-V-2-R-A-Y.net&encryption=none#%E5%A4%87%E7%94%A8%F0%9F%8D%96@xkmfjd_%F0%9F%87%BA%F0%9F%87%B8
+
+
 
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@www.wto.org:80?security=&sni=xiaoxiaomayi.leo726china.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726china.workers.dev&encryption=none#edgetunnel
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@daphne.ns.cloudflare.com:80?security=&sni=xiaoxiaomayi.leo726china.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726china.workers.dev&encryption=none#edgetunnel
@@ -7,11 +10,3 @@ vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@xiaoxiaomayi.leo726china.workers.de
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@usa.visa.com:80?security=&sni=xiaoxiaomayi.leo726china.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726china.workers.dev&encryption=none#edgetunnel
 
 
-vless://d413f1fc-9d3f-4344-ac81-9054dddcf7fd@172.64.93.167:443?security=tls&sni=free.5niu.xyz&fp=random&type=ws&path=/?ed%3D2560&host=free.5niu.xyz&encryption=none#https://t.me/xyfqzy
-vless://d413f1fc-9d3f-4344-ac81-9054dddcf7fd@188.114.99.190:443?security=tls&sni=free.5niu.xyz&fp=random&type=ws&path=/?ed%3D2560&host=free.5niu.xyz&encryption=none#https://t.me/xyfqzy
-vless://d413f1fc-9d3f-4344-ac81-9054dddcf7fd@104.16.140.98:443?security=tls&sni=free.5niu.xyz&fp=random&type=ws&path=/?ed%3D2560&host=free.5niu.xyz&encryption=none#https://t.me/xyfqzy
-vless://d413f1fc-9d3f-4344-ac81-9054dddcf7fd@104.16.120.110:443?security=tls&sni=free.5niu.xyz&fp=random&type=ws&path=/?ed%3D2560&host=free.5niu.xyz&encryption=none#https://t.me/xyfqzy
-vless://d413f1fc-9d3f-4344-ac81-9054dddcf7fd@103.21.244.240:443?security=tls&sni=free.5niu.xyz&fp=random&type=ws&path=/?ed%3D2560&host=free.5niu.xyz&encryption=none#https://t.me/xyfqzy
-vless://d413f1fc-9d3f-4344-ac81-9054dddcf7fd@104.24.228.186:443?security=tls&sni=free.5niu.xyz&fp=random&type=ws&path=/?ed%3D2560&host=free.5niu.xyz&encryption=none#https://t.me/xyfqzy
-
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com:80?security=&sni=Join--E-L-i-V-2-R-A-Y.net&type=ws&path=/channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed%3D2560&host=Join--E-L-i-V-2-R-A-Y.net&encryption=none#%E5%A4%87%E7%94%A8%F0%9F%8D%96@xkmfjd_%F0%9F%87%BA%F0%9F%87%B8
