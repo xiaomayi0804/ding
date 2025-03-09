@@ -1,3 +1,9 @@
-proxies:
-  - {"name":"🇯🇵JP_79 @wangcai_8","type":"ss","server":"18.179.37.79","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","plugin":"obfs","plugin-opts":{"mode":"tls","host":"(TG @WangCai2)d0a8692:32667"}}
-
+vless://836e5c1d-7371-4a92-afa2-af1d0726a824@back-ca1.uni-verse.top:443?security=tls&sni=back-ca1.uni-verse.top&type=ws&path=/fuck&host=back-ca1.uni-verse.top&encryption=none#%F0%9F%87%A8%F0%9F%87%A6CA-100Mbps
+vless://836e5c1d-7371-4a92-afa2-af1d0726a824@backhaxus.dh04.shop:443?security=tls&sni=backhaxus.dh04.shop&type=ws&path=/nanliang&host=backhaxus.dh04.shop&encryption=none#%F0%9F%87%BA%F0%9F%87%B2US-%E8%AE%A9HAX%E5%90%8E%E6%82%94-0.1%E5%80%8D%E7%8E%87
+vless://836e5c1d-7371-4a92-afa2-af1d0726a824@back-hk2.uni-verse.top:443?security=tls&sni=back-hk2.uni-verse.top&type=ws&path=/go&host=back-hk2.uni-verse.top&encryption=none#%F0%9F%87%AF%F0%9F%87%B5JP-1Gbps
+vless://836e5c1d-7371-4a92-afa2-af1d0726a824@backdciaq.dh04.shop:443?security=tls&sni=backdciaq.dh04.shop&type=ws&path=/nanliang&host=backdciaq.dh04.shop&encryption=none#%F0%9F%87%A6%F0%9F%87%B6AQ-1Gbps
+vless://836e5c1d-7371-4a92-afa2-af1d0726a824@back-bg1.uni-verse.top:443?security=tls&sni=back-bg1.uni-verse.top&type=ws&path=/nan&host=back-bg1.uni-verse.top&encryption=none#%F0%9F%87%A7%F0%9F%87%ACBG-300Mbps
+vless://836e5c1d-7371-4a92-afa2-af1d0726a824@backus2.dh05.shop:443?security=tls&sni=backus2.dh05.shop&type=ws&path=/nanliang&host=backus2.dh05.shop&encryption=none#%F0%9F%87%BA%F0%9F%87%B2US-1Gbps-%E4%B8%8B%E8%BD%BD%E4%B8%93%E7%94%A80.7%E5%80%8D%E7%8E%87
+vless://836e5c1d-7371-4a92-afa2-af1d0726a824@back-hk3.uni-verse.top:443?security=tls&sni=back-hk3.uni-verse.top&type=ws&path=/nanliang&host=back-hk3.uni-verse.top&encryption=none#HK-bv-500Mbps
+hy2://836e5c1d-7371-4a92-afa2-af1d0726a824@[2a0f:7803:fac0:6b2a:1::1]:37178?obfs=salamander&obfs-password=ZWE5NThmNzJmMTkwNDE5Yg%3D%3D&mport=30000-60000&insecure=1&sni=back-hk2.ip03.shop#%F0%9F%87%A6%F0%9F%87%B6AQ-IPv6-Only-1Gbps
+vless://836e5c1d-7371-4a92-afa2-af1d0726a824@back-zw3.uni-verse.top:443?security=tls&sni=back-zw3.uni-verse.top&type=ws&path=/nanliang&host=back-zw3.uni-verse.top&encryption=none#%F0%9F%87%BF%F0%9F%87%BCZW%E6%B4%A5%E5%B7%B4%E5%B8%83%E9%9F%A6-1Gbps
