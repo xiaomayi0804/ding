@@ -6,31 +6,45 @@ proxies:
   - {"name":"🇨🇦CA-100Mbps","type":"vless","server":"back-ca1.uni-verse.top","port":443,"uuid":"836e5c1d-7371-4a92-afa2-af1d0726a824","udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/fuck","headers":{"Host":"back-ca1.uni-verse.top"},"max-early-data":2560,"early-data-header-name":"Sec-WebSocket-Protocol"},"servername":"back-ca1.uni-verse.top"}
   - {"name":"🇦🇶AQ-IPv6-Only-1Gbps","server":"2a0f:7803:fac0:6b2a:0001:0000:0000:0001","port":31374,"sni":"back-hk2.ip03.shop","up":200,"down":200,"skip-cert-verify":true,"type":"hysteria2","password":"836e5c1d-7371-4a92-afa2-af1d0726a824","obfs":"salamander","obfs-password":"ZWE5NThmNzJmMTkwNDE5Yg==","ports":"30000-60000"}
 
-- name: "us7-01.iran2030.ggff.net tls_h2 grpc direct trojan \xA7 443 18"
-  type: trojan
-  server: us7-01.iran2030.ggff.net
-  port: 443
-  udp: true
-  alpn:
-  - h2
-  skip-cert-verify: false
-  password: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a
-  sni: us7-01.iran2030.ggff.net
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Zseq8mEocwY1BdzUcEzwWx
+  - name: "us7-01.iran2030.ggff.net tls_h2 grpc direct trojan \xA7 443 18"
+    type: trojan
+    server: us7-01.iran2030.ggff.net
+    port: 443
+    udp: true
+    alpn:
+    - h2
+    skip-cert-verify: false
+    password: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a
+    sni: us7-01.iran2030.ggff.net
+    network: grpc
+    grpc-opts:
+      grpc-service-name: Zseq8mEocwY1BdzUcEzwWx
 
-- name: "us7-02.iran2030.ggff.net tls_h2 grpc direct trojan \xA7 443 19"
-  type: trojan
-  server: us7-02.iran2030.ggff.net
-  port: 443
-  udp: true
-  alpn:
-  - h2
-  skip-cert-verify: false
-  password: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a
-  sni: us7-02.iran2030.ggff.net
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Zseq8mEocwY1BdzUcEzwWx
+  - name: "us7-02.iran2030.ggff.net tls_h2 grpc direct trojan \xA7 443 19"
+    type: trojan
+    server: us7-02.iran2030.ggff.net
+    port: 443
+    udp: true
+    alpn:
+    - h2
+    skip-cert-verify: false
+    password: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a
+    sni: us7-02.iran2030.ggff.net
+    network: grpc
+    grpc-opts:
+      grpc-service-name: Zseq8mEocwY1BdzUcEzwWx
+
+  - name: "us8-02.iran2030.ggff.net tls_h2 grpc direct trojan \xA7 443 15"
+    type: trojan
+    server: us8-02.iran2030.ggff.net
+    port: 443
+    udp: true
+    alpn:
+    - h2
+    skip-cert-verify: false
+    password: 3465a008-d9a0-40a2-bc63-232fca123efb
+    sni: us8-02.iran2030.ggff.net
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vF9m1Zhk95mHbkJJeMu9Ef
 
