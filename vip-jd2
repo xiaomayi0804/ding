@@ -6,7 +6,6 @@ proxies:
   - {"name":"🇨🇦CA-100Mbps","type":"vless","server":"back-ca1.uni-verse.top","port":443,"uuid":"836e5c1d-7371-4a92-afa2-af1d0726a824","udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/fuck","headers":{"Host":"back-ca1.uni-verse.top"},"max-early-data":2560,"early-data-header-name":"Sec-WebSocket-Protocol"},"servername":"back-ca1.uni-verse.top"}
   - {"name":"🇦🇶AQ-IPv6-Only-1Gbps","server":"2a0f:7803:fac0:6b2a:0001:0000:0000:0001","port":31374,"sni":"back-hk2.ip03.shop","up":200,"down":200,"skip-cert-verify":true,"type":"hysteria2","password":"836e5c1d-7371-4a92-afa2-af1d0726a824","obfs":"salamander","obfs-password":"ZWE5NThmNzJmMTkwNDE5Yg==","ports":"30000-60000"}
 
-
 - name: "us7-01.iran2030.ggff.net tls_h2 grpc direct trojan \xA7 443 18"
   type: trojan
   server: us7-01.iran2030.ggff.net
