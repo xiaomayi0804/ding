@@ -91,65 +91,65 @@ proxies:
       grpc-service-name: vF9m1Zhk95mHbkJJeMu9Ef
 
   - name: us6-02zl.huangshang.ggff.net tls_h2 WS direct trojan § 443 34
-      type: trojan
-      server: us6-02zl.huangshang.ggff.net
-      port: 443
-      udp: true
-      alpn:
-        - h2
-      skip-cert-verify: false
-      password: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01
-      sni: us6-02zl.huangshang.ggff.net
-      network: ws
-      ws-opts:
-        path: /ILLcisbMYUd6MQzxVoMQ
-        headers:
-          Host: us6-02zl.huangshang.ggff.net
+    type: trojan
+    server: us6-02zl.huangshang.ggff.net
+    port: 443
+    udp: true
+    alpn:
+      - h2
+    skip-cert-verify: false
+    password: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01
+    sni: us6-02zl.huangshang.ggff.net
+    network: ws
+    ws-opts:
+      path: /ILLcisbMYUd6MQzxVoMQ
+      headers:
+        Host: us6-02zl.huangshang.ggff.net
 
   - name: us6-03zl.iran2030.ggff.net tls_h2 WS direct trojan § 443 30
-      type: trojan
-      server: us6-03zl.iran2030.ggff.net
-      port: 443
-      udp: true
-      alpn:
-        - h2
-      skip-cert-verify: false
-      password: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01
-      sni: us6-03zl.iran2030.ggff.net
-      network: ws
-      ws-opts:
-        path: /ILLcisbMYUd6MQzxVoMQ
-        headers:
-          Host: us6-03zl.iran2030.ggff.net
+    type: trojan
+    server: us6-03zl.iran2030.ggff.net
+    port: 443
+    udp: true
+    alpn:
+      - h2
+    skip-cert-verify: false
+    password: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01
+    sni: us6-03zl.iran2030.ggff.net
+    network: ws
+    ws-opts:
+      path: /ILLcisbMYUd6MQzxVoMQ
+      headers:
+        Host: us6-03zl.iran2030.ggff.net
 
   - name: us6-03zl.huangshang.ggff.net tls_h2 WS direct trojan § 443 33
-      type: trojan
-      server: us6-03zl.huangshang.ggff.net
-      port: 443
-      udp: true
-      alpn:
-        - h2
-      skip-cert-verify: false
-      password: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01
-      sni: us6-03zl.huangshang.ggff.net
-      network: ws
-      ws-opts:
-        path: /ILLcisbMYUd6MQzxVoMQ
-        headers:
-          Host: us6-03zl.huangshang.ggff.net
+    type: trojan
+    server: us6-03zl.huangshang.ggff.net
+    port: 443
+    udp: true
+    alpn:
+      - h2
+    skip-cert-verify: false
+    password: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01
+    sni: us6-03zl.huangshang.ggff.net
+    network: ws
+    ws-opts:
+      path: /ILLcisbMYUd6MQzxVoMQ
+      headers:
+        Host: us6-03zl.huangshang.ggff.net
 
   - name: us6-03.890602.xyz tls_h2 WS CDN trojan § 443 19
-      type: trojan
-      server: US6-03.890602.XyZ
-      port: 443
-      udp: true
-      alpn:
-        - h2
-      skip-cert-verify: false
-      password: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01
-      sni: us6-03.890602.xYz
-      network: ws
-      ws-opts:
-        path: /ILLcisbMYUd6MQzxVoMQ
-        headers:
-          Host: us6-03.890602.xyz
+    type: trojan
+    server: US6-03.890602.XyZ
+    port: 443
+    udp: true
+    alpn:
+      - h2
+    skip-cert-verify: false
+    password: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01
+    sni: us6-03.890602.xYz
+    network: ws
+    ws-opts:
+      path: /ILLcisbMYUd6MQzxVoMQ
+      headers:
+        Host: us6-03.890602.xyz
