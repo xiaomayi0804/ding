@@ -188,7 +188,7 @@ http://192.168.5.111:35455/itv/5000000006000040016.m3u8?cdn=bestzb
 #EXTINF:-1,tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://epg.v1.mk/logo/河南卫视.png" group-title="河南",河南卫视
 http://192.168.5.111:35455/itv/5000000011000031119.m3u8?cdn=bestzb
 #EXTINF:-1,tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://epg.v1.mk/logo/黑龙江卫视.png" group-title="黑龙江",黑龙江卫视
-http://192.168.5.111:35455/itv/1000000001000001925.m3u8?cdn=ystenlive
+http://192.168.5.111:35455/itv/6000000001000016510.m3u8?cdn=wasusyt
 #EXTINF:-1,tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://epg.v1.mk/logo/湖北卫视.png" group-title="湖北",湖北卫视
 http://192.168.5.111:35455/itv/1000000001000024621.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://epg.v1.mk/logo/湖南卫视.png" group-title="湖南",湖南卫视
