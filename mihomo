@@ -6,8 +6,8 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 🟢 直连
-    url: "https://xiaomayi.nyc.mn/https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd"
+    proxy: 🚀 节点选择
+    url: "https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd"
   Airport_02:
     type: http
     interval: 1800
@@ -15,8 +15,8 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 🟢 直连
-    url: "https://xiaomayi.nyc.mn/https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd1"
+    proxy: 🚀 节点选择
+    url: "https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd1"
   Airport_03:
     type: http
     interval: 1800
@@ -24,8 +24,8 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 🟢 直连
-    url: "https://xiaomayi.nyc.mn/https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd2"
+    proxy: 🚀 节点选择
+    url: "https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd2"
   Airport_04:
     type: http
     interval: 1800
@@ -33,7 +33,7 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 🟢 直连
+    proxy: 🚀 节点选择
     #url: "https://mxlsub.me/free"
 
 mixed-port: 7890
