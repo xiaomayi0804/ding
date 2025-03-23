@@ -34,7 +34,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🚀 节点选择
-    url:"https://igdux.top/~Clash"
+    url: "https://igdux.top/~Clash"
     #url: "https://mxlsub.me/free"
 
 mixed-port: 7890
