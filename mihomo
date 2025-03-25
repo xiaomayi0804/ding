@@ -25,7 +25,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🚀 节点选择
-    url: "https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd2"
+    url: "https://mxlsub.me/free"
   Airport_04:
     type: http
     interval: 1800
@@ -34,7 +34,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🚀 节点选择
-    url: "https://igdux.top/~Clash"     #url: "https://mxlsub.me/free"
+    url: "https://igdux.top/~Clash" 
 
 mixed-port: 7890
 allow-lan: true
