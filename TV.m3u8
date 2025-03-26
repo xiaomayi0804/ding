@@ -49,13 +49,31 @@ http://192.168.5.111:35455/itv/3000000010000005180.m3u8?cdn=FifastbLive
 #EXTINF:-1,tvg-id="咪咕4K" tvg-name="咪咕4K" tvg-logo="https://epg.v1.mk/logo/咪咕4K.png" group-title="4K频道",咪咕4K-2
 http://192.168.5.111:35455/itv/3000000010000015686.m3u8?cdn=FifastbLive
 
-
+#EXTINF:-1 tvg-name="翡翠台4K" group-title="海外",翡翠台4K
+http://php.jdshipin.com/TVOD/iptv.php?id=fct4
+#EXTINF:-1 tvg-name="明珠台2" group-title="海外",明珠台
+http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
 #EXTINF:-1 group-title="北京IPTV",凤凰卫视
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 #EXTINF:-1 group-title="北京IPTV",凤凰资讯
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
 #EXTINF:-1 group-title="北京IPTV",凤凰香港
 http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
+#EXTINF:-1 tvg-name="龙华电影" group-title="海外",龙华电影
+https://cdn8.163189.xyz/live/lhdy/stream.m3u8
+#EXTINF:-1 tvg-name="龙华经典" group-title="海外",龙华经典
+https://cdn8.163189.xyz/live/lhjd/stream.m3u8
+#EXTINF:-1 tvg-name="龙华卡通" group-title="海外",龙华卡通
+https://cdn8.163189.xyz/live/lhkt/stream.m3u8
+#EXTINF:-1 tvg-name="龙华偶像" group-title="海外",龙华偶像
+https://cdn8.163189.xyz/live/lhox/stream.m3u8
+#EXTINF:-1 tvg-name="龙华日韩" group-title="海外",龙华日韩
+https://cdn8.163189.xyz/live/lhrh/stream.m3u8
+#EXTINF:-1 tvg-name="龙华戏剧" group-title="海外",龙华戏剧
+https://cdn8.163189.xyz/live/lhxj/stream.m3u8
+#EXTINF:-1 tvg-name="龙华洋片" group-title="海外",龙华洋片
+https://cdn8.163189.xyz/live/lhyp/stream.m3u8
+
 
 
 #EXTINF:-1,tvg-id="BTV-重温经典" tvg-name="BTV-重温经典" tvg-logo="https://epg.v1.mk/logo/BTV-重温经典.png" group-title="北京",BTV-重温经典
@@ -107,6 +125,8 @@ http://192.168.5.111:35455/itv/5000000011000031113.m3u8?cdn=bestzb
 http://192.168.5.111:35455/itv/5000000011000031112.m3u8?cdn=bestzb
 #EXTINF:-1,tvg-id="SITV生活时尚" tvg-name="SITV生活时尚" tvg-logo="https://epg.v1.mk/logo/SITV.png" group-title="其他",SiTV-生活时尚
 http://192.168.5.111:35455/itv/5000000002000019634.m3u8?cdn=bestzb
+#EXTINF:-1 tvg-name="广东体育" group-title="海外",广东体育
+http://php.jdshipin.com/TVOD/iptv.php?id=gdty
 #EXTINF:-1,tvg-id="IHOT爱院线" tvg-name="IHOT爱院线" tvg-logo="https://epg.v1.mk/logo/IHOT爱院线.png" group-title="其他",iHOT-爱院线
 http://192.168.5.111:35455/itv/6000000006000030630.m3u8?cdn=wasusyt
 #EXTINF:-1 group-title="其他",小公视
