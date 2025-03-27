@@ -50,3 +50,265 @@ proxies:
       path: /ILLcisbMYUd6MQzxVoMQ
       headers:
         Host: us6-03.890602.xyz
+
+
+  - name: 剩余流量：500 GB
+    server: youhui-jp.sanguayun.com
+    port: 50409
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 套餐到期：2025-04-27
+    server: youhui-jp.sanguayun.com
+    port: 50409
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 日本1
+    server: youhui-jp.sanguayun.com
+    port: 50409
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 日本2
+    server: youhui-jp.sanguayun.com
+    port: 58704
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 日本3
+    server: youhui-jp.sanguayun.com
+    port: 59659
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 日本4
+    server: youhui-jp.sanguayun.com
+    port: 55977
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 新加坡1
+    server: youhui-sg.sanguayun.com
+    port: 56253
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 新加坡2
+    server: youhui-sg.sanguayun.com
+    port: 53611
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 新加坡3
+    server: youhui-sg.sanguayun.com
+    port: 51355
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 新加坡4
+    server: youhui-sg.sanguayun.com
+    port: 53107
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 法国1
+    server: youhui-fr.sanguayun.com
+    port: 53485
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 法国2
+    server: youhui-fr.sanguayun.com
+    port: 54328
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 法国3
+    server: youhui-fr.sanguayun.com
+    port: 56891
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 法国4
+    server: youhui-fr.sanguayun.com
+    port: 53177
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 荷兰1
+    server: youhui-nl.sanguayun.com
+    port: 52419
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 荷兰2
+    server: youhui-nl.sanguayun.com
+    port: 51174
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 荷兰3
+    server: youhui-nl.sanguayun.com
+    port: 57405
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 荷兰4
+    server: youhui-nl.sanguayun.com
+    port: 53523
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 卢森堡1
+    server: youhui-lu.sanguayun.com
+    port: 56690
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 卢森堡2
+    server: youhui-lu.sanguayun.com
+    port: 59866
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 卢森堡3
+    server: youhui-lu.sanguayun.com
+    port: 56471
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 卢森堡4
+    server: youhui-us.sanguayun.com
+    port: 55433
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 加拿大1
+    server: youhui-ca.sanguayun.com
+    port: 56512
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 加拿大2
+    server: youhui-ca.sanguayun.com
+    port: 54838
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 加拿大3
+    server: youhui-ca.sanguayun.com
+    port: 58963
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
+  - name: 加拿大4
+    server: youhui-ca.sanguayun.com
+    port: 50398
+    sni: null
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    ports: 50001-59999
+    type: hysteria2
+    password: 2b8b3e5c-1645-4960-b481-44b50d4519ff
