@@ -152,6 +152,7 @@ proxy-groups:
 rules:
   - IP-CIDR,118.170.45.178/16,🌐 全部节点,no-resolve
   - IP-CIDR,104.194.10.200/16,🌐 全部节点,no-resolve
+  - DOMAIN-KEYWORD,cdn,🟢 直连
   - DOMAIN-KEYWORD,aktv,🌐 全部节点
   - DOMAIN-SUFFIX,18.svi-studio.com,🌐 全部节点
   - DOMAIN-SUFFIX,rr.nu,🌐 全部节点
