@@ -51,6 +51,9 @@ http://192.168.5.111:35455/itv/3000000010000005180.m3u8?cdn=FifastbLive
 #EXTINF:-1,tvg-id="咪咕4K" tvg-name="咪咕4K" tvg-logo="https://epg.v1.mk/logo/咪咕4K.png" group-title="4K频道",咪咕4K-2
 http://192.168.5.111:35455/itv/3000000010000015686.m3u8?cdn=FifastbLive
 
+
+#EXTINF:-1 tvg-name="翡翠台 4K" tvg-logo="https://live.fanmingming.com/tv/翡翠台.png" group-title="港澳台AKTV",翡翠台 4K
+http://aktv-stream.m16tv.cfd/stream/aktv/4k/AKTV.m3u8
 #EXTINF:-1 tvg-name="翡翠台4K" group-title="海外",翡翠台4K
 http://php.jdshipin.com/TVOD/iptv.php?id=fct4
 #EXTINF:-1 tvg-name="明珠台2" group-title="海外",明珠台
