@@ -31,6 +31,8 @@ http://192.168.5.111:35455/douyin/405518163654
 #EXTINF:-1 group-title="斗鱼王者",抖音唐艺-serv00
 http://php.xiaomayi.nyc.mn/douyin.php?id=405518163654
 #EXTINF:-1 group-title="4K频道",Bloomberg TV+ 4K
+https://epg.pw/stream/d2edf469b9079064a283f4b0811cbf6f2597ebbb3d08dcf77036a4b5a791b7cf.m3u8
+#EXTINF:-1 group-title="4K频道",Bloomberg TV+ 
 https://bloomberg-bloomberg-2-nz.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="4K频道",Clarity 4K
 https://d3thiix3tzne5u.cloudfront.net/playlist2160p.m3u8
@@ -168,7 +170,8 @@ http://192.168.5.111:35455/gaoma/cctv5.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV5-plus" tvg-name="CCTV 5+" tvg-logo="https://assets.livednow.com/logo/CCTV5-plus.png" group-title="央视+", CCTV 5+
 http://192.168.5.111:35455/gaoma/cctv5p.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV 6" tvg-logo="https://assets.livednow.com/logo/CCTV6.png" group-title="央视+", CCTV 6
-http://192.168.5.111:35455/itv/1000000001000001737.m3u8?cdn=ystenlive
+http://113.140.12.230:8888/newlive/live/hls/7/live.m3u8
+#http://192.168.5.111:35455/itv/1000000001000001737.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV 7" tvg-logo="https://assets.livednow.com/logo/CCTV7.png" group-title="央视+", CCTV 7
 http://192.168.5.111:35455/gaoma/cctv7.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV 8" tvg-logo="https://assets.livednow.com/logo/CCTV8.png" group-title="央视+", CCTV 8
