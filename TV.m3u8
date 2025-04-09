@@ -2,14 +2,11 @@
 
 #EXTINF:-1 group-title="斗鱼王者",王者官方Y
 http://dns.yiandrive.com:15907/douyu/1863767
-#EXTINF:-1 group-title="斗鱼王者",王者官方-serv00
-http://php.xiaomayi.nyc.mn/douyu.php?id=1863767
+
 #EXTINF:-1 group-title="斗鱼王者",王者官方docker
 http://192.168.5.111:35455/douyu/1863767
 #EXTINF:-1 group-title="斗鱼王者",骚白911-NeZha
 http://tv.nezha.su:35455/douyu/911
-#EXTINF:-1 group-title="斗鱼王者",骚白911-serv00
-http://php.xiaomayi.nyc.mn/douyu.php?id=911
 #EXTINF:-1 group-title="斗鱼王者",骚白911
 http://192.168.5.111:35455/douyu/911
 #EXTINF:-1 group-title="斗鱼王者",斗鱼托米
@@ -28,8 +25,7 @@ http://192.168.5.111:35455/douyu/6264482
 http://192.168.5.111:35455/douyu/280087
 #EXTINF:-1 group-title="斗鱼王者",抖音唐艺
 http://192.168.5.111:35455/douyin/405518163654
-#EXTINF:-1 group-title="斗鱼王者",抖音唐艺-serv00
-http://php.xiaomayi.nyc.mn/douyin.php?id=405518163654
+
 #EXTINF:-1 group-title="4K频道",Bloomberg TV+ 4K
 https://epg.pw/stream/d2edf469b9079064a283f4b0811cbf6f2597ebbb3d08dcf77036a4b5a791b7cf.m3u8
 #EXTINF:-1 group-title="4K频道",Bloomberg TV+ 
@@ -114,29 +110,6 @@ https://gdcucc.v1.mk/gdcucc/chcdzdy.m3u8
 https://gdcucc.v1.mk/gdcucc/brtv8k.m3u8
 
 
-
-#EXTINF:-1,tvg-id="华数4K" tvg-name="华数4K" tvg-logo="https://epg.v1.mk/logo/华数4K.png" group-title="4K频道",华数-4K
-http://192.168.5.111:35455/itv/6000000003000004748.m3u8?cdn=wasusyt
-#EXTINF:-1,tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://epg.v1.mk/logo/纯享4K.png" group-title="4K频道",纯享-4K
-http://192.168.5.111:35455/itv/1000000004000011651.m3u8?cdn=ystenlive
-#EXTINF:-1,tvg-id="上海ICS" tvg-name="上海ICS" tvg-logo="https://epg.v1.mk/logo/上海ICS.png" group-title="上海",上海-ICS-外语
-http://192.168.5.111:35455/itv/5000000010000030951.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://epg.v1.mk/logo/五星体育.png" group-title="上海",上海五星体育
-http://192.168.5.111:35455/itv/5000000010000017540.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="SITV劲爆体育" tvg-name="SITV劲爆体育" tvg-logo="https://epg.v1.mk/logo/SITV劲爆体育.png" group-title="其他",SiTV-劲爆体育
-http://192.168.5.111:35455/itv/5000000002000029972.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="SITV魅力足球" tvg-name="SITV魅力足球" tvg-logo="https://epg.v1.mk/logo/SITV.png" group-title="其他",SiTV-魅力足球
-http://192.168.5.111:35455/itv/5000000011000031207.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="SITV游戏风云" tvg-name="SITV游戏风云" tvg-logo="https://epg.v1.mk/logo/SITV.png" group-title="其他",SiTV-游戏风云
-http://192.168.5.111:35455/itv/5000000011000031114.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="SITV欢笑剧场" tvg-name="SITV欢笑剧场" tvg-logo="https://epg.v1.mk/logo/SITV欢笑剧场.png" group-title="4K频道",SiTV-欢笑剧场-4K
-http://192.168.5.111:35455/itv/5000000007000010001.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="SITV动漫秀场" tvg-name="SITV动漫秀场" tvg-logo="https://epg.v1.mk/logo/SITV.png" group-title="其他",SiTV-动漫秀场
-http://192.168.5.111:35455/itv/5000000011000031113.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="SITV乐游" tvg-name="SITV乐游" tvg-logo="https://epg.v1.mk/logo/SITV乐游.png" group-title="其他",SiTV-乐游
-http://192.168.5.111:35455/itv/5000000011000031112.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="SITV生活时尚" tvg-name="SITV生活时尚" tvg-logo="https://epg.v1.mk/logo/SITV.png" group-title="其他",SiTV-生活时尚
-http://192.168.5.111:35455/itv/5000000002000019634.m3u8?cdn=bestzb
 #EXTINF:-1 tvg-name="广东体育" group-title="海外",广东体育
 http://php.jdshipin.com/TVOD/iptv.php?id=gdty
 #EXTINF:-1 tvg-id="风云足球" tvg-name="风云足球" tvg-logo="https://live.fanmingming.cn/tv/风云足球.png" group-title="央视频道",CCTV-风云足球
@@ -902,59 +875,6 @@ http://192.168.5.111:5000/4gtv/287
 #EXTINF:-1 tvg-id="東森購物" tvg-name="東森購物四台" tvg-logo="https://assets.livednow.com/logo/東森購物.png" group-title="其他", 東森購物四台
 http://192.168.5.111:5000/4gtv/286
 
-
-#EXTINF:-1,tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://epg.v1.mk/logo/北京卫视.png" group-title="北京",北京卫视
-http://192.168.5.111:35455/itv/6000000001000020451.m3u8?cdn=wasusyt
-#EXTINF:-1,tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://epg.v1.mk/logo/安徽卫视.png" group-title="安徽",安徽卫视
-http://192.168.5.111:35455/itv/1000000001000030159.m3u8?cdn=ystenlive
-#EXTINF:-1,tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://epg.v1.mk/logo/东南卫视.png" group-title="卫视",东南卫视
-http://192.168.5.111:35455/itv/5000000004000010584.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://epg.v1.mk/logo/甘肃卫视.png" group-title="甘肃",甘肃卫视
-http://192.168.5.111:35455/itv/5000000011000031121.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://epg.v1.mk/logo/广东卫视.png" group-title="广东",广东卫视
-http://192.168.5.111:35455/itv/1000000001000014176.m3u8?cdn=ystenlive
-#EXTINF:-1,tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://epg.v1.mk/logo/广西卫视.png" group-title="卫视",广西卫视
-http://192.168.5.111:35455/itv/5000000011000031118.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://epg.v1.mk/logo/贵州卫视.png" group-title="贵州",贵州卫视
-http://192.168.5.111:35455/itv/5000000004000025843.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://epg.v1.mk/logo/海南卫视.png" group-title="海南",海南卫视
-http://192.168.5.111:35455/itv/5000000004000006211.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://epg.v1.mk/logo/河北卫视.png" group-title="河北",河北卫视
-http://192.168.5.111:35455/itv/5000000006000040016.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://epg.v1.mk/logo/河南卫视.png" group-title="河南",河南卫视
-http://192.168.5.111:35455/itv/5000000011000031119.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://epg.v1.mk/logo/黑龙江卫视.png" group-title="黑龙江",黑龙江卫视
-http://192.168.5.111:35455/itv/6000000001000016510.m3u8?cdn=wasusyt
-#EXTINF:-1,tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://epg.v1.mk/logo/湖北卫视.png" group-title="湖北",湖北卫视
-http://192.168.5.111:35455/itv/1000000001000024621.m3u8?cdn=ystenlive
-#EXTINF:-1,tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://epg.v1.mk/logo/湖南卫视.png" group-title="湖南",湖南卫视
-http://192.168.5.111:35455/itv/5000000004000006692.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://epg.v1.mk/logo/吉林卫视.png" group-title="吉林",吉林卫视
-http://192.168.5.111:35455/itv/5000000011000031117.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://epg.v1.mk/logo/江苏卫视.png" group-title="江苏",江苏卫视
-http://192.168.5.111:35455/itv/1000000001000001828.m3u8?cdn=ystenlive
-#EXTINF:-1,tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://epg.v1.mk/logo/江西卫视.png" group-title="江西",江西卫视
-http://192.168.5.111:35455/itv/1000000006000268001.m3u8?cdn=ystenlive
-#EXTINF:-1,tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://epg.v1.mk/logo/辽宁卫视.png" group-title="辽宁",辽宁卫视
-http://192.168.5.111:35455/itv/5000000004000011671.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://epg.v1.mk/logo/青海卫视.png" group-title="青海",青海卫视
-http://192.168.5.111:35455/itv/1000000002000013359.m3u8?cdn=ystenlive
-#EXTINF:-1,tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://epg.v1.mk/logo/山东卫视.png" group-title="山东",山东卫视
-http://192.168.5.111:35455/itv/6000000001000004134.m3u8?cdn=wasusyt
-#EXTINF:-1,tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://epg.v1.mk/logo/东方卫视.png" group-title="上海",上海东方卫视
-http://192.168.5.111:35455/itv/5000000004000014098.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://epg.v1.mk/logo/深圳卫视.png" group-title="卫视",深圳卫视
-http://192.168.5.111:35455/itv/5000000004000007410.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://epg.v1.mk/logo/四川卫视.png" group-title="四川",四川卫视
-http://192.168.5.111:35455/itv/5000000004000006119.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://epg.v1.mk/logo/天津卫视.png" group-title="卫视",天津卫视
-http://192.168.5.111:35455/itv/5000000004000006827.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://epg.v1.mk/logo/云南卫视.png" group-title="云南",云南卫视
-http://192.168.5.111:35455/itv/5000000011000031120.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.v1.mk/logo/浙江卫视.png" group-title="浙江",浙江卫视
-http://192.168.5.111:35455/itv/5000000004000007275.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://epg.v1.mk/logo/重庆卫视.png" group-title="重庆",重庆卫视
-http://192.168.5.111:35455/itv/1000000001000001096.m3u8?cdn=ystenlive
 
 #EXTM3U x-tvg-url="https://epg.v1.mk/fy.xml"
 #EXTINF:-1,tvg-id="北京IPTV4K" tvg-name="北京IPTV4K" tvg-logo="https://epg.v1.mk/logo/北京IPTV4K.png" group-title="北京",北京IPTV4K
