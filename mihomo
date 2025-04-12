@@ -111,13 +111,11 @@ proxies:
 - name: "🟢 直连"
   type: direct
   udp: true
-- {"type":"hysteria2","name":"Hy2-s5-edwardchina","server":"128.204.223.99","port":49628,"password":"f448cb78-89ce-4a9a-9291-cfd8aaa5233a","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
-- {"type":"vless","name":"s10-reality-leo726","server":"128.204.223.112","port":14320,"uuid":"16c501aa-4924-49ec-84b6-cfc35c1a4907","tls":true,"flow":"xtls-rprx-vision","client-fingerprint":"chrome","skip-cert-verify":false,"reality-opts":{"8rf6aq0oj9vsAdhFr77d7lk3vo6GjlwijoJ5FwNHwUc"},"network":"tcp","servername":"leo726.serv00.net"}
 
 pr: &pr {type: select, proxies: [🚀 节点选择, 🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, ♻️ Airport_01, ♻️ Airport_02, ♻️ Airport_03, ♻️ Airport_04, ♻️ Airport_05, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 🟢 直连]}
 
 proxy-groups:
-  - {name: 🚀 节点选择, type: select, proxies: [🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, ♻️ Airport_01, ♻️ Airport_02, ♻️ Airport_03, ♻️ Airport_04, ♻️ Airport_05, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, Hy2-s5-edwardchina, s10-reality-leo726, 🟢 直连]}
+  - {name: 🚀 节点选择, type: select, proxies: [🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, ♻️ Airport_01, ♻️ Airport_02, ♻️ Airport_03, ♻️ Airport_04, ♻️ Airport_05, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 🟢 直连]}
   - {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连)).)*$"}
   - {name: ♻️ Airport_01, type: url-test, tolerance: 20, interval: 300, use: [Airport_01]}
   - {name: ♻️ Airport_02, type: url-test, tolerance: 20, interval: 300, use: [Airport_02]}
@@ -150,10 +148,8 @@ proxy-groups:
 
 
 rules:
-  - IP-CIDR,118.170.45.178/16,🌐 全部节点,no-resolve
-  - IP-CIDR,104.194.10.200/16,🌐 全部节点,no-resolve
-  - DOMAIN-KEYWORD,aktv,🌐 全部节点
-  - DOMAIN-SUFFIX,18.svi-studio.com,🌐 全部节点
+  - DOMAIN-SUFFIX,tanhuatv.site,🟢 直连
+  - DOMAIN-SUFFIX,18.svi-studio.com,🚀 节点选择
   - DOMAIN-SUFFIX,wqwqwq.sbs,🟢 直连
   - DOMAIN-SUFFIX,us.kg,🚀 节点选择
   - DOMAIN-SUFFIX,nyc.mn,🟢 直连
