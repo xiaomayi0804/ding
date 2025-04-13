@@ -97,6 +97,8 @@ http://192.168.5.111:35455/bptv/10000100000000050000000003887498.m3u8
 http://192.168.5.111:35455/bptv/10000100000000050000000003887499.m3u8
 #EXTINF:-1,tvg-id="北京IPTV4K" tvg-name="北京IPTV4K" tvg-logo="https://epg.v1.mk/logo/北京IPTV4K.png" group-title="4K频道",北京IPTV4K
 http://192.168.5.111:35455/bptv/10000100000000050000000003887500.m3u8
+#EXTINF:-1,tvg-id="北京卫视4K" tvg-name="北京卫视4K" tvg-logo="https://epg.v1.mk/logo/北京卫视4K.png" group-title="4K频道",北京卫视4K
+http://qtest-play.btime.cn/live/btv_sn_20170706_s41_20m.m3u8
 #EXTINF:-1,tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://epg.v1.mk/logo/北京新闻.png" group-title="北京",北京新闻
 http://192.168.5.111:35455/bptv/10000100000000050000000003870780.m3u8
 #EXTINF:-1,tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://epg.v1.mk/logo/重温经典.png" group-title="其他",重温经典
