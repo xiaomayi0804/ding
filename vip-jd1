@@ -1,4 +1,20 @@
-vless://ee6774c0-9b19-4ff1-8b30-2da4b71977e2@92.243.74.239:8080?security=&sni=edccr.aimercc.filegear-sg.me&type=ws&path=/&host=edccr.aimercc.filegear-sg.me&encryption=none#%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E6%B9%BE20%20%7C%20%E2%AC%87%EF%B8%8F%202.6MB/s
-hy2://dongtaiwang.com@46.29.163.171:32555?insecure=1&sni=apple.com#%F0%9F%87%B7%F0%9F%87%BA%E4%BF%84%E7%BD%97%E6%96%AF4%20%7C%20%E2%AC%87%EF%B8%8F%202.2MB/s
-hy2://073d062a-3170-4e8c-9123-aaa32155152d@111.119.207.186:29831?insecure=1&sni=www.bing.com#%F0%9F%87%B8%F0%9F%87%AC%E6%96%B0%E5%8A%A0%E5%9D%A11%20%7C%20%E2%AC%87%EF%B8%8F%204.5MB/s
-
+proxies:
+  - {"name":"Hong Kong | 01","server":"ccc.damimi.tech","port":12011,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+  - {"name":"Hong Kong | 02","server":"ct.damimi.tech","port":12012,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+  - {"name":"Hong Kong | 03","server":"cm2.damimi.tech","port":12011,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+  - {"name":"Taiwan | 01","server":"ccc.damimi.tech","port":12021,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+  - {"name":"Taiwan | 02","server":"ct.damimi.tech","port":12022,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+  - {"name":"Taiwan | 03","server":"cm2.damimi.tech","port":12021,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+  - {"name":"Japan | 01","server":"ccc.damimi.tech","port":12031,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+  - {"name":"Japan | 02","server":"ct.damimi.tech","port":12032,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+  - {"name":"Singapore | 01","server":"ccc.damimi.tech","port":12041,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+  - {"name":"Singapore | 02","server":"ct.damimi.tech","port":12042,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+  - {"name":"Korea | 01","server":"ccc.damimi.tech","port":12051,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+  - {"name":"Korea | 02","server":"ct.damimi.tech","port":12052,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+  - {"name":"America | 01","server":"ccc.damimi.tech","port":12061,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+  - {"name":"America | 02","server":"ct.damimi.tech","port":12062,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+  - {"name":"America | 03","server":"cm2.damimi.tech","port":12061,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+  - {"name":"Indonesia | 01","server":"ccc.damimi.tech","port":12081,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+  - {"name":"Turkey | 01","server":"ccc.damimi.tech","port":12082,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+  - {"name":"India | 01","server":"ccc.damimi.tech","port":12083,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+  - {"name":"Britain | 01","server":"ccc.damimi.tech","port":12091,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
