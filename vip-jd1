@@ -1,20 +1,4 @@
-proxies:
-  - {"name":"Hong Kong | 01","server":"ccc.damimi.tech","port":12011,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
-  - {"name":"Hong Kong | 02","server":"ct.damimi.tech","port":12012,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
-  - {"name":"Hong Kong | 03","server":"cm2.damimi.tech","port":12011,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
-  - {"name":"Taiwan | 01","server":"ccc.damimi.tech","port":12021,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
-  - {"name":"Taiwan | 02","server":"ct.damimi.tech","port":12022,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
-  - {"name":"Taiwan | 03","server":"cm2.damimi.tech","port":12021,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
-  - {"name":"Japan | 01","server":"ccc.damimi.tech","port":12031,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
-  - {"name":"Japan | 02","server":"ct.damimi.tech","port":12032,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
-  - {"name":"Singapore | 01","server":"ccc.damimi.tech","port":12041,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
-  - {"name":"Singapore | 02","server":"ct.damimi.tech","port":12042,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
-  - {"name":"Korea | 01","server":"ccc.damimi.tech","port":12051,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
-  - {"name":"Korea | 02","server":"ct.damimi.tech","port":12052,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
-  - {"name":"America | 01","server":"ccc.damimi.tech","port":12061,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
-  - {"name":"America | 02","server":"ct.damimi.tech","port":12062,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
-  - {"name":"America | 03","server":"cm2.damimi.tech","port":12061,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
-  - {"name":"Indonesia | 01","server":"ccc.damimi.tech","port":12081,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
-  - {"name":"Turkey | 01","server":"ccc.damimi.tech","port":12082,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
-  - {"name":"India | 01","server":"ccc.damimi.tech","port":12083,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
-  - {"name":"Britain | 01","server":"ccc.damimi.tech","port":12091,"client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"5cabe2b6-3937-4579-86fc-3a55193ea640","tfo":false}
+trojan://oIwjHDXpKePvYIg8@myvps.lol:443?security=tls&sni=myvps.lol&alpn=h2,http/1.1&type=tcp#_91
+trojan://oIwjHDXpKePvYIg8@43.161.255.183:443?security=tls&sni=myvps.lol&alpn=h2,http/1.1&type=tcp#_92
+ss://YWVzLTI1Ni1jZmI6MjE3MGY4@45.55.2.232:14293#_63
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwN0VoQzhNUjdvN0d1Um4yN1lGOFNRTkFLSjJsVWJCTklqY3lxU21CSHN5OHdMYko=@159.65.149.72:51348#%F0%9F%87%AE%F0%9F%87%B3%20IN_163
