@@ -25,5 +25,11 @@ proxies:
   - {"name":"加拿大2","server":"youhui-ca.sanguayun.com","port":53427,"sni":"youhui-ca.sanguayun.com","up":1000,"down":1000,"skip-cert-verify":false,"ports":"50001-59999","type":"hysteria2","password":"2b8b3e5c-1645-4960-b481-44b50d4519ff"}
   - {"name":"加拿大3","server":"youhui-ca.sanguayun.com","port":50851,"sni":"youhui-ca.sanguayun.com","up":1000,"down":1000,"skip-cert-verify":false,"ports":"50001-59999","type":"hysteria2","password":"2b8b3e5c-1645-4960-b481-44b50d4519ff"}
   - {"name":"加拿大4","server":"youhui-ca.sanguayun.com","port":50436,"sni":"youhui-ca.sanguayun.com","up":1000,"down":1000,"skip-cert-verify":false,"ports":"50001-59999","type":"hysteria2","password":"2b8b3e5c-1645-4960-b481-44b50d4519ff"}
+  - {"name":"_91","server":"myvps.lol","type":"trojan","port":443,"password":"oIwjHDXpKePvYIg8","alpn":["h2","http/1.1"],"sni":"myvps.lol","udp":true}
+  - {"name":"🇺🇸 US_250","server":"okanc.node-is.green","type":"ss","country":"🇺🇸 US","port":21115,"password":"9acfc574-acc3-4c2b-ab3b-491d43a6eb83","cipher":"aes-256-gcm"}
+  - {"name":"_81","server":"104.21.30.167","type":"trojan","port":443,"password":"2fec7227-9abe-46f2-af18-78302b836c45","alpn":["http%2F1.1"],"sni":"3y.2032.pp.ua","skip-cert-verify":true,"udp":true}
+  - {"name":"_76","server":"37.143.129.230","type":"ss","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"_51","server":"38.121.43.71","type":"ss","port":2375,"udp":true,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇮🇳 IN_163","server":"159.65.149.72","type":"ss","country":"🇮🇳 IN","port":51348,"password":"p7EhC8MR7o7GuRn27YF8SQNAKJ2lUbBNIjcyqSmBHsy8wLbJ","cipher":"chacha20-ietf-poly1305"}
 
  
