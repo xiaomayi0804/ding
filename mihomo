@@ -153,7 +153,7 @@ rules:
   - DOMAIN-SUFFIX,wqwqwq.sbs,🟢 直连
   - DOMAIN-SUFFIX,us.kg,🚀 节点选择
   - DOMAIN-SUFFIX,nyc.mn,🟢 直连
-  - DOMAIN-SUFFIX,freemyip.com,🟢 直连
+  - DOMAIN-SUFFIX,freemyip.com,🚀 节点选择
   - DOMAIN-SUFFIX,dnsany.com,🟢 直连
   - DOMAIN-SUFFIX,cmvideo.cn,🟢 直连
   - DOMAIN-SUFFIX,chinamobile.com,🟢 直连
