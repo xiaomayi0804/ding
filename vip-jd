@@ -6,3 +6,11 @@ vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@usa.visa.com:80?security=&sni=xiaox
 
 vless://59860b15-b2d9-47f9-9b92-81bd1639fcc5@icook.hk:8080?security=&sni=23-lsjfjwiposkfls.hc2021.cfd&allowInsecure=1&fp=random&type=ws&path=/?ed%3D2560&host=23-lsjfjwiposkfls.hc2021.cfd&encryption=none#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF
 vless://59860b15-b2d9-47f9-9b92-81bd1639fcc5@time.is:8080?security=&sni=23-lsjfjwiposkfls.hc2021.cfd&allowInsecure=1&fp=random&type=ws&path=/?ed%3D2560&host=23-lsjfjwiposkfls.hc2021.cfd&encryption=none#%F0%9F%87%AE%F0%9F%87%B8%20%E5%86%B0%E5%B2%9B
+
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMDVjNjg0ZS1iMWVkLTQ2ZTQtOWQ4MC01OGYyYmYyNjk0MzU=@123.207.48.187:20999#[ss]%E9%A6%99%E6%B8%AF2[%E4%B8%AD%E8%BD%AC][%E5%B9%BF%E5%B7%9Ebgp]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMDVjNjg0ZS1iMWVkLTQ2ZTQtOWQ4MC01OGYyYmYyNjk0MzU=@123.207.48.187:10888#[ss]%E9%A6%99%E6%B8%AF1[%E4%B8%AD%E8%BD%AC]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMDVjNjg0ZS1iMWVkLTQ2ZTQtOWQ4MC01OGYyYmYyNjk0MzU=@123.207.48.187:10999#[ss]%E9%A6%99%E6%B8%AF2[%E4%B8%AD%E8%BD%AC]
+hy2://1c810ee1-9995-404f-bc23-a99e40939eda@[2a0f:7803:fac0:dbb7::1]:54934?obfs=salamander&obfs-password=ZWE5NThmNzJmMTkwNDE5Yg%3D%3D&mport=50000-60000&insecure=1#%F0%9F%87%AD%F0%9F%87%B0HK-IPv6-1Gbps%20UNLIMITED
+hy2://83de9a79-17d8-45b6-b6b2-721f891a589f@tw1.laibajc.top:47214?insecure=1#tw%E5%8F%B0%E6%B9%BE1
+hy2://83de9a79-17d8-45b6-b6b2-721f891a589f@hk1.laibajc.top:47216?insecure=1#%E9%A6%99%E6%B8%AF1
