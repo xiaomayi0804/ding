@@ -158,6 +158,14 @@ proxy-groups:
 
 
 rules:
+  - DOMAIN-SUFFIX,jdshipin.com,🚀 节点选择
+  - DOMAIN-SUFFIX,163.dedyn.io,🚀 节点选择
+  - DOMAIN-SUFFIX,com.mp,🚀 节点选择
+  - DOMAIN-SUFFIX,zone.id,🚀 节点选择
+  - DOMAIN-SUFFIX,0o0.myfw.us,🚀 节点选择
+  - DOMAIN-SUFFIX,1789.dpdns.org,🚀 节点选择
+  - DOMAIN-SUFFIX,m16tv.cfd,🚀 节点选择
+
   - DOMAIN-SUFFIX,tanhuatv.site,🟢 直连
   - DOMAIN-SUFFIX,18.svi-studio.com,🌐 全部节点
   - DOMAIN-SUFFIX,wqwqwq.sbs,🟢 直连
@@ -207,7 +215,6 @@ rules:
   - RULE-SET,netflix_ip,🎥 NETFLIX,no-resolve
   - RULE-SET,telegram_ip,📲 Telegram,no-resolve
   - RULE-SET,cn_ip,🎯 全球直连
-  - DOMAIN-KEYWORD,cdn,🌐 全部节点
   - MATCH,🐟 漏网之鱼
 
 rule-anchor:
