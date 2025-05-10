@@ -207,7 +207,7 @@ rules:
   - RULE-SET,netflix_ip,🎥 NETFLIX,no-resolve
   - RULE-SET,telegram_ip,📲 Telegram,no-resolve
   - RULE-SET,cn_ip,🎯 全球直连
-  - DOMAIN-KEYWORD,cdn,🟢 直连
+  - DOMAIN-KEYWORD,cdn,🌐 全部节点
   - MATCH,🐟 漏网之鱼
 
 rule-anchor:
