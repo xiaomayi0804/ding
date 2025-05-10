@@ -1,4 +1,3 @@
-trojan://09e8b39a-4c09-4df0-a50c-af3bef01567e@gzyd.cg.xxality.cn:35000?security=tls&sni=cgsg2.hysality.com&type=tcp#%F0%9F%87%A8%F0%9F%87%B3%20[wzdnzd/aggregator]%20%E4%B8%AD%E5%9B%BD%20046
 trojan://74e74e40-e134-11ee-bded-f23c913c8d2b@8ee433be-sw5og0-tchszt-1quq9.cu.plebai.net:15229?security=tls&type=tcp#%F0%9F%87%A8%F0%9F%87%B3%20[wzdnzd/aggregator]%20%E4%B8%AD%E5%9B%BD%20266
 trojan://e3975a05-b89e-11ec-a50d-f23c91cfbbc9@3412a471-sw3ts0-sxf56z-1f596.cu.plebai.net:15229?security=tls&type=tcp#%F0%9F%87%A8%F0%9F%87%B3%20[wzdnzd/aggregator]%20%E4%B8%AD%E5%9B%BD%20402
 trojan://a5a81a34-f257-11ef-ba82-f23c913c8d2b@92289439-sw5og0-swp3f3-1teuc.cu.plebai.net:15229?security=tls&type=tcp#%F0%9F%87%A8%F0%9F%87%B3%20[wzdnzd/aggregator]%20%E4%B8%AD%E5%9B%BD%20206
@@ -19,6 +18,3 @@ vless://3a15467f-4554-4579-a586-a07a1e23e3de@172.64.88.146:8443?security=tls&sni
 vless://d7f943df-d885-4589-93e6-da8b1b2bbde2@103.21.244.145:443?security=tls&sni=hi.univermap.site&fp=random&type=ws&path=/?ed%3D2560&host=hi.univermap.site&encryption=none#%F0%9F%87%BA%F0%9F%87%B8%20[wzdnzd/aggregator]%20%E7%BE%8E%E5%9B%BD%20293
 vless://838f5273-5d2d-4630-a0f5-9cc8e4aef4d6@45.8.211.230:443?security=tls&sni=CxNiMjJz.cAfUnEaR.InFo&type=ws&path=/&host=CxNiMjJz.cAfUnEaR.InFo&encryption=none#%F0%9F%87%BA%F0%9F%87%B8%20[wzdnzd/aggregator]%20%E7%BE%8E%E5%9B%BD%20269
 vless://c4fa89d4-fcb9-48ba-adbc-665181cc817f@135.148.206.76:443?security=tls&sni=147135010072.sec21org.com&type=tcp&encryption=none#%F0%9F%87%BA%F0%9F%87%B8%20[wzdnzd/aggregator]%20%E7%BE%8E%E5%9B%BD%20376
-vless://ad8a0ea5-f15e-430d-bedb-5ed34c4f371c@104.24.189.116:443?security=tls&sni=taoj.eu.org&fp=random&type=ws&path=/?ed%3D2560&host=taoj.eu.org&encryption=none#%F0%9F%87%BA%F0%9F%87%B8%20[wzdnzd/aggregator]%20%E7%BE%8E%E5%9B%BD%20307
-vless://a67416e4-88b0-4ba7-92c5-c61b13f680fa@104.24.211.226:443?security=tls&sni=cf-wuxianll.xixi.icu&fp=random&type=ws&path=/?ed%3D2560&host=cf-wuxianll.xixi.icu&encryption=none#%F0%9F%87%BA%F0%9F%87%B8%20[wzdnzd/aggregator]%20%E7%BE%8E%E5%9B%BD%20149
-vless://ad8a0ea5-f15e-430d-bedb-5ed34c4f371c@104.16.103.216:443?security=tls&sni=taoj.eu.org&fp=random&type=ws&path=/?ed%3D2560&host=taoj.eu.org&encryption=none#%F0%9F%87%BA%F0%9F%87%B8%20[wzdnzd/aggregator]%20%E7%BE%8E%E5%9B%BD%20337
