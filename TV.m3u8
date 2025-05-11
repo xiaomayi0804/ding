@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml,https://epg.aptv.app/xml,https://epg.aptv.app/pp.xml.gz,http://epg.51zmt.top:8000/e.xml.gz,https://epg.v1.mk/fy.xml"                                                 
 
-#EXTINF:-1 group-title="斗鱼王者",王者官方Y
-http://dns.yiandrive.com:15907/douyu/1863767
+#EXTINF:-1 group-title="斗鱼王者",王者官方php
+http://live.iill.top/douyu.php?id=1863767
 #EXTINF:-1 group-title="斗鱼王者",王者官方docker
 http://192.168.124.111:35455/douyu/1863767
 #EXTINF:-1 group-title="斗鱼王者",骚白911-douzhi
