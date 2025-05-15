@@ -1,1 +1,4 @@
-hysteria2://4376c0b7-06c1-36b7-bd87-1448b3664c18@[2401:b60:5:7801:aa3b:4fd1:2b6f:fbab]:2096?insecure=1
+proxies:
+  - {"type":"vless","name":"🇺🇸 GCP-US-1","server":"4.255.56.138","port":443,"uuid":"f19ed531-81cb-433e-8746-1a69e009f9df","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"headers":{"Host":"usa.rtot.me"},"path":"/bing"},"servername":"usa.rtot.me"}
+  - {"type":"vless","name":"🇺🇸 GCP-US-2","server":"20.51.111.134","port":443,"uuid":"14c8603b-f036-4ebe-800b-ce6add99cd50","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"headers":{"Host":"usb.rtot.me"},"path":"/bing"},"servername":"usb.rtot.me"}
+  - {"type":"vless","name":"🇬🇧 GCP-UK","server":"35.178.235.225","port":443,"uuid":"00651706-0d2d-448b-80f2-7678f3e5187c","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"headers":{"Host":"uk.rtot.me"},"path":"/bing"},"servername":"uk.rtot.me"}
