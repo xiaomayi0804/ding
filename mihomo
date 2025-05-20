@@ -158,6 +158,10 @@ proxy-groups:
 
 
 rules:
+  - IP-CIDR,137.131.17.61,🟢 直连
+  - IP-CIDR,144.24.57.135,🟢 直连
+  - IP-CIDR,35.212.176.7,🟢 直连
+  - IP-CIDR,34.92.130.251,🟢 直连
   - DOMAIN-SUFFIX,jdshipin.com,🌐 全部节点
   - DOMAIN-SUFFIX,163.dedyn.io,🌐 全部节点
   - DOMAIN-SUFFIX,com.mp,🌐 全部节点
