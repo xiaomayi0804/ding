@@ -11,7 +11,7 @@ services:
     network_mode: bridge
     command: -tv=true -aesKey=z06aiecreyhgr6jfeewmbtj5hix8a95g -userid=668014216 -token=28706b4db4fd8410f9ffe8e964dbc4102f6b86f46ca5dbfe66a2014051313357179c468b7fe626df53a85924f806a40d59d592a2390836c4a81643d3fe487c0054ad4ecd54b0
 
-
+docker exec pixman sh -c 'flask mytvsuper_tivimate'
 
 
 clash：https://fofa.info/result?qbase64=IntcImhlbGxvXCI6XCJjbGFzaFwifSI%3D
