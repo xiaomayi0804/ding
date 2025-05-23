@@ -174,7 +174,7 @@ rules:
   - DOMAIN-SUFFIX,tanhuatv.site,🌐 全部节点
   - DOMAIN-SUFFIX,18.svi-studio.com,🌐 全部节点
   - DOMAIN-SUFFIX,wqwqwq.sbs,🌐 全部节点
-  - DOMAIN-SUFFIX,douyucdn.cn,DIRECT
+  - DOMAIN-SUFFIX,douyucdn.cn,🌐 全部节点
   - DOMAIN-SUFFIX,us.kg,🚀 节点选择
   - DOMAIN-SUFFIX,nyc.mn,🟢 直连
   - DOMAIN-SUFFIX,freemyip.com,🚀 节点选择
