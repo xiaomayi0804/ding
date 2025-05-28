@@ -13,12 +13,3 @@ hy2://edwardchina.chinanr@hy2.xiaomayi.nyc.mn:45831?insecure=1#claw-us
 hy2://edwardchina.chinanr@hy1.leochina.nyc.mn:41311?insecure=1#claw-us1
 
 
-vless://3e648cf6-9494-4d7d-a79c-1abcc71977e4@137.131.17.61:52406?security=reality&sni=www.yahoo.com&fp=chrome&pbk=LOq0D30eA6YmHV5W8_WEOiDTa8sWFOCCyLj39giaIlc&sid=d5d80b58&type=tcp&flow=xtls-rprx-vision&encryption=none#vl-reality-edwardchina-pro
-vmess://eyJhZGQiOiIxMzcuMTMxLjE3LjYxIiwiYWlkIjoiMCIsImhvc3QiOiJ3d3cuYmluZy5jb20iLCJpZCI6IjNlNjQ4Y2Y2LTk0OTQtNGQ3ZC1hNzljLTFhYmNjNzE5NzdlNCIsIm5ldCI6IndzIiwicGF0aCI6IjNlNjQ4Y2Y2LTk0OTQtNGQ3ZC1hNzljLTFhYmNjNzE5NzdlNC12bSIsInBvcnQiOiIyMDg2IiwicHMiOiJ2bS13cy1lZHdhcmRjaGluYS1wcm8iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
-hy2://3e648cf6-9494-4d7d-a79c-1abcc71977e4@137.131.17.61:56037?insecure=1&sni=www.bing.com#hy2-edwardchina-pro
-tuic://3e648cf6-9494-4d7d-a79c-1abcc71977e4:3e648cf6-9494-4d7d-a79c-1abcc71977e4@137.131.17.61:59532?congestion_control=bbr&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#tu5-edwardchina-pro
-vless://c01ec41a-8cec-4752-a162-f6f770c41abc@144.24.57.135:17071?security=reality&sni=www.yahoo.com&fp=chrome&pbk=mBR8hIVZu0vQD9ffG4NTmarOFB9P3CCyxGiI2gxndCA&sid=6229af7a&type=tcp&flow=xtls-rprx-vision&encryption=none#vl-reality-edwardchina
-vmess://eyJhZGQiOiIxNDQuMjQuNTcuMTM1IiwiYWlkIjoiMCIsImhvc3QiOiJ3d3cuYmluZy5jb20iLCJpZCI6ImMwMWVjNDFhLThjZWMtNDc1Mi1hMTYyLWY2Zjc3MGM0MWFiYyIsIm5ldCI6IndzIiwicGF0aCI6ImMwMWVjNDFhLThjZWMtNDc1Mi1hMTYyLWY2Zjc3MGM0MWFiYy12bSIsInBvcnQiOiIyMDgyIiwicHMiOiJ2bS13cy1lZHdhcmRjaGluYSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
-hy2://c01ec41a-8cec-4752-a162-f6f770c41abc@144.24.57.135:39308?insecure=1&sni=www.bing.com#hy2-edwardchina
-tuic://c01ec41a-8cec-4752-a162-f6f770c41abc:c01ec41a-8cec-4752-a162-f6f770c41abc@144.24.57.135:11027?congestion_control=bbr&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#tu5-edwardchina
-
