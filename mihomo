@@ -43,16 +43,8 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🚀 节点选择
-    #url: "https://mxlsub.me/free" 
-  Airport_06:
-    type: http
-    interval: 1800
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 🚀 节点选择
-    url: "https://ohayoo-pm.hf.space/api/v1/subscribe?token=neu4ecumvl2fuk6v" 
+    url: "https://mxlsub.me/free" 
+
 
 mixed-port: 7890
 allow-lan: true
