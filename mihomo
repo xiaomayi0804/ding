@@ -131,7 +131,7 @@ proxy-groups:
   - {name: ♻️ 香港自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
   - {name: ♻️ 日本自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$" }
   - {name: ♻️ 美国自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美|US|(?i)States|America))^((?!(港|台|日|韩|新)).)*$"}
-  - {name: 🌐 全部节点, type: select, proxies: [🟢 直连, 🚀 节点选择], include-all: true}
+  - {name: 🌐 全部节点, type: select, include-all: true}
   - {name: 📹 YouTube, <<: *pr}
   - {name: 🍀 Google, <<: *pr}
   - {name: 🤖 ChatGPT, <<: *pr}
@@ -143,7 +143,7 @@ proxy-groups:
   - {name: 🎥 NETFLIX, <<: *pr}
   - {name: ✈️ Speedtest, <<: *pr}
   - {name: 💶 PayPal, <<: *pr}
-  - {name: 🍎 Apple, type: select, proxies: [🟢 直连, 🚀 节点选择]}
+  - {name: 🍎 Apple, type: select, proxies: [🟢 直连, 🚀 节点选择, 🌐 全部节点]}
   - {name: 🎯 全球直连, type: select, proxies: [🟢 直连, 🚀 节点选择]}
   - {name: 🐟 漏网之鱼, <<: *pr}
 
@@ -153,18 +153,18 @@ rules:
   - IP-CIDR,144.24.57.135/8,🟢 直连, no-resolve
   - IP-CIDR,35.212.176.7/8,🟢 直连, no-resolve
   - IP-CIDR,34.92.130.251/8,🟢 直连, no-resolve
-  - DOMAIN-SUFFIX,jdshipin.com,🌐 全部节点
-  - DOMAIN-SUFFIX,163.dedyn.io,🌐 全部节点
-  - DOMAIN-SUFFIX,com.mp,🌐 全部节点
-  - DOMAIN-SUFFIX,zone.id,🌐 全部节点
-  - DOMAIN-SUFFIX,0o0.myfw.us,🌐 全部节点
-  - DOMAIN-SUFFIX,1789.dpdns.org,🌐 全部节点
-  - DOMAIN-SUFFIX,m16tv.cfd,🌐 全部节点
-  - DOMAIN-SUFFIX,16899.ggff.net,🌐 全部节点
+  - DOMAIN-SUFFIX,jdshipin.com,🍎 Apple
+  - DOMAIN-SUFFIX,163.dedyn.io,🍎 Apple
+  - DOMAIN-SUFFIX,com.mp,🍎 Apple
+  - DOMAIN-SUFFIX,zone.id,🍎 Apple
+  - DOMAIN-SUFFIX,0o0.myfw.us,🍎 Apple
+  - DOMAIN-SUFFIX,1789.dpdns.org,🍎 Apple
+  - DOMAIN-SUFFIX,m16tv.cfd,🍎 Apple
+  - DOMAIN-SUFFIX,16899.ggff.net,🍎 Apple
 
-  - DOMAIN-SUFFIX,tanhuatv.site,🌐 全部节点
-  - DOMAIN-SUFFIX,18.svi-studio.com,🌐 全部节点
-  - DOMAIN-SUFFIX,wqwqwq.sbs,🌐 全部节点
+  - DOMAIN-SUFFIX,tanhuatv.site,🍎 Apple
+  - DOMAIN-SUFFIX,18.svi-studio.com,🍎 Apple
+  - DOMAIN-SUFFIX,wqwqwq.sbs,🍎 Apple
   - DOMAIN-SUFFIX,us.kg,🚀 节点选择
   - DOMAIN-SUFFIX,nyc.mn,🟢 直连
   - DOMAIN-SUFFIX,freemyip.com,🚀 节点选择
@@ -187,7 +187,7 @@ rules:
   - DOMAIN-KEYWORD,copilot,🚀 节点选择
   - DOMAIN-KEYWORD,teamviewer,🟢 直连
   - DOMAIN-KEYWORD,doppiocdn,🚀 节点选择
-  - DOMAIN-KEYWORD,bing,🌐 全部节点
+  - DOMAIN-KEYWORD,bing,🚀 节点选择
   #- DOMAIN-KEYWORD,mushroom,🟢 直连
   #- DOMAIN-KEYWORD,alonestreaming,🟢 直连
 
