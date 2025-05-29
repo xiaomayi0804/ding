@@ -12,6 +12,3 @@ vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@172.67.76.208:80?security=&sni=xiao
 hy2://edwardchina.chinanr@hy2.xiaomayi.nyc.mn:45831?insecure=1#claw-us
 hy2://edwardchina.chinanr@hy1.leochina.nyc.mn:41311?insecure=1#claw-us1
 
-vless://056b1f82-ea78-41f3-b305-698ce2fa0e5b@www.visa.com.hk:443?security=tls&sni=x.xiaomayi.nyc.mn&type=ws&path=/&host=x.xiaomayi.nyc.mn&encryption=none#Vls-DE-Hetzner_Online
-vless://056b1f82-ea78-41f3-b305-698ce2fa0e5b@162.159.242.170:443?security=tls&sni=x.xiaomayi.nyc.mn&type=ws&path=/&host=x.xiaomayi.nyc.mn&encryption=none#Vls-DE-Hetzner_Online
-vless://056b1f82-ea78-41f3-b305-698ce2fa0e5b@176.9.86.61:443?security=tls&sni=x.xiaomayi.nyc.mn&type=ws&path=/&host=x.xiaomayi.nyc.mn&encryption=none#Vls-DE-Hetzner_Online123
