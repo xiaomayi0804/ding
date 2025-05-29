@@ -52,7 +52,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🚀 节点选择
-    url: "https://woyooo-distribute.hf.space/api/v1/subscribe?token=neu4ecumvl2fuk6v" 
+    url: "https://ohayoo-pm.hf.space/api/v1/subscribe?token=neu4ecumvl2fuk6v" 
 
 mixed-port: 7890
 allow-lan: true
