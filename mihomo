@@ -106,6 +106,8 @@ mode: rule
 log-level: warning
 ipv6: false
 udp: true
+experimental:
+  quic-go-disable-ecn: true
 
 
 proxies:
