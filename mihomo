@@ -104,9 +104,11 @@ dns:
     - https://120.53.53.53/dns-query
 mode: rule
 log-level: warning
-ipv6: false
+ipv6: true
 udp: true
+
 experimental:
+  ignore-resolve-fail: true
   quic-go-disable-ecn: true
 
 
