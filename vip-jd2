@@ -14,3 +14,6 @@ vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@[::ffff:156.238.18.94]:8880?securit
 vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@[::ffff:156.238.18.200]:8880?security=&type=ws&path=Telegram%F0%9F%87%A8%F0%9F%87%B3+@WangCai2+/?ed%3D2048&host=sg.laoyoutiao.link&encryption=none#%F0%9F%87%AD%F0%9F%87%B0HK_c8%20@WangCai_8
 
 
+vless://056b1f82-ea78-41f3-b305-698ce2fa0e5b@www.visa.com.hk:443?security=tls&sni=x.xiaomayi.nyc.mn&type=ws&path=/&host=x.xiaomayi.nyc.mn&encryption=none#Vls-DE-Hetzner_Online
+vless://056b1f82-ea78-41f3-b305-698ce2fa0e5b@176.9.86.61:443?security=tls&sni=x.xiaomayi.nyc.mn&type=ws&path=/&host=x.xiaomayi.nyc.mn&encryption=none#Vls-DE-Hetzner_Online
+
