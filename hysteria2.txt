@@ -1,4 +1,5 @@
 docker run -d --restart always --privileged=true -p 35455:35455 --name allinone youshandefeiyang/allinone -tv=true -aesKey=z06aiecreyhgr6jfeewmbtj5hix8a95g -userid=668014216 -token=28706b4db4fd8410f9ffe8e964dbc4102f6b86f46ca5dbfe66a2014051313357179c468b7fe626df53a85924f806a40d59d592a2390836c4a81643d3fe487c0054ad4ecd54b0
+docker run -d --restart always --net=host --privileged=true --name allinone youshandefeiyang/allinone -tv=true -aesKey=5mccf67tabd4ucm342rfx1y7zkr4bgjm -userid=668014216 -token=0c9c5c1e51a9d9bc7d98bb40419627ef68c3b646f8e5b1fcc2a1615e0a0f220399364ec0899ca1c79006f8c23dfd02ac4d8c2efc83df22230ad9dfec1cfac07bb7198d0d7871
 
 services:
   allinone:
