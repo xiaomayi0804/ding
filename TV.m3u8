@@ -95,6 +95,14 @@ https://gdcucc.v1.mk/gdcucc/chcdzdy.m3u8
 https://gdcucc.v1.mk/gdcucc/brtv8k.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/516/171/202204010048_1626679645474_H169_1080.jpg" group-title="央视", CCTV5体育
+https://www.freetv.top/migu/641886683.m3u8?migutoken=0ddaf285505e7b1a48bdac6ba93383b982d5cac6e170d2351072ecf3757d89db85689c849d662bfee2b5d38bab9c4cfa230d4c80dd124f50d6cca72dd3d81f444d5e128152c15da12cb2ecfbec
+#EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/516/288/202204010048_1626679726956_H169_1080.jpg" group-title="央视", CCTV5+体育赛事
+https://www.freetv.top/migu/641886773.m3u8?migutoken=af558a693614440a59bfd6a33cf11cf3e38380498ad276f208f43ca52ac6d732087302060efe1b5f21cd8ccc89c417e7bdddd9c1d3e6233a834e1f149818024731e56f97b1489c88735ef75551
+#EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2202/208/864/202204010051_2202208864_H169_1080.jpg" group-title="央视", CCTV13新闻
+https://www.freetv.top/migu/608807423.m3u8?migutoken=6cf1ac193c23c7b5657ed381e61e438485d3012e2bc49d8c95ba10897e91f3a837c9a7efd030a52749eaf551dbc505905fcdfec511990dd26209dbc21314b439459726378bd7b6347d3b9f921c
+
+
 #EXTINF:-1 tvg-name="广东体育" group-title="海外",广东体育
 http://php.jdshipin.com/TVOD/iptv.php?id=gdty
 #EXTINF:-1 tvg-id="风云足球" tvg-name="风云足球" tvg-logo="https://live.fanmingming.cn/tv/风云足球.png" group-title="央视频道",CCTV-风云足球
