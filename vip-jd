@@ -1,4 +1,5 @@
 hy2://1c810ee1-9995-404f-bc23-a99e40939eda@[2a0f:7803:fac0:dbb7::1]:54934?obfs=salamander&obfs-password=ZWE5NThmNzJmMTkwNDE5Yg%3D%3D&mport=50000-60000&insecure=1#%F0%9F%87%AD%F0%9F%87%B0HK-IPv6-1Gbps%20UNLIMITED
+hy2://1c810ee1-9995-404f-bc23-a99e40939eda@[2a0f:7803:fac0:dbb7::1]:54934?obfs=salamander&obfs-password=ZWE5NThmNzJmMTkwNDE5Yg%3D%3D&insecure=1#%F0%9F%87%AD%F0%9F%87%B0HK-IPv6-1Gbps%20UNLIMITED
 hy2://c8dd8806-ccaf-4ab4-96f3-7ad54cd8b4ab@35.212.176.7:12826?insecure=1&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B8%20hy2-%E7%BE%8E%E5%9B%BDGCP
 tuic://c8dd8806-ccaf-4ab4-96f3-7ad54cd8b4ab:c8dd8806-ccaf-4ab4-96f3-7ad54cd8b4ab@35.212.176.7:53542?congestion_control=bbr&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#%F0%9F%87%BA%F0%9F%87%B8%20tu5-GCP
 hy2://e54c61d7-4668-4c71-82e8-a5193bc1d334@34.92.57.8:63505?insecure=1&sni=www.bing.com#%F0%9F%87%AD%F0%9F%87%B0hy2-%E9%A6%99%E6%B8%AFGCP
