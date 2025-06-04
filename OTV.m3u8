@@ -95,12 +95,16 @@ https://gdcucc.v1.mk/gdcucc/chcdzdy.m3u8
 https://gdcucc.v1.mk/gdcucc/brtv8k.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/516/171/202204010048_1626679645474_H169_1080.jpg" group-title="央视", CCTV5体育
-https://www.freetv.top/migu/641886683.m3u8?migutoken=0ddaf285505e7b1a48bdac6ba93383b982d5cac6e170d2351072ecf3757d89db85689c849d662bfee2b5d38bab9c4cfa230d4c80dd124f50d6cca72dd3d81f444d5e128152c15da12cb2ecfbec
-#EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/516/288/202204010048_1626679726956_H169_1080.jpg" group-title="央视", CCTV5+体育赛事
-https://www.freetv.top/migu/641886773.m3u8?migutoken=af558a693614440a59bfd6a33cf11cf3e38380498ad276f208f43ca52ac6d732087302060efe1b5f21cd8ccc89c417e7bdddd9c1d3e6233a834e1f149818024731e56f97b1489c88735ef75551
-#EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2202/208/864/202204010051_2202208864_H169_1080.jpg" group-title="央视", CCTV13新闻
-https://www.freetv.top/migu/608807423.m3u8?migutoken=6cf1ac193c23c7b5657ed381e61e438485d3012e2bc49d8c95ba10897e91f3a837c9a7efd030a52749eaf551dbc505905fcdfec511990dd26209dbc21314b439459726378bd7b6347d3b9f921c
+#EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/516/171/202204010048_1626679645474_H169_1080.jpg" group-title="咪咕视频", CCTV5体育
+http://150.138.78.253:10050/migu/641886683?token=pot6r9IwRGUk6qtuKS-qlaNa1xvaNVw1Z4VkYd036FJGkWd2fyqAv90F3V76dIm-nIbicHC3F9Uca6PzHXf3rw&auth=
+#EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/516/288/202204010048_1626679726956_H169_1080.jpg" group-title="咪咕视频", CCTV5+体育赛事
+http://150.138.78.253:10050/migu/641886773?token=pot6r9IwRGUk6qtuKS-qlaNa1xvaNVw1Z4VkYd036FJGkWd2fyqAv90F3V76dIm-nIbicHC3F9Uca6PzHXf3rw&auth=
+#EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2202/208/864/202204010051_2202208864_H169_1080.jpg" group-title="咪咕视频", CCTV13新闻
+http://150.138.78.253:10050/migu/608807423?token=pot6r9IwRGUk6qtuKS-qlaNa1xvaNVw1Z4VkYd036FJGkWd2fyqAv90F3V76dIm-nIbicHC3F9Uca6PzHXf3rw&auth=
+#EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/058/351/202106171938_5100043384_H169_1080.jpg" group-title="咪咕视频", 东方卫视
+http://150.138.78.253:10050/migu/651632648?token=pot6r9IwRGUk6qtuKS-qlaNa1xvaNVw1Z4VkYd036FJGkWd2fyqAv90F3V76dIm-nIbicHC3F9Uca6PzHXf3rw&auth=
+#EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/199/408/202104022140_5100156802_H169_1080.jpg" group-title="咪咕视频", 江苏卫视
+http://150.138.78.253:10050/migu/623899368?token=pot6r9IwRGUk6qtuKS-qlaNa1xvaNVw1Z4VkYd036FJGkWd2fyqAv90F3V76dIm-nIbicHC3F9Uca6PzHXf3rw&auth=
 
 
 #EXTINF:-1 tvg-name="广东体育" group-title="海外",广东体育
@@ -164,18 +168,6 @@ http://php.jdshipin.com:8880/smt.php?id=meiyamovie_twn
 http://php.jdshipin.com:8880/smt.php?id=Celestial
 #EXTINF:-1,tvg-id="天映经典" tvg-name="天映经典" tvg-logo="https://epg.v1.mk/logo/天映经典.png" group-title="香港频道",天映经典
 http://php.jdshipin.com:8880/smt.php?id=Celestial2
-#EXTINF:-1,tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.112114.xyz/logo/凤凰中文.png" group-title="香港频道",凤凰中文
-https://live.tvfix.org/live/fhzw/index.m3u8
-#EXTINF:-1,tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.v1.mk/logo/凤凰中文.png" group-title="香港频道",凤凰中文
-http://php.jdshipin.com:8880/smt.php?id=phoenixtv_hd
-#EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.112114.xyz/logo/凤凰资讯.png" group-title="香港频道",凤凰资讯
-https://live.tvfix.org/live/fhzx/index.m3u8
-#EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.v1.mk/logo/凤凰资讯.png" group-title="香港频道",凤凰资讯
-http://php.jdshipin.com:8880/smt.php?id=phoenixinfo_hd
-#EXTINF:-1,tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://epg.112114.xyz/logo/凤凰香港.png" group-title="香港频道",凤凰香港
-https://live.tvfix.org/live/fhxg/index.m3u8
-#EXTINF:-1,tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://epg.v1.mk/logo/凤凰香港.png" group-title="香港频道",凤凰香港
-http://php.jdshipin.com:8880/smt.php?id=hkphoenix_twn
 #EXTINF:-1,tvg-id="八度空间" tvg-name="八度空间" tvg-logo="https://epg.v1.mk/logo/八度空间.png" group-title="香港频道",八度空间
 http://php.jdshipin.com:8880/smt.php?id=TV8
 #EXTINF:-1,tvg-id="AstroAOD" tvg-name="AstroAOD" tvg-logo="https://epg.v1.mk/logo/AstroAOD.png" group-title="香港频道",Astro AOD
@@ -188,6 +180,9 @@ http://php.jdshipin.com:8880/smt.php?id=Qiyi
 http://php.jdshipin.com:8880/smt.php?id=Quanjia
 #EXTINF:-1,tvg-id="Astro欢喜台" tvg-name="Astro欢喜台" tvg-logo="https://epg.v1.mk/logo/Astro欢喜台.png" group-title="香港频道",Astro欢喜台
 http://php.jdshipin.com:8880/smt.php?id=Huahee
+
+
+
 #EXTINF:-1 tvg-id="" tvg-name="TNT SPORTS 1" tvg-logo="https://static.quickgrow.net/public/images/tv-channels/vo-nnv-vm-da3-o-hqr-d-tqs-l-h-v-bq-bai-v-t-hc-i-l09-z3-t-rs-z.png"group-title="beesport",TNT SPORTS 1
 https://smart.pendy.dpdns.org/beesport-2025-proxy.php?id=TNT_Sports_1
 #EXTINF:-1 tvg-id="" tvg-name="TNT SPORTS 1" tvg-logo="https://static.quickgrow.net/public/images/tv-channels/vo-nnv-vm-da3-o-hqr-d-tqs-l-h-v-bq-bai-v-t-hc-i-l09-z3-t-rs-z.png"group-title="beesport",TNT SPORTS 1
