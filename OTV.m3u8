@@ -182,6 +182,23 @@ http://php.jdshipin.com:8880/smt.php?id=Quanjia
 http://php.jdshipin.com:8880/smt.php?id=Huahee
 
 
+
+#EXTINF:-1 tvg-id="龍華洋片HD" tvg-name="龍華洋片HD" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV2.png" group-title="電影戲劇",龍華洋片
+http://mianti.pendy.dpdns.org/li-litv-longturn02/index.m3u8?proxy=true
+#EXTINF:-1 tvg-id="龍華卡通台" tvg-name="龍華卡通台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV9.png" group-title="兒童卡通",龍華卡通
+http://mianti.pendy.dpdns.org/li-litv-longturn01/index.m3u8?proxy=true
+#EXTINF:-1 tvg-id="龍華電影台" tvg-name="龍華電影台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV1.png" group-title="電影戲劇",龍華電影
+http://mianti.pendy.dpdns.org/li-litv-longturn03/index.m3u8?proxy=true
+#EXTINF:-1 tvg-id="龍華日韓台" tvg-name="龍華日韓台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV5.png" group-title="電影戲劇",龍華日韓
+http://mianti.pendy.dpdns.org/li-litv-longturn11/index.m3u8?proxy=true
+#EXTINF:-1 tvg-id="龍華偶像台" tvg-name="龍華偶像台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV6.png" group-title="電影戲劇",龍華偶像
+http://mianti.pendy.dpdns.org/li-litv-longturn12/index.m3u8?proxy=true
+#EXTINF:-1 tvg-id="龍華戲劇台" tvg-name="龍華戲劇台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV4.png" group-title="電影戲劇",龍華戲劇
+http://mianti.pendy.dpdns.org/li-litv-longturn18/index.m3u8?proxy=true
+#EXTINF:-1 tvg-id="龍華經典HD" tvg-name="龍華經典HD" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV7.png" group-title="電影戲劇",龍華經典
+
+
+
 #EXTM3U
 #EXTINF:-1 tvg-id="民視第一台" tvg-name="民視第一台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/FTV2.png" group-title="綜合其他",民視第一台
 http://mianti.pendy.dpdns.org/4gtv-4gtv003/index.m3u8?proxy=true
