@@ -180,6 +180,9 @@ rules:
   - DOMAIN-SUFFIX,cctv.cn,🟢 直连
   - DOMAIN-SUFFIX,yangshipin.cn,🟢 直连
   - DOMAIN-SUFFIX,gcable.cn,🟢 直连
+  - DOMAIN-SUFFIX,dpdns.org,♻️ 美国自动
+  - DOMAIN-SUFFIX,akamaized.net,🇹🇼 台湾节点
+  - DOMAIN-SUFFIX,4gtv.tv,🇹🇼 台湾节点
   - DOMAIN-SUFFIX,cdn.hinet.net,🇹🇼 台湾节点
   - DOMAIN-SUFFIX,orz-7.com,🇹🇼 台湾节点
   - DOMAIN-SUFFIX,tvb.com,♻️ 香港自动
