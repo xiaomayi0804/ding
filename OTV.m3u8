@@ -69,6 +69,12 @@ https://migu.777189.xyz/?migutoken=351c59dbfaa5fd3409aefa005cb63157&id=%E5%8C%97
 
 #EXTINF:-1 tvg-name="翡翠台4K" group-title="海外",翡翠台4K
 http://php.jdshipin.com/TVOD/iptv.php?id=fct4
+#EXTINF:-1,tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://epg.v1.mk/logo/翡翠台.png" group-title="港澳台",翡翠台
+https://cdn3.163189.xyz/live/fct/stream.m3u8
+#EXTINF:-1,tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.v1.mk/logo/凤凰中文.png" group-title="香港",凤凰中文
+https://cdn.163189.xyz/live/fhzw/stream.m3u8
+#EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.v1.mk/logo/凤凰资讯.png" group-title="香港",凤凰资讯
+https://cdn3.163189.xyz/live/fhzx/stream.m3u8
 #EXTINF:-1 tvg-name="明珠台2" group-title="海外",明珠台
 http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
 #EXTINF:-1 group-title="北京IPTV",凤凰卫视
