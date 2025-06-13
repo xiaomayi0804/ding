@@ -114,6 +114,20 @@ http://qwt.zhibotv.top:2016/全网通.php?id=CCTV13
 http://qwt.zhibotv.top:2016/全网通.php?id=CCTV16
 
 
+#EXTM3U x-tvg-url="https://epg.v1.mk/fy.xml"
+#EXTINF:-1,tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://epg.v1.mk/logo/东方卫视.png" group-title="卫视",东方卫视
+http://8.138.7.223/tv/shtv.php?id=dfws
+#EXTINF:-1,tvg-id="上海ICS" tvg-name="上海ICS" tvg-logo="https://epg.v1.mk/logo/上海ICS.png" group-title="上海",上海魔都眼
+http://8.138.7.223/tv/shtv.php?id=mdy
+#EXTINF:-1,tvg-id="上海ICS" tvg-name="上海ICS" tvg-logo="https://epg.v1.mk/logo/上海ICS.png" group-title="上海",上海乐游
+http://8.138.7.223/tv/shtv.php?id=ly
+#EXTINF:-1,tvg-id="第一财经" tvg-name="第一财经" tvg-logo="https://epg.v1.mk/logo/第一财经.png" group-title="其他",第一财经
+http://8.138.7.223/tv/shtv.php?id=dycj
+#EXTINF:-1,tvg-id="上海都市" tvg-name="上海都市" tvg-logo="https://epg.v1.mk/logo/上海都市.png" group-title="上海",上海都市
+http://8.138.7.223/tv/shtv.php?id=ds
+#EXTINF:-1,tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://epg.v1.mk/logo/五星体育.png" group-title="其他",五星体育
+http://8.138.7.223/tv/shtv.php?id=wxty
+
 
 #EXTINF:-1 tvg-name="广东体育" group-title="海外",广东体育
 http://php.jdshipin.com/TVOD/iptv.php?id=gdty
