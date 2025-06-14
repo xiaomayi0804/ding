@@ -165,7 +165,7 @@ rules:
   - DOMAIN-SUFFIX,com.mp,🍎 Apple
   - DOMAIN-SUFFIX,zone.id,🍎 Apple
   - DOMAIN-SUFFIX,0o0.myfw.us,🍎 Apple
-  - DOMAIN-SUFFIX,1789.dpdns.org,🍎 Apple
+  - DOMAIN-SUFFIX,dpdns.org,🍎 Apple
   - DOMAIN-SUFFIX,m16tv.cfd,🍎 Apple
   - DOMAIN-SUFFIX,16899.ggff.net,🍎 Apple
 
@@ -183,7 +183,6 @@ rules:
   - DOMAIN-SUFFIX,cctv.cn,🟢 直连
   - DOMAIN-SUFFIX,yangshipin.cn,🟢 直连
   - DOMAIN-SUFFIX,gcable.cn,🟢 直连
-  - DOMAIN-SUFFIX,dpdns.org,♻️ 美国自动
   - DOMAIN-SUFFIX,akamaized.net,🇹🇼 台湾节点
   - DOMAIN-SUFFIX,4gtv.tv,🇹🇼 台湾节点
   - DOMAIN-SUFFIX,cdn.hinet.net,🇹🇼 台湾节点
