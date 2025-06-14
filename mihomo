@@ -113,14 +113,14 @@ experimental:
 
 
 proxies:
-- name: "🟢 直连"
+- name: "⚡ 直连"
   type: direct
   udp: true
 
-pr: &pr {type: select, proxies: [🚀 节点选择, 🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, ♻️ Airport_01, ♻️ Airport_02, ♻️ Airport_03, ♻️ Airport_04, ♻️ Airport_05, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 🟢 直连]}
+pr: &pr {type: select, proxies: [🚀 节点选择, 🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, ♻️ Airport_01, ♻️ Airport_02, ♻️ Airport_03, ♻️ Airport_04, ♻️ Airport_05, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, ⚡ 直连]}
 
 proxy-groups:
-  - {name: 🚀 节点选择, type: select, proxies: [🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, ♻️ Airport_01, ♻️ Airport_02, ♻️ Airport_03, ♻️ Airport_04, ♻️ Airport_05, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 🟢 直连]}
+  - {name: 🚀 节点选择, type: select, proxies: [🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, ♻️ Airport_01, ♻️ Airport_02, ♻️ Airport_03, ♻️ Airport_04, ♻️ Airport_05, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, ⚡ 直连]}
   - {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连)).)*$"}
   - {name: ♻️ Airport_01, type: url-test, tolerance: 20, interval: 300, use: [Airport_01]}
   - {name: ♻️ Airport_02, type: url-test, tolerance: 20, interval: 300, use: [Airport_02]}
@@ -147,8 +147,8 @@ proxy-groups:
   - {name: 🎥 NETFLIX, <<: *pr}
   - {name: ✈️ Speedtest, <<: *pr}
   - {name: 💶 PayPal, <<: *pr}
-  - {name: 🍎 Apple, type: select, proxies: [🟢 直连, 🚀 节点选择, 🌐 全部节点]}
-  - {name: 🎯 全球直连, type: select, proxies: [🟢 直连, 🚀 节点选择]}
+  - {name: 🍎 Apple, type: select, proxies: [⚡ 直连, 🚀 节点选择, 🌐 全部节点]}
+  - {name: 🎯 全球直连, type: select, proxies: [⚡ 直连, 🚀 节点选择]}
   - {name: 🐟 漏网之鱼, <<: *pr}
 
 
@@ -156,10 +156,10 @@ rules:
   - DOMAIN-SUFFIX,moonscap.com,🚀 节点选择
   - DOMAIN-SUFFIX,dpdns.org,🚀 节点选择
   - DOMAIN-SUFFIX,wechat.com,🚀 节点选择
-  - IP-CIDR,137.131.17.61/8,🟢 直连, no-resolve
-  - IP-CIDR,144.24.57.135/8,🟢 直连, no-resolve
-  - IP-CIDR,35.212.176.7/8,🟢 直连, no-resolve
-  - IP-CIDR,34.92.130.251/8,🟢 直连, no-resolve
+  - IP-CIDR,137.131.17.61/8,⚡ 直连, no-resolve
+  - IP-CIDR,144.24.57.135/8,⚡ 直连, no-resolve
+  - IP-CIDR,35.212.176.7/8,⚡ 直连, no-resolve
+  - IP-CIDR,34.92.130.251/8,⚡ 直连, no-resolve
   - DOMAIN-SUFFIX,jdshipin.com,🍎 Apple
   - DOMAIN-SUFFIX,163.dedyn.io,🍎 Apple
   - DOMAIN-SUFFIX,com.mp,🍎 Apple
@@ -173,16 +173,16 @@ rules:
   - DOMAIN-SUFFIX,18.svi-studio.com,🍎 Apple
   - DOMAIN-SUFFIX,wqwqwq.sbs,🍎 Apple
   - DOMAIN-SUFFIX,us.kg,🚀 节点选择
-  - DOMAIN-SUFFIX,nyc.mn,🟢 直连
+  - DOMAIN-SUFFIX,nyc.mn,⚡ 直连
   - DOMAIN-SUFFIX,freemyip.com,🚀 节点选择
-  - DOMAIN-SUFFIX,dnsany.com,🟢 直连
-  - DOMAIN-SUFFIX,cmvideo.cn,🟢 直连
-  - DOMAIN-SUFFIX,chinamobile.com,🟢 直连
-  - DOMAIN-SUFFIX,mobaibox.com,🟢 直连
-  - DOMAIN-SUFFIX,gitv.tv,🟢 直连
-  - DOMAIN-SUFFIX,cctv.cn,🟢 直连
-  - DOMAIN-SUFFIX,yangshipin.cn,🟢 直连
-  - DOMAIN-SUFFIX,gcable.cn,🟢 直连
+  - DOMAIN-SUFFIX,dnsany.com,⚡ 直连
+  - DOMAIN-SUFFIX,cmvideo.cn,⚡ 直连
+  - DOMAIN-SUFFIX,chinamobile.com,⚡ 直连
+  - DOMAIN-SUFFIX,mobaibox.com,⚡ 直连
+  - DOMAIN-SUFFIX,gitv.tv,⚡ 直连
+  - DOMAIN-SUFFIX,cctv.cn,⚡ 直连
+  - DOMAIN-SUFFIX,yangshipin.cn,⚡ 直连
+  - DOMAIN-SUFFIX,gcable.cn,⚡ 直连
   - DOMAIN-SUFFIX,akamaized.net,🇹🇼 台湾节点
   - DOMAIN-SUFFIX,4gtv.tv,🇹🇼 台湾节点
   - DOMAIN-SUFFIX,cdn.hinet.net,🇹🇼 台湾节点
@@ -191,16 +191,16 @@ rules:
   - DOMAIN-KEYWORD,github,🚀 节点选择
   - DOMAIN-KEYWORD,stream-link,🚀 节点选择
   - DOMAIN-SUFFIX,asuscomm.com,🚀 节点选择
-  - DOMAIN-KEYWORD,onedrive,🟢 直连
-  - DOMAIN-KEYWORD,sharepoint,🟢 直连
+  - DOMAIN-KEYWORD,onedrive,⚡ 直连
+  - DOMAIN-KEYWORD,sharepoint,⚡ 直连
   - DOMAIN-KEYWORD,copilot,🚀 节点选择
-  - DOMAIN-KEYWORD,teamviewer,🟢 直连
+  - DOMAIN-KEYWORD,teamviewer,⚡ 直连
   - DOMAIN-KEYWORD,doppiocdn,🚀 节点选择
   - DOMAIN-KEYWORD,bing,🚀 节点选择
-  #- DOMAIN-KEYWORD,mushroom,🟢 直连
-  #- DOMAIN-KEYWORD,alonestreaming,🟢 直连
+  #- DOMAIN-KEYWORD,mushroom,⚡ 直连
+  #- DOMAIN-KEYWORD,alonestreaming,⚡ 直连
 
-  - RULE-SET,private_domain,🟢 直连
+  - RULE-SET,private_domain,⚡ 直连
   - RULE-SET,apple_domain,🍎 Apple
   - RULE-SET,proxylite,🚀 节点选择
   - RULE-SET,ai,🤖 ChatGPT
