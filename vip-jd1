@@ -6,3 +6,12 @@ proxies:
   - {"name":"台湾彰化 hinet1","type":"http","tls":true,"server":"cmhka.ssv.vc","port":30443,"username":"test","password":"test.+","sni":"cmhka.ssv.vc","skip-cert-verify":true}
   - {"name":"联通aws美国b1","type":"http","tls":true,"server":"cuusb.ssv.vc","port":30445,"username":"test","password":"test.+","sni":"cuusb.ssv.vc","skip-cert-verify":true}
   - {"name":"移动aws美国b1","type":"http","tls":true,"server":"cmusb.ssv.vc","port":30445,"username":"test","password":"test.+","sni":"cmusb.ssv.vc","skip-cert-verify":true}
+  - {name: 🇯🇵JP_@WangCai_8, server: 223.111.144.12, port: 43196, type: trojan, password: HrTsLJvh, sni: TG.WangCai2, skip-cert-verify: true}
+  - {name: 🇸🇬SG_@WangCai_8, server: 36.151.251.62, port: 38632, type: trojan, password: HrTsLJvh, sni: TG.WangCai2, skip-cert-verify: true}
+  - {name: 🇸🇬SG_@WangCai_8 2, server: 36.151.251.62, port: 38632, type: trojan, password: xHiFGGTy, sni: TG.WangCai2, skip-cert-verify: true}
+  - {name: 🇺🇸US_@WangCai_8, server: 36.151.251.62, port: 23770, type: trojan, password: xHiFGGTy, sni: TG.WangCai2, skip-cert-verify: true}
+  - {name: 🇯🇵JP_@WangCai_8 2, server: 223.111.144.12, port: 43196, type: trojan, password: LfcDJuqe, sni: TG.WangCai2, skip-cert-verify: true}
+  - {name: 🇸🇬SG_@WangCai_8 3, server: 36.151.251.62, port: 38632, type: trojan, password: LfcDJuqe, sni: TG.WangCai2, skip-cert-verify: true}
+  - {name: 🇯🇵JP_@WangCai_8 3, server: 223.111.144.12, port: 43196, type: trojan, password: RlzoEILU, sni: TG.WangCai2, skip-cert-verify: true}
+  - {name: 🇸🇬SG_@WangCai_8 4, server: 36.151.251.62, port: 38632, type: trojan, password: RlzoEILU, sni: TG.WangCai2, skip-cert-verify: true}
+  - {name: 🇺🇸US_@WangCai_8 2, server: 36.151.251.62, port: 23770, type: trojan, password: VdWBGFmg, sni: TG.WangCai2, skip-cert-verify: true}
