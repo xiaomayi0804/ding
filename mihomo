@@ -7,7 +7,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🚀 节点选择
-    url: "https://yy.xiaomayi0804.workers.dev/sub/normal/5491ce96-2875-4056-aaf2-bc40f866068c#%F0%9F%92%A6%20BPB%20Normal"
+    url: "https://autobpb-exz.pages.dev/sub/normal/0f36db86-28e7-4cee-bdb0-2edf1e6ffd6d#%F0%9F%92%A6%20BPB%20Normal"
   Airport_02:
     type: http
     interval: 1800
