@@ -16,3 +16,12 @@ proxies:
   - {name: 🇸🇬SG_@WangCai_8 4, server: 36.151.251.62, port: 38632, type: trojan, password: RlzoEILU, sni: TG.WangCai2, skip-cert-verify: true}
   - {name: 🇺🇸US_@WangCai_8 2, server: 36.151.251.62, port: 23770, type: trojan, password: VdWBGFmg, sni: TG.WangCai2, skip-cert-verify: true}
   - {"type":"hysteria2","name":"VIP-sg","server":"asg.pagate.top","port":10086,"password":"e6d8d743-a9bc-48c9-be99-8f3cc94d16e1","sni":"asg.pagate.top","skip-cert-verify":false,"tfo":false}
+  - name: VIP-sg
+    type: hysteria2
+    server: asg.pagate.top
+    port: 10086
+    tls: false
+    password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+    skip-cert-verify: true
+    fast-open: false
+    ip-version: dual
