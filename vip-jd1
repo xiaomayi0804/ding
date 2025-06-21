@@ -16,5 +16,8 @@ proxies:
   - {name: 🇸🇬SG_@WangCai_8 4, server: 36.151.251.62, port: 38632, type: trojan, password: RlzoEILU, sni: TG.WangCai2, skip-cert-verify: true}
   - {name: 🇺🇸US_@WangCai_8 2, server: 36.151.251.62, port: 23770, type: trojan, password: VdWBGFmg, sni: TG.WangCai2, skip-cert-verify: true}
   - {"type":"hysteria2","name":"VIP-sg","server":"asg.pagate.top","port":10086,"password":"e6d8d743-a9bc-48c9-be99-8f3cc94d16e1"}
+  - {"type":"ss","server":"59.42.247.211","port":50814,"cipher":"aes-256-gcm","password":"1122132a","name":"IEPL电信香港"}
+  - {"type":"ss","server":"120.232.218.231","port":50814,"cipher":"aes-256-gcm","password":"1122132a","name":"IEPL移动香港"}
+  - {"type":"ss","server":"163.177.46.252","port":50814,"cipher":"aes-256-gcm","password":"1122132a","name":"IEPL香港"}
   - {"type":"hysteria2","name":"claw-us2","server":"hy2.xiaomayi.nyc.mn","port":45831,"password":"edwardchina.chinanr","sni":"hy2.xiaomayi.nyc.mn","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"claw-us1","server":"hy1.leochina.nyc.mn","port":41311,"password":"edwardchina.chinanr","sni":"hy1.leochina.nyc.mn","skip-cert-verify":true,"tfo":false}
