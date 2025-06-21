@@ -9,5 +9,5 @@ proxies:
   - {"type":"ss","server":"163.177.46.252","port":50814,"cipher":"aes-256-gcm","password":"1122132a","name":"IEPL香港"}
   - {"type":"hysteria2","name":"claw-us2","server":"hy2.xiaomayi.nyc.mn","port":45831,"password":"edwardchina.chinanr","sni":"hy2.xiaomayi.nyc.mn","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"claw-us1","server":"hy1.leochina.nyc.mn","port":41311,"password":"edwardchina.chinanr","sni":"hy1.leochina.nyc.mn","skip-cert-verify":true,"tfo":false}
-
+  - {"type":"vless","name":"Gcp 香港 kx 公益节点","server":"34.92.225.59","port":443,"uuid":"d0e445a5-abe8-498b-ae96-1c43d63cd5f6","tls":true,"flow":"xtls-rprx-vision","client-fingerprint":"chrome","skip-cert-verify":false,"reality-opts":{"public-key":"z4C2R0owLTUSKm73g02Qfgrjc1mww6Pt220F72npX2g","short-id":"d5f386c0"},"network":"tcp","servername":"www.learn.microsoft.com"}
   
