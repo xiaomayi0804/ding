@@ -4,9 +4,6 @@ proxies:
   - {"name":"联通aws美国b1","type":"http","tls":true,"server":"cuusb.ssv.vc","port":30445,"username":"test","password":"test.+","sni":"cuusb.ssv.vc","skip-cert-verify":true}
   - {"name":"移动aws美国b1","type":"http","tls":true,"server":"cmusb.ssv.vc","port":30445,"username":"test","password":"test.+","sni":"cmusb.ssv.vc","skip-cert-verify":true}
   - {"type":"hysteria2","name":"VIP-sg","server":"asg.pagate.top","port":10086,"password":"e6d8d743-a9bc-48c9-be99-8f3cc94d16e1"}
-  - {"type":"ss","server":"59.42.247.211","port":50814,"cipher":"aes-256-gcm","password":"1122132a","name":"IEPL电信香港"}
-  - {"type":"ss","server":"120.232.218.231","port":50814,"cipher":"aes-256-gcm","password":"1122132a","name":"IEPL移动香港"}
-  - {"type":"ss","server":"163.177.46.252","port":50814,"cipher":"aes-256-gcm","password":"1122132a","name":"IEPL香港"}
   - {"type":"hysteria2","name":"claw-us2","server":"hy2.xiaomayi.nyc.mn","port":45831,"password":"edwardchina.chinanr","sni":"hy2.xiaomayi.nyc.mn","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"claw-us1","server":"hy1.leochina.nyc.mn","port":41311,"password":"edwardchina.chinanr","sni":"hy1.leochina.nyc.mn","skip-cert-verify":true,"tfo":false}
   - {"type":"vless","name":"Gcp 香港 kx 公益节点","server":"34.92.225.59","port":443,"uuid":"d0e445a5-abe8-498b-ae96-1c43d63cd5f6","tls":true,"flow":"xtls-rprx-vision","client-fingerprint":"chrome","skip-cert-verify":false,"reality-opts":{"public-key":"z4C2R0owLTUSKm73g02Qfgrjc1mww6Pt220F72npX2g","short-id":"d5f386c0"},"network":"tcp","servername":"www.learn.microsoft.com"}
