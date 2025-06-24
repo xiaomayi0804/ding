@@ -154,24 +154,23 @@ proxy-groups:
 
 rules:
   - DOMAIN-SUFFIX,moonscap.com,🚀 节点选择
-  - DOMAIN-SUFFIX,dpdns.org,🚀 节点选择
   - DOMAIN-SUFFIX,wechat.com,🚀 节点选择
   - IP-CIDR,137.131.17.61/8,⚡ 直连, no-resolve
   - IP-CIDR,144.24.57.135/8,⚡ 直连, no-resolve
   - IP-CIDR,35.212.176.7/8,⚡ 直连, no-resolve
   - IP-CIDR,34.92.130.251/8,⚡ 直连, no-resolve
-  - DOMAIN-SUFFIX,jdshipin.com,🍎 Apple
-  - DOMAIN-SUFFIX,163.dedyn.io,🍎 Apple
-  - DOMAIN-SUFFIX,com.mp,🍎 Apple
-  - DOMAIN-SUFFIX,zone.id,🍎 Apple
-  - DOMAIN-SUFFIX,0o0.myfw.us,🍎 Apple
-  - DOMAIN-SUFFIX,dpdns.org,🍎 Apple
-  - DOMAIN-SUFFIX,m16tv.cfd,🍎 Apple
-  - DOMAIN-SUFFIX,16899.ggff.net,🍎 Apple
+  - DOMAIN-SUFFIX,jdshipin.com,🚀 节点选择
+  - DOMAIN-SUFFIX,163.dedyn.io,🚀 节点选择
+  - DOMAIN-SUFFIX,com.mp,🚀 节点选择
+  - DOMAIN-SUFFIX,zone.id,🚀 节点选择
+  - DOMAIN-SUFFIX,0o0.myfw.us,🚀 节点选择
+  - DOMAIN-SUFFIX,dpdns.org,🚀 节点选择
+  - DOMAIN-SUFFIX,m16tv.cfd,🚀 节点选择
+  - DOMAIN-SUFFIX,16899.ggff.net,🚀 节点选择
 
-  - DOMAIN-SUFFIX,tanhuatv.site,🍎 Apple
-  - DOMAIN-SUFFIX,18.svi-studio.com,🍎 Apple
-  - DOMAIN-SUFFIX,wqwqwq.sbs,🍎 Apple
+  - DOMAIN-SUFFIX,tanhuatv.site,🚀 节点选择
+  - DOMAIN-SUFFIX,18.svi-studio.com,🚀 节点选择
+  - DOMAIN-SUFFIX,wqwqwq.sbs,🚀 节点选择
   - DOMAIN-SUFFIX,us.kg,🚀 节点选择
   - DOMAIN-SUFFIX,nyc.mn,⚡ 直连
   - DOMAIN-SUFFIX,freemyip.com,🚀 节点选择
