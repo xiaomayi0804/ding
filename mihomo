@@ -155,10 +155,6 @@ proxy-groups:
 rules:
   - DOMAIN-SUFFIX,moonscap.com,🚀 节点选择
   - DOMAIN-SUFFIX,wechat.com,🚀 节点选择
-  - IP-CIDR,137.131.17.61/8,⚡ 直连, no-resolve
-  - IP-CIDR,144.24.57.135/8,⚡ 直连, no-resolve
-  - IP-CIDR,35.212.176.7/8,⚡ 直连, no-resolve
-  - IP-CIDR,34.92.130.251/8,⚡ 直连, no-resolve
   - DOMAIN-SUFFIX,jdshipin.com,🚀 节点选择
   - DOMAIN-SUFFIX,163.dedyn.io,🚀 节点选择
   - DOMAIN-SUFFIX,com.mp,🚀 节点选择
