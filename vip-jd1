@@ -3,8 +3,8 @@ proxies:
   - {"name":"台湾彰化 hinet1","type":"http","tls":true,"server":"cmhka.ssv.vc","port":30443,"username":"test","password":"test.+","sni":"cmhka.ssv.vc","skip-cert-verify":true}
   - {"name":"联通aws美国b1","type":"http","tls":true,"server":"cuusb.ssv.vc","port":30445,"username":"test","password":"test.+","sni":"cuusb.ssv.vc","skip-cert-verify":true}
   - {"name":"移动aws美国b1","type":"http","tls":true,"server":"cmusb.ssv.vc","port":30445,"username":"test","password":"test.+","sni":"cmusb.ssv.vc","skip-cert-verify":true}
-  - {"type":"hysteria2","name":"VIP-sg","server":"asg.pagate.top","port":10086,"password":"e6d8d743-a9bc-48c9-be99-8f3cc94d16e1"}
   - {"type":"hysteria2","name":"claw-us2","server":"hy2.xiaomayi.nyc.mn","port":45831,"password":"edwardchina.chinanr","sni":"hy2.xiaomayi.nyc.mn","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"claw-us1","server":"hy1.leochina.nyc.mn","port":41311,"password":"edwardchina.chinanr","sni":"hy1.leochina.nyc.mn","skip-cert-verify":true,"tfo":false}
-  
-  
+  - {"type":"hysteria2","name":"🇰🇷韩国专线01|BGP|流媒体","server":"aws-linkhy21.liangxin1.xyz","port":33231,"ports":"30000-50000","password":"d2e492cb-ec6c-42de-94c1-c2befa1d0440","sni":"www.apple.com","skip-cert-verify":true,"tfo":false}
+  - {"type":"hysteria2","name":"VIP-sg","server":"asg.pagate.top","port":10086,"password":"e6d8d743-a9bc-48c9-be99-8f3cc94d16e1"}
+
