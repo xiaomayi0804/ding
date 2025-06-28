@@ -8,6 +8,7 @@ proxy-providers:
       interval: 300
     proxy: 🚀 节点选择
     url: "https://autobpb-exz.pages.dev/sub/normal/0f36db86-28e7-4cee-bdb0-2edf1e6ffd6d#%F0%9F%92%A6%20BPB%20Normal"
+    lazy: true
   Airport_02:
     type: http
     interval: 1800
@@ -123,9 +124,9 @@ pr: &pr {type: select, proxies: [🚀 节点选择, 🔯 香港故转, 🔯 自�
 proxy-groups:
   - {name: 🚀 节点选择, type: select, proxies: [🔯 香港故转, 🔯 自选故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, ♻️ Airport_01, ♻️ Airport_02, ♻️ Airport_03, ♻️ Airport_04, ♻️ Airport_05, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, ⚡ 直连]}
   - {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连|@|argo|443)).)*$"}
-  - {name: ♻️ Airport_01, type: url-test, tolerance: 20, interval: 300, use: [Airport_01], lazy: true}
-  - {name: ♻️ Airport_02, type: url-test, tolerance: 20, interval: 300, use: [Airport_02], lazy: true}
-  - {name: ♻️ Airport_03, type: url-test, tolerance: 20, interval: 300, use: [Airport_03], lazy: true}
+  - {name: ♻️ Airport_01, type: url-test, tolerance: 20, interval: 300, use: [Airport_01]}
+  - {name: ♻️ Airport_02, type: url-test, tolerance: 20, interval: 300, use: [Airport_02]}
+  - {name: ♻️ Airport_03, type: url-test, tolerance: 20, interval: 300, use: [Airport_03]}
   - {name: ♻️ Airport_04, type: url-test, tolerance: 20, interval: 300, use: [Airport_04]}
   - {name: ♻️ Airport_05, type: url-test, tolerance: 20, interval: 300, use: [Airport_05]}
   - {name: 🇹🇼 台湾节点, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?i)台|tw|taiwan|tai wan|TW|Tai Wan|🇹🇼|TaiWan|argo"}
