@@ -132,11 +132,11 @@ proxy-groups:
   - {name: 🇹🇼 台湾节点, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?i)台|tw|taiwan|tai wan|TW|Tai Wan|🇹🇼|TaiWan|argo"}
   - {name: 🇯🇵 日本节点, type: select, include-all: true, filter: "(?i)日|jp|japan"}
   - {name: 🇺🇲 美国节点, type: select, include-all: true, filter: "(?i)美|us|unitedstates|united states"}
-  - {name: 🔯 香港故转, type: fallback, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
+  - {name: 🔯 香港故转, type: fallback, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|🇭🇰|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
   - {name: 🔯 自选故转, type: fallback, proxies: [♻️ 自动选择, ♻️ Airport_01], interval: 100, lazy: false, url: https://www.gstatic.com/generate_204}
   - {name: ♻️ 香港自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|HK|🇭🇰|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
-  - {name: ♻️ 日本自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$" }
-  - {name: ♻️ 美国自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美|US|(?i)States|America))^((?!(港|台|日|韩|新)).)*$"}
+  - {name: ♻️ 日本自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(日|JP|🇯🇵|(?i)Japan))^((?!(港|台|韩|新|美)).)*$" }
+  - {name: ♻️ 美国自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美|US|🇺🇲|(?i)States|America))^((?!(港|台|日|韩|新)).)*$"}
   - {name: 🌐 全部节点, type: select, include-all: true}
   - {name: 📹 YouTube, <<: *pr}
   - {name: 🍀 Google, <<: *pr}
