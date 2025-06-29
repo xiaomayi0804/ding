@@ -535,20 +535,6 @@ http://110.42.41.130:35455/itv/1000000006000270006.m3u8?cdn=ystenlive
 
 
 
-#EXTM3U x-tvg-url="https://epg.v1.mk/fy.xml"
-#EXTINF:-1,tvg-id="精艷臺" tvg-name="精艷臺" tvg-logo="https://epg.v1.mk/logo/bestv精彩连播.png" group-title="其他",精艷臺
-http://18.svi-studio.com:8880/live/908957700097/132663288386/1.m3u8
-#EXTINF:-1,tvg-id="潘多拉完美" tvg-name="潘多拉完美" tvg-logo="https://epg.v1.mk/logo/潘多拉完美.png" group-title="其他",潘多拉完美臺
-http://18.svi-studio.com:8880/live/624372101145/418430465490/3.m3u8
-#EXTINF:-1,tvg-id="香蕉台" tvg-name="香蕉台" tvg-logo="https://epg.v1.mk/logo/香蕉台.png" group-title="其他",香蕉臺
-http://18.svi-studio.com:8880/live/624372101145/418430465490/4.m3u8
-#EXTINF:-1,tvg-id="松视1台" tvg-name="松视1台" tvg-logo="https://epg.v1.mk/logo/松视1台.png" group-title="其他",松視1臺
-http://18.svi-studio.com:8880/live/584830114073/800309151021/5.m3u8
-#EXTINF:-1,tvg-id="松视2台" tvg-name="松视2台" tvg-logo="https://epg.v1.mk/logo/松视2台.png" group-title="其他",松視2臺
-http://18.svi-studio.com:8880/live/917952932058/953281067271/6.m3u8
-#EXTINF:-1,tvg-id="松视3台" tvg-name="松视3台" tvg-logo="https://epg.v1.mk/logo/松视3台.png" group-title="其他",松視3臺
-http://18.svi-studio.com:8880/live/271871095922/006886711863/20205.m3u8
-
 
 #EXTINF:-1 tvg-id="" tvg-name="TNT SPORTS 1" tvg-logo="https://static.quickgrow.net/public/images/tv-channels/vo-nnv-vm-da3-o-hqr-d-tqs-l-h-v-bq-bai-v-t-hc-i-l09-z3-t-rs-z.png"group-title="beesport",TNT SPORTS 1
 https://smart.pendy.dpdns.org/beesport-2025-proxy.php?id=TNT_Sports_1
