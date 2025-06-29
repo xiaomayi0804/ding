@@ -19,7 +19,7 @@ proxies:
   - {"sni":"cloudflare.node-ssl.cdn-alibaba.com","client-fingerprint":"chrome","type":"trojan","password":"6324858b-fd5b-4427-92f5-1411b22a71ef","server":"ppg-hk.05vr9nyqg5.download","port":10802,"name":"🇭🇰 香港-VIP"}
   - {"type":"hysteria2","name":"🇭🇰 香港-VIP","server":"47.74.34.102","port":29282,"password":"Wo9rLCYw6gzcfTgIu11mhBVciVs","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"🇸🇬 新加坡-VIP","server":"13.212.75.22","port":10264,"password":"vlJbyJEtcNjHvV6dnkZ1Z4VjpI","sni":"bing.com","skip-cert-verify":true,"tfo":false}
-  - {"name":"🇯🇵 日本-VIP","type":"http","tls":true,"server":"23.106.140.14","port":8443}
+  - {"name":"🇯🇵 日本-VIP","type":"http","tls":true,"server":"23.106.140.14","port":8443,"skip-cert-verify":true}
   - {"skip-cert-verify":true,"sni":"jp01.ckcloud.info","client-fingerprint":"chrome","type":"trojan","password":"9c3c38d0-8637-4c94-a790-61f3202a943a","server":"f10011.flyflylflyflysbs.sbs","port":29496,"name":"🇯🇵 日本 03-VIP"}
   - {"sni":"z139.hongkongnode.top","type":"trojan","password":"7fec5d9d-4a06-377f-9fc3-6c1fef6a7f4b","server":"111.47.212.170","port":20139,"name":"🄵🄺 🇯🇵 日本•高速139•铂金-VIP"}
   - {"skip-cert-verify":true,"sni":"hk04.ckcloud.info","client-fingerprint":"chrome","type":"trojan","password":"9c3c38d0-8637-4c94-a790-61f3202a943a","server":"f10011.flyflylflyflysbs.sbs","port":10187,"name":"🇭🇰 香港 08-VIP"}
