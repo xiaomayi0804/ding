@@ -328,7 +328,7 @@ http://qwt.zhibotv.top:2016/全网通.php?id=CCTV16
 http://8.138.7.223/tv/shtv.php?id=dfws
 #EXTINF:-1,tvg-id="上海ICS" tvg-name="上海ICS" tvg-logo="https://epg.v1.mk/logo/上海ICS.png" group-title="上海",上海魔都眼
 http://8.138.7.223/tv/shtv.php?id=mdy
-#EXTINF:-1,tvg-id="上海ICS" tvg-name="上海ICS" tvg-logo="https://epg.v1.mk/logo/上海ICS.png" group-title="上海",上海乐游
+#EXTINF:-1,tvg-id="上海ICS" tvg-name="上海乐游" tvg-logo="https://epg.v1.mk/logo/上海ICS.png" group-title="上海",上海乐游
 http://8.138.7.223/tv/shtv.php?id=ly
 #EXTINF:-1,tvg-id="第一财经" tvg-name="第一财经" tvg-logo="https://epg.v1.mk/logo/第一财经.png" group-title="其他",第一财经
 http://8.138.7.223/tv/shtv.php?id=dycj
