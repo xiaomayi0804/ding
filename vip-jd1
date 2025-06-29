@@ -9,3 +9,22 @@ proxies:
   - {"type":"hysteria2","name":"🇯🇵日本专线03|BGP|流媒体","server":"aws-linkhy17.liangxin1.xyz","port":443,"ports":"30000-50000","password":"d2e492cb-ec6c-42de-94c1-c2befa1d0440","sni":"www.apple.com.cn","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"🇸🇬 VIP-sg","server":"asg.pagate.top","port":10086,"password":"e6d8d743-a9bc-48c9-be99-8f3cc94d16e1"}
 
+
+  - {"type":"vless","name":"🇭🇰 香港","server":"47.239.205.13","port":443,"uuid":"3e7f67de-648e-4871-b51a-a225214d41ee","tls":true,"client-fingerprint":"chrome","skip-cert-verify":false,"reality-opts":{"public-key":"TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw"},"network":"tcp","servername":"cdn.userway.org"}
+  - {"type":"ss","server":"118.184.136.60","port":20353,"cipher":"rc4-md5","password":"iFDE0Z","name":"🇭🇰 Dler 香港 Air IEPL 01-VIP"}
+  - {"type":"ss","server":"sg17.fjk.wtf","port":20353,"cipher":"rc4-md5","password":"iFDE0Z","name":"🇭🇰 中国-香港_IPLC_Equinix_HK2_A_17_1Gbps_HBO_TVB-VIP"}
+  - {"type":"ss","server":"kraz01.fjk.wtf","port":20353,"cipher":"rc4-md5","password":"iFDE0Z","name":"🇰🇷 游戏_中国-韩国_IEPL_1_3Gbps-VIP"}
+  - {"type":"ss","server":"120.233.71.140","port":52252,"cipher":"aes-128-gcm","password":"tmd8427","name":"🄵🄺 🇭🇰 香港-04-VIP"}
+  - {"type":"ss","server":"120.233.71.140","port":52251,"cipher":"aes-128-gcm","password":"tmd8427","name":"🄵🄺 🇭🇰 香港-03-VIP"}
+  - {"sni":"cloudflare.node-ssl.cdn-alibaba.com","client-fingerprint":"chrome","type":"trojan","password":"6324858b-fd5b-4427-92f5-1411b22a71ef","server":"ppg-hk.05vr9nyqg5.download","port":10802,"name":"🇭🇰 香港-VIP"}
+  - {"type":"hysteria2","name":"🇭🇰 香港-VIP","server":"47.74.34.102","port":29282,"password":"Wo9rLCYw6gzcfTgIu11mhBVciVs","skip-cert-verify":true,"tfo":false}
+  - {"type":"hysteria2","name":"🇸🇬 新加坡-VIP","server":"13.212.75.22","port":10264,"password":"vlJbyJEtcNjHvV6dnkZ1Z4VjpI","sni":"bing.com","skip-cert-verify":true,"tfo":false}
+  - {"name":"🇯🇵 日本-VIP","type":"http","tls":true,"server":"23.106.140.14","port":8443}
+  - {"skip-cert-verify":true,"sni":"jp01.ckcloud.info","client-fingerprint":"chrome","type":"trojan","password":"9c3c38d0-8637-4c94-a790-61f3202a943a","server":"f10011.flyflylflyflysbs.sbs","port":29496,"name":"🇯🇵 日本 03-VIP"}
+  - {"sni":"z139.hongkongnode.top","type":"trojan","password":"7fec5d9d-4a06-377f-9fc3-6c1fef6a7f4b","server":"111.47.212.170","port":20139,"name":"🄵🄺 🇯🇵 日本•高速139•铂金-VIP"}
+  - {"skip-cert-verify":true,"sni":"hk04.ckcloud.info","client-fingerprint":"chrome","type":"trojan","password":"9c3c38d0-8637-4c94-a790-61f3202a943a","server":"f10011.flyflylflyflysbs.sbs","port":10187,"name":"🇭🇰 香港 08-VIP"}
+  - {"skip-cert-verify":true,"sni":"sg02.ckcloud.info","client-fingerprint":"chrome","type":"trojan","password":"9c3c38d0-8637-4c94-a790-61f3202a943a","server":"f10011.flyflylflyflysbs.sbs","port":19013,"name":"🇸🇬 新加坡 06-VIP"}
+  - {"type":"hysteria2","name":"🇺🇸 美国-VIP","server":"35.94.124.236","port":34060,"password":"RKrGw4dSUwK3YAvqdQI8tcqNl0","sni":"bing.com","skip-cert-verify":true,"tfo":false}
+  - {"skip-cert-verify":true,"sni":"tw01.ckcloud.info","client-fingerprint":"chrome","type":"trojan","password":"9c3c38d0-8637-4c94-a790-61f3202a943a","server":"f10011.flyflylflyflysbs.sbs","port":19949,"name":"🇹🇼 台湾 03-VIP"}
+  - {"type":"vless","name":"🇺🇸 美国  双𝐈𝐒𝐏 原生𝐈𝐏 家宽-VIP","server":"172.64.144.19","port":443,"uuid":"bdbfd26c-725b-4922-b970-e7dfb46afb7b","tls":true,"client-fingerprint":"randomized","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"edge.ekt.me"},"path":"/socks5://Aa789987:Aa789987@216.98.230.74:6527"},"servername":"edge.ekt.me"}
+
