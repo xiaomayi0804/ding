@@ -3,12 +3,9 @@ proxies:
   - {"name":"🇹🇼 台湾彰化 hinet1","type":"http","tls":true,"server":"cmhka.ssv.vc","port":30443,"username":"test","password":"test.+","sni":"cmhka.ssv.vc","skip-cert-verify":true}
   - {"name":"🇺🇲 联通aws美国b1","type":"http","tls":true,"server":"cuusb.ssv.vc","port":30445,"username":"test","password":"test.+","sni":"cuusb.ssv.vc","skip-cert-verify":true}
   - {"name":"🇺🇲 移动aws美国b1","type":"http","tls":true,"server":"cmusb.ssv.vc","port":30445,"username":"test","password":"test.+","sni":"cmusb.ssv.vc","skip-cert-verify":true}
-  - {"type":"hysteria2","name":"🇺🇲 claw-us2","server":"hy2.xiaomayi.nyc.mn","port":45831,"password":"edwardchina.chinanr","sni":"hy2.xiaomayi.nyc.mn","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"🇺🇲 claw-us1","server":"hy1.leochina.nyc.mn","port":41311,"password":"edwardchina.chinanr","sni":"hy1.leochina.nyc.mn","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"🇰🇷 韩国专线01|BGP|流媒体","server":"aws-linkhy21.liangxin1.xyz","port":33231,"ports":"30000-50000","password":"d2e492cb-ec6c-42de-94c1-c2befa1d0440","sni":"www.apple.com","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"🇯🇵日本专线03|BGP|流媒体","server":"aws-linkhy17.liangxin1.xyz","port":443,"ports":"30000-50000","password":"d2e492cb-ec6c-42de-94c1-c2befa1d0440","sni":"www.apple.com.cn","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"🇸🇬 VIP-sg","server":"asg.pagate.top","port":10086,"password":"e6d8d743-a9bc-48c9-be99-8f3cc94d16e1"}
-
+  #- {"type":"hysteria2","name":"🇺🇲 claw-us2","server":"hy2.xiaomayi.nyc.mn","port":45831,"password":"edwardchina.chinanr","sni":"hy2.xiaomayi.nyc.mn","skip-cert-verify":true,"tfo":false}
+  #- {"type":"hysteria2","name":"🇺🇲 claw-us1","server":"hy1.leochina.nyc.mn","port":41311,"password":"edwardchina.chinanr","sni":"hy1.leochina.nyc.mn","skip-cert-verify":true,"tfo":false}
+  
 
   - {"type":"vless","name":"🇭🇰 香港","server":"47.239.205.13","port":443,"uuid":"3e7f67de-648e-4871-b51a-a225214d41ee","tls":true,"client-fingerprint":"chrome","skip-cert-verify":false,"reality-opts":{"public-key":"TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw"},"network":"tcp","servername":"cdn.userway.org"}
   - {"type":"ss","server":"118.184.136.60","port":20353,"cipher":"rc4-md5","password":"iFDE0Z","name":"🇭🇰 Dler 香港 Air IEPL 01-VIP"}
