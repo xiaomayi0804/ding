@@ -7,11 +7,9 @@ proxies:
   #- {"type":"hysteria2","name":"🇺🇲 claw-us1","server":"hy1.leochina.nyc.mn","port":41311,"password":"edwardchina.chinanr","sni":"hy1.leochina.nyc.mn","skip-cert-verify":true,"tfo":false}
   
 
-  - {"type":"vless","name":"🇭🇰 香港","server":"47.239.205.13","port":443,"uuid":"3e7f67de-648e-4871-b51a-a225214d41ee","tls":true,"client-fingerprint":"chrome","skip-cert-verify":false,"reality-opts":{"public-key":"TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw"},"network":"tcp","servername":"cdn.userway.org"}
   - {"type":"ss","server":"118.184.136.60","port":20353,"cipher":"rc4-md5","password":"iFDE0Z","name":"🇭🇰 Dler 香港 Air IEPL 01-VIP"}
   - {"type":"ss","server":"sg17.fjk.wtf","port":20353,"cipher":"rc4-md5","password":"iFDE0Z","name":"🇭🇰 中国-香港_IPLC_Equinix_HK2_A_17_1Gbps_HBO_TVB-VIP"}
   - {"type":"ss","server":"kraz01.fjk.wtf","port":20353,"cipher":"rc4-md5","password":"iFDE0Z","name":"🇰🇷 游戏_中国-韩国_IEPL_1_3Gbps-VIP"}
-  - {"sni":"cloudflare.node-ssl.cdn-alibaba.com","client-fingerprint":"chrome","type":"trojan","password":"6324858b-fd5b-4427-92f5-1411b22a71ef","server":"ppg-hk.05vr9nyqg5.download","port":10802,"name":"🇭🇰 香港-VIP"}
   - {"type":"hysteria2","name":"🇭🇰 香港-VIP","server":"47.74.34.102","port":29282,"password":"Wo9rLCYw6gzcfTgIu11mhBVciVs","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"🇸🇬 新加坡-VIP","server":"13.212.75.22","port":10264,"password":"vlJbyJEtcNjHvV6dnkZ1Z4VjpI","sni":"bing.com","skip-cert-verify":true,"tfo":false}
   - {"name":"🇯🇵 日本-VIP","type":"http","tls":true,"server":"23.106.140.14","port":8443,"skip-cert-verify":true}
