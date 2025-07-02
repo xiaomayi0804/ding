@@ -56,13 +56,12 @@ http://39.88.62.27:35455/itv/3000000010000005180.m3u8?cdn=FifastbLive
 #EXTINF:-1,tvg-id="咪咕4K" tvg-name="咪咕4K-2" tvg-logo="https://epg.v1.mk/logo/咪咕4K.png" group-title="4K频道",咪咕4K-2
 http://39.88.62.27:35455/itv/3000000010000015686.m3u8?cdn=FifastbLive
 #EXTINF:-1,tvg-id="咪咕4K" tvg-name="咪咕4K-2-2" tvg-logo="https://epg.v1.mk/logo/咪咕4K.png" group-title="4K频道",咪咕4K-3
-http://175.160.88.120:35455/itv/3000000010000015686.m3u8?cdn=FifastbLive
+http://58.23.200.23:35455/itv/3000000010000015686.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视4K" tvg-logo="https://fy.188766.xyz/logo/fanmingming/live/tv/北京卫视4K.png" group-title="超清频道",北京卫视4K
 https://migu.188766.xyz/?migutoken=0f8250f11b62c069c93d4c50af66633f&id=%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86&pp=1
 #EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视4K" tvg-logo="https://fy.188766.xyz/logo/sln162/iptv-back/logo/深圳卫视4K.png" group-title="超清频道",深圳卫视4K
 https://migu.188766.xyz/?migutoken=1c615006ea66e58579555eaca5ad0775&id=%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86&pp=1
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视4K" tvg-logo="https://fy.188766.xyz/logo/fanmingming/live/tv/北京卫视4K.png" group-title="超清频道",北京卫视4K
-https://migu.188766.xyz/?migutoken=8cb03e1d7d951f9e99ccf5d48c0e884d&id=%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%864K%E8%B6%85%E9%AB%98%E6%B8%85&type=yy
+
 
 
 #EXTINF:-1 tvg-name="翡翠台4K" group-title="海外",翡翠台4K
