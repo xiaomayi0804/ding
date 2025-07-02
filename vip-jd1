@@ -11,8 +11,6 @@ proxies:
   - {"type":"ss","server":"sg17.fjk.wtf","port":20353,"cipher":"rc4-md5","password":"iFDE0Z","name":"🇭🇰 中国-香港_IPLC_Equinix_HK2_A_17_1Gbps_HBO_TVB-VIP"}
   - {"type":"ss","server":"kraz01.fjk.wtf","port":20353,"cipher":"rc4-md5","password":"iFDE0Z","name":"🇰🇷 游戏_中国-韩国_IEPL_1_3Gbps-VIP"}
   - {"type":"hysteria2","name":"🇭🇰 香港-VIP","server":"47.74.34.102","port":29282,"password":"Wo9rLCYw6gzcfTgIu11mhBVciVs","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"🇸🇬 新加坡-VIP","server":"13.212.75.22","port":10264,"password":"vlJbyJEtcNjHvV6dnkZ1Z4VjpI","sni":"bing.com","skip-cert-verify":true,"tfo":false}
   - {"name":"🇯🇵 日本-VIP","type":"http","tls":true,"server":"23.106.140.14","port":8443,"skip-cert-verify":true}
-  - {"type":"hysteria2","name":"🇺🇸 美国-VIP","server":"35.94.124.236","port":34060,"password":"RKrGw4dSUwK3YAvqdQI8tcqNl0","sni":"bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"vless","name":"🇺🇸 美国  双𝐈𝐒𝐏 原生𝐈𝐏 家宽-VIP","server":"172.64.144.19","port":443,"uuid":"bdbfd26c-725b-4922-b970-e7dfb46afb7b","tls":true,"client-fingerprint":"randomized","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"edge.ekt.me"},"path":"/socks5://Aa789987:Aa789987@216.98.230.74:6527"},"servername":"edge.ekt.me"}
 
