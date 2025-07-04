@@ -32,7 +32,6 @@ http://39.88.62.27:35455/douyin/148108118778
 
 
 
-
 #EXTINF:-1 group-title="4K频道",Bloomberg TV+ 
 https://bloomberg-bloomberg-2-nz.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="4K频道",Clarity 4K
@@ -62,6 +61,21 @@ https://migu.188766.xyz/?migutoken=0f8250f11b62c069c93d4c50af66633f&id=%E5%8C%97
 #EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视4K" tvg-logo="https://fy.188766.xyz/logo/sln162/iptv-back/logo/深圳卫视4K.png" group-title="超清频道",深圳卫视4K
 https://livepull-tcms.sztv.com.cn:443/live/sz4Kpgm.m3u8
 
+
+#EXTINF:-1,tvg-id="华数4K" tvg-name="华数4K" tvg-logo="https://epg.v1.mk/logo/华数4K.png" group-title="其他",华数爱上4K
+http://114.254.36.50:18888/rtp/239.3.1.236:2000
+#EXTINF:-1,tvg-id="北京IPTV4K" tvg-name="北京IPTV4K" tvg-logo="https://epg.v1.mk/logo/北京IPTV4K.png" group-title="北京",北京IPTV4K超清
+http://114.254.36.50:18888/rtp/239.3.1.249:8001
+#EXTINF:-1,tvg-id="北京IPTV淘电影" tvg-name="北京IPTV淘电影" tvg-logo="https://epg.v1.mk/logo/北京IPTV淘电影.png" group-title="北京",北京IPTV淘电影
+http://114.254.36.50:18888/rtp/239.3.1.250:8001
+#EXTINF:-1,tvg-id="北京IPTV淘剧场" tvg-name="北京IPTV淘剧场" tvg-logo="https://epg.v1.mk/logo/北京IPTV淘剧场.png" group-title="北京",北京IPTV淘剧场
+http://114.254.36.50:18888/rtp/239.3.1.95:8001
+#EXTINF:-1,tvg-id="北京IPTV淘娱乐" tvg-name="北京IPTV淘娱乐" tvg-logo="https://epg.v1.mk/logo/北京IPTV淘娱乐.png" group-title="北京",北京IPTV淘娱乐
+http://114.254.36.50:18888/rtp/239.3.1.100:8001
+#EXTINF:-1,tvg-id="北京IPTV淘BABY" tvg-name="北京IPTV淘BABY" tvg-logo="https://epg.v1.mk/logo/北京IPTV淘BABY.png" group-title="北京",北京IPTV淘BABY
+http://114.254.36.50:18888/rtp/239.3.1.238:8001
+#EXTINF:-1,tvg-id="北京IPTV萌宠TV" tvg-name="北京IPTV萌宠TV" tvg-logo="https://epg.v1.mk/logo/北京IPTV萌宠TV.png" group-title="北京",北京IPTV萌宠TV
+http://114.254.36.50:18888/rtp/239.3.1.102:8001
 
 
 #EXTINF:-1 tvg-name="翡翠台4K" group-title="海外",翡翠台4K
