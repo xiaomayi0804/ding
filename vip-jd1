@@ -6,11 +6,5 @@ proxies:
   #- {"type":"hysteria2","name":"🇺🇲 claw-us2","server":"hy2.xiaomayi.nyc.mn","port":45831,"password":"edwardchina.chinanr","sni":"hy2.xiaomayi.nyc.mn","skip-cert-verify":true,"tfo":false}
   #- {"type":"hysteria2","name":"🇺🇲 claw-us1","server":"hy1.leochina.nyc.mn","port":41311,"password":"edwardchina.chinanr","sni":"hy1.leochina.nyc.mn","skip-cert-verify":true,"tfo":false}
   
-
-  - {"type":"ss","server":"118.184.136.60","port":20353,"cipher":"rc4-md5","password":"iFDE0Z","name":"🇭🇰 Dler 香港 Air IEPL 01-VIP"}
-  - {"type":"ss","server":"sg17.fjk.wtf","port":20353,"cipher":"rc4-md5","password":"iFDE0Z","name":"🇭🇰 中国-香港_IPLC_Equinix_HK2_A_17_1Gbps_HBO_TVB-VIP"}
-  - {"type":"ss","server":"kraz01.fjk.wtf","port":20353,"cipher":"rc4-md5","password":"iFDE0Z","name":"🇰🇷 游戏_中国-韩国_IEPL_1_3Gbps-VIP"}
-  - {"type":"hysteria2","name":"🇭🇰 香港-VIP","server":"47.74.34.102","port":29282,"password":"Wo9rLCYw6gzcfTgIu11mhBVciVs","skip-cert-verify":true,"tfo":false}
   - {"name":"🇯🇵 日本-VIP","type":"http","tls":true,"server":"23.106.140.14","port":8443,"skip-cert-verify":true}
-  - {"type":"vless","name":"🇺🇸 美国  双𝐈𝐒𝐏 原生𝐈𝐏 家宽-VIP","server":"172.64.144.19","port":443,"uuid":"bdbfd26c-725b-4922-b970-e7dfb46afb7b","tls":true,"client-fingerprint":"randomized","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"edge.ekt.me"},"path":"/socks5://Aa789987:Aa789987@216.98.230.74:6527"},"servername":"edge.ekt.me"}
 
