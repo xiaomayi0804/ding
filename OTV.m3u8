@@ -115,6 +115,10 @@ http://192.168.1.4:9188/rtp/239.3.1.202:2000
 http://192.168.1.4:9188/rtp/239.3.1.203:2000
 #EXTINF:-1,tvg-id="CCTV4K超高清" tvg-name="CCTV4K超高清" tvg-logo="https://epg.v1.mk/logo/CCTV4K超高清.png" group-title="央视",CCTV-4K 超高清[超清HDR]
 http://192.168.1.4:9188/rtp/239.3.1.245:2000
+#EXTINF:-1,tvg-id="cctv16" tvg-name="CCTV-16_4K" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="央视",CCTV-16_4K
+http://frp.jl.cloudns.org:7777/udp/239.37.1.22:5540
+#EXTINF:-1,tvg-id="风云足球" tvg-name="风云足球" tvg-logo="https://epg.v1.mk/logo/风云足球.png" group-title="央视",CCTV风云足球HD
+http://frp.jl.cloudns.org:7777/udp/239.37.0.80:5540
 
 
 #EXTINF:-1,tvg-id="睛彩竞技" tvg-name="睛彩竞技" tvg-logo="https://epg.v1.mk/logo/睛彩竞技.png" group-title="其他",睛彩竞技[高清]
@@ -127,6 +131,8 @@ http://192.168.1.4:9188/rtp/239.3.1.127:8001
 http://192.168.1.4:9188/rtp/239.3.1.128:8001
 #EXTINF:-1,tvg-id="魅力足球" tvg-name="魅力足球" tvg-logo="https://epg.v1.mk/logo/魅力足球.png" group-title="其他",魅力足球[高清]
 http://192.168.1.4:9188/rtp/239.3.1.201:8001
+
+
 
 
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV-1 综合[高清]" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="央视",CCTV-1 综合[高清]
