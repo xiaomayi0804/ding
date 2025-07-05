@@ -59,36 +59,36 @@ http://vvip.lqcc.xyz:8092/stream/channelid/1248069700?auth=PrI5LXwb51dYilt30TvNY
 
 
 #EXTINF:-1,tvg-id="TVBS欢乐" tvg-name="TVBS欢乐" tvg-logo="https://epg.v1.mk/logo/TVBS欢乐.png" group-title="港澳台",tvbs欢乐高码
-http://61.216.11.93:49981/stream/channelid/1607444205.m3u8
+http://test.iptv2asia.com:49981/stream/channelid/1607444205.m3u8
 #EXTINF:-1,tvg-id="东森超视" tvg-name="东森超视" tvg-logo="https://epg.v1.mk/logo/东森超视.png" group-title="港澳台",东森超视高码
-http://61.216.11.93:49981/stream/channelid/1026178460.m3u8
+http://test.iptv2asia.com:49981/stream/channelid/1026178460.m3u8
 #EXTINF:-1,tvg-id="民视" tvg-name="民视" tvg-logo="https://epg.v1.mk/logo/民视.png" group-title="港澳台",民视闽南高码
-http://61.216.11.93:49981/stream/channelid/1736257299.m3u8
-#EXTINF:-1,tvg-id="八大第一" tvg-name="八大第一" tvg-logo="https://epg.v1.mk/logo/八大第一.png" group-title="其他",八大第一高码
-http://61.216.11.93:49981/stream/channelid/2021000694.m3u8
-#EXTINF:-1,tvg-id="八大综合" tvg-name="八大综合" tvg-logo="https://epg.v1.mk/logo/八大综合.png" group-title="其他",八大综合高码
-http://61.216.11.93:49981/stream/channelid/1339557876.m3u8
+http://test.iptv2asia.com:49981/stream/channelid/1736257299.m3u8
+#EXTINF:-1,tvg-id="八大第一" tvg-name="八大第一" tvg-logo="https://epg.v1.mk/logo/八大第一.png" group-title="港澳台",八大第一高码
+http://test.iptv2asia.com:49981/stream/channelid/2021000694.m3u8
+#EXTINF:-1,tvg-id="八大综合" tvg-name="八大综合" tvg-logo="https://epg.v1.mk/logo/八大综合.png" group-title="港澳台",八大综合高码
+http://test.iptv2asia.com:49981/stream/channelid/1339557876.m3u8
 #EXTINF:-1,tvg-id="年代MUCH" tvg-name="年代MUCH" tvg-logo="https://epg.v1.mk/logo/年代MUCH.png" group-title="港澳台",年代综合高码
-http://61.216.11.93:49981/stream/channelid/644357774.m3u8
+http://test.iptv2asia.com:49981/stream/channelid/644357774.m3u8
 #EXTINF:-1,tvg-id="纬来综合" tvg-name="纬来综合" tvg-logo="https://epg.v1.mk/logo/纬来综合.png" group-title="港澳台",纬来综合高码
-http://61.216.11.93:49981/stream/channelid/106481234.m3u8
+http://test.iptv2asia.com:49981/stream/channelid/106481234.m3u8
 #EXTINF:-1,tvg-id="纬来电影" tvg-name="纬来电影" tvg-logo="https://epg.v1.mk/logo/纬来电影.png" group-title="港澳台",纬来电影高码
-http://61.216.11.93:49981/stream/channelid/1914405885.m3u8
-#EXTINF:-1,tvg-id="CIBN好莱坞" tvg-name="CIBN好莱坞" tvg-logo="https://epg.v1.mk/logo/CIBN好莱坞.png" group-title="其他",好莱电影高码
-http://61.216.11.93:49981/stream/channelid/286389561.m3u8
-#EXTINF:-1,tvg-id="CINEMAX" tvg-name="CINEMAX" tvg-logo="https://epg.v1.mk/logo/CINEMAX.png" group-title="其他",CINeMax高码
-http://61.216.11.93:49981/stream/channelid/207378916.m3u8
-#EXTINF:-1,tvg-id="CINEMAX" tvg-name="CINEMAX" tvg-logo="https://epg.v1.mk/logo/CINEMAX.png" group-title="其他",CINeMax高码
-http://61.216.11.93:49981/stream/channelid/1222093986.m3u8
-#EXTINF:-1,tvg-id="JTLC" tvg-name="JTLC" tvg-logo="https://epg.v1.mk/logo/JTLC.png" group-title="其他",TLC'综合高码
-http://61.216.11.93:49981/stream/channelid/458490002.m3u8
-#EXTINF:-1,tvg-id="NICKELODEONASIA(尼克儿童)" tvg-name="NICKELODEONASIA(尼克儿童)" tvg-logo="https://epg.v1.mk/logo/NICKELODEONASIA(尼克儿童).png" group-title="其他",Nick少儿高码
-http://61.216.11.93:49981/stream/channelid/580636100.m3u8
+http://test.iptv2asia.com:49981/stream/channelid/1914405885.m3u8
+#EXTINF:-1,tvg-id="CIBN好莱坞" tvg-name="CIBN好莱坞" tvg-logo="https://epg.v1.mk/logo/CIBN好莱坞.png" group-title="港澳台",好莱电影高码
+http://test.iptv2asia.com:49981/stream/channelid/286389561.m3u8
+#EXTINF:-1,tvg-id="CINEMAX" tvg-name="CINEMAX" tvg-logo="https://epg.v1.mk/logo/CINEMAX.png" group-title="港澳台",CINeMax高码
+http://test.iptv2asia.com:49981/stream/channelid/207378916.m3u8
+#EXTINF:-1,tvg-id="CINEMAX" tvg-name="CINEMAX" tvg-logo="https://epg.v1.mk/logo/CINEMAX.png" group-title="港澳台",CINeMax高码
+http://test.iptv2asia.com:49981/stream/channelid/1222093986.m3u8
+#EXTINF:-1,tvg-id="JTLC" tvg-name="JTLC" tvg-logo="https://epg.v1.mk/logo/JTLC.png" group-title="港澳台",TLC'综合高码
+http://test.iptv2asia.com:49981/stream/channelid/458490002.m3u8
+#EXTINF:-1,tvg-id="NICKELODEONASIA(尼克儿童)" tvg-name="NICKELODEONASIA(尼克儿童)" tvg-logo="https://epg.v1.mk/logo/NICKELODEONASIA(尼克儿童).png" group-title="港澳台",Nick少儿高码
+http://test.iptv2asia.com:49981/stream/channelid/580636100.m3u8
 #EXTINF:-1,tvg-id="AXNHK" tvg-name="AXNHK" tvg-logo="https://epg.v1.mk/logo/AXNHK.png" group-title="港澳台",NHk日本高码
-http://61.216.11.93:49981/stream/channelid/797583403.m3u8
-#EXTINF:-1,tvg-id="CNN International" tvg-name="CNN International" tvg-logo="https://epg.v1.mk/logo/CNN International.png" group-title="其他",cNN新闻高码
-http://61.216.11.93:49981/stream/channelid/881277234.m3u8
-#EXTINF:-1,tvg-id="信吉电视" tvg-name="信吉电视" tvg-logo="https://epg.v1.mk/logo/信吉电视.png" group-title="其他",信吉电视高码
+http://test.iptv2asia.com:49981/stream/channelid/797583403.m3u8
+#EXTINF:-1,tvg-id="CNN International" tvg-name="CNN International" tvg-logo="https://epg.v1.mk/logo/CNN International.png" group-title="港澳台",cNN新闻高码
+http://test.iptv2asia.com:49981/stream/channelid/881277234.m3u8
+#EXTINF:-1,tvg-id="信吉电视" tvg-name="信吉电视" tvg-logo="https://epg.v1.mk/logo/信吉电视.png" group-title="港澳台",信吉电视高码
 http://61.216.11.93:49981/stream/channelid/166215564.m3u8
 
 
