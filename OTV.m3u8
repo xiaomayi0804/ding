@@ -65,19 +65,19 @@ http://vvip.lqcc.xyz:8092/stream/channelid/1248069700?auth=PrI5LXwb51dYilt30TvNY
 
 
 #EXTINF:-1,tvg-id="华数4K" tvg-name="华数4K" tvg-logo="https://epg.v1.mk/logo/华数4K.png" group-title="其他",华数爱上4K
-http://114.254.36.50:18888/rtp/239.3.1.236:2000
+http://192.168.1.4:9188/rtp/239.3.1.236:2000
 #EXTINF:-1,tvg-id="北京IPTV4K" tvg-name="北京IPTV4K" tvg-logo="https://epg.v1.mk/logo/北京IPTV4K.png" group-title="北京",北京IPTV4K超清
-http://114.254.36.50:18888/rtp/239.3.1.249:8001
+http://192.168.1.4:9188/rtp/239.3.1.249:8001
 #EXTINF:-1,tvg-id="北京IPTV淘电影" tvg-name="北京IPTV淘电影" tvg-logo="https://epg.v1.mk/logo/北京IPTV淘电影.png" group-title="北京",北京IPTV淘电影
-http://114.254.36.50:18888/rtp/239.3.1.250:8001
+http://192.168.1.4:9188/rtp/239.3.1.250:8001
 #EXTINF:-1,tvg-id="北京IPTV淘剧场" tvg-name="北京IPTV淘剧场" tvg-logo="https://epg.v1.mk/logo/北京IPTV淘剧场.png" group-title="北京",北京IPTV淘剧场
-http://114.254.36.50:18888/rtp/239.3.1.95:8001
+http://192.168.1.4:9188/rtp/239.3.1.95:8001
 #EXTINF:-1,tvg-id="北京IPTV淘娱乐" tvg-name="北京IPTV淘娱乐" tvg-logo="https://epg.v1.mk/logo/北京IPTV淘娱乐.png" group-title="北京",北京IPTV淘娱乐
-http://114.254.36.50:18888/rtp/239.3.1.100:8001
+http://192.168.1.4:9188/rtp/239.3.1.100:8001
 #EXTINF:-1,tvg-id="北京IPTV淘BABY" tvg-name="北京IPTV淘BABY" tvg-logo="https://epg.v1.mk/logo/北京IPTV淘BABY.png" group-title="北京",北京IPTV淘BABY
-http://114.254.36.50:18888/rtp/239.3.1.238:8001
+http://192.168.1.4:9188/rtp/239.3.1.238:8001
 #EXTINF:-1,tvg-id="北京IPTV萌宠TV" tvg-name="北京IPTV萌宠TV" tvg-logo="https://epg.v1.mk/logo/北京IPTV萌宠TV.png" group-title="北京",北京IPTV萌宠TV
-http://114.254.36.50:18888/rtp/239.3.1.102:8001
+http://192.168.1.4:9188/rtp/239.3.1.102:8001
 
 
 #EXTINF:-1 tvg-name="翡翠台4K" group-title="海外",翡翠台4K
