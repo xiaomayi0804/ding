@@ -122,7 +122,7 @@ http://frp.jl.cloudns.org:7777/udp/239.37.0.80:5540
 #EXTINF:-1 tvg-name="广东体育jd" group-title="海外",广东体育
 http://php.jdshipin.com/TVOD/iptv.php?id=gdty
 #EXTINF:-1 tvg-name="广东体育go" group-title="海外",广东体育
-http://go.bkpcp.top/mg/gdys
+http://go.bkpcp.top/mg/gdty
 
 
 #EXTINF:-1,tvg-id="睛彩竞技" tvg-name="睛彩竞技" tvg-logo="https://epg.v1.mk/logo/睛彩竞技.png" group-title="其他",睛彩竞技[高清]
