@@ -119,6 +119,10 @@ http://192.168.1.4:9188/rtp/239.3.1.245:2000
 http://frp.jl.cloudns.org:7777/udp/239.37.1.22:5540
 #EXTINF:-1,tvg-id="风云足球" tvg-name="风云足球" tvg-logo="https://epg.v1.mk/logo/风云足球.png" group-title="央视",CCTV风云足球HD
 http://frp.jl.cloudns.org:7777/udp/239.37.0.80:5540
+#EXTINF:-1 tvg-name="广东体育jd" group-title="海外",广东体育
+http://php.jdshipin.com/TVOD/iptv.php?id=gdty
+#EXTINF:-1 tvg-name="广东体育go" group-title="海外",广东体育
+http://go.bkpcp.top/mg/gdys
 
 
 #EXTINF:-1,tvg-id="睛彩竞技" tvg-name="睛彩竞技" tvg-logo="https://epg.v1.mk/logo/睛彩竞技.png" group-title="其他",睛彩竞技[高清]
@@ -315,8 +319,7 @@ http://8.138.7.223/tv/shtv.php?id=ds
 http://8.138.7.223/tv/shtv.php?id=wxty
 
 
-#EXTINF:-1 tvg-name="广东体育" group-title="海外",广东体育
-http://php.jdshipin.com/TVOD/iptv.php?id=gdty
+
 #EXTINF:-1 tvg-id="风云足球" tvg-name="风云足球" tvg-logo="https://live.fanmingming.cn/tv/风云足球.png" group-title="央视频道",CCTV-风云足球
 http://www.lizhinas.top:1009/rtp/239.252.219.96:5140
 #EXTINF:-1 tvg-id="央视台球" tvg-name="央视台球" tvg-logo="https://live.fanmingming.cn/tv/央视台球.png" group-title="央视频道",CCTV-央视台球
