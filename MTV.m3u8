@@ -160,72 +160,43 @@ http://125.33.208.142:9188/rtp/239.3.1.184:8001
 http://125.33.208.142:9188/rtp/239.3.1.151:8144
 
 
-#EXTINF:-1,tvg-id="湖南北京IPTV" tvg-name="湖南北京IPTV" tvg-logo="https://epg.v1.mk/logo/湖南北京IPTV.png" group-title="北京IPTV",湖南北京IPTV[高清]
+#EXTINF:-1,tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://epg.v1.mk/logo/湖南卫视.png" group-title="北京IPTV",湖南卫视[高清]
 http://125.33.208.142:9188/rtp/239.3.1.132:8012
-#EXTINF:-1,tvg-id="东方北京IPTV" tvg-name="东方北京IPTV" tvg-logo="https://epg.v1.mk/logo/东方北京IPTV.png" group-title="北京IPTV",东方北京IPTV[高清]
+#EXTINF:-1,tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://epg.v1.mk/logo/东方卫视.png" group-title="北京IPTV",东方卫视[高清]
 http://125.33.208.142:9188/rtp/239.3.1.136:8032
-#EXTINF:-1,tvg-id="浙江北京IPTV" tvg-name="浙江北京IPTV" tvg-logo="https://epg.v1.mk/logo/浙江北京IPTV.png" group-title="北京IPTV",浙江北京IPTV[高清]
+#EXTINF:-1,tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.v1.mk/logo/浙江卫视.png" group-title="北京IPTV",浙江卫视[高清]
 http://125.33.208.142:9188/rtp/239.3.1.137:8036
-#EXTINF:-1,tvg-id="江苏北京IPTV" tvg-name="江苏北京IPTV" tvg-logo="https://epg.v1.mk/logo/江苏北京IPTV.png" group-title="北京IPTV",江苏北京IPTV[高清]
+#EXTINF:-1,tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://epg.v1.mk/logo/江苏卫视.png" group-title="北京IPTV",江苏卫视[高清]
 http://125.33.208.142:9188/rtp/239.3.1.135:8028
-#EXTINF:-1,tvg-id="安徽北京IPTV" tvg-name="安徽北京IPTV" tvg-logo="https://epg.v1.mk/logo/安徽北京IPTV.png" group-title="北京IPTV",安徽北京IPTV[高清]
+#EXTINF:-1,tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://epg.v1.mk/logo/安徽卫视.png" group-title="北京IPTV",安徽卫视[高清]
 http://125.33.208.142:9188/rtp/239.3.1.211:8064
-#EXTINF:-1,tvg-id="天津北京IPTV" tvg-name="天津北京IPTV" tvg-logo="https://epg.v1.mk/logo/天津北京IPTV.png" group-title="北京IPTV",天津北京IPTV[高清]
+#EXTINF:-1,tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://epg.v1.mk/logo/天津卫视.png" group-title="北京IPTV",天津卫视[高清]
 http://125.33.208.142:9188/rtp/239.3.1.141:1234
-#EXTINF:-1,tvg-id="重庆北京IPTV" tvg-name="重庆北京IPTV" tvg-logo="https://epg.v1.mk/logo/重庆北京IPTV.png" group-title="北京IPTV",重庆北京IPTV[高清]
+#EXTINF:-1,tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://epg.v1.mk/logo/重庆卫视.png" group-title="北京IPTV",重庆卫视[高清]
 http://125.33.208.142:9188/rtp/239.3.1.122:8160
-#EXTINF:-1,tvg-id="山东北京IPTV" tvg-name="山东北京IPTV" tvg-logo="https://epg.v1.mk/logo/山东北京IPTV.png" group-title="北京IPTV",山东北京IPTV[高清]
+#EXTINF:-1,tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://epg.v1.mk/logo/山东卫视.png" group-title="北京IPTV",山东卫视[高清]
 http://125.33.208.142:9188/rtp/239.3.1.209:8052
-#EXTINF:-1,tvg-id="黑龙江北京IPTV" tvg-name="黑龙江北京IPTV" tvg-logo="https://epg.v1.mk/logo/黑龙江北京IPTV.png" group-title="北京IPTV",黑龙江北京IPTV[高清]
+#EXTINF:-1,tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://epg.v1.mk/logo/黑龙江卫视.png" group-title="北京IPTV",黑龙江卫视[高清]
 http://125.33.208.142:9188/rtp/239.3.1.133:8016
-#EXTINF:-1,tvg-id="河北北京IPTV" tvg-name="河北北京IPTV" tvg-logo="https://epg.v1.mk/logo/河北北京IPTV.png" group-title="北京IPTV",河北北京IPTV[高清]
+#EXTINF:-1,tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://epg.v1.mk/logo/河北卫视.png" group-title="北京IPTV",河北卫视[高清]
 http://125.33.208.142:9188/rtp/239.3.1.148:8072
-#EXTINF:-1,tvg-id="河南北京IPTV" tvg-name="河南北京IPTV" tvg-logo="https://epg.v1.mk/logo/河南北京IPTV.png" group-title="北京IPTV",河南北京IPTV[高清]
+#EXTINF:-1,tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://epg.v1.mk/logo/河南卫视.png" group-title="北京IPTV",河南卫视[高清]
 http://125.33.208.142:9188/rtp/239.3.1.50:8184
-#EXTINF:-1,tvg-id="辽宁北京IPTV" tvg-name="辽宁北京IPTV" tvg-logo="https://epg.v1.mk/logo/辽宁北京IPTV.png" group-title="北京IPTV",辽宁北京IPTV[高清]
+#EXTINF:-1,tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://epg.v1.mk/logo/辽宁卫视.png" group-title="北京IPTV",辽宁卫视[高清]
 http://125.33.208.142:9188/rtp/239.3.1.210:8056
-#EXTINF:-1,tvg-id="湖北北京IPTV" tvg-name="湖北北京IPTV" tvg-logo="https://epg.v1.mk/logo/湖北北京IPTV.png" group-title="北京IPTV",湖北北京IPTV[高清]
+#EXTINF:-1,tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://epg.v1.mk/logo/湖北卫视.png" group-title="北京IPTV",湖北卫视[高清]
 http://125.33.208.142:9188/rtp/239.3.1.138:8044
-#EXTINF:-1,tvg-id="吉林北京IPTV" tvg-name="吉林北京IPTV" tvg-logo="https://epg.v1.mk/logo/吉林北京IPTV.png" group-title="北京IPTV",吉林北京IPTV[高清]
+#EXTINF:-1,tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://epg.v1.mk/logo/吉林卫视.png" group-title="北京IPTV",吉林卫视[高清]
 http://125.33.208.142:9188/rtp/239.3.1.240:8172
-#EXTINF:-1,tvg-id="贵州北京IPTV" tvg-name="贵州北京IPTV" tvg-logo="https://epg.v1.mk/logo/贵州北京IPTV.png" group-title="北京IPTV",贵州北京IPTV[高清]
+#EXTINF:-1,tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://epg.v1.mk/logo/贵州卫视.png" group-title="北京IPTV",贵州卫视[高清]
 http://125.33.208.142:9188/rtp/239.3.1.149:8076
-#EXTINF:-1,tvg-id="东南北京IPTV" tvg-name="东南北京IPTV" tvg-logo="https://epg.v1.mk/logo/东南北京IPTV.png" group-title="北京IPTV",东南北京IPTV[高清]
+#EXTINF:-1,tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://epg.v1.mk/logo/东南卫视.png" group-title="北京IPTV",东南卫视[高清]
 http://125.33.208.142:9188/rtp/239.3.1.156:8148
-#EXTINF:-1,tvg-id="江西北京IPTV" tvg-name="江西北京IPTV" tvg-logo="https://epg.v1.mk/logo/江西北京IPTV.png" group-title="北京IPTV",江西北京IPTV[高清]
+#EXTINF:-1,tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://epg.v1.mk/logo/江西卫视.png" group-title="北京IPTV",江西卫视[高清]
 http://125.33.208.142:9188/rtp/239.3.1.123:8164
-#EXTINF:-1,tvg-id="甘肃北京IPTV" tvg-name="甘肃北京IPTV" tvg-logo="https://epg.v1.mk/logo/甘肃北京IPTV.png" group-title="北京IPTV",甘肃北京IPTV[高清]
+#EXTINF:-1,tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://epg.v1.mk/logo/甘肃卫视.png" group-title="北京IPTV",甘肃卫视[高清]
 http://125.33.208.142:9188/rtp/239.3.1.201:8180
-#EXTINF:-1,tvg-id="海南北京IPTV" tvg-name="海南北京IPTV" tvg-logo="https://epg.v1.mk/logo/海南北京IPTV.png" group-title="北京IPTV",海南北京IPTV
-http://125.33.208.142:9188/rtp/239.3.1.45:8304
-#EXTINF:-1,tvg-id="云南北京IPTV" tvg-name="云南北京IPTV" tvg-logo="https://epg.v1.mk/logo/云南北京IPTV.png" group-title="北京IPTV",云南北京IPTV
-http://125.33.208.142:9188/rtp/239.3.1.26:8108
-#EXTINF:-1,tvg-id="兵团北京IPTV" tvg-name="兵团北京IPTV" tvg-logo="https://epg.v1.mk/logo/兵团北京IPTV.png" group-title="北京IPTV",兵团北京IPTV
-http://125.33.208.142:9188/rtp/239.3.1.144:4120
-#EXTINF:-1,tvg-id="厦门北京IPTV" tvg-name="厦门北京IPTV" tvg-logo="https://epg.v1.mk/logo/厦门北京IPTV.png" group-title="北京IPTV",厦门北京IPTV
-http://125.33.208.142:9188/rtp/239.3.1.143:4120
-#EXTINF:-1,tvg-id="四川北京IPTV" tvg-name="四川北京IPTV" tvg-logo="https://epg.v1.mk/logo/四川北京IPTV.png" group-title="北京IPTV",四川北京IPTV
-http://125.33.208.142:9188/rtp/239.3.1.29:8288
-#EXTINF:-1,tvg-id="大湾区北京IPTV" tvg-name="大湾区北京IPTV" tvg-logo="https://epg.v1.mk/logo/大湾区北京IPTV.png" group-title="北京IPTV",大湾区北京IPTV
-# http://125.33.208.142:9188/rtp/239.3.1.161:8001
-#EXTINF:-1,tvg-id="宁夏北京IPTV" tvg-name="宁夏北京IPTV" tvg-logo="https://epg.v1.mk/logo/宁夏北京IPTV.png" group-title="北京IPTV",宁夏北京IPTV
-http://125.33.208.142:9188/rtp/239.3.1.46:8124
-#EXTINF:-1,tvg-id="山西北京IPTV" tvg-name="山西北京IPTV" tvg-logo="https://epg.v1.mk/logo/山西北京IPTV.png" group-title="北京IPTV",山西北京IPTV
-http://125.33.208.142:9188/rtp/239.3.1.42:8172
-#EXTINF:-1,tvg-id="广西北京IPTV" tvg-name="广西北京IPTV" tvg-logo="https://epg.v1.mk/logo/广西北京IPTV.png" group-title="北京IPTV",广西北京IPTV
-http://125.33.208.142:9188/rtp/239.3.1.39:8300
-#EXTINF:-1,tvg-id="新疆北京IPTV" tvg-name="新疆北京IPTV" tvg-logo="https://epg.v1.mk/logo/新疆北京IPTV.png" group-title="北京IPTV",新疆北京IPTV
-http://125.33.208.142:9188/rtp/239.3.1.48:8160
-#EXTINF:-1,tvg-id="西藏北京IPTV" tvg-name="西藏北京IPTV" tvg-logo="https://epg.v1.mk/logo/西藏北京IPTV.png" group-title="北京IPTV",西藏北京IPTV
-http://125.33.208.142:9188/rtp/239.3.1.47:8164
-#EXTINF:-1,tvg-id="三沙北京IPTV" tvg-name="三沙北京IPTV" tvg-logo="https://epg.v1.mk/logo/三沙北京IPTV.png" group-title="北京IPTV",三沙北京IPTV
-http://125.33.208.142:9188/rtp/239.3.1.155:4120
-#EXTINF:-1,tvg-id="陕西北京IPTV" tvg-name="陕西北京IPTV" tvg-logo="https://epg.v1.mk/logo/陕西北京IPTV.png" group-title="北京IPTV",陕西北京IPTV
-http://125.33.208.142:9188/rtp/239.3.1.41:8140
-#EXTINF:-1,tvg-id="青海北京IPTV" tvg-name="青海北京IPTV" tvg-logo="https://epg.v1.mk/logo/青海北京IPTV.png" group-title="北京IPTV",青海北京IPTV
-http://125.33.208.142:9188/rtp/239.3.1.44:8184
-#EXTINF:-1,tvg-id="内蒙古北京IPTV" tvg-name="内蒙古北京IPTV" tvg-logo="https://epg.v1.mk/logo/内蒙古北京IPTV.png" group-title="北京IPTV",内蒙古北京IPTV
-http://125.33.208.142:9188/rtp/239.3.1.43:8176
+
 
 
 
