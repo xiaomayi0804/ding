@@ -113,12 +113,7 @@ http://192.168.1.4:9188/rtp/239.3.1.22:8001
 http://192.168.1.4:9188/rtp/239.3.1.202:2000
 #EXTINF:-1,tvg-id="BRTV_ART" tvg-name="BRTV广东卫视4K" tvg-logo="https://fy.188766.xyz/logo/sln162/iptv-back/logo/广东卫视4K.png" group-title="北京",BRTV广东卫视4K
 http://192.168.1.4:9188/rtp/239.3.1.203:2000
-#EXTINF:-1,tvg-id="CCTV4K超高清" tvg-name="CCTV4K超高清" tvg-logo="https://epg.v1.mk/logo/CCTV4K超高清.png" group-title="央视",CCTV-4K 超高清[超清HDR]
-http://192.168.1.4:9188/rtp/239.3.1.245:2000
-#EXTINF:-1,tvg-id="cctv16" tvg-name="CCTV-16_4K" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="央视",CCTV-16_4K
-http://frp.jl.cloudns.org:7777/udp/239.37.1.22:5540
-#EXTINF:-1,tvg-id="风云足球" tvg-name="风云足球" tvg-logo="https://epg.v1.mk/logo/风云足球.png" group-title="央视",CCTV风云足球HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.80:5540
+
 #EXTINF:-1 tvg-name="广东体育jd" group-title="海外",广东体育
 http://php.jdshipin.com/TVOD/iptv.php?id=gdty
 #EXTINF:-1 tvg-name="广东体育go" group-title="海外",广东体育
