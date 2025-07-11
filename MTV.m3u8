@@ -157,233 +157,278 @@ http://125.33.208.142:9188/rtp/239.3.1.128:8001
 http://125.33.208.142:9188/rtp/239.3.1.201:8001
 
 
+#EXTM3U x-tvg-url="https://epg.v1.mk/fy.xml"
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="央视",CCTV-1综合
+http://nas.tuyuannet.cn:8800/udp/239.37.0.8:5540
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="央视",CCTV-1综合
+http://nas.tuyuannet.cn:8800/udp/239.37.0.20:5540
+#EXTINF:-1,tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="央视",CCTV-2财*
+http://nas.tuyuannet.cn:8800/udp/239.37.0.3:5540
+#EXTINF:-1,tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="央视",CCTV-2财*
+http://nas.tuyuannet.cn:8800/udp/239.37.0.21:5540
+#EXTINF:-1,tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="央视",CCTV-3综艺
+http://nas.tuyuannet.cn:8800/udp/239.37.0.231:5540
+#EXTINF:-1,tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="央视",CCTV-3综艺
+http://nas.tuyuannet.cn:8800/udp/239.37.0.189:5540
+#EXTINF:-1,tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="央视",CCTV-4中文国际
+http://nas.tuyuannet.cn:8800/udp/239.37.1.25:5540
+#EXTINF:-1,tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="央视",CCTV-4中文国际
+http://nas.tuyuannet.cn:8800/udp/239.37.0.22:5540
+#EXTINF:-1,tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="央视",CCTV-4中文国际欧洲
+http://nas.tuyuannet.cn:8800/udp/239.37.1.11:5540
+#EXTINF:-1,tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="央视",CCTV-4中文国际美洲
+http://nas.tuyuannet.cn:8800/udp/239.37.1.12:5540
+#EXTINF:-1,tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="央视",CCTV-5体育
+http://nas.tuyuannet.cn:8800/udp/239.37.0.232:5540
+#EXTINF:-1,tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="央视",CCTV-5体育
+http://nas.tuyuannet.cn:8800/udp/239.37.0.190:5540
+#EXTINF:-1,tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://epg.v1.mk/logo/cctv5+.png" group-title="央视",CCTV-5+体育赛事
+http://nas.tuyuannet.cn:8800/udp/239.37.0.121:5540
+#EXTINF:-1,tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="央视",CCTV-6电影
+http://nas.tuyuannet.cn:8800/udp/239.37.0.233:5540
+#EXTINF:-1,tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="央视",CCTV-6电影
+http://nas.tuyuannet.cn:8800/udp/239.37.0.191:5540
+#EXTINF:-1,tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.v1.mk/logo/CCTV7.png" group-title="央视",CCTV-7国防军事
+http://nas.tuyuannet.cn:8800/udp/239.37.1.20:5540
+#EXTINF:-1,tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="央视",CCTV-8电视剧
+http://nas.tuyuannet.cn:8800/udp/239.37.0.234:5540
+#EXTINF:-1,tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="央视",CCTV-8电视剧
+http://nas.tuyuannet.cn:8800/udp/239.37.0.192:5540
+#EXTINF:-1,tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://epg.v1.mk/logo/cctv9.png" group-title="央视",CCTV-9纪录
+http://nas.tuyuannet.cn:8800/udp/239.37.0.1:5540
+#EXTINF:-1,tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://epg.v1.mk/logo/cctv9.png" group-title="央视",CCTV-9纪录
+http://nas.tuyuannet.cn:8800/udp/239.37.0.122:5540
+#EXTINF:-1,tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://epg.v1.mk/logo/cctv10.png" group-title="央视",CCTV-10科教
+http://nas.tuyuannet.cn:8800/udp/239.37.0.7:5540
+#EXTINF:-1,tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://epg.v1.mk/logo/cctv10.png" group-title="央视",CCTV-10科教
+http://nas.tuyuannet.cn:8800/udp/239.37.0.25:5540
+#EXTINF:-1,tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://epg.v1.mk/logo/cctv11.png" group-title="央视",CCTV-11戏曲
+http://nas.tuyuannet.cn:8800/udp/239.37.1.26:5540
+#EXTINF:-1,tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://epg.v1.mk/logo/cctv11.png" group-title="央视",CCTV-11戏曲
+http://nas.tuyuannet.cn:8800/udp/239.37.0.26:5540
+#EXTINF:-1,tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://epg.v1.mk/logo/cctv12.png" group-title="央视",CCTV-12社会与法
+http://nas.tuyuannet.cn:8800/udp/239.37.0.6:5540
+#EXTINF:-1,tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://epg.v1.mk/logo/cctv12.png" group-title="央视",CCTV-12社会与法
+http://nas.tuyuannet.cn:8800/udp/239.37.0.27:5540
+#EXTINF:-1,tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://epg.v1.mk/logo/cctv13.png" group-title="央视",CCTV-13新闻
+http://nas.tuyuannet.cn:8800/udp/239.37.1.27:5540
+#EXTINF:-1,tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://epg.v1.mk/logo/cctv13.png" group-title="央视",CCTV-13新闻
+http://nas.tuyuannet.cn:8800/udp/239.37.0.28:5540
+#EXTINF:-1,tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://epg.v1.mk/logo/cctv14.png" group-title="央视",CCTV-14少儿
+http://nas.tuyuannet.cn:8800/udp/239.37.0.5:5540
+#EXTINF:-1,tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://epg.v1.mk/logo/cctv14.png" group-title="央视",CCTV-14少儿
+http://nas.tuyuannet.cn:8800/udp/239.37.0.29:5540
+#EXTINF:-1,tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://epg.v1.mk/logo/cctv15.png" group-title="央视",CCTV-15音乐
+http://nas.tuyuannet.cn:8800/udp/239.37.1.28:5540
+#EXTINF:-1,tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://epg.v1.mk/logo/cctv15.png" group-title="央视",CCTV-15音乐
+http://nas.tuyuannet.cn:8800/udp/239.37.0.30:5540
+#EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="央视",CCTV-16奥运
+http://nas.tuyuannet.cn:8800/udp/239.37.1.21:5540
+#EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="央视",CCTV-16奥运
+http://nas.tuyuannet.cn:8800/udp/239.37.1.22:5540
+#EXTINF:-1,tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://epg.v1.mk/logo/cctv17.png" group-title="央视",CCTV-17农村农业
+http://nas.tuyuannet.cn:8800/udp/239.37.0.2:5540
+#EXTINF:-1,tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://epg.v1.mk/logo/cctv17.png" group-title="央视",CCTV-17农村农业
+http://nas.tuyuannet.cn:8800/udp/239.37.0.23:5540
+#EXTINF:-1,tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="央视",CCTV-4K
+http://nas.tuyuannet.cn:8800/udp/239.37.0.34:5540
+#EXTINF:-1,tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="央视",CCTV-4K
+http://nas.tuyuannet.cn:8800/udp/239.37.0.31:5540
+#EXTINF:-1,tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="央视",CCTV-4K
+http://nas.tuyuannet.cn:8800/udp/239.37.0.34:5540
+#EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="央视",CCTV-16_4K
+http://nas.tuyuannet.cn:8800/udp/239.37.1.22:5540
 
 
-#EXTINF:-1,tvg-id="CCTV1" tvg-name="cctv1" tvg-logo="https://epg.v1.mk/logo/cctv1.png" group-title="央视",CCTV-1HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.8:5540
-#EXTINF:-1,tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="央视",CCTV-2HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.3:5540
-#EXTINF:-1,tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="央视",CCTV-3HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.231:5540
-#EXTINF:-1,tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="央视",CCTV-4HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.25:5540
-#EXTINF:-1,tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="央视",CCTV-4欧洲HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.11:5540
-#EXTINF:-1,tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="央视",CCTV-4美洲HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.12:5540
+#EXTINF:-1,tvg-id="北京卫视4" tvg-name="北京卫视4" tvg-logo="https://epg.v1.mk/logo/北京卫视4.png" group-title="卫视",北京卫视4K
+http://nas.tuyuannet.cn:8800/udp/239.37.0.109:5540
+#EXTINF:-1,tvg-id="风云足球" tvg-name="风云足球" tvg-logo="https://epg.v1.mk/logo/风云足球.png" group-title="央视数字",风云足球
+http://nas.tuyuannet.cn:8800/udp/239.37.0.80:5540
+#EXTINF:-1,tvg-id="央视台球" tvg-name="央视台球" tvg-logo="https://epg.v1.mk/logo/央视台球.png" group-title="央视数字",央视台球
+http://nas.tuyuannet.cn:8800/udp/239.37.0.163:5540
+#EXTINF:-1,tvg-id="晴彩中原" tvg-name="晴彩中原" tvg-logo="https://epg.v1.mk/logo/晴彩中原.png" group-title="央视数字",晴彩竞技
+http://nas.tuyuannet.cn:8800/udp/239.37.0.215:5540
+#EXTINF:-1,tvg-id="睛彩竞技" tvg-name="睛彩竞技" tvg-logo="https://epg.v1.mk/logo/睛彩竞技.png" group-title="央视数字",睛彩竞技
+http://nas.tuyuannet.cn:8800/udp/239.37.0.41:5540
+#EXTINF:-1,tvg-id="睛彩篮球" tvg-name="睛彩篮球" tvg-logo="https://epg.v1.mk/logo/睛彩篮球.png" group-title="央视数字",睛彩篮球
+http://nas.tuyuannet.cn:8800/udp/239.37.0.38:5540
+#EXTINF:-1,tvg-id="睛彩羽毛球" tvg-name="睛彩羽毛球" tvg-logo="https://epg.v1.mk/logo/睛彩羽毛球.png" group-title="央视数字",睛彩羽毛球
+http://nas.tuyuannet.cn:8800/udp/239.37.0.40:5540
+#EXTINF:-1,tvg-id="晴彩广场舞" tvg-name="晴彩广场舞" tvg-logo="https://epg.v1.mk/logo/晴彩广场舞.png" group-title="央视数字",晴彩广场舞
+http://nas.tuyuannet.cn:8800/udp/239.37.0.223:5540
+#EXTINF:-1,tvg-id="睛彩广场舞" tvg-name="睛彩广场舞" tvg-logo="https://epg.v1.mk/logo/睛彩广场舞.png" group-title="央视数字",睛彩广场舞
+http://nas.tuyuannet.cn:8800/udp/239.37.0.42:5540
+#EXTINF:-1,tvg-id="电视指南" tvg-name="电视指南" tvg-logo="https://epg.v1.mk/logo/电视指南.png" group-title="央视数字",电视指南
+http://nas.tuyuannet.cn:8800/udp/239.37.0.115:5540
+#EXTINF:-1,tvg-id="第一剧场" tvg-name="第一剧场" tvg-logo="https://epg.v1.mk/logo/第一剧场.png" group-title="央视数字",第一剧场
+http://nas.tuyuannet.cn:8800/udp/239.37.0.78:5540
+#EXTINF:-1,tvg-id="风云剧场" tvg-name="风云剧场" tvg-logo="https://epg.v1.mk/logo/风云剧场.png" group-title="央视数字",风云剧场
+http://nas.tuyuannet.cn:8800/udp/239.37.0.114:5540
+#EXTINF:-1,tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://epg.v1.mk/logo/怀旧剧场.png" group-title="央视数字",怀旧剧场
+http://nas.tuyuannet.cn:8800/udp/239.37.0.82:5540
+#EXTINF:-1,tvg-id="兵器科技" tvg-name="兵器科技" tvg-logo="https://epg.v1.mk/logo/兵器科技.png" group-title="央视数字",兵器科技
+http://nas.tuyuannet.cn:8800/udp/239.37.0.84:5540
+#EXTINF:-1,tvg-id="女性时尚" tvg-name="女性时尚" tvg-logo="https://epg.v1.mk/logo/女性时尚.png" group-title="央视数字",女性时尚
+http://nas.tuyuannet.cn:8800/udp/239.37.0.69:5540
+#EXTINF:-1,tvg-id="风云音乐" tvg-name="风云音乐" tvg-logo="https://epg.v1.mk/logo/风云音乐.png" group-title="央视数字",风云音乐
+http://nas.tuyuannet.cn:8800/udp/239.37.0.81:5540
+#EXTINF:-1,tvg-id="央视文化精品" tvg-name="央视文化精品" tvg-logo="https://epg.v1.mk/logo/央视文化精品.png" group-title="央视数字",央视文化精品
+http://nas.tuyuannet.cn:8800/udp/239.37.0.83:5540
+#EXTINF:-1,tvg-id="世界地理" tvg-name="世界地理" tvg-logo="https://epg.v1.mk/logo/世界地理.png" group-title="央视数字",世界地理
+http://nas.tuyuannet.cn:8800/udp/239.37.0.79:5540
+
+#EXTINF:-1,tvg-id="cctv-高尔夫网球" tvg-name="cctv-高尔夫网球" tvg-logo="https://epg.v1.mk/logo/cctv-高尔夫网球.png" group-title="央视数字",高尔夫·网球
+http://nas.tuyuannet.cn:8800/udp/239.37.0.230:5540
+#EXTINF:-1,tvg-id="卫生健康" tvg-name="卫生健康" tvg-logo="https://epg.v1.mk/logo/卫生健康.png" group-title="央视数字",卫生健康
+http://nas.tuyuannet.cn:8800/udp/239.37.0.229:5540
+#EXTINF:-1,tvg-id="发现之旅" tvg-name="发现之旅" tvg-logo="https://epg.v1.mk/logo/发现之旅.png" group-title="央视数字",发现之旅
+http://nas.tuyuannet.cn:8800/udp/239.37.0.46:5540
+#EXTINF:-1,tvg-id="老故事" tvg-name="老故事" tvg-logo="https://epg.v1.mk/logo/老故事.png" group-title="央视数字",老故事
+http://nas.tuyuannet.cn:8800/udp/239.37.0.44:5540
+#EXTINF:-1,tvg-id="中学生" tvg-name="中学生" tvg-logo="https://epg.v1.mk/logo/中学生.png" group-title="央视数字",中学生频道
+http://nas.tuyuannet.cn:8800/udp/239.37.0.95:5540
+#EXTINF:-1,tvg-id="chc动作电影" tvg-name="chc动作电影" tvg-logo="https://epg.v1.mk/logo/chc动作电影.png" group-title="央视数字",CHC动作电影
+http://nas.tuyuannet.cn:8800/udp/239.37.0.186:5540
+#EXTINF:-1,tvg-id="chc高清电影" tvg-name="chc高清电影" tvg-logo="https://epg.v1.mk/logo/chc高清电影.png" group-title="央视数字",CHC高清电影
+http://nas.tuyuannet.cn:8800/udp/239.37.0.187:5540
+#EXTINF:-1,tvg-id="chc家庭影院" tvg-name="chc家庭影院" tvg-logo="https://epg.v1.mk/logo/chc家庭影院.png" group-title="央视数字",CHC家庭影院
+http://nas.tuyuannet.cn:8800/udp/239.37.0.188:5540
+#EXTINF:-1,tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://epg.v1.mk/logo/吉林卫视.png" group-title="卫视",吉林卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.111:5540
+#EXTINF:-1,tvg-id="NewTV吉林" tvg-name="NewTV吉林" tvg-logo="https://epg.v1.mk/logo/NewTV吉林.png" group-title="吉林",吉视都市
+http://nas.tuyuannet.cn:8800/udp/239.37.1.2:5540
+#EXTINF:-1,tvg-id="NewTV吉林" tvg-name="NewTV吉林" tvg-logo="https://epg.v1.mk/logo/NewTV吉林.png" group-title="吉林",吉视生活
+http://nas.tuyuannet.cn:8800/udp/239.37.1.4:5540
+#EXTINF:-1,tvg-id="NewTV吉林" tvg-name="NewTV吉林" tvg-logo="https://epg.v1.mk/logo/NewTV吉林.png" group-title="吉林",吉视影视
+http://nas.tuyuannet.cn:8800/udp/239.37.1.3:5540
+#EXTINF:-1,tvg-id="NewTV吉林" tvg-name="NewTV吉林" tvg-logo="https://epg.v1.mk/logo/NewTV吉林.png" group-title="吉林",吉视乡村
+http://nas.tuyuannet.cn:8800/udp/239.37.1.5:5540
+#EXTINF:-1,tvg-id="NewTV吉林" tvg-name="NewTV吉林" tvg-logo="https://epg.v1.mk/logo/NewTV吉林.png" group-title="吉林",吉视公共.新闻
+http://nas.tuyuannet.cn:8800/udp/239.37.1.6:5540
+
+#EXTINF:-1,tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://epg.v1.mk/logo/北京卫视.png" group-title="卫视",北京卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.9:5540
+#EXTINF:-1,tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://epg.v1.mk/logo/东方卫视.png" group-title="卫视",东方卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.123:5540
+#EXTINF:-1,tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://epg.v1.mk/logo/江苏卫视.png" group-title="卫视",江苏卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.112:5540
+#EXTINF:-1,tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.v1.mk/logo/浙江卫视.png" group-title="卫视",浙江卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.153:5540
+#EXTINF:-1,tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://epg.v1.mk/logo/湖南卫视.png" group-title="卫视",湖南卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.10:5540
+#EXTINF:-1,tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://epg.v1.mk/logo/辽宁卫视.png" group-title="卫视",辽宁卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.160:5540
+#EXTINF:-1,tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://epg.v1.mk/logo/天津卫视.png" group-title="卫视",天津卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.4:5540
+#EXTINF:-1,tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://epg.v1.mk/logo/深圳卫视.png" group-title="卫视",深圳卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.14:5540
+#EXTINF:-1,tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://epg.v1.mk/logo/安徽卫视.png" group-title="卫视",安徽卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.159:5540
+#EXTINF:-1,tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://epg.v1.mk/logo/广东卫视.png" group-title="卫视",广东卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.12:5540
+#EXTINF:-1,tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://epg.v1.mk/logo/山东卫视.png" group-title="卫视",山东卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.15:5540
+#EXTINF:-1,tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://epg.v1.mk/logo/贵州卫视.png" group-title="卫视",贵州卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.157:5540
+#EXTINF:-1,tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://epg.v1.mk/logo/黑龙江卫视.png" group-title="卫视",黑龙江卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.13:5540
+#EXTINF:-1,tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://epg.v1.mk/logo/河北卫视.png" group-title="卫视",河北卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.154:5540
+#EXTINF:-1,tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://epg.v1.mk/logo/东南卫视.png" group-title="卫视",东南卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.124:5540
+#EXTINF:-1,tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://epg.v1.mk/logo/湖北卫视.png" group-title="卫视",湖北卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.16:5540
+#EXTINF:-1,tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://epg.v1.mk/logo/重庆卫视.png" group-title="卫视",重庆卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.158:5540
+#EXTINF:-1,tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://epg.v1.mk/logo/云南卫视.png" group-title="卫视",云南卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.89:5540
+#EXTINF:-1,tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://epg.v1.mk/logo/海南卫视.png" group-title="卫视",海南卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.35:5540
+#EXTINF:-1,tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://epg.v1.mk/logo/河南卫视.png" group-title="卫视",河南卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.155:5540
+#EXTINF:-1,tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://epg.v1.mk/logo/江西卫视.png" group-title="卫视",江西卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.156:5540
+#EXTINF:-1,tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://epg.v1.mk/logo/广西卫视.png" group-title="卫视",广西卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.1.23:5540
+#EXTINF:-1,tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://epg.v1.mk/logo/四川卫视.png" group-title="卫视",四川卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.151:5540
+#EXTINF:-1,tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://epg.v1.mk/logo/甘肃卫视.png" group-title="卫视",甘肃卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.1.30:5540
+#EXTINF:-1,tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="https://epg.v1.mk/logo/三沙卫视.png" group-title="卫视",三沙卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.200:5540
+#EXTINF:-1,tvg-id="延边卫视" tvg-name="延边卫视" tvg-logo="https://epg.v1.mk/logo/延边卫视.png" group-title="卫视",延边卫视
+http://nas.tuyuannet.cn:8800/udp/239.37.0.116:5540
+#EXTINF:-1,tvg-id="纪实人文" tvg-name="纪实人文" tvg-logo="https://epg.v1.mk/logo/纪实人文.png" group-title="央视数字",纪实人文
+http://nas.tuyuannet.cn:8800/udp/239.37.0.152:5540
+#EXTINF:-1,tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://epg.v1.mk/logo/金鹰纪实.png" group-title="央视数字",金鹰纪实
+http://nas.tuyuannet.cn:8800/udp/239.37.0.161:5540
+#EXTINF:-1,tvg-id="中国交通" tvg-name="中国交通" tvg-logo="https://epg.v1.mk/logo/中国交通.png" group-title="央视数字",中国交通
+http://nas.tuyuannet.cn:8800/udp/239.37.0.226:5540
+#EXTINF:-1,tvg-id="cetv1" tvg-name="cetv1" tvg-logo="https://epg.v1.mk/logo/cetv1.png" group-title="央视数字",CETV-1
+http://nas.tuyuannet.cn:8800/udp/239.37.0.193:5540
+#EXTINF:-1,tvg-id="CETV2" tvg-name="CETV2" tvg-logo="https://epg.v1.mk/logo/CETV2.png" group-title="央视数字",CETV-2
+http://nas.tuyuannet.cn:8800/udp/239.37.1.31:5540
+#EXTINF:-1,tvg-id="cetv4" tvg-name="cetv4" tvg-logo="https://epg.v1.mk/logo/cetv4.png" group-title="央视数字",CETV-4
+http://nas.tuyuannet.cn:8800/udp/239.37.1.32:5540
+#EXTINF:-1,tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://epg.v1.mk/logo/卡酷少儿.png" group-title="央视数字",卡酷少儿
+http://nas.tuyuannet.cn:8800/udp/239.37.0.60:5540
+#EXTINF:-1,tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://epg.v1.mk/logo/卡酷少儿.png" group-title="央视数字",卡酷少儿
+http://nas.tuyuannet.cn:8800/udp/239.37.0.76:5540
+#EXTINF:-1,tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://epg.v1.mk/logo/金鹰卡通.png" group-title="央视数字",金鹰卡通
+http://nas.tuyuannet.cn:8800/udp/239.37.1.19:5540
+#EXTINF:-1,tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" tvg-logo="https://epg.v1.mk/logo/嘉佳卡通.png" group-title="央视数字",嘉佳卡通
+http://nas.tuyuannet.cn:8800/udp/239.37.0.67:5540
+#EXTINF:-1,tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://epg.v1.mk/logo/哈哈炫动.png" group-title="央视数字",哈哈炫动
+http://nas.tuyuannet.cn:8800/udp/239.37.0.65:5540
+#EXTINF:-1,tvg-id="环球奇观" tvg-name="环球奇观" tvg-logo="https://epg.v1.mk/logo/环球奇观.png" group-title="央视数字",环球奇观
+http://nas.tuyuannet.cn:8800/udp/239.37.0.70:5540
+#EXTINF:-1,tvg-id="靓妆" tvg-name="靓妆" tvg-logo="https://epg.v1.mk/logo/靓妆.png" group-title="央视数字",靓妆
+http://nas.tuyuannet.cn:8800/udp/239.37.0.87:5540
+#EXTINF:-1,tvg-id="汽摩" tvg-name="汽摩" tvg-logo="https://epg.v1.mk/logo/汽摩.png" group-title="央视数字",汽摩
+http://nas.tuyuannet.cn:8800/udp/239.37.0.90:5540
+#EXTINF:-1,tvg-id="国学" tvg-name="国学" tvg-logo="https://epg.v1.mk/logo/国学.png" group-title="央视数字",国学频道
+http://nas.tuyuannet.cn:8800/udp/239.37.0.93:5540
+#EXTINF:-1,tvg-id="百姓健康" tvg-name="百姓健康" tvg-logo="https://epg.v1.mk/logo/百姓健康.png" group-title="央视数字",百姓健康
+http://nas.tuyuannet.cn:8800/udp/239.37.0.113:5540
+#EXTINF:-1,tvg-id="乐游" tvg-name="乐游" tvg-logo="https://epg.v1.mk/logo/乐游.png" group-title="央视数字",乐游
+http://nas.tuyuannet.cn:8800/udp/239.37.0.236:5540
+#EXTINF:-1,tvg-id="法治天地" tvg-name="法治天地" tvg-logo="https://epg.v1.mk/logo/法治天地.png" group-title="央视数字",法治天地
+http://nas.tuyuannet.cn:8800/udp/239.37.0.238:5540
+#EXTINF:-1,tvg-id="金色学堂" tvg-name="金色学堂" tvg-logo="https://epg.v1.mk/logo/金色学堂.png" group-title="央视数字",金色学堂
+http://nas.tuyuannet.cn:8800/udp/239.37.0.239:5540
+#EXTINF:-1,tvg-id="TV5MONDE STYLE HD 生活时尚" tvg-name="TV5MONDE STYLE HD 生活时尚" tvg-logo="https://epg.v1.mk/logo/TV5MONDE STYLE HD 生活时尚.png" group-title="央视数字",生活时尚
+http://nas.tuyuannet.cn:8800/udp/239.37.0.240:5540
+#EXTINF:-1,tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="https://epg.v1.mk/logo/都市剧场.png" group-title="央视数字",都市剧场
+http://nas.tuyuannet.cn:8800/udp/239.37.0.241:5540
+#EXTINF:-1,tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://epg.v1.mk/logo/动漫秀场.png" group-title="央视数字",动漫秀场
+http://nas.tuyuannet.cn:8800/udp/239.37.0.242:5540
+#EXTINF:-1,tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://epg.v1.mk/logo/快乐垂钓.png" group-title="央视数字",快乐垂钓
+http://nas.tuyuannet.cn:8800/udp/239.37.0.244:5540
+#EXTINF:-1,tvg-id="茶" tvg-name="茶" tvg-logo="https://epg.v1.mk/logo/茶.png" group-title="央视数字",茶频道
+http://nas.tuyuannet.cn:8800/udp/239.37.0.245:5540
+#EXTINF:-1,tvg-id="cgtn英语" tvg-name="cgtn英语" tvg-logo="https://epg.v1.mk/logo/cgtn英语.png" group-title="央视数字",CGTN英语
+http://nas.tuyuannet.cn:8800/udp/239.37.1.13:5540
+#EXTINF:-1,tvg-id="CGTN纪录" tvg-name="CGTN纪录" tvg-logo="https://epg.v1.mk/logo/CGTN纪录.png" group-title="央视数字",CGTN纪录（英）
+http://nas.tuyuannet.cn:8800/udp/239.37.0.24:5540
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="央视数字",CGTN英文纪录
+http://nas.tuyuannet.cn:8800/udp/239.37.1.14:5540
+#EXTINF:-1,tvg-id="cgtn西班牙语" tvg-name="cgtn西班牙语" tvg-logo="https://epg.v1.mk/logo/cgtn西班牙语.png" group-title="央视数字",CGTN西班牙语
+http://nas.tuyuannet.cn:8800/udp/239.37.1.15:5540
+#EXTINF:-1,tvg-id="cgtn法语" tvg-name="cgtn法语" tvg-logo="https://epg.v1.mk/logo/cgtn法语.png" group-title="央视数字",CGTN法语
+http://nas.tuyuannet.cn:8800/udp/239.37.1.16:5540
+#EXTINF:-1,tvg-id="CGTN阿拉伯语" tvg-name="CGTN阿拉伯语" tvg-logo="https://epg.v1.mk/logo/CGTN阿拉伯语.png" group-title="央视数字",CGTN阿拉伯语
+http://nas.tuyuannet.cn:8800/udp/239.37.1.17:5540
+#EXTINF:-1,tvg-id="cgtn俄语" tvg-name="cgtn俄语" tvg-logo="https://epg.v1.mk/logo/cgtn俄语.png" group-title="央视数字",CGTN俄语
+http://nas.tuyuannet.cn:8800/udp/239.37.1.18:5540
+
+
 #EXTINF:-1,tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://epg.v1.mk/logo/cctv5+.png" group-title="央视",CCTV-5+HD
 http://frp.jl.cloudns.org:7777/udp/239.37.0.121:5540
 #EXTINF:-1,tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="央视",CCTV-5HD
 http://frp.jl.cloudns.org:7777/udp/239.37.0.232:5540
 #EXTINF:-1,tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="央视",CCTV-6HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.233:5540
-#EXTINF:-1,tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.v1.mk/logo/CCTV7.png" group-title="央视",CCTV-7HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.20:5540
-#EXTINF:-1,tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="央视",CCTV-8HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.234:5540
-#EXTINF:-1,tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://epg.v1.mk/logo/cctv9.png" group-title="央视",CCTV-9HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.1:5540
-#EXTINF:-1,tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://epg.v1.mk/logo/cctv10.png" group-title="央视",CCTV-10HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.7:5540
-#EXTINF:-1,tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://epg.v1.mk/logo/cctv11.png" group-title="央视",CCTV-11HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.26:5540
-#EXTINF:-1,tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://epg.v1.mk/logo/cctv12.png" group-title="央视",CCTV-12HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.6:5540
 #EXTINF:-1,tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://epg.v1.mk/logo/cctv13.png" group-title="央视",CCTV-13HD
 http://frp.jl.cloudns.org:7777/udp/239.37.1.27:5540
-#EXTINF:-1,tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://epg.v1.mk/logo/cctv14.png" group-title="央视",CCTV-14HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.5:5540
-#EXTINF:-1,tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://epg.v1.mk/logo/cctv15.png" group-title="央视",CCTV-15HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.28:5540
-#EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="央视",CCTV-16HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.21:5540
-#EXTINF:-1,tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://epg.v1.mk/logo/cctv17.png" group-title="央视",CCTV-17HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.2:5540
-#EXTINF:-1,tvg-id="世界地理" tvg-name="世界地理" tvg-logo="https://epg.v1.mk/logo/世界地理.png" group-title="央视",CCTV世界地理HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.79:5540
-#EXTINF:-1,tvg-id="兵器科技" tvg-name="兵器科技" tvg-logo="https://epg.v1.mk/logo/兵器科技.png" group-title="央视",CCTV兵器科技HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.84:5540
-#EXTINF:-1,tvg-id="卫生健康" tvg-name="卫生健康" tvg-logo="https://epg.v1.mk/logo/卫生健康.png" group-title="央视",CCTV卫生健康HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.229:5540
-#EXTINF:-1,tvg-id="央视台球" tvg-name="央视台球" tvg-logo="https://epg.v1.mk/logo/央视台球.png" group-title="央视",CCTV央视台球HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.163:5540
-#EXTINF:-1,tvg-id="央视文化精品" tvg-name="央视文化精品" tvg-logo="https://epg.v1.mk/logo/央视文化精品.png" group-title="央视",CCTV央视文化精品HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.83:5540
-#EXTINF:-1,tvg-id="女性时尚" tvg-name="女性时尚" tvg-logo="https://epg.v1.mk/logo/女性时尚.png" group-title="央视",CCTV女性时尚HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.69:5540
-#EXTINF:-1,tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://epg.v1.mk/logo/怀旧剧场.png" group-title="央视",CCTV怀旧剧场HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.82:5540
-#EXTINF:-1,tvg-id="电视指南" tvg-name="电视指南" tvg-logo="https://epg.v1.mk/logo/电视指南.png" group-title="央视",CCTV电视指南HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.115:5540
-#EXTINF:-1,tvg-id="第一剧场" tvg-name="第一剧场" tvg-logo="https://epg.v1.mk/logo/第一剧场.png" group-title="央视",CCTV第一剧场HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.78:5540
-#EXTINF:-1,tvg-id="风云剧场" tvg-name="风云剧场" tvg-logo="https://epg.v1.mk/logo/风云剧场.png" group-title="央视",CCTV风云剧场HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.114:5540
-#EXTINF:-1,tvg-id="风云足球" tvg-name="风云足球" tvg-logo="https://epg.v1.mk/logo/风云足球.png" group-title="央视",CCTV风云足球HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.80:5540
-#EXTINF:-1,tvg-id="风云音乐" tvg-name="风云音乐" tvg-logo="https://epg.v1.mk/logo/风云音乐.png" group-title="央视",CCTV风云音乐HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.81:5540
-#EXTINF:-1,tvg-id="高尔夫网球" tvg-name="高尔夫网球" tvg-logo="https://epg.v1.mk/logo/高尔夫网球.png" group-title="央视",CCTV高尔夫网球HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.230:5540
-#EXTINF:-1,tvg-id="cgtn" tvg-name="cgtn" tvg-logo="https://epg.v1.mk/logo/cgtn.png" group-title="央视",CGTNHD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.13:5540
-#EXTINF:-1,tvg-id="cgtn俄语" tvg-name="cgtn俄语" tvg-logo="https://epg.v1.mk/logo/cgtn俄语.png" group-title="央视",CGTN俄语HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.18:5540
-#EXTINF:-1,tvg-id="cgtn法语" tvg-name="cgtn法语" tvg-logo="https://epg.v1.mk/logo/cgtn法语.png" group-title="央视",CGTN法语HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.16:5540
-#EXTINF:-1,tvg-id="cgtn纪录" tvg-name="cgtn纪录" tvg-logo="https://epg.v1.mk/logo/cgtn纪录.png" group-title="央视",CGTN纪录HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.14:5540
-#EXTINF:-1,tvg-id="cgtn西班牙语" tvg-name="cgtn西班牙语" tvg-logo="https://epg.v1.mk/logo/cgtn西班牙语.png" group-title="央视",CGTN西班牙语HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.15:5540
-#EXTINF:-1,tvg-id="CGTN阿拉伯语" tvg-name="CGTN阿拉伯语" tvg-logo="https://epg.v1.mk/logo/CGTN阿拉伯语.png" group-title="央视",CGTN阿拉伯语HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.17:5540
-#EXTINF:-1,tvg-id="chc动作电影" tvg-name="chc动作电影" tvg-logo="https://epg.v1.mk/logo/chc动作电影.png" group-title="央视数字",CHC动作电影HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.186:5540
-#EXTINF:-1,tvg-id="chc家庭影院" tvg-name="chc家庭影院" tvg-logo="https://epg.v1.mk/logo/chc家庭影院.png" group-title="央视数字",CHC家庭影院HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.188:5540
-#EXTINF:-1,tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="https://epg.v1.mk/logo/CHC影迷电影.png" group-title="央视数字",CHC影迷电影HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.187:5540
-#EXTINF:-1,tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://epg.v1.mk/logo/东南卫视.png" group-title="卫视",东南卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.124:5540
-#EXTINF:-1,tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://epg.v1.mk/logo/东方卫视.png" group-title="卫视",东方卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.123:5540
-
-#EXTINF:-1,tvg-id="乐游" tvg-name="乐游" tvg-logo="https://epg.v1.mk/logo/乐游.png" group-title="央视数字",乐游HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.236:5540
-#EXTINF:-1,tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://epg.v1.mk/logo/云南卫视.png" group-title="卫视",云南卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.89:5540
-#EXTINF:-1,tvg-id="优优宝贝" tvg-name="优优宝贝" tvg-logo="https://epg.v1.mk/logo/优优宝贝.png" group-title="央视数字",优优宝贝HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.107:5540
-#EXTINF:-1,tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://epg.v1.mk/logo/动漫秀场.png" group-title="央视数字",动漫秀场HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.242:5540
-#EXTINF:-1,tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://epg.v1.mk/logo/北京卫视.png" group-title="卫视",北京卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.9:5540
-
-#EXTINF:-1,tvg-id="吉林乡村" tvg-name="吉林乡村" tvg-logo="https://epg.v1.mk/logo/吉林乡村.png" group-title="吉林",吉林乡村HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.5:5540
-#EXTINF:-1,tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://epg.v1.mk/logo/吉林卫视.png" group-title="吉林",吉林卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.111:5540
-#EXTINF:-1,tvg-id="吉林影视" tvg-name="吉林影视" tvg-logo="https://epg.v1.mk/logo/吉林影视.png" group-title="吉林",吉林影视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.3:5540
-#EXTINF:-1,tvg-id="吉林都市" tvg-name="吉林都市" tvg-logo="https://epg.v1.mk/logo/吉林都市.png" group-title="吉林",吉林都市HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.2:5540
-#EXTINF:-1,tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://epg.v1.mk/logo/咪咕4k.png" group-title="央视数字",咪咕视频HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.194:5540
-#EXTINF:-1,tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://epg.v1.mk/logo/咪咕4k.png" group-title="央视数字",咪咕视频HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.195:5540
-#EXTINF:-1,tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://epg.v1.mk/logo/四川卫视.png" group-title="卫视",四川卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.151:5540
-#EXTINF:-1,tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://epg.v1.mk/logo/天津卫视.png" group-title="卫视",天津卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.4:5540
-#EXTINF:-1,tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://epg.v1.mk/logo/安徽卫视.png" group-title="卫视",安徽卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.159:5540
-#EXTINF:-1,tvg-id="家有购物" tvg-name="家有购物" tvg-logo="https://epg.v1.mk/logo/家有购物.png" group-title="卫视",家有购物HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.64:5540
-#EXTINF:-1,tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://epg.v1.mk/logo/山东卫视.png" group-title="卫视",山东卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.15:5540
-#EXTINF:-1,tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://epg.v1.mk/logo/广东卫视.png" group-title="卫视",广东卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.12:5540
-#EXTINF:-1,tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://epg.v1.mk/logo/广西卫视.png" group-title="卫视",广西卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.23:5540
-
-
-#EXTINF:-1,tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://epg.v1.mk/logo/江苏卫视.png" group-title="卫视",江苏卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.112:5540
-#EXTINF:-1,tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://epg.v1.mk/logo/江西卫视.png" group-title="卫视",江西卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.156:5540
-#EXTINF:-1,tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://epg.v1.mk/logo/河北卫视.png" group-title="卫视",河北卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.154:5540
-#EXTINF:-1,tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://epg.v1.mk/logo/河南卫视.png" group-title="卫视",河南卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.155:5540
-#EXTINF:-1,tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.v1.mk/logo/浙江卫视.png" group-title="卫视",浙江卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.153:5540
-#EXTINF:-1,tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://epg.v1.mk/logo/海南卫视.png" group-title="卫视",海南卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.102:5540
-#EXTINF:-1,tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://epg.v1.mk/logo/深圳卫视.png" group-title="卫视",深圳卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.14:5540
-#EXTINF:-1,tvg-id="游戏风云" tvg-name="游戏风云" tvg-logo="https://epg.v1.mk/logo/游戏风云.png" group-title="其他",游戏风云HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.243:5540
-#EXTINF:-1,tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://epg.v1.mk/logo/湖北卫视.png" group-title="卫视",湖北卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.16:5540
-#EXTINF:-1,tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://epg.v1.mk/logo/湖南卫视.png" group-title="卫视",湖南卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.10:5540
-#EXTINF:-1,tvg-id="环球奇观" tvg-name="环球奇观" tvg-logo="https://epg.v1.mk/logo/环球奇观.png" group-title="央视数字",环球奇观HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.105:5540
-#EXTINF:-1,tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://epg.v1.mk/logo/甘肃卫视.png" group-title="卫视",甘肃卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.30:5540
-#EXTINF:-1,tvg-id="TV5MONDE STYLE HD 生活时尚" tvg-name="TV5MONDE STYLE HD 生活时尚" tvg-logo="https://epg.v1.mk/logo/TV5MONDE STYLE HD 生活时尚.png" group-title="央视数字",生活时尚HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.240:5540
-#EXTINF:-1,tvg-id="bestv百视通" tvg-name="bestv百视通" tvg-logo="https://epg.v1.mk/logo/bestv百视通.png" group-title="其他",百视通宣传HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.142:5540
-#EXTINF:-1,tvg-id="bestv百视通" tvg-name="bestv百视通" tvg-logo="https://epg.v1.mk/logo/bestv百视通.png" group-title="其他",百视通宣传HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.150:5540
-#EXTINF:-1,tvg-id="bestv百视通" tvg-name="bestv百视通" tvg-logo="https://epg.v1.mk/logo/bestv百视通.png" group-title="其他",百视通宣传HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.162:5540
-#EXTINF:-1,tvg-id="bestv百视通" tvg-name="bestv百视通" tvg-logo="https://epg.v1.mk/logo/bestv百视通.png" group-title="其他",百视通宣传HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.211:5540
-#EXTINF:-1,tvg-id="bestv百视通" tvg-name="bestv百视通" tvg-logo="https://epg.v1.mk/logo/bestv百视通.png" group-title="其他",百视通宣传HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.213:5540
-#EXTINF:-1,tvg-id="bestv百视通" tvg-name="bestv百视通" tvg-logo="https://epg.v1.mk/logo/bestv百视通.png" group-title="其他",百视通宣传HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.214:5540
-#EXTINF:-1,tvg-id="bestv百视通" tvg-name="bestv百视通" tvg-logo="https://epg.v1.mk/logo/bestv百视通.png" group-title="其他",百视通宣传HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.222:5540
-#EXTINF:-1,tvg-id="bestv百视通" tvg-name="bestv百视通" tvg-logo="https://epg.v1.mk/logo/bestv百视通.png" group-title="其他",百视通宣传HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.237:5540
-#EXTINF:-1,tvg-id="bestv百视通" tvg-name="bestv百视通" tvg-logo="https://epg.v1.mk/logo/bestv百视通.png" group-title="其他",百视通宣传HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.253:5540
-#EXTINF:-1,tvg-id="bestv百视通" tvg-name="bestv百视通" tvg-logo="https://epg.v1.mk/logo/bestv百视通.png" group-title="其他",百视通宣传HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.254:5540
-#EXTINF:-1,tvg-id="bestv百视通" tvg-name="bestv百视通" tvg-logo="https://epg.v1.mk/logo/bestv百视通.png" group-title="其他",百视通宣传HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.88:5540
-#EXTINF:-1,tvg-id="睛彩广场舞" tvg-name="睛彩广场舞" tvg-logo="https://epg.v1.mk/logo/睛彩广场舞.png" group-title="央视数字",睛彩广场舞HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.223:5540
-#EXTINF:-1,tvg-id="睛彩广场舞" tvg-name="睛彩广场舞" tvg-logo="https://epg.v1.mk/logo/睛彩广场舞.png" group-title="央视数字",睛彩广场舞HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.42:5540
-#EXTINF:-1,tvg-id="睛彩竞技" tvg-name="睛彩竞技" tvg-logo="https://epg.v1.mk/logo/睛彩竞技.png" group-title="央视数字",睛彩竞技HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.215:5540
-#EXTINF:-1,tvg-id="睛彩竞技" tvg-name="睛彩竞技" tvg-logo="https://epg.v1.mk/logo/睛彩竞技.png" group-title="央视数字",睛彩竞技HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.41:5540
-#EXTINF:-1,tvg-id="睛彩篮球" tvg-name="睛彩篮球" tvg-logo="https://epg.v1.mk/logo/睛彩篮球.png" group-title="央视数字",睛彩篮球HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.38:5540
-#EXTINF:-1,tvg-id="H睛彩中原" tvg-name="H睛彩中原" tvg-logo="https://epg.v1.mk/logo/H睛彩中原.png" group-title="央视数字",睛彩青少HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.40:5540
-#EXTINF:-1,tvg-id="聚鲨环球精选" tvg-name="聚鲨环球精选" tvg-logo="https://epg.v1.mk/logo/聚鲨环球精选.png" group-title="央视数字",聚鲨环球精选HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.50:5540
-#EXTINF:-1,tvg-id="茶频道" tvg-name="茶频道" tvg-logo="https://epg.v1.mk/logo/茶频道.png" group-title="央视数字",茶频道HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.245:5540
-#EXTINF:-1,tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://epg.v1.mk/logo/贵州卫视.png" group-title="卫视",贵州卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.157:5540
-#EXTINF:-1,tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://epg.v1.mk/logo/辽宁卫视.png" group-title="卫视",辽宁卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.160:5540
-#EXTINF:-1,tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="https://epg.v1.mk/logo/都市剧场.png" group-title="央视数字",都市剧场HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.241:5540
-#EXTINF:-1,tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://epg.v1.mk/logo/重庆卫视.png" group-title="吉林",重庆卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.158:5540
-#EXTINF:-1,tvg-id="金色学堂" tvg-name="金色学堂" tvg-logo="https://epg.v1.mk/logo/金色学堂.png" group-title="央视数字",金色学堂HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.239:5540
-#EXTINF:-1,tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://epg.v1.mk/logo/金鹰卡通.png" group-title="央视数字",金鹰卡通HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.61:5540
-#EXTINF:-1,tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://epg.v1.mk/logo/金鹰卡通.png" group-title="央视数字",金鹰卡通HD
-http://frp.jl.cloudns.org:7777/udp/239.37.1.19:5540
-#EXTINF:-1,tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://epg.v1.mk/logo/金鹰纪实.png" group-title="央视数字",金鹰纪实HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.161:5540
-#EXTINF:-1,tvg-id="长影频道" tvg-name="长影频道" tvg-logo="https://epg.v1.mk/logo/长影频道.png" group-title="吉林",长影频道HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.125:5540
-#EXTINF:-1,tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://epg.v1.mk/logo/陕西卫视.png" group-title="卫视",陕西卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.103:5540
-#EXTINF:-1,tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://epg.v1.mk/logo/青海卫视.png" group-title="卫视",青海卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.104:5540
-#EXTINF:-1,tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://epg.v1.mk/logo/黑龙江卫视.png" group-title="卫视",黑龙江卫视HD
-http://frp.jl.cloudns.org:7777/udp/239.37.0.13:5540
-#EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="央视",CCTV-16_4K
-http://frp.jl.cloudns.org:7777/udp/239.37.1.22:5540
-#EXTINF:-1,tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="央视",CCTV-4K
-http://frp.jl.cloudns.org:7777/udp/239.37.0.31:5540
-#EXTINF:-1,tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="央视",CCTV-4K
-http://frp.jl.cloudns.org:7777/udp/239.37.0.34:5540
-#EXTINF:-1,tvg-id="北京卫视4" tvg-name="北京卫视4" tvg-logo="https://epg.v1.mk/logo/北京卫视4.png" group-title="卫视",北京卫视4K
-http://frp.jl.cloudns.org:7777/udp/239.37.0.109:5540
-
 
 
 
