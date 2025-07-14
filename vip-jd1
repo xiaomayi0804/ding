@@ -7,4 +7,4 @@ proxies:
   #- {"type":"hysteria2","name":"🇺🇲 claw-us1","server":"hy1.leochina.nyc.mn","port":41311,"password":"edwardchina.chinanr","sni":"hy1.leochina.nyc.mn","skip-cert-verify":true,"tfo":false}
   
   - {"name":"🇯🇵 日本-VIP","type":"http","tls":true,"server":"23.106.140.14","port":8443,"skip-cert-verify":true}
- 
+  - {"type":"hysteria2","name":"🇯🇵JP| TG@pgkj666","server":"43.207.90.213","port":7069,"password":"5V2othtXG0u7x5v7auVohAmR1iM","sni":"bing.com","skip-cert-verify":true,"tfo":false}
