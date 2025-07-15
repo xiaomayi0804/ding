@@ -16,7 +16,8 @@ $allowed_domains = [
     'cdn2.163189.xyz',
     'cdn3.163189.xyz',
     'cdn5.163189.xyz',
-    'cdn9.163189.xyz'
+    'cdn5.163189.xyz',
+    'cdn.veryfast.filegear-sg.me'
 ];
 
 $parsed_url = parse_url($request_url);
