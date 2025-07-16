@@ -51,11 +51,11 @@ http://s1.an94tv.cfd/astro/astrosportuhd/AKTV.m3u8
 #EXTINF:-1 tvg-name="翡翠台4K" group-title="4K频道",翡翠台4K
 http://php.jdshipin.com/TVOD/iptv.php?id=fct4
 #EXTINF:-1 tvg-id="视界4K" tvg-name="视界4K" tvg-logo="https://fy.188766.xyz/logo/sparkssssssssss/epg/logo/bestv4k.png" group-title="4K频道",视界4K
-http://192.168.1.2:35455/bst/sjpd4k@15000000.m3u8
+http://58.240.140.71:35455/bst/sjpd4k@15000000.m3u8
 #EXTINF:-1 tvg-id="电影4K" tvg-name="电影4K" tvg-logo="https://fy.188766.xyz/logo/sparkssssssssss/epg/logo/bestv4k.png" group-title="4K频道",电影4K
-http://192.168.1.2:35455/bst/dypd4k@15000000.m3u8
+http://58.240.140.71:35455/bst/dypd4k@15000000.m3u8
 #EXTINF:-1 tvg-id="少儿4K" tvg-name="少儿4K" tvg-logo="https://fy.188766.xyz/logo/sparkssssssssss/epg/logo/bestv4k.png" group-title="4K频道",少儿4K
-http://192.168.1.2:35455/bst/sepd4k@15000000.m3u8
+http://58.240.140.71:35455/bst/sepd4k@15000000.m3u8
 #EXTINF:-1,tvg-id="华数4K" tvg-name="华数爱上4K" tvg-logo="https://epg.v1.mk/logo/华数4K.png" group-title="4K频道",华数爱上4K
 http://192.168.1.4:9188/rtp/239.3.1.236:2000
 #EXTINF:-1,tvg-id="咪咕4K" tvg-name="咪咕4K-1" tvg-logo="https://epg.v1.mk/logo/咪咕4K.png" group-title="4K频道",咪咕4K-1
