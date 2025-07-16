@@ -44,6 +44,10 @@ http://fl2.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=53&checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/CNN.png" group-title="4K频道",CNN
 https://jmp2.uk/sam-GBBD8000016N.m3u8
+#EXTINF:-1,tvg-id="EUROSPORT" tvg-name="EUROSPORT-4K" tvg-logo="https://epg.v1.mk/logo/EUROSPORT.png" group-title="4K频道",eurosport4k
+https://7pal.short.gy/eusport4k
+#EXTINF:-1,tvg-id="[ASTRO]712WARNERTV" tvg-name="ASTRo-4k" tvg-logo="https://epg.v1.mk/logo/[ASTRO]712WARNERTV.png" group-title="4K频道",ASTRo4kAKtv
+http://s1.an94tv.cfd/astro/astrosportuhd/AKTV.m3u8
 #EXTINF:-1,tvg-id="咪咕4K" tvg-name="咪咕4K-1" tvg-logo="https://epg.v1.mk/logo/咪咕4K.png" group-title="4K频道",咪咕4K-1
 http://39.88.62.27:35455/itv/3000000010000005180.m3u8?cdn=FifastbLive
 #EXTINF:-1,tvg-id="咪咕4K" tvg-name="咪咕4K-2" tvg-logo="https://epg.v1.mk/logo/咪咕4K.png" group-title="4K频道",咪咕4K-2
