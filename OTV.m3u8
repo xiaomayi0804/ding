@@ -340,6 +340,22 @@ https://cdn8.163189.xyz/live/lhyp/stream.m3u8
 #EXTINF:-1 group-title="港澳台",小公视
 https://livecdn9.ptsplus.tv/pts-youth-A/playlist.m3u8
 
+#EXTINF:-1,tvg-id="华丽翡翠台" tvg-name="华丽翡翠台" tvg-logo="https://epg.v1.mk/logo/华丽翡翠台.png" group-title="港澳台",翡翠台字幕
+http://edge2.163189.xyz/o12.php?id=fct
+#EXTINF:-1,tvg-id="明珠台72" tvg-name="明珠台72" tvg-logo="https://epg.v1.mk/logo/明珠台72.png" group-title="港澳台",明珠台字幕
+http://edge2.163189.xyz/o12.php?id=mzt
+#EXTINF:-1,tvg-id="hoytv" tvg-name="hoytv" tvg-logo="https://epg.v1.mk/logo/hoytv.png" group-title="港澳台",HOY TV
+https://edge.163189.xyz/163189/hoy
+#EXTINF:-1,tvg-id="八度空间" tvg-name="八度空间" tvg-logo="https://epg.v1.mk/logo/八度空间.png" group-title="港澳台",八度空间
+https://edge.163189.xyz/163189/8tv
+#EXTINF:-1,tvg-id="92PX-TENNIS_CHANNEL_LOGO" tvg-name="92PX-TENNIS_CHANNEL_LOGO" tvg-logo="https://epg.v1.mk/logo/92PX-TENNIS_CHANNEL_LOGO.png" group-title="港澳台",CH8
+https://edge.163189.xyz/163189/ch8
+#EXTINF:-1,tvg-id="无线新闻" tvg-name="无线新闻" tvg-logo="https://epg.v1.mk/logo/无线新闻.png" group-title="港澳台",无线新闻
+https://edge.163189.xyz/163189/wxxw
+#EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.v1.mk/logo/凤凰资讯.png" group-title="港澳台",凤凰资讯
+https://edge.163189.xyz/163189/fhzx
+
+
 
 #EXTM3U x-tvg-url="https://epg.v1.mk/fy.xml"
 #EXTINF:-1,tvg-id="ANIPLUS" tvg-name="ANIPLUS" tvg-logo="https://epg.v1.mk/logo/ANIPLUS.png" group-title="AKTV",Plus综合AKtv
