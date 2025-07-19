@@ -9,3 +9,5 @@ proxies:
   - {"name":"🇺🇲 联通aws美国b1","type":"http","tls":true,"server":"cuusb.ssv.vc","port":30445,"username":"test","password":"test.+","sni":"cuusb.ssv.vc","skip-cert-verify":true}
   - {"type":"hysteria2","name":"🇭🇰 HK|","server":"8.218.165.24","port":33223,"password":"pEvU4tuQG1bxO1gbf5Mxj400Bc","sni":"bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"🇯🇵 JP| ","server":"47.245.53.59","port":26404,"password":"kWlrCka5jzfKbD2z7ucwANEdZM","sni":"bing.com","skip-cert-verify":true,"tfo":false}
+  - {"type":"hysteria2","name":"🇯🇵 JP|-01","server":"13.112.101.203","port":35562,"password":"Y9vRstWcTHECGcKnayA2VYiUXs","sni":"bing.com","skip-cert-verify":true,"tfo":false}
+  - {"type":"hysteria2","name":"🇸🇬 SGP| ","server":"47.236.104.81","port":12332,"password":"TtXjyZgkEG8vdzgLlgMUfxkDYw","skip-cert-verify":true,"tfo":false}
