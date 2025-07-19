@@ -1,9 +1,10 @@
 proxies:
-  - {"name":"🇹🇼 电信aws台湾a1","type":"http","tls":true,"server":"cthka.ssv.vc","port":30443,"username":"test","password":"test.+","sni":"cthka.ssv.vc","skip-cert-verify":true}
-  - {"name":"🇹🇼 台湾彰化 hinet1","type":"http","tls":true,"server":"cmhka.ssv.vc","port":30443,"username":"test","password":"test.+","sni":"cmhka.ssv.vc","skip-cert-verify":true}
-  - {"name":"🇺🇲 联通aws美国b1","type":"http","tls":true,"server":"cuusb.ssv.vc","port":30445,"username":"test","password":"test.+","sni":"cuusb.ssv.vc","skip-cert-verify":true}
-  - {"name":"🇺🇲 移动aws美国b1","type":"http","tls":true,"server":"cmusb.ssv.vc","port":30445,"username":"test","password":"test.+","sni":"cmusb.ssv.vc","skip-cert-verify":true}
+  #- {"name":"🇹🇼 电信aws台湾a1","type":"http","tls":true,"server":"cthka.ssv.vc","port":30443,"username":"test","password":"test.+","sni":"cthka.ssv.vc","skip-cert-verify":true}
+  #- {"name":"🇹🇼 台湾彰化 hinet1","type":"http","tls":true,"server":"cmhka.ssv.vc","port":30443,"username":"test","password":"test.+","sni":"cmhka.ssv.vc","skip-cert-verify":true}
+  #- {"name":"🇺🇲 移动aws美国b1","type":"http","tls":true,"server":"cmusb.ssv.vc","port":30445,"username":"test","password":"test.+","sni":"cmusb.ssv.vc","skip-cert-verify":true}
   #- {"type":"hysteria2","name":"🇺🇲 claw-us2","server":"hy2.xiaomayi.nyc.mn","port":45831,"password":"edwardchina.chinanr","sni":"hy2.xiaomayi.nyc.mn","skip-cert-verify":true,"tfo":false}
   #- {"type":"hysteria2","name":"🇺🇲 claw-us1","server":"hy1.leochina.nyc.mn","port":41311,"password":"edwardchina.chinanr","sni":"hy1.leochina.nyc.mn","skip-cert-verify":true,"tfo":false}
   
   - {"name":"🇯🇵 日本-VIP","type":"http","tls":true,"server":"23.106.140.14","port":8443,"skip-cert-verify":true}
+  - {"name":"🇺🇲 联通aws美国b1","type":"http","tls":true,"server":"cuusb.ssv.vc","port":30445,"username":"test","password":"test.+","sni":"cuusb.ssv.vc","skip-cert-verify":true}
+
