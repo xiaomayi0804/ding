@@ -17,6 +17,5 @@ proxies:
   - {"sni":"t.hongkong6.qzz.io","client-fingerprint":"random","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"t.hongkong6.qzz.io"}},"type":"trojan","password":"0F22D008-24D4-4DFE-947B-8D2FD64CD24C","server":"www.visa.com.sg","port":2053,"name":"Trojan"}
   - {"type":"vless","name":"Vless","server":"www.visa.com.sg","port":2087,"uuid":"90c7ad5e-cd15-4314-b39b-aeabd397d592","tls":true,"client-fingerprint":"random","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"vl.hongkong6.qzz.io"},"path":"/?ed=2560"},"servername":"vl.hongkong6.qzz.io"}
   - {"type":"hysteria2","name":"🇯🇵 日本Hy2-3","server":"jp1.interld123456789.com","port":443,"ports":"36000-37000","password":"1c473b13-502d-47eb-8cf8-70a38d56c5bd","sni":"1231231.1234567890spcloud.com","skip-cert-verify":true,"tfo":false}
-  - {"type":"ss","server":"222.112.15.141","port":54750,"cipher":"aes-256-cfb","password":"qwerREWQ@@","name":"🇰🇷 KR_"}
 
 
