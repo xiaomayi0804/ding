@@ -797,17 +797,6 @@ http://iot-mqqt.111yao.cn:8080/live/diyp_starmovies.m3u8
 
 
 
-
-#EXTINF:-1  tvg-name="CCTV5" tvg-logo="https://vip.123pan.cn/1814643527/tv/logo/CCTV5.png" group-title="其他" ,CCTV5
-http://qwt.zhibotv.top:2016/全网通.php?id=CCTV5
-#EXTINF:-1  tvg-name="CCTV6" tvg-logo="https://vip.123pan.cn/1814643527/tv/logo/CCTV6.png" group-title="其他" ,CCTV6
-http://qwt.zhibotv.top:2016/全网通.php?id=CCTV6
-#EXTINF:-1  tvg-name="CCTV13" tvg-logo="https://vip.123pan.cn/1814643527/tv/logo/CCTV13.png" group-title="其他" ,CCTV13
-http://qwt.zhibotv.top:2016/全网通.php?id=CCTV13
-#EXTINF:-1  tvg-name="CCTV16" tvg-logo="https://vip.123pan.cn/1814643527/tv/logo/CCTV16.png" group-title="其他" ,CCTV16
-http://qwt.zhibotv.top:2016/全网通.php?id=CCTV16
-
-
 #EXTM3U x-tvg-url="https://epg.v1.mk/fy.xml"
 #EXTINF:-1,tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://epg.v1.mk/logo/东方卫视.png" group-title="其他",东方卫视
 http://8.138.7.223/tv/shtv.php?id=dfws
