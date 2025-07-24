@@ -266,60 +266,6 @@ http://192.168.1.4:9188/rtp/239.3.1.44:8184
 #EXTINF:-1,tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://epg.v1.mk/logo/内蒙古卫视.png" group-title="卫视",内蒙古卫视
 http://192.168.1.4:9188/rtp/239.3.1.43:8176
 
-#EXTINF:-1,tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="https://11.112114.xyz/logo/CHC影迷电影.png" group-title="YHYX-其他",CHC影迷电影-YHYX
-http://58.240.140.71:35455/yhyx/IP-HCGQ-HD.m3u8
-#EXTINF:-1,tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://11.112114.xyz/logo/CHC家庭影院.png" group-title="YHYX-其他",CHC家庭影院-YHYX
-http://58.240.140.71:35455/yhyx/IP-JTYY-HD.m3u8
-#EXTINF:-1,tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://11.112114.xyz/logo/CHC动作电影.png" group-title="YHYX-其他",CHC动作电影-YHYX
-http://58.240.140.71:35455/yhyx/IP-DZDY-HD.m3u8
-#EXTINF:-1,tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://11.112114.xyz/logo/重温经典.png" group-title="YHYX-其他",重温经典-YHYX
-http://58.240.140.71:35455/yhyx/IP-CWJD-HD.m3u8
-#EXTINF:-1,tvg-id="北京纪实" tvg-name="北京纪实" tvg-logo="https://11.112114.xyz/logo/北京纪实.png" group-title="YHYX-其他",北京纪实-YHYX
-http://58.240.140.71:35455/yhyx/IP-JSKJ-HD.m3u8
-#EXTINF:-1,tvg-id="东方财经" tvg-name="东方财经" tvg-logo="https://11.112114.xyz/logo/东方财经.png" group-title="YHYX-其他",东方财经-YHYX
-http://58.240.140.71:35455/yhyx/IP-DFCJ-HD.m3u8
-#EXTINF:-1,tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://11.112114.xyz/logo/金鹰卡通.png" group-title="YHYX-其他",金鹰卡通-YHYX
-http://58.240.140.71:35455/yhyx/IP-JYKT-HD.m3u8
-#EXTINF:-1,tvg-id="劲爆体育" tvg-name="劲爆体育" tvg-logo="https://11.112114.xyz/logo/劲爆体育.png" group-title="YHYX-其他",劲爆体育-YHYX
-http://58.240.140.71:35455/yhyx/IP-JBTY-HD.m3u8
-#EXTINF:-1,tvg-id="游戏风云" tvg-name="游戏风云" tvg-logo="https://11.112114.xyz/logo/游戏风云.png" group-title="YHYX-其他",游戏风云-YHYX
-http://58.240.140.71:35455/yhyx/IP-YXFY-HD.m3u8
-#EXTINF:-1,tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="https://11.112114.xyz/logo/都市剧场.png" group-title="YHYX-其他",都市剧场-YHYX
-http://58.240.140.71:35455/yhyx/IP-DSJC-HD.m3u8
-#EXTINF:-1,tvg-id="生活时尚" tvg-name="生活时尚" tvg-logo="https://11.112114.xyz/logo/生活时尚.png" group-title="YHYX-其他",生活时尚-YHYX
-http://58.240.140.71:35455/yhyx/IP-SHSS-HD.m3u8
-#EXTINF:-1,tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://11.112114.xyz/logo/动漫秀场.png" group-title="YHYX-其他",动漫秀场-YHYX
-http://58.240.140.71:35455/yhyx/IP-DMXC-HD.m3u8
-#EXTINF:-1,tvg-id="乐游频道" tvg-name="乐游频道" tvg-logo="https://11.112114.xyz/logo/乐游.png" group-title="YHYX-其他",乐游频道-YHYX
-http://58.240.140.71:35455/yhyx/IP-LY-HD.m3u8
-#EXTINF:-1,tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://11.112114.xyz/logo/快乐垂钓.png" group-title="YHYX-其他",快乐垂钓-YHYX
-http://58.240.140.71:35455/yhyx/IP-KLCD-HD.m3u8
-#EXTINF:-1,tvg-id="央视台球" tvg-name="央视台球" tvg-logo="https://11.112114.xyz/logo/央视台球.png" group-title="YHYX-其他",央视台球-YHYX
-http://58.240.140.71:35455/yhyx/IP-YSTQ-HD.m3u8
-#EXTINF:-1,tvg-id="江西电视指南" tvg-name="江西电视指南" tvg-logo="https://11.112114.xyz/logo/江西电视指南.png" group-title="YHYX-其他",电视指南-YHYX
-http://58.240.140.71:35455/yhyx/IP-DSZN-HD.m3u8
-#EXTINF:-1,tvg-id="央视精品" tvg-name="央视精品" tvg-logo="https://11.112114.xyz/logo/央视精品.png" group-title="YHYX-其他",央视精品-YHYX
-http://58.240.140.71:35455/yhyx/IP-YSJP-HD.m3u8
-#EXTINF:-1,tvg-id="风云音乐" tvg-name="风云音乐" tvg-logo="https://11.112114.xyz/logo/风云音乐.png" group-title="YHYX-其他",风云音乐-YHYX
-http://58.240.140.71:35455/yhyx/IP-FYYY-HD.m3u8
-#EXTINF:-1,tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://11.112114.xyz/logo/怀旧剧场.png" group-title="YHYX-其他",怀旧剧场-YHYX
-http://58.240.140.71:35455/yhyx/IP-HJJC-HD.m3u8
-#EXTINF:-1,tvg-id="风云足球" tvg-name="风云足球" tvg-logo="https://11.112114.xyz/logo/风云足球.png" group-title="YHYX-其他",风云足球-YHYX
-http://58.240.140.71:35455/yhyx/IP-FYZQ-HD.m3u8
-#EXTINF:-1,tvg-id="风云剧场" tvg-name="风云剧场" tvg-logo="https://11.112114.xyz/logo/风云剧场.png" group-title="YHYX-其他",风云剧场-YHYX
-http://58.240.140.71:35455/yhyx/IP-FYJC-HD.m3u8
-#EXTINF:-1,tvg-id="第一剧场" tvg-name="第一剧场" tvg-logo="https://11.112114.xyz/logo/第一剧场.png" group-title="YHYX-其他",第一剧场-YHYX
-http://58.240.140.71:35455/yhyx/IP-DYJC-HD.m3u8
-#EXTINF:-1,tvg-id="世界地理" tvg-name="世界地理" tvg-logo="https://11.112114.xyz/logo/世界地理.png" group-title="YHYX-其他",世界地理-YHYX
-http://58.240.140.71:35455/yhyx/IP-SJDL-HD.m3u8
-#EXTINF:-1,tvg-id="武术世界" tvg-name="武术世界" tvg-logo="https://11.112114.xyz/logo/武术世界.png" group-title="YHYX-其他",武术世界-YHYX
-http://58.240.140.71:35455/yhyx/IP-WSSJ-HD.m3u8
-#EXTINF:-1,tvg-id="兵器科技" tvg-name="兵器科技" tvg-logo="https://11.112114.xyz/logo/兵器科技.png" group-title="YHYX-其他",兵器科技-YHYX
-http://58.240.140.71:35455/yhyx/IP-BQKJ-HD.m3u8
-#EXTINF:-1,tvg-id="高尔夫网球" tvg-name="高尔夫网球" tvg-logo="https://11.112114.xyz/logo/高尔夫网球.png" group-title="YHYX-其他",高尔夫网球-YHYX
-http://58.240.140.71:35455/yhyx/IP-GEFWQ-HD.m3u8
-#EXTINF:-1,tvg-id="女性时尚" tvg-name="女性时尚" tvg-logo="https://11.112114.xyz/logo/女性时尚.png" group-title="YHYX-其他",女性时尚-YHYX
-http://58.240.140.71:35455/yhyx/IP-NXSS-HD.m3u8
 
 #EXTINF:-1 tvg-name="翡翠台" group-title="港澳台",翡翠台4K
 http://cdn.veryfast.filegear-sg.me/live/fct4k/stream.m3u8
