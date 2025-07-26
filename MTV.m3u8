@@ -117,116 +117,116 @@ http://61.216.11.93:49981/stream/channelid/166215564.m3u8
 
 
 #EXTINF:-1,tvg-id="华数4K" tvg-name="华数爱上4K" tvg-logo="https://epg.v1.mk/logo/华数4K.png" group-title="北京IPTV",华数爱上4K
-http://125.33.209.160:9188/rtp/239.3.1.236:2000
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.236:2000
 #EXTINF:-1,tvg-id="北京IPTV4K" tvg-name="北京IPTV4K" tvg-logo="https://epg.v1.mk/logo/北京IPTV4K.png" group-title="北京IPTV",北京IPTV4K超清
-http://125.33.209.160:9188/rtp/239.3.1.249:8001
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.249:8001
 #EXTINF:-1,tvg-id="北京IPTV淘电影" tvg-name="北京IPTV淘电影" tvg-logo="https://epg.v1.mk/logo/北京IPTV淘电影.png" group-title="北京IPTV",北京IPTV淘电影
-http://125.33.209.160:9188/rtp/239.3.1.250:8001
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.250:8001
 #EXTINF:-1,tvg-id="北京IPTV淘剧场" tvg-name="北京IPTV淘剧场" tvg-logo="https://epg.v1.mk/logo/北京IPTV淘剧场.png" group-title="北京IPTV",北京IPTV淘剧场
-http://125.33.209.160:9188/rtp/239.3.1.95:8001
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.95:8001
 #EXTINF:-1,tvg-id="北京IPTV淘娱乐" tvg-name="北京IPTV淘娱乐" tvg-logo="https://epg.v1.mk/logo/北京IPTV淘娱乐.png" group-title="北京IPTV",北京IPTV淘娱乐
-http://125.33.209.160:9188/rtp/239.3.1.100:8001
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.100:8001
 #EXTINF:-1,tvg-id="北京IPTV淘BABY" tvg-name="北京IPTV淘BABY" tvg-logo="https://epg.v1.mk/logo/北京IPTV淘BABY.png" group-title="北京IPTV",北京IPTV淘BABY
-http://125.33.209.160:9188/rtp/239.3.1.238:8001
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.238:8001
 #EXTINF:-1,tvg-id="北京IPTV萌宠TV" tvg-name="北京IPTV萌宠TV" tvg-logo="https://epg.v1.mk/logo/北京IPTV萌宠TV.png" group-title="北京IPTV",北京IPTV萌宠TV
-http://125.33.209.160:9188/rtp/239.3.1.102:8001
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.102:8001
 #EXTINF:-1,tvg-id="BRTV_ART" tvg-name="BRTV北京卫视4K" tvg-logo="https://fy.188766.xyz/logo/fanmingming/live/tv/北京卫视4K.png" group-title="北京IPTV",BRTV北京卫视4K
-http://125.33.209.160:9188/rtp/239.3.1.22:8001
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.22:8001
 #EXTINF:-1,tvg-id="BRTV_ART" tvg-name="BRTV深圳卫视4K" tvg-logo="https://fy.188766.xyz/logo/sln162/iptv-back/logo/深圳卫视4K.png" group-title="北京IPTV",BRTV深圳卫视4K
-http://125.33.209.160:9188/rtp/239.3.1.202:2000
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.202:2000
 #EXTINF:-1,tvg-id="BRTV_ART" tvg-name="BRTV广东卫视4K" tvg-logo="https://fy.188766.xyz/logo/sln162/iptv-back/logo/广东卫视4K.png" group-title="北京IPTV",BRTV广东卫视4K
-http://125.33.209.160:9188/rtp/239.3.1.203:2000
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.203:2000
 #EXTINF:-1,tvg-id="CCTV4K超高清" tvg-name="CCTV4K超高清" tvg-logo="https://epg.v1.mk/logo/CCTV4K超高清.png" group-title="北京IPTV",CCTV-4K 超高清[超清HDR]
-http://125.33.209.160:9188/rtp/239.3.1.245:2000
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.245:2000
 
 
 
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV-1 综合[高清]" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="北京IPTV",CCTV-1 综合[高清]
-http://125.33.209.160:9188/rtp/239.3.1.129:8008
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.129:8008
 #EXTINF:-1,tvg-id="cctv2" tvg-name="CCTV-2 财经[高清]" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="北京IPTV",CCTV-2 财经[高清]
-http://125.33.209.160:9188/rtp/239.3.1.60:8084
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.60:8084
 #EXTINF:-1,tvg-id="cctv3" tvg-name="CCTV-3 综艺[高清]" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="北京IPTV",CCTV-3 综艺[高清]
-http://125.33.209.160:9188/rtp/239.3.1.172:8001
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.172:8001
 #EXTINF:-1,tvg-id="cctv4" tvg-name="CCTV-4 中文国际[高清]" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="北京IPTV",CCTV-4 中文国际[高清]
-http://125.33.209.160:9188/rtp/239.3.1.105:8092
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.105:8092
 #EXTINF:-1,tvg-id="cctv4" tvg-name="CCTV-4 中文国际 欧洲[高清]" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="北京IPTV",CCTV-4 中文国际 欧洲[高清]
-http://125.33.209.160:9188/rtp/239.3.1.213:4220
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.213:4220
 #EXTINF:-1,tvg-id="cctv4" tvg-name="CCTV-4 中文国际 美洲[高清]" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="北京IPTV",CCTV-4 中文国际 美洲[高清]
-http://125.33.209.160:9188/rtp/239.3.1.214:4220
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.214:4220
 #EXTINF:-1,tvg-id="cctv5" tvg-name="CCTV-5 体育[高清]" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="北京IPTV",CCTV-5 体育[高清]
-http://125.33.209.160:9188/rtp/239.3.1.173:8001
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.173:8001
 #EXTINF:-1,tvg-id="cctv5+" tvg-name="CCTV-5+ 体育赛事[高清]" tvg-logo="https://epg.v1.mk/logo/cctv5+.png" group-title="北京IPTV",CCTV-5+ 体育赛事[高清]
-http://125.33.209.160:9188/rtp/239.3.1.130:8004
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.130:8004
 #EXTINF:-1,tvg-id="cctv6" tvg-name="CCTV-6 电影[高清]" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="北京IPTV",CCTV-6 电影[高清]
-http://125.33.209.160:9188/rtp/239.3.1.174:8001
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.174:8001
 #EXTINF:-1,tvg-id="CCTV7" tvg-name="CCTV-7 国防军事[高清]" tvg-logo="https://epg.v1.mk/logo/CCTV7.png" group-title="北京IPTV",CCTV-7 国防军事[高清]
-http://125.33.209.160:9188/rtp/239.3.1.61:8104
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.61:8104
 #EXTINF:-1,tvg-id="cctv8" tvg-name="CCTV-8 电视剧[高清]" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="北京IPTV",CCTV-8 电视剧[高清]
-http://125.33.209.160:9188/rtp/239.3.1.175:8001
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.175:8001
 #EXTINF:-1,tvg-id="cctv9" tvg-name="CCTV-9 纪录[高清]" tvg-logo="https://epg.v1.mk/logo/cctv9.png" group-title="北京IPTV",CCTV-9 纪录[高清]
-http://125.33.209.160:9188/rtp/239.3.1.62:8112
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.62:8112
 #EXTINF:-1,tvg-id="cctv10" tvg-name="CCTV-10 科教[高清]" tvg-logo="https://epg.v1.mk/logo/cctv10.png" group-title="北京IPTV",CCTV-10 科教[高清]
-http://125.33.209.160:9188/rtp/239.3.1.63:8116
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.63:8116
 #EXTINF:-1,tvg-id="cctv11" tvg-name="CCTV-11 戏曲[高清]" tvg-logo="https://epg.v1.mk/logo/cctv11.png" group-title="北京IPTV",CCTV-11 戏曲[高清]
-http://125.33.209.160:9188/rtp/239.3.1.152:8120
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.152:8120
 #EXTINF:-1,tvg-id="cctv12" tvg-name="CCTV-12 社会与法[高清]" tvg-logo="https://epg.v1.mk/logo/cctv12.png" group-title="北京IPTV",CCTV-12 社会与法[高清]
-http://125.33.209.160:9188/rtp/239.3.1.64:8124
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.64:8124
 #EXTINF:-1,tvg-id="cctv13" tvg-name="CCTV-13 新闻[高清]" tvg-logo="https://epg.v1.mk/logo/cctv13.png" group-title="北京IPTV",CCTV-13 新闻[高清]
-http://125.33.209.160:9188/rtp/239.3.1.124:8128
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.124:8128
 #EXTINF:-1,tvg-id="cctv14" tvg-name="CCTV-14 少儿[高清]" tvg-logo="https://epg.v1.mk/logo/cctv14.png" group-title="北京IPTV",CCTV-14 少儿[高清]
-http://125.33.209.160:9188/rtp/239.3.1.65:8132
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.65:8132
 #EXTINF:-1,tvg-id="cctv15" tvg-name="CCTV-15 音乐[高清]" tvg-logo="https://epg.v1.mk/logo/cctv15.png" group-title="北京IPTV",CCTV-15 音乐[高清]
-http://125.33.209.160:9188/rtp/239.3.1.153:8136
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.153:8136
 #EXTINF:-1,tvg-id="cctv16" tvg-name="CCTV-16 奥林匹克[高清]" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="北京IPTV",CCTV-16 奥林匹克[高清]
-http://125.33.209.160:9188/rtp/239.3.1.184:8001
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.184:8001
 #EXTINF:-1,tvg-id="cctv17" tvg-name="CCTV-17 农业农村[高清]" tvg-logo="https://epg.v1.mk/logo/cctv17.png" group-title="北京IPTV",CCTV-17 农业农村[高清]
-http://125.33.209.160:9188/rtp/239.3.1.151:8144
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.151:8144
 #EXTINF:-1,tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://epg.v1.mk/logo/湖南卫视.png" group-title="北京IPTV",湖南卫视[高清]
-http://125.33.209.160:9188/rtp/239.3.1.132:8012
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.132:8012
 #EXTINF:-1,tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://epg.v1.mk/logo/东方卫视.png" group-title="北京IPTV",东方卫视[高清]
-http://125.33.209.160:9188/rtp/239.3.1.136:8032
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.136:8032
 #EXTINF:-1,tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.v1.mk/logo/浙江卫视.png" group-title="北京IPTV",浙江卫视[高清]
-http://125.33.209.160:9188/rtp/239.3.1.137:8036
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.137:8036
 #EXTINF:-1,tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://epg.v1.mk/logo/江苏卫视.png" group-title="北京IPTV",江苏卫视[高清]
-http://125.33.209.160:9188/rtp/239.3.1.135:8028
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.135:8028
 #EXTINF:-1,tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://epg.v1.mk/logo/安徽卫视.png" group-title="北京IPTV",安徽卫视[高清]
-http://125.33.209.160:9188/rtp/239.3.1.211:8064
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.211:8064
 #EXTINF:-1,tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://epg.v1.mk/logo/天津卫视.png" group-title="北京IPTV",天津卫视[高清]
-http://125.33.209.160:9188/rtp/239.3.1.141:1234
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.141:1234
 #EXTINF:-1,tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://epg.v1.mk/logo/重庆卫视.png" group-title="北京IPTV",重庆卫视[高清]
-http://125.33.209.160:9188/rtp/239.3.1.122:8160
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.122:8160
 #EXTINF:-1,tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://epg.v1.mk/logo/山东卫视.png" group-title="北京IPTV",山东卫视[高清]
-http://125.33.209.160:9188/rtp/239.3.1.209:8052
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.209:8052
 #EXTINF:-1,tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://epg.v1.mk/logo/黑龙江卫视.png" group-title="北京IPTV",黑龙江卫视[高清]
-http://125.33.209.160:9188/rtp/239.3.1.133:8016
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.133:8016
 #EXTINF:-1,tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://epg.v1.mk/logo/河北卫视.png" group-title="北京IPTV",河北卫视[高清]
-http://125.33.209.160:9188/rtp/239.3.1.148:8072
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.148:8072
 #EXTINF:-1,tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://epg.v1.mk/logo/河南卫视.png" group-title="北京IPTV",河南卫视[高清]
-http://125.33.209.160:9188/rtp/239.3.1.50:8184
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.50:8184
 #EXTINF:-1,tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://epg.v1.mk/logo/辽宁卫视.png" group-title="北京IPTV",辽宁卫视[高清]
-http://125.33.209.160:9188/rtp/239.3.1.210:8056
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.210:8056
 #EXTINF:-1,tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://epg.v1.mk/logo/湖北卫视.png" group-title="北京IPTV",湖北卫视[高清]
-http://125.33.209.160:9188/rtp/239.3.1.138:8044
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.138:8044
 #EXTINF:-1,tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://epg.v1.mk/logo/吉林卫视.png" group-title="北京IPTV",吉林卫视[高清]
-http://125.33.209.160:9188/rtp/239.3.1.240:8172
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.240:8172
 #EXTINF:-1,tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://epg.v1.mk/logo/贵州卫视.png" group-title="北京IPTV",贵州卫视[高清]
-http://125.33.209.160:9188/rtp/239.3.1.149:8076
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.149:8076
 #EXTINF:-1,tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://epg.v1.mk/logo/东南卫视.png" group-title="北京IPTV",东南卫视[高清]
-http://125.33.209.160:9188/rtp/239.3.1.156:8148
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.156:8148
 #EXTINF:-1,tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://epg.v1.mk/logo/江西卫视.png" group-title="北京IPTV",江西卫视[高清]
-http://125.33.209.160:9188/rtp/239.3.1.123:8164
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.123:8164
 #EXTINF:-1,tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://epg.v1.mk/logo/甘肃卫视.png" group-title="北京IPTV",甘肃卫视[高清]
-http://125.33.209.160:9188/rtp/239.3.1.201:8180
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.201:8180
 #EXTINF:-1,tvg-id="睛彩竞技" tvg-name="睛彩竞技" tvg-logo="https://epg.v1.mk/logo/睛彩竞技.png" group-title="北京IPTV",睛彩竞技[高清]
-http://125.33.209.160:9188/rtp/239.3.1.125:8001
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.125:8001
 #EXTINF:-1,tvg-id="睛彩篮球" tvg-name="睛彩篮球" tvg-logo="https://epg.v1.mk/logo/睛彩篮球.png" group-title="北京IPTV",睛彩篮球[高清]
-http://125.33.209.160:9188/rtp/239.3.1.126:8001
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.126:8001
 #EXTINF:-1,tvg-id="H睛彩中原" tvg-name="H睛彩中原" tvg-logo="https://epg.v1.mk/logo/H睛彩中原.png" group-title="北京IPTV",睛彩青少[高清]
-http://125.33.209.160:9188/rtp/239.3.1.127:8001
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.127:8001
 #EXTINF:-1,tvg-id="睛彩广场舞" tvg-name="睛彩广场舞" tvg-logo="https://epg.v1.mk/logo/睛彩广场舞.png" group-title="北京IPTV",睛彩广场舞[高清]
-http://125.33.209.160:9188/rtp/239.3.1.128:8001
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.128:8001
 #EXTINF:-1,tvg-id="魅力足球" tvg-name="魅力足球" tvg-logo="https://epg.v1.mk/logo/魅力足球.png" group-title="北京IPTV",魅力足球[高清]
-http://125.33.209.160:9188/rtp/239.3.1.201:8001
+http://xiaomayi.ddns.net:9188/rtp/239.3.1.201:8001
 
 
 
