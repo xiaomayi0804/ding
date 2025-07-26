@@ -459,284 +459,120 @@ http://s1.an94tv.cfd/aktv/animaxhk/AKTV.m3u8
 
 
 
-#EXTINF:-1,tvg-id="中天新闻2台" tvg-name="中天新闻2台" tvg-logo="https://epg.v1.mk/logo/中天新闻2台.png" group-title="4GTV",中天新闻4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv009
-#EXTINF:-1,tvg-id="寰宇新闻" tvg-name="寰宇新闻" tvg-logo="https://epg.v1.mk/logo/寰宇新闻.png" group-title="4GTV",寰宇新闻4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn14
-#EXTINF:-1,tvg-id="东森新闻" tvg-name="东森新闻" tvg-logo="https://epg.v1.mk/logo/东森新闻.png" group-title="4GTV",东森新闻4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv152
-#EXTINF:-1,tvg-id="TVBS新闻" tvg-name="TVBS新闻" tvg-logo="https://epg.v1.mk/logo/TVBS新闻.png" group-title="4GTV",tvbs新闻4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv072
-#EXTINF:-1,tvg-id="三立新闻" tvg-name="三立新闻" tvg-logo="https://epg.v1.mk/logo/三立新闻.png" group-title="4GTV",三立新闻4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live089
-#EXTINF:-1,tvg-id="三立新闻" tvg-name="三立新闻" tvg-logo="https://epg.v1.mk/logo/三立新闻.png" group-title="4GTV",三立新闻4Gtv
-https://www.judy.xx.kg/judy.php?id=iNEWS
-#EXTINF:-1,tvg-id="非凡新闻" tvg-name="非凡新闻" tvg-logo="https://epg.v1.mk/logo/非凡新闻.png" group-title="4GTV",非凡新闻4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv010
-#EXTINF:-1,tvg-id="泉州闽南语" tvg-name="泉州闽南语" tvg-logo="https://epg.v1.mk/logo/泉州闽南语.png" group-title="4GTV",闽镜新闻4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv075
-#EXTINF:-1,tvg-id="民视新闻" tvg-name="民视新闻" tvg-logo="https://epg.v1.mk/logo/民视新闻.png" group-title="4GTV",民视新闻4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-ftv13
-#EXTINF:-1,tvg-id="中视新闻" tvg-name="中视新闻" tvg-logo="https://epg.v1.mk/logo/中视新闻.png" group-title="4GTV",中视新闻4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv074
-#EXTINF:-1,tvg-id="华视新闻" tvg-name="华视新闻" tvg-logo="https://epg.v1.mk/logo/华视新闻.png" group-title="4GTV",华视新闻4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv052
-#EXTINF:-1,tvg-id="台视新闻" tvg-name="台视新闻" tvg-logo="https://epg.v1.mk/logo/台视新闻.png" group-title="4GTV",台视新闻4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv051
-#EXTINF:-1,tvg-id="民视" tvg-name="民视" tvg-logo="https://epg.v1.mk/logo/民视.png" group-title="4GTV",民视4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv002
-#EXTINF:-1,tvg-id="民视" tvg-name="民视" tvg-logo="https://epg.v1.mk/logo/民视.png" group-title="4GTV",民视4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv155
-#EXTINF:-1,tvg-id="CCTV-中视购物" tvg-name="CCTV-中视购物" tvg-logo="https://epg.v1.mk/logo/CCTV-中视购物.png" group-title="4GTV",中视4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv040
-#EXTINF:-1,tvg-id="华视" tvg-name="华视" tvg-logo="https://epg.v1.mk/logo/华视.png" group-title="4GTV",华视4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv041
-#EXTINF:-1,tvg-id="台视" tvg-name="台视" tvg-logo="https://epg.v1.mk/logo/台视.png" group-title="4GTV",台视4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv066
-#EXTINF:-1,tvg-id="寰宇HD综合" tvg-name="寰宇HD综合" tvg-logo="https://epg.v1.mk/logo/寰宇HD综合.png" group-title="4GTV",寰宇4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv156
-#EXTINF:-1,tvg-id="200TVBS台劇台" tvg-name="200TVBS台劇台" tvg-logo="https://epg.v1.mk/logo/200TVBS台劇台.png" group-title="4GTV",tvbs4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv073
-#EXTINF:-1,tvg-id="民视台湾台" tvg-name="民视台湾台" tvg-logo="https://epg.v1.mk/logo/民视台湾台.png" group-title="台湾",民视台湾4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv001
-#EXTINF:-1,tvg-id="民视第一" tvg-name="民视第一" tvg-logo="https://epg.v1.mk/logo/民视第一.png" group-title="4GTV",民视第一4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv003
-#EXTINF:-1,tvg-id="民视旅游" tvg-name="民视旅游" tvg-logo="https://epg.v1.mk/logo/民视旅游.png" group-title="4GTV",民视旅游4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-ftv07
-#EXTINF:-1,tvg-id="民视影剧" tvg-name="民视影剧" tvg-logo="https://epg.v1.mk/logo/民视影剧.png" group-title="4GTV",民视影剧4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-ftv09
-#EXTINF:-1,tvg-id="民视综艺" tvg-name="民视综艺" tvg-logo="https://epg.v1.mk/logo/民视综艺.png" group-title="4GTV",民视综艺4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv004
-#EXTINF:-1,tvg-id="中视菁采" tvg-name="中视菁采" tvg-logo="https://epg.v1.mk/logo/中视菁采.png" group-title="4GTV",中视菁采4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv064
-#EXTINF:-1,tvg-id="中视经典" tvg-name="中视经典" tvg-logo="https://epg.v1.mk/logo/中视经典.png" group-title="4GTV",中视经典4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv080
-#EXTINF:-1,tvg-id="台视财经台" tvg-name="台视财经台" tvg-logo="https://epg.v1.mk/logo/台视财经台.png" group-title="4GTV",台视财经4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv056
-#EXTINF:-1,tvg-id="公视戏剧" tvg-name="公视戏剧" tvg-logo="https://epg.v1.mk/logo/公视戏剧.png" group-title="4GTV",公视戏剧4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv042
-#EXTINF:-1,tvg-id="ELTA戏剧" tvg-name="ELTA戏剧" tvg-logo="https://epg.v1.mk/logo/ELTA戏剧.png" group-title="4GTV",戏剧4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn22
-#EXTINF:-1,tvg-id="HOY国际财经台" tvg-name="HOY国际财经台" tvg-logo="https://epg.v1.mk/logo/HOY国际财经台.png" group-title="4GTV",国际财经4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv104
-#EXTINF:-1,tvg-id="SBN全球财经" tvg-name="SBN全球财经" tvg-logo="https://epg.v1.mk/logo/SBN全球财经.png" group-title="4GTV",全球财经4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live060
-#EXTINF:-1,tvg-id="东森财经" tvg-name="东森财经" tvg-logo="https://epg.v1.mk/logo/东森财经.png" group-title="4GTV",东森财经4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv153
-#EXTINF:-1,tvg-id="寰宇财经" tvg-name="寰宇财经" tvg-logo="https://epg.v1.mk/logo/寰宇财经.png" group-title="4GTV",寰宇财经4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv158
-#EXTINF:-1,tvg-id="CNBC Asia Channel" tvg-name="CNBC Asia Channel" tvg-logo="https://epg.v1.mk/logo/CNBC Asia Channel.png" group-title="4GTV",cnbc财经4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live130
-#EXTINF:-1,tvg-id="TVBS精采" tvg-name="TVBS精采" tvg-logo="https://epg.v1.mk/logo/TVBS精采.png" group-title="4GTV",tvbs精采4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv067
-#EXTINF:-1,tvg-id="TVBS欢乐" tvg-name="TVBS欢乐" tvg-logo="https://epg.v1.mk/logo/TVBS欢乐.png" group-title="4GTV",tvbs欢乐4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv068
-#EXTINF:-1,tvg-id="200TVBS台劇台" tvg-name="200TVBS台劇台" tvg-logo="https://epg.v1.mk/logo/200TVBS台劇台.png" group-title="4GTV",tvbs综艺4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live087
-#EXTINF:-1,tvg-id="200TVBS台劇台" tvg-name="200TVBS台劇台" tvg-logo="https://epg.v1.mk/logo/200TVBS台劇台.png" group-title="4GTV",tvbs台剧4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live088
-#EXTINF:-1,tvg-id="八大精彩" tvg-name="八大精彩" tvg-logo="https://epg.v1.mk/logo/八大精彩.png" group-title="4GTV",八大精彩4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv034
-#EXTINF:-1,tvg-id="八大综艺" tvg-name="八大综艺" tvg-logo="https://epg.v1.mk/logo/八大综艺.png" group-title="4GTV",八大综艺4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv039
-#EXTINF:-1,tvg-id="三立综合" tvg-name="三立综合" tvg-logo="https://epg.v1.mk/logo/三立综合.png" group-title="4GTV",三立综合4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live207
-#EXTINF:-1,tvg-id="amc最爱电影" tvg-name="amc最爱电影" tvg-logo="https://epg.v1.mk/logo/amc最爱电影.png" group-title="4GTV",爱达娱乐4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv070
-#EXTINF:-1,tvg-id="靖洋戏剧" tvg-name="靖洋戏剧" tvg-logo="https://epg.v1.mk/logo/靖洋戏剧.png" group-title="4GTV",靖洋戏剧4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv045
-#EXTINF:-1,tvg-id="靖洋卡通Nice Bingo" tvg-name="靖洋卡通Nice Bingo" tvg-logo="https://epg.v1.mk/logo/靖洋卡通Nice Bingo.png" group-title="4GTV",靖洋卡通4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv057
-#EXTINF:-1,tvg-id="靖天卡通" tvg-name="靖天卡通" tvg-logo="https://epg.v1.mk/logo/靖天卡通.png" group-title="4GTV",靖天卡通4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv044
-#EXTINF:-1,tvg-id="靖天综合" tvg-name="靖天综合" tvg-logo="https://epg.v1.mk/logo/靖天综合.png" group-title="4GTV",靖天综合4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv046
-#EXTINF:-1,tvg-id="靖天日本" tvg-name="靖天日本" tvg-logo="https://epg.v1.mk/logo/靖天日本.png" group-title="4GTV",靖天日本4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv047
-#EXTINF:-1,tvg-id="NICETV靖天欢乐" tvg-name="NICETV靖天欢乐" tvg-logo="https://epg.v1.mk/logo/NICETV靖天欢乐.png" group-title="4GTV",靖天欢乐4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv054
-#EXTINF:-1,tvg-id="靖天映画" tvg-name="靖天映画" tvg-logo="https://epg.v1.mk/logo/靖天映画.png" group-title="4GTV",靖天映画4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv055
-#EXTINF:-1,tvg-id="靖天戏剧" tvg-name="靖天戏剧" tvg-logo="https://epg.v1.mk/logo/靖天戏剧.png" group-title="4GTV",靖天戏剧4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv058
-#EXTINF:-1,tvg-id="靖天电影" tvg-name="靖天电影" tvg-logo="https://epg.v1.mk/logo/靖天电影.png" group-title="4GTV",靖天电影4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv061
-#EXTINF:-1,tvg-id="靖天育乐" tvg-name="靖天育乐" tvg-logo="https://epg.v1.mk/logo/靖天育乐.png" group-title="4GTV",靖天育乐4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv062
-#EXTINF:-1,tvg-id="KLT靖天国际" tvg-name="KLT靖天国际" tvg-logo="https://epg.v1.mk/logo/KLT靖天国际.png" group-title="4GTV",靖天国际4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv063
-#EXTINF:-1,tvg-id="靖天资讯" tvg-name="靖天资讯" tvg-logo="https://epg.v1.mk/logo/靖天资讯.png" group-title="4GTV",靖天资讯4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv065
-#EXTINF:-1,tvg-id="深圳龙华" tvg-name="深圳龙华" tvg-logo="https://epg.v1.mk/logo/深圳龙华.png" group-title="4GTV",龙华卡通4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn01
-#EXTINF:-1,tvg-id="龙华日韩" tvg-name="龙华日韩" tvg-logo="https://epg.v1.mk/logo/龙华日韩.png" group-title="4GTV",龙华日韩4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn11
-#EXTINF:-1,tvg-id="龙华偶像" tvg-name="龙华偶像" tvg-logo="https://epg.v1.mk/logo/龙华偶像.png" group-title="4GTV",龙华偶像4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn12
-#EXTINF:-1,tvg-id="龙华电影" tvg-name="龙华电影" tvg-logo="https://epg.v1.mk/logo/龙华电影.png" group-title="4GTV",龙华电影4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn03
-#EXTINF:-1,tvg-id="龙华洋片" tvg-name="龙华洋片" tvg-logo="https://epg.v1.mk/logo/龙华洋片.png" group-title="4GTV",龙华洋片4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn02
-#EXTINF:-1,tvg-id="龙华戏剧" tvg-name="龙华戏剧" tvg-logo="https://epg.v1.mk/logo/龙华戏剧.png" group-title="4GTV",龙华戏剧4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn18
-#EXTINF:-1,tvg-id="龙华经典" tvg-name="龙华经典" tvg-logo="https://epg.v1.mk/logo/龙华经典.png" group-title="4GTV",龙华经典4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn21
-#EXTINF:-1,tvg-id="国会频道1" tvg-name="国会频道1" tvg-logo="https://epg.v1.mk/logo/国会频道1.png" group-title="4GTV",国会频壹4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv084
-#EXTINF:-1,tvg-id="国会频道1" tvg-name="国会频道1" tvg-logo="https://epg.v1.mk/logo/国会频道1.png" group-title="4GTV",国会频贰4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv085
-#EXTINF:-1,tvg-id="好消息1台" tvg-name="好消息1台" tvg-logo="https://epg.v1.mk/logo/好消息1台.png" group-title="4GTV",好消息壹4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-ftv16
-#EXTINF:-1,tvg-id="好消息1台" tvg-name="好消息1台" tvg-logo="https://epg.v1.mk/logo/好消息1台.png" group-title="4GTV",好消息贰4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-ftv17
-#EXTINF:-1,tvg-id="大爱1" tvg-name="大爱1" tvg-logo="https://epg.v1.mk/logo/大爱1.png" group-title="4GTV",大爱壹高4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live007
-#EXTINF:-1,tvg-id="大爱1" tvg-name="大爱1" tvg-logo="https://epg.v1.mk/logo/大爱1.png" group-title="4GTV",大爱贰高4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live106
-#EXTINF:-1,tvg-id="人间卫视" tvg-name="人间卫视" tvg-logo="https://epg.v1.mk/logo/人间卫视.png" group-title="卫视",人间卫视4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live008
-#EXTINF:-1,tvg-id="原住民族电视" tvg-name="原住民族电视" tvg-logo="https://epg.v1.mk/logo/原住民族电视.png" group-title="4GTV",原住民族4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live014
-#EXTINF:-1,tvg-id="唐人亚太" tvg-name="唐人亚太" tvg-logo="https://epg.v1.mk/logo/唐人亚太.png" group-title="4GTV",唐人亚太4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live050
-#EXTINF:-1,tvg-id="智林体育" tvg-name="智林体育" tvg-logo="https://epg.v1.mk/logo/智林体育.png" group-title="4GTV",智林体育4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv101
-#EXTINF:-1,tvg-id="博斯魅力" tvg-name="博斯魅力" tvg-logo="https://epg.v1.mk/logo/博斯魅力.png" group-title="4GTV",博斯魅力4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn04
-#EXTINF:-1,tvg-id="博斯网球" tvg-name="博斯网球" tvg-logo="https://epg.v1.mk/logo/博斯网球.png" group-title="4GTV",博斯网球4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn09
-#EXTINF:-1,tvg-id="NEWTV武博世界" tvg-name="NEWTV武博世界" tvg-logo="https://epg.v1.mk/logo/NEWTV武博世界.png" group-title="4GTV",博高球壹4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn05
-#EXTINF:-1,tvg-id="NEWTV武博世界" tvg-name="NEWTV武博世界" tvg-logo="https://epg.v1.mk/logo/NEWTV武博世界.png" group-title="4GTV",博高球贰4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn06
-#EXTINF:-1,tvg-id="NEWTV武博世界" tvg-name="NEWTV武博世界" tvg-logo="https://epg.v1.mk/logo/NEWTV武博世界.png" group-title="4GTV",博运动壹4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn07
-#EXTINF:-1,tvg-id="NEWTV武博世界" tvg-name="NEWTV武博世界" tvg-logo="https://epg.v1.mk/logo/NEWTV武博世界.png" group-title="4GTV",博运动贰4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn08
-#EXTINF:-1,tvg-id="NEWTV武博世界" tvg-name="NEWTV武博世界" tvg-logo="https://epg.v1.mk/logo/NEWTV武博世界.png" group-title="4GTV",博无限壹4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn10
-#EXTINF:-1,tvg-id="NEWTV武博世界" tvg-name="NEWTV武博世界" tvg-logo="https://epg.v1.mk/logo/NEWTV武博世界.png" group-title="4GTV",博无限贰4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn13
-#EXTINF:-1,tvg-id="ARIRANG阿里郎" tvg-name="ARIRANG阿里郎" tvg-logo="https://epg.v1.mk/logo/ARIRANG阿里郎.png" group-title="4GTV",阿里郎台4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv079
-#EXTINF:-1,tvg-id="滚动力 rollor" tvg-name="滚动力 rollor" tvg-logo="https://epg.v1.mk/logo/滚动力 rollor.png" group-title="4GTV",滚动人生4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live012
-#EXTINF:-1,tvg-id="达文西" tvg-name="达文西" tvg-logo="https://epg.v1.mk/logo/达文西.png" group-title="4GTV",达文西台4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv018
-#EXTINF:-1,tvg-id="猪哥亮歌厅秀" tvg-name="猪哥亮歌厅秀" tvg-logo="https://epg.v1.mk/logo/猪哥亮歌厅秀.png" group-title="4GTV",猪哥亮厅4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv006
-#EXTINF:-1,tvg-id="亚洲旅游" tvg-name="亚洲旅游" tvg-logo="https://epg.v1.mk/logo/亚洲旅游.png" group-title="4GTV",亚洲旅游4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv076
-#EXTINF:-1,tvg-id="ELTA1" tvg-name="ELTA1" tvg-logo="https://epg.v1.mk/logo/ELTA1.png" group-title="4GTV",ELta旅游4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live120
-#EXTINF:-1,tvg-id="VOA美国之音" tvg-name="VOA美国之音" tvg-logo="https://epg.v1.mk/logo/VOA美国之音.png" group-title="4GTV",美国之音4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-ftv03
-#EXTINF:-1,tvg-id="半岛新闻" tvg-name="半岛新闻" tvg-logo="https://epg.v1.mk/logo/半岛新闻.png" group-title="4GTV",半岛新闻4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-ftv10
-#EXTINF:-1,tvg-id="非凡商业" tvg-name="非凡商业" tvg-logo="https://epg.v1.mk/logo/非凡商业.png" group-title="4GTV",非凡商业4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv048
-#EXTINF:-1,tvg-id="cctv-第一剧场" tvg-name="cctv-第一剧场" tvg-logo="https://epg.v1.mk/logo/cctv-第一剧场.png" group-title="4GTV",第壹商业4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv109
-#EXTINF:-1,tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="https://epg.v1.mk/logo/CHC影迷电影.png" group-title="4GTV",影迷纪实4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-ftv15
-#EXTINF:-1,tvg-id="IPTV经典电影1" tvg-name="IPTV经典电影1" tvg-logo="https://epg.v1.mk/logo/IPTV经典电影1.png" group-title="4GTV",经典电影4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live021
-#EXTINF:-1,tvg-id="经典卡通" tvg-name="经典卡通" tvg-logo="https://epg.v1.mk/logo/经典卡通.png" group-title="4GTV",经典卡通4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live022
-#EXTINF:-1,tvg-id="CIBN聚鲨精选" tvg-name="CIBN聚鲨精选" tvg-logo="https://epg.v1.mk/logo/CIBN聚鲨精选.png" group-title="4GTV",精选动漫4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live024
-#EXTINF:-1,tvg-id="ELTA戏剧" tvg-name="ELTA戏剧" tvg-logo="https://epg.v1.mk/logo/ELTA戏剧.png" group-title="4GTV",戏剧壹台4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live010
-#EXTINF:-1,tvg-id="古典音乐CLASSICAHD" tvg-name="古典音乐CLASSICAHD" tvg-logo="https://epg.v1.mk/logo/古典音乐CLASSICAHD.png" group-title="4GTV",古典音乐4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv059
-#EXTINF:-1,tvg-id="客家电视" tvg-name="客家电视" tvg-logo="https://epg.v1.mk/logo/客家电视.png" group-title="4GTV",客家电视4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv043
-#EXTINF:-1,tvg-id="视纳华仁纪实" tvg-name="视纳华仁纪实" tvg-logo="https://epg.v1.mk/logo/视纳华仁纪实.png" group-title="4GTV",华仁纪实4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv013
-#EXTINF:-1,tvg-id="时尚运动X" tvg-name="时尚运动X" tvg-logo="https://epg.v1.mk/logo/时尚运动X.png" group-title="4GTV",时尚运动4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv014
-#EXTINF:-1,tvg-id="幸福空间居家" tvg-name="幸福空间居家" tvg-logo="https://epg.v1.mk/logo/幸福空间居家.png" group-title="4GTV",空间居家4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live206
-#EXTINF:-1,tvg-id="ELTV生活英语" tvg-name="ELTV生活英语" tvg-logo="https://epg.v1.mk/logo/ELTV生活英语.png" group-title="4GTV",生活英语4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn20
-#EXTINF:-1,tvg-id="LIVEABC互动英语" tvg-name="LIVEABC互动英语" tvg-logo="https://epg.v1.mk/logo/LIVEABC互动英语.png" group-title="4GTV",互动英语4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live030
-#EXTINF:-1,tvg-id="采昌影剧" tvg-name="采昌影剧" tvg-logo="https://epg.v1.mk/logo/采昌影剧.png" group-title="4GTV",采昌影剧4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv049
-#EXTINF:-1,tvg-id="影迷数位电影" tvg-name="影迷数位电影" tvg-logo="https://epg.v1.mk/logo/影迷数位电影.png" group-title="4GTV",数位电影4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv011
-#EXTINF:-1,tvg-id="My Cinema Europe HD 我的欧洲电影" tvg-name="My Cinema Europe HD 我的欧洲电影" tvg-logo="https://epg.v1.mk/logo/My Cinema Europe HD 我的欧洲电影.png" group-title="4GTV",欧洲电影4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live157
-#EXTINF:-1,tvg-id="AMC电影台" tvg-name="AMC电影台" tvg-logo="https://epg.v1.mk/logo/AMC电影台.png" group-title="4GTV",Amc电影4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv017
-#EXTINF:-1,tvg-id="154CINEMAWORLD" tvg-name="154CINEMAWORLD" tvg-logo="https://epg.v1.mk/logo/154CINEMAWORLD.png" group-title="4GTV",CINEMA-4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live069
-#EXTINF:-1,tvg-id="ABCAUSTRALIA(1)" tvg-name="ABCAUSTRALIA(1)" tvg-logo="https://epg.v1.mk/logo/ABCAUSTRALIA(1).png" group-title="4GTV",TRA体育4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv077
-#EXTINF:-1,tvg-id="车迷" tvg-name="车迷" tvg-logo="https://epg.v1.mk/logo/车迷.png" group-title="4GTV",车迷体育4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live201
-#EXTINF:-1,tvg-id="SMART知識台" tvg-name="SMART知識台" tvg-logo="https://epg.v1.mk/logo/SMART知識台.png" group-title="4GTV",SMArt台4Gtv
-https://www.judy.xx.kg/judy.php?id=litv-longturn19
-#EXTINF:-1,tvg-id="CI罪案侦查" tvg-name="CI罪案侦查" tvg-logo="https://epg.v1.mk/logo/CI罪案侦查.png" group-title="4GTV",罪案侦查4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live027
-#EXTINF:-1,tvg-id="霹雳台湾台" tvg-name="霹雳台湾台" tvg-logo="https://epg.v1.mk/logo/霹雳台湾台.png" group-title="4GTV",霹雳布袋4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live145
-#EXTINF:-1,tvg-id="金光布袋戏" tvg-name="金光布袋戏" tvg-logo="https://epg.v1.mk/logo/金光布袋戏.png" group-title="4GTV",金光布袋4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live144
-#EXTINF:-1,tvg-id="NICKELODEONASIA(尼克儿童)" tvg-name="NICKELODEONASIA(尼克儿童)" tvg-logo="https://epg.v1.mk/logo/NICKELODEONASIA(尼克儿童).png" group-title="4GTV",nick动漫4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live032
-#EXTINF:-1,tvg-id="NICKELODEONASIA(尼克儿童)" tvg-name="NICKELODEONASIA(尼克儿童)" tvg-logo="https://epg.v1.mk/logo/NICKELODEONASIA(尼克儿童).png" group-title="4GTV",nick少儿4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live105
-#EXTINF:-1,tvg-id="MOMO亲子" tvg-name="MOMO亲子" tvg-logo="https://epg.v1.mk/logo/MOMO亲子.png" group-title="4GTV",MO-亲子4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live107
-#EXTINF:-1,tvg-id="DREAMWORKS" tvg-name="DREAMWORKS" tvg-logo="https://epg.v1.mk/logo/DREAMWORKS.png" group-title="4GTV",DreamW4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live017
-#EXTINF:-1,tvg-id="LUXETVCHANNEL" tvg-name="LUXETVCHANNEL" tvg-logo="https://epg.v1.mk/logo/LUXETVCHANNEL.png" group-title="4GTV",LUXE-TV4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live121
-#EXTINF:-1,tvg-id="CLASSIC ROCK" tvg-name="CLASSIC ROCK" tvg-logo="https://epg.v1.mk/logo/CLASSIC ROCK.png" group-title="4GTV",rock娱乐4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live080
-#EXTINF:-1,tvg-id="CLASSIC ROCK" tvg-name="CLASSIC ROCK" tvg-logo="https://epg.v1.mk/logo/CLASSIC ROCK.png" group-title="4GTV",rock电影4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live138
-#EXTINF:-1,tvg-id="HBOHITS" tvg-name="HBOHITS" tvg-logo="https://epg.v1.mk/logo/HBOHITS.png" group-title="4GTV",HItS电影4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live620
-#EXTINF:-1,tvg-id="20240101085721157TEMPIMAGE" tvg-name="20240101085721157TEMPIMAGE" tvg-logo="https://epg.v1.mk/logo/20240101085721157TEMPIMAGE.png" group-title="4GTV",magellan4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live123
-#EXTINF:-1,tvg-id="154CINEMAWORLD" tvg-name="154CINEMAWORLD" tvg-logo="https://epg.v1.mk/logo/154CINEMAWORLD.png" group-title="4GTV",INULTRa4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live096
-#EXTINF:-1,tvg-id="LIFETIME" tvg-name="LIFETIME" tvg-logo="https://epg.v1.mk/logo/LIFETIME.png" group-title="4GTV",LifeTime4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live029
-#EXTINF:-1,tvg-id="电影原声CMUSIC" tvg-name="电影原声CMUSIC" tvg-logo="https://epg.v1.mk/logo/电影原声CMUSIC.png" group-title="4GTV",电影原声4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live031
-#EXTINF:-1,tvg-id="MTVLIVEHD音乐" tvg-name="MTVLIVEHD音乐" tvg-logo="https://epg.v1.mk/logo/MTVLIVEHD音乐.png" group-title="4GTV",MTVLive4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live025
-#EXTINF:-1,tvg-id="PETCLUBTV" tvg-name="PETCLUBTV" tvg-logo="https://epg.v1.mk/logo/PETCLUBTV.png" group-title="4GTV",PETClUB4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live110
-#EXTINF:-1,tvg-id="IFUN" tvg-name="IFUN" tvg-logo="https://epg.v1.mk/logo/IFUN.png" group-title="4GTV",FUN娱乐4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live011
-#EXTINF:-1,tvg-id="韩国娱乐KMTV" tvg-name="韩国娱乐KMTV" tvg-logo="https://epg.v1.mk/logo/韩国娱乐KMTV.png" group-title="4GTV",韩国娱乐4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv016
-#EXTINF:-1,tvg-id="GLOBAL-NEWS" tvg-name="GLOBAL-NEWS" tvg-logo="https://epg.v1.mk/logo/GLOBAL-NEWS.png" group-title="4GTV",GLOBAL4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live112
-#EXTINF:-1,tvg-id="TVOKEY" tvg-name="TVOKEY" tvg-logo="https://epg.v1.mk/logo/TVOKEY.png" group-title="4GTV",TV5mon4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live122
-#EXTINF:-1,tvg-id="TRACEURBAN" tvg-name="TRACEURBAN" tvg-logo="https://epg.v1.mk/logo/TRACEURBAN.png" group-title="4GTV",TRACEU4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv082
-#EXTINF:-1,tvg-id="BLOOMBERG" tvg-name="BLOOMBERG" tvg-logo="https://epg.v1.mk/logo/BLOOMBERG.png" group-title="4GTV",BLoomb4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live059
-#EXTINF:-1,tvg-id="FRANCE24(English)" tvg-name="FRANCE24(English)" tvg-logo="https://epg.v1.mk/logo/FRANCE24(English).png" group-title="4GTV",FRANCE4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live146
-#EXTINF:-1,tvg-id="MEZZOLIVEHD" tvg-name="MEZZOLIVEHD" tvg-logo="https://epg.v1.mk/logo/MEZZOLIVEHD.png" group-title="4GTV",MEZZOl4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv083
-#EXTINF:-1,tvg-id="GINX Esports TV" tvg-name="GINX Esports TV" tvg-logo="https://epg.v1.mk/logo/GINX Esports TV.png" group-title="4GTV",GINX_TV4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-4gtv053
-#EXTINF:-1,tvg-id="ANIMALPLANETHDWORLD" tvg-name="ANIMALPLANETHDWORLD" tvg-logo="https://epg.v1.mk/logo/ANIMALPLANETHDWORLD.png" group-title="4GTV",DW-之声4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live071
-#EXTINF:-1,tvg-id="HISTORY2历史频道2" tvg-name="HISTORY2历史频道2" tvg-logo="https://epg.v1.mk/logo/HISTORY2历史频道2.png" group-title="4GTV",历史频道4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live026
-#EXTINF:-1,tvg-id="国家地理" tvg-name="国家地理" tvg-logo="https://epg.v1.mk/logo/国家地理.png" group-title="4GTV",国家地理4Gtv
-https://www.judy.xx.kg/judy.php?id=4gtv-live208
-#EXTINF:-1,tvg-id="SCTV6星空购物" tvg-name="SCTV6星空购物" tvg-logo="https://epg.v1.mk/logo/SCTV6星空购物.png" group-title="港澳台",星空电影频高
-http://iot-mqqt.111yao.cn:8080/live/diyp_starmovies.m3u8
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="山西IPTV",cctv1
+http://171.118.98.192:9003/hls/1/index.m3u8
+#EXTINF:-1,tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="山西IPTV",cctv2
+http://171.118.98.192:9003/hls/2/index.m3u8
+#EXTINF:-1,tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="山西IPTV",cctv3
+http://171.118.98.192:9003/hls/3/index.m3u8
+#EXTINF:-1,tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="山西IPTV",cctv4
+http://171.118.98.192:9003/hls/4/index.m3u8
+#EXTINF:-1,tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="山西IPTV",cctv5
+http://171.118.98.192:9003/hls/5/index.m3u8
+#EXTINF:-1,tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://epg.v1.mk/logo/cctv5+.png" group-title="山西IPTV",cctv5+
+http://171.118.98.192:9003/hls/6/index.m3u8
+#EXTINF:-1,tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="山西IPTV",cctv6
+http://171.118.98.192:9003/hls/7/index.m3u8
+#EXTINF:-1,tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.v1.mk/logo/CCTV7.png" group-title="山西IPTV",cctv7
+http://171.118.98.192:9003/hls/8/index.m3u8
+#EXTINF:-1,tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="山西IPTV",cctv8
+http://171.118.98.192:9003/hls/9/index.m3u8
+#EXTINF:-1,tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://epg.v1.mk/logo/cctv9.png" group-title="山西IPTV",cctv9
+http://171.118.98.192:9003/hls/10/index.m3u8
+#EXTINF:-1,tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://epg.v1.mk/logo/cctv10.png" group-title="山西IPTV",cctv10
+http://171.118.98.192:9003/hls/11/index.m3u8
+#EXTINF:-1,tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://epg.v1.mk/logo/cctv11.png" group-title="山西IPTV",cctv11
+http://171.118.98.192:9003/hls/12/index.m3u8
+#EXTINF:-1,tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://epg.v1.mk/logo/cctv12.png" group-title="山西IPTV",cctv12
+http://171.118.98.192:9003/hls/13/index.m3u8
+#EXTINF:-1,tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://epg.v1.mk/logo/cctv13.png" group-title="山西IPTV",cctv13
+http://171.118.98.192:9003/hls/14/index.m3u8
+#EXTINF:-1,tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://epg.v1.mk/logo/cctv14.png" group-title="山西IPTV",cctv14
+http://171.118.98.192:9003/hls/15/index.m3u8
+#EXTINF:-1,tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://epg.v1.mk/logo/cctv15.png" group-title="山西IPTV",cctv15
+http://171.118.98.192:9003/hls/16/index.m3u8
+#EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="山西IPTV",cctv16
+http://171.118.98.192:9003/hls/17/index.m3u8
+#EXTINF:-1,tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://epg.v1.mk/logo/cctv17.png" group-title="山西IPTV",cctv17
+http://171.118.98.192:9003/hls/18/index.m3u8
+#EXTINF:-1,tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://epg.v1.mk/logo/山西卫视.png" group-title="山西IPTV",山西卫视
+http://171.118.98.192:9003/hls/19/index.m3u8
+#EXTINF:-1,tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://epg.v1.mk/logo/北京卫视.png" group-title="山西IPTV",北京卫视
+http://171.118.98.192:9003/hls/20/index.m3u8
+#EXTINF:-1,tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://epg.v1.mk/logo/安徽卫视.png" group-title="山西IPTV",安徽卫视
+http://171.118.98.192:9003/hls/21/index.m3u8
+#EXTINF:-1,tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://epg.v1.mk/logo/重庆卫视.png" group-title="山西IPTV",重庆卫视
+http://171.118.98.192:9003/hls/22/index.m3u8
+#EXTINF:-1,tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://epg.v1.mk/logo/东方卫视.png" group-title="山西IPTV",东方卫视
+http://171.118.98.192:9003/hls/23/index.m3u8
+#EXTINF:-1,tvg-id="福建乡村公共频道" tvg-name="福建乡村公共频道" tvg-logo="https://epg.v1.mk/logo/福建乡村公共频道.png" group-title="山西IPTV",福建卫视
+http://171.118.98.192:9003/hls/24/index.m3u8
+#EXTINF:-1,tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://epg.v1.mk/logo/甘肃卫视.png" group-title="山西IPTV",甘肃卫视
+http://171.118.98.192:9003/hls/25/index.m3u8
+#EXTINF:-1,tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://epg.v1.mk/logo/广东卫视.png" group-title="山西IPTV",广东卫视
+http://171.118.98.192:9003/hls/26/index.m3u8
+#EXTINF:-1,tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://epg.v1.mk/logo/广西卫视.png" group-title="山西IPTV",广西卫视
+http://171.118.98.192:9003/hls/27/index.m3u8
+#EXTINF:-1,tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://epg.v1.mk/logo/海南卫视.png" group-title="山西IPTV",海南卫视
+http://171.118.98.192:9003/hls/28/index.m3u8
+#EXTINF:-1,tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://epg.v1.mk/logo/河北卫视.png" group-title="山西IPTV",河北卫视
+http://171.118.98.192:9003/hls/29/index.m3u8
+#EXTINF:-1,tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://epg.v1.mk/logo/河南卫视.png" group-title="山西IPTV",河南卫视
+http://171.118.98.192:9003/hls/30/index.m3u8
+#EXTINF:-1,tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://epg.v1.mk/logo/黑龙江卫视.png" group-title="山西IPTV",黑龙江卫视
+http://171.118.98.192:9003/hls/31/index.m3u8
+#EXTINF:-1,tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://epg.v1.mk/logo/湖北卫视.png" group-title="山西IPTV",湖北卫视
+http://171.118.98.192:9003/hls/32/index.m3u8
+#EXTINF:-1,tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://epg.v1.mk/logo/湖南卫视.png" group-title="山西IPTV",湖南卫视
+http://171.118.98.192:9003/hls/33/index.m3u8
+#EXTINF:-1,tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://epg.v1.mk/logo/吉林卫视.png" group-title="山西IPTV",吉林卫视
+http://171.118.98.192:9003/hls/34/index.m3u8
+#EXTINF:-1,tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://epg.v1.mk/logo/江苏卫视.png" group-title="山西IPTV",江苏卫视
+http://171.118.98.192:9003/hls/35/index.m3u8
+#EXTINF:-1,tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://epg.v1.mk/logo/江西卫视.png" group-title="山西IPTV",江西卫视
+http://171.118.98.192:9003/hls/36/index.m3u8
+#EXTINF:-1,tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://epg.v1.mk/logo/辽宁卫视.png" group-title="山西IPTV",辽宁卫视
+http://171.118.98.192:9003/hls/37/index.m3u8
+#EXTINF:-1,tvg-id="内蒙古WS" tvg-name="内蒙古WS" tvg-logo="https://epg.v1.mk/logo/内蒙古WS.png" group-title="山西IPTV",内蒙卫视
+http://171.118.98.192:9003/hls/38/index.m3u8
+#EXTINF:-1,tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://epg.v1.mk/logo/宁夏卫视.png" group-title="山西IPTV",宁夏卫视
+http://171.118.98.192:9003/hls/39/index.m3u8
+#EXTINF:-1,tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://epg.v1.mk/logo/青海卫视.png" group-title="山西IPTV",青海卫视
+http://171.118.98.192:9003/hls/40/index.m3u8
+#EXTINF:-1,tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://epg.v1.mk/logo/山东卫视.png" group-title="山西IPTV",山东卫视
+http://171.118.98.192:9003/hls/41/index.m3u8
+#EXTINF:-1,tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://epg.v1.mk/logo/陕西卫视.png" group-title="山西IPTV",陕西卫视
+http://171.118.98.192:9003/hls/42/index.m3u8
+#EXTINF:-1,tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://epg.v1.mk/logo/深圳卫视.png" group-title="山西IPTV",深圳卫视
+http://171.118.98.192:9003/hls/43/index.m3u8
+#EXTINF:-1,tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://epg.v1.mk/logo/四川卫视.png" group-title="山西IPTV",四川卫视
+http://171.118.98.192:9003/hls/44/index.m3u8
+#EXTINF:-1,tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://epg.v1.mk/logo/天津卫视.png" group-title="山西IPTV",天津卫视
+http://171.118.98.192:9003/hls/45/index.m3u8
+#EXTINF:-1,tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://epg.v1.mk/logo/西藏卫视.png" group-title="山西IPTV",西藏卫视
+http://171.118.98.192:9003/hls/46/index.m3u8
+#EXTINF:-1,tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://epg.v1.mk/logo/新疆卫视.png" group-title="山西IPTV",新疆卫视
+http://171.118.98.192:9003/hls/47/index.m3u8
+#EXTINF:-1,tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://epg.v1.mk/logo/云南卫视.png" group-title="山西IPTV",云南卫视
+http://171.118.98.192:9003/hls/48/index.m3u8
+#EXTINF:-1,tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.v1.mk/logo/浙江卫视.png" group-title="山西IPTV",浙江卫视
+http://171.118.98.192:9003/hls/49/index.m3u8
+#EXTINF:-1,tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://epg.v1.mk/logo/兵团卫视.png" group-title="山西IPTV",兵团卫视
+http://171.118.98.192:9003/hls/50/index.m3u8
+#EXTINF:-1,tvg-id="山西影视" tvg-name="山西影视" tvg-logo="https://epg.v1.mk/logo/山西影视.png" group-title="山西IPTV",山西影视
+http://171.118.98.192:9003/hls/51/index.m3u8
+#EXTINF:-1,tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://epg.v1.mk/logo/金鹰卡通.png" group-title="山西IPTV",金鹰卡通
+http://171.118.98.192:9003/hls/56/index.m3u8
+#EXTINF:-1,tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://epg.v1.mk/logo/卡酷少儿.png" group-title="山西IPTV",卡酷少儿
+http://171.118.98.192:9003/hls/57/index.m3u8
+#EXTINF:-1,tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://epg.v1.mk/logo/怀旧剧场.png" group-title="山西IPTV",怀旧剧场
+http://171.118.98.192:9003/hls/58/index.m3u8
+#EXTINF:-1,tvg-id="世界地理" tvg-name="世界地理" tvg-logo="https://epg.v1.mk/logo/世界地理.png" group-title="山西IPTV",世界地理
+http://171.118.98.192:9003/hls/59/index.m3u8
+#EXTINF:-1,tvg-id="第一剧场" tvg-name="第一剧场" tvg-logo="https://epg.v1.mk/logo/第一剧场.png" group-title="山西IPTV",第一剧场
+http://171.118.98.192:9003/hls/60/index.m3u8
+#EXTINF:-1,tvg-id="风云剧场" tvg-name="风云剧场" tvg-logo="https://epg.v1.mk/logo/风云剧场.png" group-title="山西IPTV",风云剧场
+http://171.118.98.192:9003/hls/61/index.m3u8
 
 
 
