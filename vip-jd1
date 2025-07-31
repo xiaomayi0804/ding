@@ -15,3 +15,4 @@ proxies:
   - {"type":"vless","name":"美国2.5G-eqo3pwb4","server":"us02.528965.xyz","port":31158,"uuid":"e6b6f680-797c-4354-b2d8-bad9adbe89ae","tls":true,"flow":"xtls-rprx-vision","client-fingerprint":"chrome","skip-cert-verify":false,"reality-opts":{"public-key":"m2_mTpJOzyR-Cy3r8Ryf-3lYPZ_zYheZz7twWq9fXX8","short-id":"9444ff"},"network":"tcp","servername":"www.hkust.edu.hk"}
   - {"type":"hysteria2","name":"🇸🇬 新加坡2 ⚡TG:@iamdt009","server":"47.236.104.81","port":12332,"password":"TtXjyZgkEG8vdzgLlgMUfxkDYw","skip-cert-verify":true,"tfo":false}
   - {"type":"ss","server":"2406:da1c:89c4:7406:26a:caca:890e:c2a5","port":57025,"cipher":"aes-256-gcm","password":"oOeFOci39T+QvA02e27PwAEVxdlZWwSQlf5Gx3oW8pQ=","name":"🇹🇼 aws-ipv6"}
+  - {"type":"hysteria2","name":"🇺🇸 美国02(hy2协议)","server":"us2.opk.icu","port":55503,"password":"75cf8fbc-6463-4bbe-90d4-1c70c96f1765","sni":"us2.opk.icu","skip-cert-verify":true,"tfo":false}
