@@ -76,6 +76,10 @@ http://192.168.124.111:35455/bst/cctv4k@15000000
 http://192.168.124.111:35455/bst/cctv16hd4k@15000000.m3u8
 
 
+#EXTINF:-1,tvg-id="NOW星影台" tvg-name="NOW星影台" tvg-logo="https://epg.v1.mk/logo/NOW星影台.png" group-title="港澳台",星影台
+http://j.s.bkpcp.top/js/nowxyt
+#EXTINF:-1,tvg-id="NOW爆谷台" tvg-name="[NOWTV]133爆谷台(普)" tvg-logo="https://epg.v1.mk/logo/[NOWTV]133爆谷台(普).png" group-title="港澳台",爆谷台
+http://j.s.bkpcp.top/js/nowbgt
 #EXTINF:-1,tvg-id="TVBS欢乐" tvg-name="TVBS欢乐" tvg-logo="https://epg.v1.mk/logo/TVBS欢乐.png" group-title="港澳台",tvbs欢乐高码
 http://test.iptv2asia.com:49981/stream/channelid/1607444205.m3u8
 #EXTINF:-1,tvg-id="东森超视" tvg-name="东森超视" tvg-logo="https://epg.v1.mk/logo/东森超视.png" group-title="港澳台",东森超视高码
