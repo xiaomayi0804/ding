@@ -381,62 +381,7 @@ https://edge.163189.xyz/163189/wxxw
 #EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.v1.mk/logo/凤凰资讯.png" group-title="港澳台",凤凰资讯
 https://edge.163189.xyz/163189/fhzx
 
-#EXTINF:-1, group-title="港澳台" tvg-name="myTV SUPER 18台" tvg-logo="http://bxtv.3a.ink/logo/MYTVSUPER18.png",myTV SUPER 18台
-http://bxtv.3a.ink/api.php?id=18
-#EXTINF:-1, group-title="港澳台" tvg-name="TVB Plus" tvg-logo="http://bxtv.3a.ink/logo/TVBPLUS.png",TVB Plus
-http://bxtv.3a.ink/api.php?id=tvbp
-#EXTINF:-1, group-title="港澳台" tvg-name="明珠台" tvg-logo="http://bxtv.3a.ink/logo/明珠.png",明珠台
-http://bxtv.3a.ink/api.php?id=mz
-#EXTINF:-1, group-title="港澳台" tvg-name="無線新聞台" tvg-logo="http://bxtv.3a.ink/logo/无线新闻.png",無線新聞台
-http://bxtv.3a.ink/api.php?id=wxxw
-#EXTINF:-1, group-title="港澳台" tvg-name="美亞電影台" tvg-logo="http://bxtv.3a.ink/logo/美亚电影.png",美亞電影台
-http://bxtv.3a.ink/api.php?id=meiya
-#EXTINF:-1, group-title="港澳台" tvg-name="翡翠台" tvg-logo="http://bxtv.3a.ink/logo/翡翠.png",翡翠台
-http://bxtv.3a.ink/api.php?id=fct
-#EXTINF:-1, group-title="港澳台" tvg-name="鳳凰衛視中文" tvg-logo="http://bxtv.3a.ink/logo/凤凰中文.png",鳳凰衛視中文台
-http://bxtv.3a.ink/api.php?id=fhzw
-#EXTINF:-1, group-title="港澳台" tvg-name="鳳凰衛視資訊" tvg-logo="http://bxtv.3a.ink/logo/凤凰资讯.png",鳳凰衛視資訊台
-http://bxtv.3a.ink/api.php?id=fhzx
-#EXTINF:-1, group-title="港澳台" tvg-name="鳳凰衛視香港" tvg-logo="http://bxtv.3a.ink/logo/凤凰香港.png",鳳凰衛視香港台
-http://bxtv.3a.ink/api.php?id=fhhk
-#EXTINF:-1, group-title="港澳台" tvg-name="緯來體育" tvg-logo="http://bxtv.3a.ink/logo/纬来体育.png",緯來體育
-http://bxtv.3a.ink/api.php?id=wlty
-#EXTINF:-1, group-title="港澳台" tvg-name="广东体育" tvg-logo="http://bxtv.3a.ink/logo/广东体育.png",广东体育
-http://bxtv.3a.ink/api.php?id=gdty
-#EXTINF:-1, group-title="港澳台" tvg-name="台視" tvg-logo="http://bxtv.3a.ink/logo/台视.png",台視
-http://bxtv.3a.ink/api.php?id=台視
-#EXTINF:-1, group-title="港澳台" tvg-name="台視新聞" tvg-logo="http://bxtv.3a.ink/logo/台视新闻.png",台視新聞
-http://bxtv.3a.ink/api.php?id=台視新聞
-#EXTINF:-1, group-title="港澳台" tvg-name="中視" tvg-logo="http://bxtv.3a.ink/logo/中视.png",中視
-http://bxtv.3a.ink/api.php?id=中視
-#EXTINF:-1, group-title="港澳台" tvg-name="中視新聞" tvg-logo="http://bxtv.3a.ink/logo/中视新闻.png",中視新聞
-http://bxtv.3a.ink/api.php?id=中視新聞
-#EXTINF:-1, group-title="港澳台" tvg-name="華視" tvg-logo="http://bxtv.3a.ink/logo/华视.png",華視
-http://bxtv.3a.ink/api.php?id=華視
-#EXTINF:-1, group-title="港澳台" tvg-name="華視新聞" tvg-logo="http://bxtv.3a.ink/logo/华视新闻.png",華視新聞
-http://bxtv.3a.ink/api.php?id=華視新聞
-#EXTINF:-1, group-title="港澳台" tvg-name="三立新聞iNEWS" tvg-logo="http://bxtv.3a.ink/logo/三立INEWS.png",三立新聞iNEWS
-http://bxtv.3a.ink/api.php?id=三立新聞iNEWS
-#EXTINF:-1, group-title="港澳台" tvg-name="中天新聞台" tvg-logo="http://bxtv.3a.ink/logo/中天新闻.png",中天新聞台
-http://bxtv.3a.ink/api.php?id=中天新聞
-#EXTINF:-1, group-title="港澳台" tvg-name="寰宇新聞台" tvg-logo="http://bxtv.3a.ink/logo/寰宇新闻.png",寰宇新聞台
-http://bxtv.3a.ink/api.php?id=寰宇新聞
-#EXTINF:-1, group-title="港澳台" tvg-name="寰宇財經台" tvg-logo="http://bxtv.3a.ink/logo/寰宇财经.png",寰宇財經台
-http://bxtv.3a.ink/api.php?id=寰宇財經
-#EXTINF:-1, group-title="港澳台" tvg-name="龍華卡通台" tvg-logo="http://bxtv.3a.ink/logo/龙华卡通.png",龍華卡通台
-http://bxtv.3a.ink/api.php?id=龍華卡通
-#EXTINF:-1, group-title="港澳台" tvg-name="龍華戲劇台" tvg-logo="http://bxtv.3a.ink/logo/龙华戏剧.png",龍華戲劇台
-http://bxtv.3a.ink/api.php?id=龍華戲劇
-#EXTINF:-1, group-title="港澳台" tvg-name="龍華偶像台" tvg-logo="http://bxtv.3a.ink/logo/龙华偶像.png",龍華偶像台
-http://bxtv.3a.ink/api.php?id=龍華偶像
-#EXTINF:-1, group-title="港澳台" tvg-name="龍華日韓台" tvg-logo="http://bxtv.3a.ink/logo/龙华日韩.png",龍華日韓台
-http://bxtv.3a.ink/api.php?id=龍華日韓
-#EXTINF:-1, group-title="港澳台" tvg-name="龍華經典台" tvg-logo="http://bxtv.3a.ink/logo/龙华经典.png",龍華經典台
-http://bxtv.3a.ink/api.php?id=龍華經典
-#EXTINF:-1, group-title="港澳台" tvg-name="龍華電影台" tvg-logo="http://bxtv.3a.ink/logo/龙华电影.png",龍華電影台
-http://bxtv.3a.ink/api.php?id=龍華電影
-#EXTINF:-1, group-title="港澳台" tvg-name="龍華洋片台" tvg-logo="http://bxtv.3a.ink/logo/龙华洋片.png",龍華洋片台
-http://bxtv.3a.ink/api.php?id=龍華洋片
+
 
 
 #EXTM3U x-tvg-url="https://epg.v1.mk/fy.xml"
