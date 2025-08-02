@@ -7,17 +7,6 @@ if (empty($request_url)) {
 
 // 允许代理的域名列表
 $allowed_domains = [
-    'aktv.top',
-    'php.jdshipin.com',
-    'cdn12.jdshipin.com',
-    'v2h.jdshipin.com',
-    'v2hcdn.jdshipin.com',
-    'cdn.163189.xyz',
-    'cdn2.163189.xyz',
-    'cdn3.163189.xyz',
-    'cdn5.163189.xyz',
-    'cdn6.163189.xyz',
-    'cdn9.163189.xyz'
 ];
 
 $parsed_url = parse_url($request_url);
@@ -134,19 +123,27 @@ if (strpos($request_url, '.m3u8') !== false || (isset($response_headers['content
     }, $allowed_domains));
     
     $body = preg_replace_callback(
-        '/(https?:\/\/(?:' . $allowed_domains_regex . ')\/[^\s"\']+\.ts)|([^\s"\']+\.ts)/',
+        '/(https?:\/\/(?:' . $allowed_domains_regex . ')\/[^\s"\']+\.(ts|html))|([^\s"\']+\.(ts|html))/',
         function ($matches) use ($base_url) {
             if (!empty($matches[1])) {
                 return 'mytv.php?url=' . urlencode($matches[1]);
-            } elseif (!empty($matches[2])) {
-                $ts_url = $base_url . ltrim($matches[2], '/');
-                return 'mytv.php?url=' . urlencode($ts_url);
+            } elseif (!empty($matches[3])) {
+                $seg_url = $base_url . ltrim($matches[3], '/');
+                return 'mytv.php?url=' . urlencode($seg_url);
             }
             return $matches[0];
         },
         $body
     );
     header('Content-Disposition: inline; filename=index.m3u8');
+}
+
+// 针对.ts和.html分片，返回video/mp2t类型
+if (
+    preg_match('/\.ts(\?.*)?$/i', $request_url) ||
+    preg_match('/\.html(\?.*)?$/i', $request_url)
+) {
+    header('Content-Type: video/mp2t');
 }
 
 echo $body;
