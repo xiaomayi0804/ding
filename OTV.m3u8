@@ -82,7 +82,7 @@ http://39.91.67.145:35455/bst/cctv4k@15000000
 http://39.91.67.145:35455/bst/cctv16hd4k@15000000.m3u8
 
 
-#EXTINF:-1 tvg-name="NOW新闻" group-title="港澳台",NOW新闻台
+#EXTINF:-1 tvg-name="NOW新闻台" group-title="港澳台",NOW新闻台
 http://cdn.veryfast.filegear-sg.me/live/now/stream.m3u8
 #EXTINF:-1,tvg-id="NOW星影台" tvg-name="NOW星影台" tvg-logo="https://epg.v1.mk/logo/NOW星影台.png" group-title="港澳台",星影台
 http://j.s.bkpcp.top/js/nowxyt
