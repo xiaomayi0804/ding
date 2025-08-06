@@ -51,11 +51,11 @@ http://cdn.veryfast.filegear-sg.me/live/fct4k/stream.m3u8
 #EXTINF:-1 tvg-name="翡翠台4K-8K" group-title="4K频道",翡翠台4K-8K
 http://edge.163189.xyz/163189/fct
 #EXTINF:-1 tvg-id="视界4K" tvg-name="视界4K" tvg-logo="https://fy.188766.xyz/logo/sparkssssssssss/epg/logo/bestv4k.png" group-title="4K频道",视界4K
-http://60.209.142.149:35455/bst/sjpd4k@15000000.m3u8
+https://mursor.ottiptv.cc/bst/sjpd4k@15000000.m3u8
 #EXTINF:-1 tvg-id="电影4K" tvg-name="电影4K" tvg-logo="https://fy.188766.xyz/logo/sparkssssssssss/epg/logo/bestv4k.png" group-title="4K频道",电影4K
-http://60.209.142.149:35455/bst/dypd4k@15000000.m3u8
+https://mursor.ottiptv.cc/bst/dypd4k@15000000.m3u8
 #EXTINF:-1 tvg-id="少儿4K" tvg-name="少儿4K" tvg-logo="https://fy.188766.xyz/logo/sparkssssssssss/epg/logo/bestv4k.png" group-title="4K频道",少儿4K
-http://60.209.142.149:35455/bst/sepd4k@15000000.m3u8
+https://mursor.ottiptv.cc/bst/sepd4k@15000000.m3u8
 #EXTINF:-1,tvg-id="华数4K" tvg-name="华数爱上4K" tvg-logo="https://epg.v1.mk/logo/华数4K.png" group-title="4K频道",华数爱上4K
 http://192.168.1.5:9188/rtp/239.3.1.236:2000
 #EXTINF:-1,tvg-id="咪咕4K" tvg-name="咪咕4K-1" tvg-logo="https://epg.v1.mk/logo/咪咕4K.png" group-title="4K频道",咪咕4K-1
@@ -65,7 +65,7 @@ http://60.209.142.149:35455/itv/3000000010000015686.m3u8?cdn=FifastbLive
 #EXTINF:-1,tvg-id="咪咕4K" tvg-name="咪咕4K-2-2" tvg-logo="https://epg.v1.mk/logo/咪咕4K.png" group-title="4K频道",咪咕4K-3
 http://122.189.103.46:35455/itv/3000000010000015686.m3u8?cdn=FifastbLive
 #EXTINF:-1,tvg-id="欢笑剧场4K" tvg-name="欢笑剧场4K" tvg-logo="https://11.112114.xyz/logo/欢笑剧场.png" group-title="4K频道",欢笑剧场4K-BST
-http://60.209.142.149:35455/bst/hxjc4k@15000000.m3u8
+https://mursor.ottiptv.cc/bst/hxjc4k@15000000.m3u8
 #EXTINF:-1,tvg-id="BRTV_ART" tvg-name="BRTV北京卫视4K" tvg-logo="https://fy.188766.xyz/logo/fanmingming/live/tv/北京卫视4K.png" group-title="4K频道",BRTV北京卫视4K
 http://192.168.1.5:9188/rtp/239.3.1.22:8001
 #EXTINF:-1,tvg-id="BRTV_ART" tvg-name="BRTV深圳卫视4K" tvg-logo="https://fy.188766.xyz/logo/sln162/iptv-back/logo/深圳卫视4K.png" group-title="4K频道",BRTV深圳卫视4K
