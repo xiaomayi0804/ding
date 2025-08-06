@@ -81,9 +81,9 @@ http://192.168.1.5:9188/rtp/239.3.1.249:8001
 #EXTINF:-1,tvg-id="CCTV4K超高清" tvg-name="CCTV4K超高清" tvg-logo="https://epg.v1.mk/logo/CCTV4K超高清.png" group-title="4K频道",CCTV-4K 超高清[超清HDR]
 http://192.168.1.5:9188/rtp/239.3.1.245:2000
 #EXTINF:-1,tvg-id="cctv4k" tvg-name="CCTV4K-BST" tvg-logo="https://11.112114.xyz/logo/cctv4k.png" group-title="4K频道",CCTV4K-BST
-http://60.209.142.149:35455/bst/cctv4k@15000000
+https://mursor.ottiptv.cc/bst/cctv4k@15000000
 #EXTINF:-1,tvg-id="cctv164k" tvg-name="CCTV16-4K-BST" tvg-logo="https://11.112114.xyz/logo/cctv16.png" group-title="4K频道",CCTV16-4K-BST
-http://60.209.142.149:35455/bst/cctv16hd4k@15000000.m3u8
+https://mursor.ottiptv.cc/bst/cctv16hd4k@15000000.m3u8
 
 
 #EXTINF:-1 tvg-name="NOW新闻台" group-title="港澳台",NOW新闻台
