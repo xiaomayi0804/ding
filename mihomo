@@ -155,6 +155,10 @@ proxy-groups:
 
 
 rules:
+  - DOMAIN-SUFFIX,bxcdn.ndvfp.cn,⚡ 直连
+  - DOMAIN-SUFFIX,757888.xyz,⚡ 直连
+  - DOMAIN-SUFFIX,3a.ink,⚡ 直连
+
   - DOMAIN-SUFFIX,moonscap.com,🚀 节点选择
   - DOMAIN-SUFFIX,wechat.com,🚀 节点选择
   - DOMAIN-SUFFIX,jdshipin.com,🚀 节点选择
