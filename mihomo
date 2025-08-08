@@ -90,7 +90,7 @@ tun:
   # route-exclude-address: ["192.168.110.0/24"]
 dns:
   enable: true
-  ipv6: false
+  ipv6: true
   prefer-h3: true
   respect-rules: true
   enhanced-mode: fake-ip
