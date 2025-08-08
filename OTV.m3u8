@@ -613,6 +613,143 @@ http://171.116.157.49:9003/hls/60/index.m3u8
 http://171.116.157.49:9003/hls/61/index.m3u8
 
 
+#EXTM3U x-tvg-url="https://epg.v1.mk/fy.xml"
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="山西吕梁",CCTV1-HD
+http://124.165.114.5:8084/rtp/226.0.2.153:9136
+#EXTINF:-1,tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="山西吕梁",CCTV2-HD
+http://124.165.114.5:8084/rtp/226.0.2.154:9144
+#EXTINF:-1,tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="山西吕梁",CCTV3-HD
+http://124.165.114.5:8084/rtp/226.0.2.208:9576
+#EXTINF:-1,tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="山西吕梁",CCTV4-HD
+http://124.165.114.5:8084/rtp/226.0.2.156:9160
+#EXTINF:-1,tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="山西吕梁",CCTV5-HD
+http://124.165.114.5:8084/rtp/226.0.2.209:9584
+#EXTINF:-1,tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="山西吕梁",CCTV6-HD
+http://124.165.114.5:8084/rtp/226.0.2.210:9592
+#EXTINF:-1,tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.v1.mk/logo/CCTV7.png" group-title="山西吕梁",CCTV7-HD
+http://124.165.114.5:8084/rtp/226.0.2.159:9184
+#EXTINF:-1,tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="山西吕梁",CCTV8-HD
+http://124.165.114.5:8084/rtp/226.0.2.211:9600
+#EXTINF:-1,tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://epg.v1.mk/logo/cctv9.png" group-title="山西吕梁",CCTV9-HD
+http://124.165.114.5:8084/rtp/226.0.2.161:9200
+#EXTINF:-1,tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://epg.v1.mk/logo/cctv10.png" group-title="山西吕梁",CCTV10-HD
+http://124.165.114.5:8084/rtp/226.0.2.162:9208
+#EXTINF:-1,tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://epg.v1.mk/logo/cctv12.png" group-title="山西吕梁",CCTV12-HD
+http://124.165.114.5:8084/rtp/226.0.2.164:9224
+#EXTINF:-1,tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://epg.v1.mk/logo/cctv13.png" group-title="山西吕梁",CCTV13-HD
+http://124.165.114.5:8084/rtp/226.0.2.165:9232
+#EXTINF:-1,tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://epg.v1.mk/logo/cctv14.png" group-title="山西吕梁",CCTV14-HD
+http://124.165.114.5:8084/rtp/226.0.2.166:9240
+#EXTINF:-1,tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://epg.v1.mk/logo/cctv5+.png" group-title="山西吕梁",CCTV5+-HD
+http://124.165.114.5:8084/rtp/226.0.2.168:9256
+#EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="山西吕梁",CCTV16-HD
+http://124.165.114.5:8084/rtp/226.0.2.169:9264
+#EXTINF:-1,tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://epg.v1.mk/logo/cctv17.png" group-title="山西吕梁",CCTV17-HD
+http://124.165.114.5:8084/rtp/226.0.2.170:9272
+#EXTINF:-1,tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://epg.v1.mk/logo/湖南卫视.png" group-title="山西吕梁",湖南卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.143:9056
+#EXTINF:-1,tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.v1.mk/logo/浙江卫视.png" group-title="山西吕梁",浙江卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.144:9064
+#EXTINF:-1,tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://epg.v1.mk/logo/安徽卫视.png" group-title="山西吕梁",安徽卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.145:9072
+#EXTINF:-1,tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://epg.v1.mk/logo/广东卫视.png" group-title="山西吕梁",广东卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.146:9080
+#EXTINF:-1,tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://epg.v1.mk/logo/深圳卫视.png" group-title="山西吕梁",深圳卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.147:9088
+#EXTINF:-1,tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://epg.v1.mk/logo/天津卫视.png" group-title="山西吕梁",天津卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.148:9096
+#EXTINF:-1,tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://epg.v1.mk/logo/山东卫视.png" group-title="山西吕梁",山东卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.149:9104
+#EXTINF:-1,tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://epg.v1.mk/logo/湖北卫视.png" group-title="山西吕梁",湖北卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.150:9112
+#EXTINF:-1,tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://epg.v1.mk/logo/黑龙江卫视.png" group-title="山西吕梁",黑龙江卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.151:9120
+#EXTINF:-1,tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://epg.v1.mk/logo/山西卫视.png" group-title="山西吕梁",山西卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.152:9128
+#EXTINF:-1,tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://epg.v1.mk/logo/金鹰卡通.png" group-title="山西吕梁",金鹰卡通HD
+http://124.165.114.5:8084/rtp/226.0.2.172:9288
+#EXTINF:-1,tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://epg.v1.mk/logo/辽宁卫视.png" group-title="山西吕梁",辽宁卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.173:9296
+#EXTINF:-1,tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://epg.v1.mk/logo/重庆卫视.png" group-title="山西吕梁",重庆卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.174:9304
+#EXTINF:-1,tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://epg.v1.mk/logo/东方卫视.png" group-title="山西吕梁",东方卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.175:9312
+#EXTINF:-1,tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://epg.v1.mk/logo/江苏卫视.png" group-title="山西吕梁",江苏卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.176:9320
+#EXTINF:-1,tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://epg.v1.mk/logo/北京卫视.png" group-title="山西吕梁",北京卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.177:9328
+#EXTINF:-1,tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://epg.v1.mk/logo/河北卫视.png" group-title="山西吕梁",河北卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.178:9336
+#EXTINF:-1,tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://epg.v1.mk/logo/四川卫视.png" group-title="山西吕梁",四川卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.179:9344
+#EXTINF:-1,tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://epg.v1.mk/logo/贵州卫视.png" group-title="山西吕梁",贵州卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.180:9352
+#EXTINF:-1,tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://epg.v1.mk/logo/河南卫视.png" group-title="山西吕梁",河南卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.52:8328
+#EXTINF:-1,tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://epg.v1.mk/logo/吉林卫视.png" group-title="山西吕梁",吉林卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.58:8376
+#EXTINF:-1,tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://epg.v1.mk/logo/江西卫视.png" group-title="山西吕梁",江西卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.54:8344
+#EXTINF:-1,tvg-id="东方财经" tvg-name="东方财经" tvg-logo="https://epg.v1.mk/logo/东方财经.png" group-title="山西吕梁",东方财经HD
+http://124.165.114.5:8084/rtp/226.0.2.76:8520
+#EXTINF:-1,tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://epg.v1.mk/logo/东南卫视.png" group-title="山西吕梁",东南卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.188:9416
+#EXTINF:-1,tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://epg.v1.mk/logo/广西卫视.png" group-title="山西吕梁",广西卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.231:9760
+#EXTINF:-1,tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://epg.v1.mk/logo/海南卫视.png" group-title="山西吕梁",海南卫视HD
+http://124.165.114.5:8084/rtp/226.0.2.212:9608
+#EXTINF:-1,tvg-id="chc高清电影" tvg-name="chc高清电影" tvg-logo="https://epg.v1.mk/logo/chc高清电影.png" group-title="山西吕梁",CHC高清电影
+http://124.165.114.5:8084/rtp/226.0.2.93:8004
+#EXTINF:-1,tvg-id="chc动作电影" tvg-name="chc动作电影" tvg-logo="https://epg.v1.mk/logo/chc动作电影.png" group-title="山西吕梁",CHC动作电影
+http://124.165.114.5:8084/rtp/226.0.2.94:8012
+#EXTINF:-1,tvg-id="chc家庭影院" tvg-name="chc家庭影院" tvg-logo="https://epg.v1.mk/logo/chc家庭影院.png" group-title="山西吕梁",CHC家庭影院
+http://124.165.114.5:8084/rtp/226.0.2.240:9820
+#EXTINF:-1,tvg-id="山西吕梁台球" tvg-name="山西吕梁台球" tvg-logo="https://epg.v1.mk/logo/山西吕梁台球.png" group-title="山西吕梁",CCTV山西吕梁台球HD
+http://124.165.114.5:8084/rtp/226.0.2.216:9640
+#EXTINF:-1,tvg-id="高网" tvg-name="高网" tvg-logo="https://epg.v1.mk/logo/高网.png" group-title="山西吕梁",CCTV高网HD
+http://124.165.114.5:8084/rtp/226.0.2.217:9648
+#EXTINF:-1,tvg-id="电视指南" tvg-name="电视指南" tvg-logo="https://epg.v1.mk/logo/电视指南.png" group-title="山西吕梁",CCTV电视指南HD
+http://124.165.114.5:8084/rtp/226.0.2.218:9656
+#EXTINF:-1,tvg-id="山西吕梁文化精品" tvg-name="山西吕梁文化精品" tvg-logo="https://epg.v1.mk/logo/山西吕梁文化精品.png" group-title="山西吕梁",CCTV山西吕梁文化精品HD
+http://124.165.114.5:8084/rtp/226.0.2.219:9664
+#EXTINF:-1,tvg-id="风云音乐" tvg-name="风云音乐" tvg-logo="https://epg.v1.mk/logo/风云音乐.png" group-title="山西吕梁",CCTV风云音乐HD
+http://124.165.114.5:8084/rtp/226.0.2.220:9672
+#EXTINF:-1,tvg-id="第一剧场" tvg-name="第一剧场" tvg-logo="https://epg.v1.mk/logo/第一剧场.png" group-title="山西吕梁",CCTV第一剧场HD
+http://124.165.114.5:8084/rtp/226.0.2.221:9680
+#EXTINF:-1,tvg-id="世界地理" tvg-name="世界地理" tvg-logo="https://epg.v1.mk/logo/世界地理.png" group-title="山西吕梁",CCTV世界地理HD
+http://124.165.114.5:8084/rtp/226.0.2.222:9688
+#EXTINF:-1,tvg-id="兵器科技" tvg-name="兵器科技" tvg-logo="https://epg.v1.mk/logo/兵器科技.png" group-title="山西吕梁",CCTV兵器科技HD
+http://124.165.114.5:8084/rtp/226.0.2.223:9696
+#EXTINF:-1,tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://epg.v1.mk/logo/怀旧剧场.png" group-title="山西吕梁",CCTV怀旧剧场HD
+http://124.165.114.5:8084/rtp/226.0.2.224:9704
+#EXTINF:-1,tvg-id="风云足球" tvg-name="风云足球" tvg-logo="https://epg.v1.mk/logo/风云足球.png" group-title="山西吕梁",CCTV风云足球HD
+http://124.165.114.5:8084/rtp/226.0.2.225:9712
+#EXTINF:-1,tvg-id="女性时尚" tvg-name="女性时尚" tvg-logo="https://epg.v1.mk/logo/女性时尚.png" group-title="山西吕梁",CCTV女性时尚HD
+http://124.165.114.5:8084/rtp/226.0.2.226:9720
+#EXTINF:-1,tvg-id="风云剧场" tvg-name="风云剧场" tvg-logo="https://epg.v1.mk/logo/风云剧场.png" group-title="山西吕梁",CCTV风云剧场HD
+http://124.165.114.5:8084/rtp/226.0.2.227:9728
+#EXTINF:-1,tvg-id="乐游" tvg-name="乐游" tvg-logo="https://epg.v1.mk/logo/乐游.png" group-title="山西吕梁",乐游HD
+http://124.165.114.5:8084/rtp/226.0.2.77:8528
+#EXTINF:-1,tvg-id="游戏风云" tvg-name="游戏风云" tvg-logo="https://epg.v1.mk/logo/游戏风云.png" group-title="山西吕梁",游戏风云HD
+http://124.165.114.5:8084/rtp/226.0.2.78:8536
+#EXTINF:-1,tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="https://epg.v1.mk/logo/都市剧场.png" group-title="山西吕梁",都市剧场HD
+http://124.165.114.5:8084/rtp/226.0.2.81:8560
+#EXTINF:-1,tvg-id="法治天地" tvg-name="法治天地" tvg-logo="https://epg.v1.mk/logo/法治天地.png" group-title="山西吕梁",法治天地HD
+http://124.165.114.5:8084/rtp/226.0.2.83:8576
+#EXTINF:-1,tvg-id="TV5MONDE STYLE HD 生活时尚" tvg-name="TV5MONDE STYLE HD 生活时尚" tvg-logo="https://epg.v1.mk/logo/TV5MONDE STYLE HD 生活时尚.png" group-title="山西吕梁",生活时尚HD
+http://124.165.114.5:8084/rtp/226.0.2.84:8584
+#EXTINF:-1,tvg-id="武术世界" tvg-name="武术世界" tvg-logo="https://epg.v1.mk/logo/武术世界.png" group-title="山西吕梁",武术世界HD
+http://124.165.114.5:8084/rtp/226.0.2.97:8688
+#EXTINF:-1,tvg-id="CETV早期教育" tvg-name="CETV早期教育" tvg-logo="https://epg.v1.mk/logo/CETV早期教育.png" group-title="山西吕梁",CETV早期教育HD
+http://124.165.114.5:8084/rtp/226.0.2.99:8704
+#EXTINF:-1,tvg-id="金色学堂" tvg-name="金色学堂" tvg-logo="https://epg.v1.mk/logo/金色学堂.png" group-title="山西吕梁",金色学堂HD
+http://124.165.114.5:8084/rtp/226.0.2.182:9368
+#EXTINF:-1,tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://epg.v1.mk/logo/动漫秀场.png" group-title="山西吕梁",动漫秀场HD
+http://124.165.114.5:8084/rtp/226.0.2.183:9376
+#EXTINF:-1,tvg-id="茶频道" tvg-name="茶频道" tvg-logo="https://epg.v1.mk/logo/茶频道.png" group-title="山西吕梁",茶频道HD
+http://124.165.114.5:8084/rtp/226.0.2.213:9616
+#EXTINF:-1,tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://epg.v1.mk/logo/快乐垂钓.png" group-title="山西吕梁",快乐垂钓HD
+http://124.165.114.5:8084/rtp/226.0.2.214:9624
 
 
 
