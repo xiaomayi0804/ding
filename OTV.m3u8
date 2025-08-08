@@ -704,13 +704,13 @@ http://124.165.114.5:8084/rtp/226.0.2.93:8004
 http://124.165.114.5:8084/rtp/226.0.2.94:8012
 #EXTINF:-1,tvg-id="chc家庭影院" tvg-name="chc家庭影院" tvg-logo="https://epg.v1.mk/logo/chc家庭影院.png" group-title="山西吕梁",CHC家庭影院
 http://124.165.114.5:8084/rtp/226.0.2.240:9820
-#EXTINF:-1,tvg-id="山西吕梁台球" tvg-name="山西吕梁台球" tvg-logo="https://epg.v1.mk/logo/山西吕梁台球.png" group-title="山西吕梁",CCTV山西吕梁台球HD
+#EXTINF:-1,tvg-id="央视台球" tvg-name="央视台球" tvg-logo="https://epg.v1.mk/logo/山西吕梁台球.png" group-title="山西吕梁",CCTV央视台球HD
 http://124.165.114.5:8084/rtp/226.0.2.216:9640
 #EXTINF:-1,tvg-id="高网" tvg-name="高网" tvg-logo="https://epg.v1.mk/logo/高网.png" group-title="山西吕梁",CCTV高网HD
 http://124.165.114.5:8084/rtp/226.0.2.217:9648
 #EXTINF:-1,tvg-id="电视指南" tvg-name="电视指南" tvg-logo="https://epg.v1.mk/logo/电视指南.png" group-title="山西吕梁",CCTV电视指南HD
 http://124.165.114.5:8084/rtp/226.0.2.218:9656
-#EXTINF:-1,tvg-id="山西吕梁文化精品" tvg-name="山西吕梁文化精品" tvg-logo="https://epg.v1.mk/logo/山西吕梁文化精品.png" group-title="山西吕梁",CCTV山西吕梁文化精品HD
+#EXTINF:-1,tvg-id="央视文化精品" tvg-name="央视文化精品" tvg-logo="https://epg.v1.mk/logo/山西吕梁文化精品.png" group-title="山西吕梁",CCTV央视文化精品HD
 http://124.165.114.5:8084/rtp/226.0.2.219:9664
 #EXTINF:-1,tvg-id="风云音乐" tvg-name="风云音乐" tvg-logo="https://epg.v1.mk/logo/风云音乐.png" group-title="山西吕梁",CCTV风云音乐HD
 http://124.165.114.5:8084/rtp/226.0.2.220:9672
