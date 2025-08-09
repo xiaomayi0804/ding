@@ -155,7 +155,7 @@ proxy-groups:
 
 
 rules:
-  - IP-CIDR6,::/0,🌐 全部节点
+  - IP-CIDR6,::/0,♻️ Airport_01
   - DOMAIN-SUFFIX,bxcdn.ndvfp.cn,⚡ 直连
   - DOMAIN-SUFFIX,757888.xyz,⚡ 直连
   - DOMAIN-SUFFIX,3a.ink,⚡ 直连
