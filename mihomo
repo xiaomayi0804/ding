@@ -47,7 +47,6 @@ proxy-providers:
     #url: "https://mxlsub.me/free" 
 
 
-ipv6: true
 mixed-port: 7890
 allow-lan: true
 unified-delay: true
