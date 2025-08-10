@@ -615,6 +615,111 @@ http://171.116.157.49:9003/hls/60/index.m3u8
 http://171.116.157.49:9003/hls/61/index.m3u8
 
 
+#EXTM3U x-tvg-url="https://epg.aptv.app/pp.xml.gz" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV1.png" group-title="北京三星",CCTV-1 综合
+http://117.114.153.18:8182/hls/TV00000000000000000099@HHZT.m3u8
+#EXTINF:-1,tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV2.png" group-title="北京三星",CCTV-2 财经
+http://117.114.153.18:8182/hls/TV00000000000000000140@HHZT.m3u8
+#EXTINF:-1,tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV3.png" group-title="北京三星",CCTV-3 综艺
+http://117.114.153.18:8182/hls/TV00000000000000000104@HHZT.m3u8
+#EXTINF:-1,tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV4.png" group-title="北京三星",CCTV-4 中文国际
+http://117.114.153.18:8182/hls/TV00000000000000000001@HHZT.m3u8
+#EXTINF:-1,tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV5.png" group-title="北京三星",CCTV-5 体育
+http://117.114.153.18:8182/hls/TV00000000000000000105@HHZT.m3u8
+#EXTINF:-1,tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV5plus.png" group-title="北京三星",CCTV-5+ 体育赛事
+http://117.114.153.18:8182/hls/TV00000000000000000066@HHZT.m3u8
+#EXTINF:-1,tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV6.png" group-title="北京三星",CCTV-6 电影
+http://117.114.153.18:8182/hls/TV00000000000000000091@HHZT.m3u8
+#EXTINF:-1,tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV7.png" group-title="北京三星",CCTV-7 国防军事
+http://117.114.153.18:8182/hls/TV00000000000000000141@HHZT.m3u8
+#EXTINF:-1,tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV8.png" group-title="北京三星",CCTV-8 电视剧
+http://117.114.153.18:8182/hls/TV00000000000000000106@HHZT.m3u8
+#EXTINF:-1,tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV9.png" group-title="北京三星",CCTV-9 纪录
+http://117.114.153.18:8182/hls/TV00000000000000000142@HHZT.m3u8
+#EXTINF:-1,tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV10.png" group-title="北京三星",CCTV-10 科教
+http://117.114.153.18:8182/hls/TV00000000000000000143@HHZT.m3u8
+#EXTINF:-1,tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV11.png" group-title="北京三星",CCTV-11 戏曲
+http://117.114.153.18:8182/hls/TV00000000000000000002@HHZT.m3u8
+#EXTINF:-1,tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV12.png" group-title="北京三星",CCTV-12 社会与法
+http://117.114.153.18:8182/hls/TV00000000000000000144@HHZT.m3u8
+#EXTINF:-1,tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV13.png" group-title="北京三星",CCTV-13 新闻
+http://117.114.153.18:8182/hls/TV00000000000000000003@HHZT.m3u8
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV14.png" group-title="北京三星",CCTV-14 少儿
+http://117.114.153.18:8182/hls/TV00000000000000000005@HHZT.m3u8
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV15.png" group-title="北京三星",CCTV-15 音乐
+http://117.114.153.18:8182/hls/TV00000000000000000004@HHZT.m3u8
+#EXTINF:-1,tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV16.png" group-title="北京三星",CCTV-16 奥林匹克
+http://117.114.153.18:8182/hls/TV00000000000000000136@HHZT.m3u8
+#EXTINF:-1,tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV17.png" group-title="北京三星",CCTV-17 农业农村
+http://117.114.153.18:8182/hls/TV00000000000000000021@HHZT.m3u8
+#EXTINF:-1,tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Hunan.png" group-title="北京三星",湖南卫视
+http://117.114.153.18:8182/hls/TV00000000000000000148@HHZT.m3u8
+#EXTINF:-1,tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Zhejiang.png" group-title="北京三星",浙江卫视
+http://117.114.153.18:8182/hls/TV00000000000000000102@HHZT.m3u8
+#EXTINF:-1,tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Jiangsu.png" group-title="北京三星",江苏卫视
+http://117.114.153.18:8182/hls/TV00000000000000000089@HHZT.m3u8
+#EXTINF:-1,tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Beijing.png" group-title="北京三星",北京卫视
+http://117.114.153.18:8182/hls/TV00000000000000000090@HHZT.m3u8
+#EXTINF:-1,tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Dongfang.png" group-title="北京三星",东方卫视
+http://117.114.153.18:8182/hls/TV00000000000000000138@HHZT.m3u8
+#EXTINF:-1,tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Hebei.png" group-title="北京三星",河北卫视
+http://117.114.153.18:8182/hls/TV00000000000000000013@HHZT.m3u8
+#EXTINF:-1,tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Henan.png" group-title="北京三星",河南卫视
+http://117.114.153.18:8182/hls/TV00000000000000000016@HHZT.m3u8
+#EXTINF:-1,tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Anhui.png" group-title="北京三星",安徽卫视
+http://117.114.153.18:8182/hls/TV00000000000000000087@HHZT.m3u8
+#EXTINF:-1,tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Jiangxi.png" group-title="北京三星",江西卫视
+http://117.114.153.18:8182/hls/TV00000000000000000019@HHZT.m3u8
+#EXTINF:-1,tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Guangdong.png" group-title="北京三星",广东卫视
+http://117.114.153.18:8182/hls/TV00000000000000000027@HHZT.m3u8
+#EXTINF:-1,tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Guangxi.png" group-title="北京三星",广西卫视
+http://117.114.153.18:8182/hls/TV00000000000000000037@HHZT.m3u8
+#EXTINF:-1,tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Shenzhen.png" group-title="北京三星",深圳卫视
+http://117.114.153.18:8182/hls/TV00000000000000000101@HHZT.m3u8
+#EXTINF:-1,tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Shandong.png" group-title="北京三星",山东卫视
+http://117.114.153.18:8182/hls/TV00000000000000000083@HHZT.m3u8
+#EXTINF:-1,tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Dongnan.png" group-title="北京三星",东南卫视
+http://117.114.153.18:8182/hls/TV00000000000000000156@HHZT.m3u8
+#EXTINF:-1,tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Chongqing.png" group-title="北京三星",重庆卫视
+http://117.114.153.18:8182/hls/TV00000000000000000120@HHZT.m3u8
+#EXTINF:-1,tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Sichuan.png" group-title="北京三星",四川卫视
+http://117.114.153.18:8182/hls/TV00000000000000000033@HHZT.m3u8
+#EXTINF:-1,tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Guizhou.png" group-title="北京三星",贵州卫视
+http://117.114.153.18:8182/hls/TV00000000000000000040@HHZT.m3u8
+#EXTINF:-1,tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Tianjin.png" group-title="北京三星",天津卫视
+http://117.114.153.18:8182/hls/TV00000000000000000085@HHZT.m3u8
+#EXTINF:-1,tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Liaoning.png" group-title="北京三星",辽宁卫视
+http://117.114.153.18:8182/hls/TV00000000000000000119@HHZT.m3u8
+#EXTINF:-1,tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Heilongjiang.png" group-title="北京三星",黑龙江卫视
+http://117.114.153.18:8182/hls/TV00000000000000000084@HHZT.m3u8
+#EXTINF:-1,tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Hubei.png" group-title="北京三星",湖北卫视
+http://117.114.153.18:8182/hls/TV00000000000000000086@HHZT.m3u8
+#EXTINF:-1,tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Jilin.png" group-title="北京三星",吉林卫视
+http://117.114.153.18:8182/hls/TV00000000000000000039@HHZT.m3u8
+#EXTINF:-1,tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Gansu.png" group-title="北京三星",甘肃卫视
+http://117.114.153.18:8182/hls/TV00000000000000000014@HHZT.m3u8
+#EXTINF:-1,tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Neimeng.png" group-title="北京三星",内蒙古卫视
+http://117.114.153.18:8182/hls/TV00000000000000000010@HHZT.m3u8
+#EXTINF:-1,tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Ningxia.png" group-title="北京三星",宁夏卫视
+http://117.114.153.18:8182/hls/TV00000000000000000018@HHZT.m3u8
+#EXTINF:-1,tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Shanxi_.png" group-title="北京三星",山西卫视
+http://117.114.153.18:8182/hls/TV00000000000000000030@HHZT.m3u8
+#EXTINF:-1,tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Shanxi.png" group-title="北京三星",陕西卫视
+http://117.114.153.18:8182/hls/TV00000000000000000038@HHZT.m3u8
+#EXTINF:-1,tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Xinjiang.png" group-title="北京三星",新疆卫视
+http://117.114.153.18:8182/hls/TV00000000000000000031@HHZT.m3u8
+#EXTINF:-1,tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Yunnan.png" group-title="北京三星",云南卫视
+http://117.114.153.18:8182/hls/TV00000000000000000028@HHZT.m3u8
+#EXTINF:-1,tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Qinghai.png" group-title="北京三星",青海卫视
+http://117.114.153.18:8182/hls/TV00000000000000000034@HHZT.m3u8
+#EXTINF:-1,tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Bingtuan.png" group-title="北京三星",兵团卫视
+http://117.114.153.18:8182/hls/TV00000000000000000107@HHZT.m3u8
+#EXTINF:-1,tvg-id="厦门卫视" tvg-name="厦门卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Xiamen.png" group-title="北京三星",厦门卫视
+http://117.114.153.18:8182/hls/TV00000000000000000044@HHZT.m3u8
+#EXTINF:-1,tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Xizang.png" group-title="北京三星",西藏卫视
+http://117.114.153.18:8182/hls/TV00000000000000000035@HHZT.m3u8
+#EXTINF:-1,tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Sansha.png" group-title="北京三星",三沙卫视
+http://117.114.153.18:8182/hls/TV00000000000000000041@HHZT.m3u8
 
 
 
