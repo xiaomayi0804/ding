@@ -19,9 +19,9 @@ http://60.209.142.149:35455/douyu/6264482
 #EXTINF:-1 group-title="斗鱼王者",斗鱼欠你幸福
 http://60.209.142.149:35455/douyu/280087
 #EXTINF:-1 group-title="斗鱼王者",抖音唐艺
-http://60.209.142.149:35455/douyin/405518163654
+http://180.165.4.218:35455/douyin/405518163654
 #EXTINF:-1 group-title="斗鱼王者",抖音木森
-http://60.209.142.149:35455/douyin/148108118778
+http://180.165.4.218:35455/douyin/148108118778
 
 
 #EXTINF:-1 group-title="4K频道",Bloomberg TV+ 
@@ -52,12 +52,6 @@ http://s1.an94tv.cfd/astro/astrosportuhd/AKTV.m3u8
 http://cdn.veryfast.filegear-sg.me/live/fct4k/stream.m3u8
 #EXTINF:-1 tvg-name="翡翠台4K-8K" group-title="4K频道",翡翠台4K-8K
 http://edge.163189.xyz/163189/fct
-#EXTINF:-1 tvg-id="视界4K" tvg-name="视界4K" tvg-logo="https://fy.188766.xyz/logo/sparkssssssssss/epg/logo/bestv4k.png" group-title="4K频道",视界4K
-https://mursor.ottiptv.cc/bst/sjpd4k@15000000.m3u8
-#EXTINF:-1 tvg-id="电影4K" tvg-name="电影4K" tvg-logo="https://fy.188766.xyz/logo/sparkssssssssss/epg/logo/bestv4k.png" group-title="4K频道",电影4K
-https://mursor.ottiptv.cc/bst/dypd4k@15000000.m3u8
-#EXTINF:-1 tvg-id="少儿4K" tvg-name="少儿4K" tvg-logo="https://fy.188766.xyz/logo/sparkssssssssss/epg/logo/bestv4k.png" group-title="4K频道",少儿4K
-https://mursor.ottiptv.cc/bst/sepd4k@15000000.m3u8
 #EXTINF:-1,tvg-id="华数4K" tvg-name="华数爱上4K" tvg-logo="https://epg.v1.mk/logo/华数4K.png" group-title="4K频道",华数爱上4K
 http://192.168.1.5:9188/rtp/239.3.1.236:2000
 #EXTINF:-1,tvg-id="咪咕4K" tvg-name="咪咕4K-1" tvg-logo="https://epg.v1.mk/logo/咪咕4K.png" group-title="4K频道",咪咕4K-1
@@ -82,10 +76,7 @@ https://event.pull.hebtv.com:443/live/live101.m3u8
 http://192.168.1.5:9188/rtp/239.3.1.249:8001
 #EXTINF:-1,tvg-id="CCTV4K超高清" tvg-name="CCTV4K超高清" tvg-logo="https://epg.v1.mk/logo/CCTV4K超高清.png" group-title="4K频道",CCTV-4K 超高清[超清HDR]
 http://192.168.1.5:9188/rtp/239.3.1.245:2000
-#EXTINF:-1,tvg-id="cctv4k" tvg-name="CCTV4K-BST" tvg-logo="https://11.112114.xyz/logo/cctv4k.png" group-title="4K频道",CCTV4K-BST
-https://mursor.ottiptv.cc/bst/cctv4k@15000000
-#EXTINF:-1,tvg-id="cctv164k" tvg-name="CCTV16-4K-BST" tvg-logo="https://11.112114.xyz/logo/cctv16.png" group-title="4K频道",CCTV16-4K-BST
-https://mursor.ottiptv.cc/bst/cctv16hd4k@15000000.m3u8
+
 
 
 #EXTINF:-1 tvg-name="NOW新闻台" group-title="港澳台",NOW新闻台
