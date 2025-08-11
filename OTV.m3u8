@@ -49,7 +49,7 @@ https://7pal.short.gy/bein-uhd
 #EXTINF:-1,tvg-id="[ASTRO]712WARNERTV" tvg-name="ASTRo-4k" tvg-logo="https://epg.v1.mk/logo/[ASTRO]712WARNERTV.png" group-title="4K频道",ASTRo4kAKtv
 http://s1.an94tv.cfd/astro/astrosportuhd/AKTV.m3u8
 #EXTINF:-1 tvg-name="翡翠台4K" group-title="4K频道",翡翠台4K
-http://cdn.veryfast.filegear-sg.me/live/fct4k/stream.m3u8
+http://php.jdshipin.com/TVOD/iptv.php?id=fct4
 #EXTINF:-1 tvg-name="翡翠台4K-8K" group-title="4K频道",翡翠台4K-8K
 http://edge.163189.xyz/163189/fct
 #EXTINF:-1,tvg-id="华数4K" tvg-name="华数爱上4K" tvg-logo="https://epg.v1.mk/logo/华数4K.png" group-title="4K频道",华数爱上4K
@@ -366,23 +366,6 @@ https://cdn8.163189.xyz/live/lhxj/stream.m3u8
 https://cdn8.163189.xyz/live/lhyp/stream.m3u8
 #EXTINF:-1 group-title="港澳台",小公视
 https://livecdn9.ptsplus.tv/pts-youth-A/playlist.m3u8
-
-
-#EXTINF:-1,tvg-id="华丽翡翠台" tvg-name="华丽翡翠台" tvg-logo="https://epg.v1.mk/logo/华丽翡翠台.png" group-title="港澳台",翡翠台字幕
-http://edge2.163189.xyz/o12.php?id=fct
-#EXTINF:-1,tvg-id="明珠台72" tvg-name="明珠台72" tvg-logo="https://epg.v1.mk/logo/明珠台72.png" group-title="港澳台",明珠台字幕
-http://edge2.163189.xyz/o12.php?id=mzt
-#EXTINF:-1,tvg-id="hoytv" tvg-name="hoytv" tvg-logo="https://epg.v1.mk/logo/hoytv.png" group-title="港澳台",HOY TV
-https://edge.163189.xyz/163189/hoy
-#EXTINF:-1,tvg-id="八度空间" tvg-name="八度空间" tvg-logo="https://epg.v1.mk/logo/八度空间.png" group-title="港澳台",八度空间
-https://edge.163189.xyz/163189/8tv
-#EXTINF:-1,tvg-id="92PX-TENNIS_CHANNEL_LOGO" tvg-name="CH8" tvg-logo="https://epg.v1.mk/logo/92PX-TENNIS_CHANNEL_LOGO.png" group-title="港澳台",CH8
-https://edge.163189.xyz/163189/ch8
-#EXTINF:-1,tvg-id="无线新闻" tvg-name="无线新闻" tvg-logo="https://epg.v1.mk/logo/无线新闻.png" group-title="港澳台",无线新闻
-https://edge.163189.xyz/163189/wxxw
-#EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.v1.mk/logo/凤凰资讯.png" group-title="港澳台",凤凰资讯
-https://edge.163189.xyz/163189/fhzx
-
 
 
 
