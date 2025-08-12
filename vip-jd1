@@ -22,3 +22,4 @@ proxies:
   - {"type":"hysteria2","name":"🇯🇵 JP-3","server":"54.199.157.111","port":26036,"password":"yn3gMvdZ0hpReiimChE1H1BFvE","sni":"bing.com","skip-cert-verify":true,"tfo":false}
   - {"name":"HTTPS-1","type":"http","tls":true,"server":"dd902adc-sxc9s0-t1bnjq-1krtb.hkt.cdnhuawei.com","port":8443,"username":"60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d","password":"<password>","skip-cert-verify":true}
   - {"name":"HTTPS-2","type":"http","tls":true,"server":"9497cfdb-sx4v40-t1bnjq-1krtb.hkt.cdnhuawei.com","port":8443,"username":"60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d","password":"<password>","skip-cert-verify":true}
+  - {"name":"🇺🇸 aws英国","type":"http","tls":true,"server":"awsuk.ssv.vc","port":30447,"username":"test","password":"test.+","sni":"awsuk.ssv.vc","skip-cert-verify":true}
