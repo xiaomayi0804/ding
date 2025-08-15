@@ -19,4 +19,3 @@ proxies:
   - {"name":"HTTPS-1","type":"http","tls":true,"server":"dd902adc-sxc9s0-t1bnjq-1krtb.hkt.cdnhuawei.com","port":8443,"username":"60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d","password":"<password>","skip-cert-verify":true}
   - {"name":"HTTPS-2","type":"http","tls":true,"server":"9497cfdb-sx4v40-t1bnjq-1krtb.hkt.cdnhuawei.com","port":8443,"username":"60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d","password":"<password>","skip-cert-verify":true}
   
-  
