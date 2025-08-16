@@ -19,5 +19,5 @@ proxies:
   - {"name":"HTTPS-2","type":"http","tls":true,"server":"9497cfdb-sx4v40-t1bnjq-1krtb.hkt.cdnhuawei.com","port":8443,"username":"60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d","password":"<password>","skip-cert-verify":true}
   - {"type":"vless","name":"Vless","server":"www.visa.com.sg","port":2087,"uuid":"90c7ad5e-cd15-4314-b39b-aeabd397d592","tls":true,"client-fingerprint":"random","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"vl.hongkong6.qzz.io"},"path":"/","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"servername":"vl.hongkong6.qzz.io"}
   - {"type":"vless","name":"🇭🇰 AKILE LTD ","server":"freevpn.ndeso.xyz","port":443,"uuid":"aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1","tls":true,"client-fingerprint":"randomized","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"freevpn.ndeso.xyz"},"path":"/Free-CF-Proxy-HK1"},"servername":"freevpn.ndeso.xyz"}
-  - {"name":"🇰🇷 oracle韩国首尔","type":"http","tls":true,"server":"testkr3.ssv.vc","port":30446,"username":"test","password":"test.+","sni":"testkr3.ssv.vc","skip-cert-verify":true}
+  - {"name":"🇰🇷 oracle首尔","type":"http","tls":true,"server":"testkr3.ssv.vc","port":30446,"username":"test","password":"test.+","sni":"testkr3.ssv.vc","skip-cert-verify":true}
  
