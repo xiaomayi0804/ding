@@ -50,6 +50,8 @@ https://7pal.short.gy/bein-uhd
 http://s1.an94tv.cfd/astro/astrosportuhd/AKTV.m3u8
 #EXTINF:-1 tvg-id="Hub.Premier.2.sg" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/222_1920x1080_HTV.png" group-title="4K频道",Hub Premier 2 UHD
 https://7pal.short.gy/HubP2uhd
+#EXTINF:-1 tvg-id="Ziggo.Sport.nl" tvg-logo="https://i.imgur.com/jVI5bge.png" group-title="4K频道",Ziggo Sport UHD
+https://7pal.short.gy/ZiggoSport
 #EXTINF:-1 tvg-id="SKY.Sport.8.nz" tvg-logo="https://i.postimg.cc/PJMNwZSG/Sky-Sport-PL.png" group-title="4K频道", Sky Sport Premier League FHD
 https://7pal.short.gy/skyspt8nz
 
