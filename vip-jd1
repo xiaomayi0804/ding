@@ -23,3 +23,4 @@ proxies:
   - {"type":"vless","name":"🇺🇸 美国 02","server":"135.84.74.168","port":8880,"uuid":"fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"kjgx.laoyoutiao.link"},"path":"/Telegram@WangCai2/","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560}}
   - {"type":"vless","name":"🇺🇸 美国 03","server":"195.85.23.251","port":8880,"uuid":"0132166f-e702-48ed-a9e7-b07af768faf8","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"cf.d3z.net"},"path":"/Telegram🇨🇳"}}
   - {"type":"vless","name":"🇺🇸 美国 04","server":"130.250.137.168","port":8880,"uuid":"fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"kjgx.laoyoutiao.link"},"path":"/Telegram@WangCai2/","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560}}
+
