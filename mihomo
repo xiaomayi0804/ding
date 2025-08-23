@@ -171,7 +171,7 @@ rules:
   - DOMAIN-SUFFIX,m16tv.cfd,🚀 节点选择
   - DOMAIN-SUFFIX,16899.ggff.net,🚀 节点选择
 
-  - DOMAIN-SUFFIX,tanhuatv.site,🚀 节点选择
+  #- DOMAIN-SUFFIX,tanhuatv.site,🚀 节点选择
   - DOMAIN-SUFFIX,18.svi-studio.com,🚀 节点选择
   - DOMAIN-SUFFIX,wqwqwq.sbs,🚀 节点选择
   - DOMAIN-SUFFIX,us.kg,🚀 节点选择
