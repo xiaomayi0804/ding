@@ -1,21 +1,17 @@
+IDX部署
 vmpt="5679" argo="y" agn="tunnels.xiaomayi.nyc.mn"  uuid="7ef17346-1b45-49e2-8cbd-f9aa6b9f303b" agk="eyJhIjoiODk1YzUyNmZlOGU0NzhhM2NlZjVmZDZlMzI5YmEwNjUiLCJ0IjoiOTNhNTk2NGUtOGFhYy00MjA3LWEwYzctNDE4ZTljODNjNzliIiwicyI6Ik5qSXhaamc1TmpZdE4yUTRZUzAwTUdVNUxUazBPVE10WTJOaE9URXhNVFl5WTJVdyJ9" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosb/main/argosb.sh) rep
 
+HG部署
+bash <(curl -l -s https://raw.githubusercontent.com/qq525448560/free-vps-py/refs/heads/main/test.sh)
+2fbb09a5-e1fa-4a1d-8adc-886334db6fea
+hg.xiaomayi.nyc.mn
+eyJhIjoiODk1YzUyNmZlOGU0NzhhM2NlZjVmZDZlMzI5YmEwNjUiLCJ0IjoiOGJjYzQ0MmItNTQ5MS00OWUwLWE3MWUtNWQ2OWVlNWQxYzFhIiwicyI6IlpEZzFOVFE0WVdFdE9HRm1PUzAwWlRWbExXSmtOalV0WkRGaVpqZzBORGc1T1dOaiJ9
 
 
 docker run -d --restart always --privileged=true -p 35455:35455 --name allinone youshandefeiyang/allinone -tv=true -aesKey=z06aiecreyhgr6jfeewmbtj5hix8a95g -userid=668014216 -token=28706b4db4fd8410f9ffe8e964dbc4102f6b86f46ca5dbfe66a2014051313357179c468b7fe626df53a85924f806a40d59d592a2390836c4a81643d3fe487c0054ad4ecd54b0
 docker run -d --restart always --net=host --privileged=true --name allinone youshandefeiyang/allinone -tv=true -aesKey=5mccf67tabd4ucm342rfx1y7zkr4bgjm -userid=668014216 -token=0c9c5c1e51a9d9bc7d98bb40419627ef68c3b646f8e5b1fcc2a1615e0a0f220399364ec0899ca1c79006f8c23dfd02ac4d8c2efc83df22230ad9dfec1cfac07bb7198d0d7871
 
 docker exec pixman sh -c 'flask mytvsuper_tivimate'
-
-
-clash：https://fofa.info/result?qbase64=IntcImhlbGxvXCI6XCJjbGFzaFwifSI%3D
-clash.meta：https://fofa.info/result?qbase64=IntcImhlbGxvXCI6XCJjbGFzaC5tZXRhXCJ9Ig%3D%3D
-openclash：https://fofa.info/result?qbase64=cG9ydD0iOTA5MCIgJiYgYm9keT0ie1wibWVzc2FnZVwiOlwiVW5hdXRob3JpemVkXCJ9Ig%3D%3D
-
-SwitchyOmega：https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=zh-CN
-
-clash Dashboard：http://clash.razord.top
-clash.meta Dashboard：http://clash.metacubex.one
 
 
 Redmi_xiaomayi-2.4
@@ -30,8 +26,6 @@ curl -s whatismyip.akamai.com
 456820
 6cbdb0dbdae462b94ad24d1567126133
 k3.xiaomayi0804.link
-
-
 
 
 https://freemyip.com/update?token=cf1ba2aea055b9c23c7b40e3&domain=xiaomayi0804.freemyip.com
