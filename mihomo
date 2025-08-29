@@ -118,7 +118,9 @@ experimental:
 
 proxies:
   - {name: ⚡ 直连, type: direct, udp: true}
-
+  - {"type":"hysteria2","name":"GCP-HK hysteria2","server":"134.150.78.0","port":50235,"ports":"8881,50000-51000","password":"9860e26a-0e38-49cf-be2c-13f3e9c4b124","skip-cert-verify":true,"tfo":false}
+  - {"type":"tuic","name":"GCP-HK tuic-6","server":"2600:1900:41a1:189e:0:0:0:0","port":8882,"password":"9860e26a-0e38-49cf-be2c-13f3e9c4b124","uuid":"9860e26a-0e38-49cf-be2c-13f3e9c4b124","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"skip-cert-verify":true,"version":5}
+  - {"type":"anytls","name":"GCP-HK anytls","server":"134.150.78.0","port":8883,"skip-cert-verify":true,"password":"9860e26a-0e38-49cf-be2c-13f3e9c4b124","udp":true}
 pr: &pr {type: select, proxies: [🚀 节点选择, 🔯 香港故转, 🔯 自选故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, ♻️ Airport_01, ♻️ Airport_02, ♻️ Airport_03, ♻️ Airport_04, ♻️ Airport_05, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, ⚡ 直连]}
 
 proxy-groups:
