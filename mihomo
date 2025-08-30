@@ -120,8 +120,8 @@ proxies:
   - {name: ⚡ 直连, type: direct, udp: true}
   - {"type":"hysteria2","name":"GCP-HK hysteria2","server":"134.150.78.0","port":50235,"ports":"8881,50000-51000","password":"9860e26a-0e38-49cf-be2c-13f3e9c4b124","skip-cert-verify":true,"tfo":false}
   - {"type":"tuic","name":"GCP-HK tuic-6","server":"2600:1900:41a1:189e:0:0:0:0","port":8882,"password":"9860e26a-0e38-49cf-be2c-13f3e9c4b124","uuid":"9860e26a-0e38-49cf-be2c-13f3e9c4b124","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"skip-cert-verify":true,"version":5}
-  - {"type":"anytls","name":"GCP-HK anytls","server":"134.150.78.0","port":8883,"skip-cert-verify":true,"password":"9860e26a-0e38-49cf-be2c-13f3e9c4b124","udp":true}
-pr: &pr {type: select, proxies: [🚀 节点选择, 🔯 香港故转, 🔯 自选故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, ♻️ Airport_01, ♻️ Airport_02, ♻️ Airport_03, ♻️ Airport_04, ♻️ Airport_05, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, ⚡ 直连]}
+  - {name: "GCP-US hysteria2", type: hysteria2, server: 35.212.182.136, port: 8881, ports: 50000-51000, HopInterval: 60, up: "200 Mbps", down: "1000 Mbps", password: 4d6c3ab9-f3b3-4afb-a48e-a1d3fe65fc62, skip-cert-verify: true}
+  - {name: "GCP-US tuic", type: tuic, server: 35.212.182.136, port: 8882, uuid: 4d6c3ab9-f3b3-4afb-a48e-a1d3fe65fc62, password: 4d6c3ab9-f3b3-4afb-a48e-a1d3fe65fc62, alpn: [h3], disable-sni: true, reduce-rtt: true, request-timeout: 8000, udp-relay-mode: native, congestion-controller: bbr, skip-cert-verify: true}
 
 proxy-groups:
   - {name: 🚀 节点选择, type: select, proxies: [🔯 香港故转, 🔯 自选故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, ♻️ Airport_01, ♻️ Airport_02, ♻️ Airport_03, ♻️ Airport_04, ♻️ Airport_05, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, ⚡ 直连]}
