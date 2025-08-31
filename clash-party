@@ -115,6 +115,8 @@ default: &default
 
 proxy-groups:
 
+  - {name: 🚀 节点选择, type: select, proxies: [美国-故转, 香港-故转, 日本-故转, 新加坡-故转, 🔯 自选故转, ♻️ Airport_01, ♻️ Airport_02, 所有-手动, ⚡ 直连]}
+
   - name: 🔯 自选故转
     type: fallback
     interval: 300
