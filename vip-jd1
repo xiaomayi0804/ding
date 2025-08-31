@@ -1,6 +1,6 @@
 proxies:
-  - {"type":"hysteria2","name":"🇺🇲 claw-us2","server":"hy2.xiaomayi.nyc.mn","port":45831,"password":"edwardchina.chinanr","sni":"hy2.xiaomayi.nyc.mn","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"🇺🇲 claw-us1","server":"hy1.leochina.nyc.mn","port":41311,"password":"edwardchina.chinanr","sni":"hy1.leochina.nyc.mn","skip-cert-verify":true,"tfo":false}
+  - {"type":"hysteria2","name":"🇺🇸 claw-us2","server":"hy2.xiaomayi.nyc.mn","port":45831,"password":"edwardchina.chinanr","sni":"hy2.xiaomayi.nyc.mn","skip-cert-verify":true,"tfo":false}
+  - {"type":"hysteria2","name":"🇺🇸 claw-us1","server":"hy1.leochina.nyc.mn","port":41311,"password":"edwardchina.chinanr","sni":"hy1.leochina.nyc.mn","skip-cert-verify":true,"tfo":false}
   - {"name":"🇯🇵 日本-VVIP","type":"http","tls":true,"server":"23.106.140.14","port":8443,"skip-cert-verify":true}
   - {"name":"🇰🇷 oracle韩国首尔-VIP","type":"http","tls":true,"server":"testkr3.ssv.vc","port":30446,"username":"test","password":"test.+","sni":"testkr3.ssv.vc","skip-cert-verify":true}
   - {"type":"vless","name":"🇺🇸 美国-VIP","server":"216.24.57.168","port":8880,"uuid":"fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"kjgx.laoyoutiao.link"},"path":"/Telegram@WangCai2/?ed=2560"}}
