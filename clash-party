@@ -130,17 +130,26 @@ proxy-groups:
   - {name: ♻️ Airport_01, type: url-test, tolerance: 20, interval: 300, use: [Airport_01]}
   - {name: ♻️ Airport_02, type: url-test, tolerance: 20, interval: 300, use: [Airport_02]}
 
-  - name: 所有-手动
+
+  # 美国组
+  - name: 美国-故转
+    type: fallback
+    interval: 300
+    lazy: false
+    proxies:
+      - 美国-手动
+      - 美国-自动
+  - name: 美国-手动
     type: select
     include-all: true
-    filter: "^((?!(直连|拒绝)).)*$"
-
-  - name: 所有-自动
+    filter: "(?=.*(广美|美|US|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|拉斯|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$"
+  - name: 美国-自动
     type: url-test
     include-all: true
     tolerance: 50
     interval: 300
-    filter: "^((?!(直连|拒绝)).)*$"
+    filter: "(?=.*(广美|美|US|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|拉斯|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$"
+
 
   # 香港组
   - name: 香港-故转
@@ -149,13 +158,11 @@ proxy-groups:
     lazy: false
     proxies:
       - 香港-手动
-      - 香港-自动
-  
+      - 香港-自动  
   - name: 香港-手动
     type: select
     include-all: true
-    filter: "(?=.*(广港|香港|HK|Hong Kong|🇭🇰|HongKong)).*$"
-    
+    filter: "(?=.*(广港|香港|HK|Hong Kong|🇭🇰|HongKong)).*$"    
   - name: 香港-自动
     type: url-test
     include-all: true
@@ -220,6 +227,18 @@ proxy-groups:
     interval: 300
     filter: "(?=.*(广新|新加坡|SG|坡|狮城|🇸🇬|Singapore)).*$"
 
+  - name: 所有-手动
+    type: select
+    include-all: true
+    filter: "^((?!(直连|拒绝)).)*$"
+
+  - name: 所有-自动
+    type: url-test
+    include-all: true
+    tolerance: 50
+    interval: 300
+    filter: "^((?!(直连|拒绝)).)*$"
+
   # 韩国组
   - name: 韩国-故转
     type: fallback
@@ -239,24 +258,7 @@ proxy-groups:
     interval: 300
     filter: "(?=.*(广韩|韩国|韓國|KR|首尔|春川|🇰🇷|Korea)).*$"
 
-  # 美国组
-  - name: 美国-故转
-    type: fallback
-    interval: 300
-    lazy: false
-    proxies:
-      - 美国-手动
-      - 美国-自动
-  - name: 美国-手动
-    type: select
-    include-all: true
-    filter: "(?=.*(广美|美|US|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|拉斯|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$"
-  - name: 美国-自动
-    type: url-test
-    include-all: true
-    tolerance: 50
-    interval: 300
-    filter: "(?=.*(广美|美|US|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|拉斯|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$"
+  
 
   # 英国组
   - name: 英国-故转
