@@ -115,18 +115,9 @@ default: &default
 
 proxy-groups:
 
-  - {name: 🚀 节点选择, type: select, proxies: [美国-故转, 香港-故转, 日本-故转, 新加坡-故转, 🔯 自选故转, ♻️ Airport_01, ♻️ Airport_02, 所有-手动, ⚡ 直连]}
-
-  - name: 🔯 自选故转
-    type: fallback
-    interval: 300
-    lazy: false
-    proxies:
-      - ♻️ Airport_02
-      - ♻️ Airport_01
-      - 美国-自动
-      - 香港-自动
-
+  - {name: 🚀 节点选择, type: select, proxies: [美国-故转, 香港-故转, 日本-故转, 新加坡-故转, 🔯 稳定故转, 🔯 自选故转, ♻️ Airport_01, ♻️ Airport_02, 所有-手动, ⚡ 直连]}
+  - {name: 🔯 自选故转, type: fallback, proxies: [♻️ Airport_02, ♻️ Airport_01, 美国-故转, 香港-故转], interval: 300, lazy: false, url: https://www.gstatic.com/generate_204}
+  - {name: 🔯 稳定故转, type: fallback, proxies: [♻️ Airport_01, 美国-故转, 香港-故转], interval: 100, lazy: false, url: https://www.gstatic.com/generate_204}
   - {name: ♻️ Airport_01, type: url-test, tolerance: 20, interval: 300, use: [Airport_01]}
   - {name: ♻️ Airport_02, type: url-test, tolerance: 20, interval: 300, use: [Airport_02]}
 
