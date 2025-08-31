@@ -99,7 +99,7 @@ profile:
 default: &default
   type: select
   proxies:
-   -🔯 自选故转
+    - 🔯 自选故转
     - 所有-手动
     - 所有-自动
     - 香港-故转
@@ -122,7 +122,8 @@ proxy-groups:
     proxies:
       - ♻️ Airport_02
       - ♻️ Airport_01
-      - 所有-自动
+      - 美国-自动
+      - 香港-自动
 
   - {name: ♻️ Airport_01, type: url-test, tolerance: 20, interval: 300, use: [Airport_01]}
   - {name: ♻️ Airport_02, type: url-test, tolerance: 20, interval: 300, use: [Airport_02]}
@@ -328,6 +329,46 @@ proxy-groups:
 # 规则引擎（rules）
 # ========================
 rules:
+
+  - DOMAIN-SUFFIX,bxcdn.ndvfp.cn,⚡ 直连
+  - DOMAIN-KEYWORD,xyz,⚡ 直连
+  - DOMAIN-SUFFIX,3a.ink,⚡ 直连
+  - DOMAIN-SUFFIX,moonscap.com,香港-故转
+  - DOMAIN-SUFFIX,wechat.com,香港-故转
+  - DOMAIN-SUFFIX,jdshipin.com,香港-故转
+  - DOMAIN-SUFFIX,163.dedyn.io,香港-故转
+  - DOMAIN-SUFFIX,com.mp,香港-故转
+  - DOMAIN-SUFFIX,zone.id,香港-故转
+  - DOMAIN-SUFFIX,0o0.myfw.us,香港-故转
+  - DOMAIN-SUFFIX,dpdns.org,香港-故转
+  - DOMAIN-SUFFIX,m16tv.cfd,香港-故转
+  - DOMAIN-SUFFIX,16899.ggff.net,香港-故转
+  - DOMAIN-SUFFIX,18.svi-studio.com,香港-故转
+  - DOMAIN-SUFFIX,wqwqwq.sbs,香港-故转
+  - DOMAIN-SUFFIX,us.kg,香港-故转
+  - DOMAIN-SUFFIX,nyc.mn,⚡ 直连
+  - DOMAIN-SUFFIX,freemyip.com,香港-故转
+  - DOMAIN-SUFFIX,dnsany.com,⚡ 直连
+  - DOMAIN-SUFFIX,cmvideo.cn,⚡ 直连
+  - DOMAIN-SUFFIX,chinamobile.com,⚡ 直连
+  - DOMAIN-SUFFIX,mobaibox.com,⚡ 直连
+  - DOMAIN-SUFFIX,gitv.tv,⚡ 直连
+  - DOMAIN-SUFFIX,cctv.cn,⚡ 直连
+  - DOMAIN-SUFFIX,yangshipin.cn,⚡ 直连
+  - DOMAIN-SUFFIX,gcable.cn,⚡ 直连
+  - DOMAIN-SUFFIX,akamaized.net,台湾-故转
+  - DOMAIN-SUFFIX,4gtv.tv,台湾-故转
+  - DOMAIN-SUFFIX,cdn.hinet.net,台湾-故转
+  - DOMAIN-SUFFIX,orz-7.com,台湾-故转
+  - DOMAIN-SUFFIX,tvb.com,香港-故转
+  - DOMAIN-KEYWORD,github,香港-故转
+  - DOMAIN-KEYWORD,stream-link,香港-故转
+  - DOMAIN-SUFFIX,asuscomm.com,香港-故转
+  - DOMAIN-KEYWORD,onedrive,⚡ 直连
+  - DOMAIN-KEYWORD,sharepoint,⚡ 直连
+  - DOMAIN-KEYWORD,copilot,香港-故转
+  - DOMAIN-KEYWORD,teamviewer,⚡ 直连
+
 
   - RULE-SET,TEST / Domain,Test
   - RULE-SET,Block / Domain,Block  
