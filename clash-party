@@ -7,7 +7,7 @@
 proxy-providers:
 
   Airport_01:
-    url: "https://xmy.xiaomayi0804.workers.dev/sub/normal/0684f479-d8a5-41fa-8859-64a60adacaf9#%F0%9F%92%A6%20BPB%20Normal"
+    url: "https://xiaoxiaomayi.leo726china.workers.dev/e4fe88c4-b5a5-4d69-a639-55d146e3888e"
     type: http
     interval: 86400
     health-check:
@@ -17,6 +17,16 @@ proxy-providers:
     proxy: 🚀 节点选择
     
   Airport_02:
+    url: "https://xmy.xiaomayi0804.workers.dev/sub/normal/0684f479-d8a5-41fa-8859-64a60adacaf9#%F0%9F%92%A6%20BPB%20Normal"
+    type: http
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 🚀 节点选择
+
+  Airport_03:
     url: "https://xiaomayi.nyc.mn/https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd1"
     type: http
     interval: 86400
@@ -24,9 +34,7 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: ⚡ 直连
-
-  
+    proxy: ⚡ 直连  
 
 proxies:
   - {name: 拒绝, type: reject}
@@ -118,11 +126,12 @@ default: &default
 
 proxy-groups:
 
-  - {name: 🚀 节点选择, type: select, proxies: [美国-故转, 香港-故转, 日本-故转, 新加坡-故转, 🔯 稳定故转, 🔯 自选故转, ♻️ Airport_01, ♻️ Airport_02, 所有-手动, ⚡ 直连]}
-  - {name: 🔯 自选故转, type: fallback, proxies: [♻️ Airport_02, ♻️ Airport_01, 美国-故转, 香港-故转], interval: 300, lazy: false, url: https://www.gstatic.com/generate_204}
-  - {name: 🔯 稳定故转, type: fallback, proxies: [♻️ Airport_01, 美国-故转, 香港-故转], interval: 100, lazy: false, url: https://www.gstatic.com/generate_204}
+  - {name: 🚀 节点选择, type: select, proxies: [美国-故转, 香港-故转, 日本-故转, 新加坡-故转, 🔯 稳定故转, 🔯 自选故转, ♻️ Airport_01, ♻️ Airport_02, ♻️ Airport_03, 所有-手动, ⚡ 直连]}
+  - {name: 🔯 自选故转, type: fallback, proxies: [♻️ Airport_03, ♻️ Airport_01, ♻️ Airport_02, 美国-故转, 香港-故转], interval: 100, lazy: false, url: https://www.gstatic.com/generate_204}
+  - {name: 🔯 稳定故转, type: fallback, proxies: [♻️ Airport_01, ♻️ Airport_02, 美国-故转, 香港-故转], interval: 100, lazy: false, url: https://www.gstatic.com/generate_204}
   - {name: ♻️ Airport_01, type: url-test, tolerance: 20, interval: 300, use: [Airport_01]}
   - {name: ♻️ Airport_02, type: url-test, tolerance: 20, interval: 300, use: [Airport_02]}
+  - {name: ♻️ Airport_03, type: url-test, tolerance: 20, interval: 300, use: [Airport_03]}
 
 
   # 美国组
