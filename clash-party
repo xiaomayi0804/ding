@@ -364,7 +364,8 @@ rules:
   - DOMAIN-SUFFIX,asuscomm.com,🚀 节点选择
   - DOMAIN-KEYWORD,onedrive,⚡ 直连
   - DOMAIN-KEYWORD,sharepoint,⚡ 直连
-  - DOMAIN-KEYWORD,copilot,香港-故转
+  - DOMAIN-KEYWORD,copilot,🚀 节点选择
+  - DOMAIN-KEYWORD,bing,🚀 节点选择
   - DOMAIN-KEYWORD,teamviewer,⚡ 直连
 
 
