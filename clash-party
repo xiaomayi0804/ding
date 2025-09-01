@@ -331,19 +331,19 @@ rules:
   - DOMAIN-SUFFIX,bxcdn.ndvfp.cn,⚡ 直连
   - DOMAIN-KEYWORD,xyz,⚡ 直连
   - DOMAIN-SUFFIX,3a.ink,⚡ 直连
-  - DOMAIN-SUFFIX,moonscap.com,香港-故转
-  - DOMAIN-SUFFIX,wechat.com,香港-故转
-  - DOMAIN-SUFFIX,jdshipin.com,香港-故转
-  - DOMAIN-SUFFIX,163.dedyn.io,香港-故转
-  - DOMAIN-SUFFIX,com.mp,香港-故转
-  - DOMAIN-SUFFIX,zone.id,香港-故转
-  - DOMAIN-SUFFIX,0o0.myfw.us,香港-故转
-  - DOMAIN-SUFFIX,dpdns.org,香港-故转
-  - DOMAIN-SUFFIX,m16tv.cfd,香港-故转
-  - DOMAIN-SUFFIX,16899.ggff.net,香港-故转
-  - DOMAIN-SUFFIX,18.svi-studio.com,香港-故转
-  - DOMAIN-SUFFIX,wqwqwq.sbs,香港-故转
-  - DOMAIN-SUFFIX,us.kg,香港-故转
+  - DOMAIN-SUFFIX,moonscap.com,🚀 节点选择
+  - DOMAIN-SUFFIX,wechat.com,🚀 节点选择
+  - DOMAIN-SUFFIX,jdshipin.com,🚀 节点选择
+  - DOMAIN-SUFFIX,163.dedyn.io,🚀 节点选择
+  - DOMAIN-SUFFIX,com.mp,🚀 节点选择
+  - DOMAIN-SUFFIX,zone.id,🚀 节点选择
+  - DOMAIN-SUFFIX,0o0.myfw.us,🚀 节点选择
+  - DOMAIN-SUFFIX,dpdns.org,🚀 节点选择
+  - DOMAIN-SUFFIX,m16tv.cfd,🚀 节点选择
+  - DOMAIN-SUFFIX,16899.ggff.net,🚀 节点选择
+  - DOMAIN-SUFFIX,18.svi-studio.com,🚀 节点选择
+  - DOMAIN-SUFFIX,wqwqwq.sbs,🚀 节点选择
+  - DOMAIN-SUFFIX,us.kg,🚀 节点选择
   - DOMAIN-SUFFIX,nyc.mn,⚡ 直连
   - DOMAIN-SUFFIX,freemyip.com,香港-故转
   - DOMAIN-SUFFIX,dnsany.com,⚡ 直连
@@ -358,10 +358,10 @@ rules:
   - DOMAIN-SUFFIX,4gtv.tv,台湾-故转
   - DOMAIN-SUFFIX,cdn.hinet.net,台湾-故转
   - DOMAIN-SUFFIX,orz-7.com,台湾-故转
-  - DOMAIN-SUFFIX,tvb.com,香港-故转
+  - DOMAIN-SUFFIX,tvb.com,🚀 节点选择
   - DOMAIN-KEYWORD,github,香港-故转
-  - DOMAIN-KEYWORD,stream-link,香港-故转
-  - DOMAIN-SUFFIX,asuscomm.com,香港-故转
+  - DOMAIN-KEYWORD,stream-link,🚀 节点选择
+  - DOMAIN-SUFFIX,asuscomm.com,🚀 节点选择
   - DOMAIN-KEYWORD,onedrive,⚡ 直连
   - DOMAIN-KEYWORD,sharepoint,⚡ 直连
   - DOMAIN-KEYWORD,copilot,香港-故转
