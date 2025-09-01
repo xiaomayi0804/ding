@@ -332,7 +332,7 @@ rules:
   - DOMAIN-KEYWORD,xyz,⚡ 直连
   - DOMAIN-SUFFIX,3a.ink,⚡ 直连
   - DOMAIN-SUFFIX,moonscap.com,🚀 节点选择
-  - DOMAIN-SUFFIX,wechat.com,🚀 节点选择
+  #- DOMAIN-SUFFIX,wechat.com,🚀 节点选择
   - DOMAIN-SUFFIX,jdshipin.com,🚀 节点选择
   - DOMAIN-SUFFIX,163.dedyn.io,🚀 节点选择
   - DOMAIN-SUFFIX,com.mp,🚀 节点选择
