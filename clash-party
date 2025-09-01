@@ -14,7 +14,7 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: ⚡ 直连
+    proxy: 🚀 节点选择
     
   Airport_02:
     url: "https://xiaomayi.nyc.mn/https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd1"
