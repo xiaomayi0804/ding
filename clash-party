@@ -7,7 +7,7 @@
 proxy-providers:
 
   Airport_01:
-    url: "https://xmy.xiaomayi0804.workers.dev/sub/full-normal/0684f479-d8a5-41fa-8859-64a60adacaf9?app=clash#%F0%9F%92%A6%20BPB%20Full%20Normal"
+    url: "https://xmy.xiaomayi0804.workers.dev/sub/normal/0684f479-d8a5-41fa-8859-64a60adacaf9#%F0%9F%92%A6%20BPB%20Normal"
     type: http
     interval: 86400
     health-check:
