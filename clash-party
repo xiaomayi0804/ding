@@ -35,7 +35,10 @@ proxies:
   - {"type":"tuic","name":"🇭🇰 GCP-HK tuic-6","server":"2600:1900:41a1:189e:0:0:0:0","port":8882,"password":"9860e26a-0e38-49cf-be2c-13f3e9c4b124","uuid":"9860e26a-0e38-49cf-be2c-13f3e9c4b124","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"skip-cert-verify":true,"version":5}
   - {name: "🇺🇸 GCP-US hysteria2", type: hysteria2, server: 35.212.182.136, port: 8881, ports: 50000-51000, HopInterval: 60, up: "200 Mbps", down: "1000 Mbps", password: 4d6c3ab9-f3b3-4afb-a48e-a1d3fe65fc62, skip-cert-verify: true}
   - {name: "🇺🇸 GCP-US tuic", type: tuic, server: 35.212.182.136, port: 8882, uuid: 4d6c3ab9-f3b3-4afb-a48e-a1d3fe65fc62, password: 4d6c3ab9-f3b3-4afb-a48e-a1d3fe65fc62, alpn: [h3], disable-sni: true, reduce-rtt: true, request-timeout: 8000, udp-relay-mode: native, congestion-controller: bbr, skip-cert-verify: true}
-
+  - {"type":"vless","name":"🇺🇸 Run.vl","server":"66.181.36.236","port":59644,"uuid":"77d27bd9-d208-4ac3-af72-d9ba54c53099","tls":true,"flow":"xtls-rprx-vision","client-fingerprint":"chrome","skip-cert-verify":false,"reality-opts":{"public-key":"1E2oz1f-lFZZMmdJj0PVW9hzPSQMhyam08FlJrHgyR4"},"network":"tcp","servername":"www.iij.ad.jp"}
+  - {"name":"🇺🇸 Run.vm","type":"vmess","server":"cf.877774.xyz","port":443,"cipher":"none","uuid":"77d27bd9-d208-4ac3-af72-d9ba54c53099","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/vmess-argo","headers":{"Host":"known-concern-ends-supporting.trycloudflare.com"},"early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"client-fingerprint":"chrome","servername":"known-concern-ends-supporting.trycloudflare.com"}
+  - {"type":"hysteria2","name":"🇺🇸 Run.hy2","server":"66.181.36.236","port":59647,"password":"77d27bd9-d208-4ac3-af72-d9ba54c53099","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+  - {"type":"tuic","name":"🇺🇸 Run.tuic","server":"66.181.36.236","port":59646,"password":"CaUPcOpRcUPUi0o278FXUd14","uuid":"77d27bd9-d208-4ac3-af72-d9ba54c53099","sni":"www.bing.com","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"skip-cert-verify":true,"version":5}
 
 
 # ========================
