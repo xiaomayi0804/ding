@@ -6,15 +6,6 @@
 
 proxy-providers:
 
-  Airport_01:
-    url: "https://xiaoxiaomayi.leo726china.workers.dev/e4fe88c4-b5a5-4d69-a639-55d146e3888e"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 🚀 节点选择
     
   Airport_02:
     url: "https://xmy.xiaomayi0804.workers.dev/sub/normal/0684f479-d8a5-41fa-8859-64a60adacaf9#%F0%9F%92%A6%20BPB%20Normal"
@@ -26,7 +17,7 @@ proxy-providers:
       interval: 300
     proxy: 🚀 节点选择
 
-  Airport_03:
+  Airport_01:
     url: "https://xiaomayi.nyc.mn/https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd1"
     type: http
     interval: 86400
@@ -116,19 +107,15 @@ default: &default
     - 香港-故转
     - 台湾-故转
     - 日本-故转
-    #- 新加坡-故转
-    #- 韩国-故转
     - 美国-故转
-    #- 英国-故转
-    #- 其他-故转
     - ⚡ 直连
     - 拒绝
 
 proxy-groups:
 
-  - {name: 🚀 节点选择, type: select, proxies: [美国-故转, 香港-故转, 日本-故转, 🔯 稳定故转, 🔯 自选故转, ♻️ Airport_01, ♻️ Airport_02, ♻️ Airport_03, 所有-手动, ⚡ 直连]}
-  - {name: 🔯 自选故转, type: fallback, proxies: [♻️ Airport_03, ♻️ Airport_01, ♻️ Airport_02, 美国-故转, 香港-故转], interval: 100, lazy: false, url: https://www.gstatic.com/generate_204}
-  - {name: 🔯 稳定故转, type: fallback, proxies: [♻️ Airport_01, ♻️ Airport_02, 美国-故转, 香港-故转], interval: 100, lazy: false, url: https://www.gstatic.com/generate_204}
+  - {name: 🚀 节点选择, type: select, proxies: [美国-故转, 香港-故转, 日本-故转, 🔯 稳定故转, 🔯 自选故转, ♻️ Airport_01, ♻️ Airport_02, 所有-手动, ⚡ 直连]}
+  - {name: 🔯 自选故转, type: fallback, proxies: [♻️ Airport_01, ♻️ Airport_02, 美国-故转, 香港-故转], interval: 100, lazy: false, url: https://www.gstatic.com/generate_204}
+  - {name: 🔯 稳定故转, type: fallback, proxies: [♻️ Airport_02, 美国-故转, 香港-故转], interval: 100, lazy: false, url: https://www.gstatic.com/generate_204}
   - {name: ♻️ Airport_01, type: url-test, tolerance: 20, interval: 300, use: [Airport_01]}
   - {name: ♻️ Airport_02, type: url-test, tolerance: 20, interval: 300, use: [Airport_02]}
   - {name: ♻️ Airport_03, type: url-test, tolerance: 20, interval: 300, use: [Airport_03]}
@@ -226,43 +213,9 @@ proxy-groups:
     interval: 300
     filter: "^((?!(直连|拒绝)).)*$"
 
-  # 韩国组
-  
-
-  
-
-  # 英国组
  
 
-  # 其他组
-  
-
-  # 业务分流组
-  #- {name: ChatGPT, <<: *default}
-  #- {name: Claude, <<: *default}
-  #- {name: Meta AI, <<: *default}
-  #- {name: Perplexity, <<: *default}
-  #- {name: GitHub, <<: *default}
-  #- {name: Telegram, <<: *default}
-  #- {name: Twitter(X), <<: *default}
-  #- {name: WhatsApp, <<: *default}
-  #- {name: Facebook, <<: *default}
-  #- {name: Steam, <<: *default}
-  #- {name: Game, <<: *default}
-  #- {name: YouTube, <<: *default}
-  #- {name: TikTok, <<: *default}
-  #- {name: Disney, <<: *default}
-  #- {name: Netflix, <<: *default}
-  #- {name: HBO, <<: *default}
-  #- {name: Spotify, <<: *default}
-  #- {name: Crypto, <<: *default}
-  #- {name: Amazon, <<: *default}
-  #- {name: Apple, <<: *default}
-  #- {name: Microsoft, <<: *default}
-  #- {name: Google, <<: *default}
-  #- {name: Test, <<: *default}
   - {name: Block, <<: *default}
-  #- {name: 国外, <<: *default}
   - {name: 国内, <<: *default}
   - {name: 其他, <<: *default}
 
@@ -289,7 +242,7 @@ rules:
   - DOMAIN-SUFFIX,4gtv.tv,台湾-故转
   - DOMAIN-SUFFIX,cdn.hinet.net,台湾-故转
   - DOMAIN-SUFFIX,orz-7.com,台湾-故转
-  #- DOMAIN-KEYWORD,github,香港-故转
+  - DOMAIN-KEYWORD,github,香港-故转
   - DOMAIN-KEYWORD,onedrive,⚡ 直连
   - DOMAIN-KEYWORD,sharepoint,⚡ 直连
   #- DOMAIN-KEYWORD,copilot,🚀 节点选择
@@ -297,43 +250,7 @@ rules:
   - DOMAIN-KEYWORD,teamviewer,⚡ 直连
 
 
-  #- RULE-SET,TEST / Domain,Test
   - RULE-SET,Block / Domain,Block  
-  #- RULE-SET,ChatGPT / Domain,ChatGPT
-  #- RULE-SET,Claude / Domain,Claude
-  #- RULE-SET,Meta AI / Domain,Meta AI
-  #- RULE-SET,Perplexity / Domain,Perplexity
-  #- RULE-SET,GitHub / Domain,GitHub
-  #- RULE-SET,Telegram / Domain,Telegram
-  #- RULE-SET,Telegram / IP,Telegram,no-resolve
-  #- RULE-SET,Twitter / Domain,Twitter(X)
-  #- RULE-SET,WhatsApp / Domain,WhatsApp
-  #- RULE-SET,Facebook / Domain,Facebook
-  #- RULE-SET,Amazon / Domain,Amazon
-  #- RULE-SET,Apple / Domain,Apple
-  #- RULE-SET,Apple-CN / Domain,Apple  
-  #- RULE-SET,Microsoft / Domain,Microsoft
-  #- RULE-SET,OKX / Domain,Crypto
-  #- RULE-SET,Bybit / Domain,Crypto
-  #- RULE-SET,Binance / Domain,Crypto
-  #- RULE-SET,Youtube / Domain,YouTube
-  #- RULE-SET,TikTok / Domain,TikTok
-  #- RULE-SET,Netflix / Domain,Netflix
-  #- RULE-SET,Netflix / IP,Netflix,no-resolve
-  #- RULE-SET,Disney / Domain,Disney
-  #- RULE-SET,HBO / Domain,HBO
-  #- RULE-SET,Spotify / Domain,Spotify
-  #- RULE-SET,Steam / Domain,Steam
-  #- RULE-SET,Epic / Domain,Game
-  #- RULE-SET,EA / Domain,Game
-  #- RULE-SET,Blizzard / Domain,Game
-  #- RULE-SET,UBI / Domain,Game
-  #- RULE-SET,PlayStation / Domain,Game
-  #- RULE-SET,Nintend / Domain,Game
-  #- RULE-SET,Google / Domain,Google
-  #- RULE-SET,Google / IP,Google,no-resolve
-  #- RULE-SET,Proxy / Domain,国外
-  #- RULE-SET,Globe / Domain,国外  
   - RULE-SET,Direct / Domain,国内
   - RULE-SET,China / Domain,国内
   - RULE-SET,China / IP,国内,no-resolve
