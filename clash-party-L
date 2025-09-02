@@ -103,118 +103,37 @@ default: &default
   proxies:
     - 🚀 节点选择
     - 所有-手动
-    - 所有-自动
     - 香港-故转
     - 台湾-故转
-    - 日本-故转
     - 美国-故转
     - ⚡ 直连
     - 拒绝
 
 proxy-groups:
 
-  - {name: 🚀 节点选择, type: select, proxies: [美国-故转, 香港-故转, 日本-故转, 🔯 稳定故转, 🔯 自选故转, ♻️ Airport_01, ♻️ Airport_02, 所有-手动, ⚡ 直连]}
-  - {name: 🔯 自选故转, type: fallback, proxies: [♻️ Airport_01, ♻️ Airport_02, 美国-故转, 香港-故转], interval: 100, lazy: false, url: https://www.gstatic.com/generate_204}
-  - {name: 🔯 稳定故转, type: fallback, proxies: [♻️ Airport_02, 美国-故转, 香港-故转], interval: 100, lazy: false, url: https://www.gstatic.com/generate_204}
+  - {name: 🚀 节点选择, type: select, proxies: [美国-故转, 香港-故转, 🔯 自选故转, ♻️ Airport_01, ♻️ Airport_02, 所有-手动, ⚡ 直连]}
+  - {name: 🔯 自选故转, type: fallback, proxies: [所有-手动, ♻️ Airport_02, 美国-故转, 香港-故转], interval: 100, lazy: false, url: https://www.gstatic.com/generate_204}
   - {name: ♻️ Airport_01, type: url-test, tolerance: 20, interval: 300, use: [Airport_01]}
   - {name: ♻️ Airport_02, type: url-test, tolerance: 20, interval: 300, use: [Airport_02]}
-  #- {name: ♻️ Airport_03, type: url-test, tolerance: 20, interval: 300, use: [Airport_03]}
 
+  - {name: 所有-手动, type: select, include-all: true, filter: "^((?!(直连|拒绝)).)*$"}
+  - {name: 所有-自动, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "^((?!(直连|拒绝)).)*$"}
 
   # 美国组
-  - name: 美国-故转
-    type: fallback
-    interval: 300
-    lazy: false
-    proxies:
-      - 美国-手动
-      - 美国-自动
-  - name: 美国-手动
-    type: select
-    include-all: true
-    filter: "(?=.*(广美|美|US|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|拉斯|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$"
-  - name: 美国-自动
-    type: url-test
-    include-all: true
-    tolerance: 50
-    interval: 300
-    filter: "(?=.*(广美|美|US|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|拉斯|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$"
-
+  - {name: 美国-故转, type: fallback, interval: 300, lazy: false, proxies:[美国-手动, 美国-自动]
+  - {name: 美国-手动, type: select, include-all: true. filter: "(?=.*(广美|美|US|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|拉斯|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$"}
+  - {name: 美国-自动, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "(?=.*(广美|美|US|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|拉斯|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$"}
 
   # 香港组
-  - name: 香港-故转
-    type: fallback
-    interval: 300
-    lazy: false
-    proxies:
-      - 香港-手动
-      - 香港-自动  
-  - name: 香港-手动
-    type: select
-    include-all: true
-    filter: "(?=.*(广港|香港|HK|Hong Kong|🇭🇰|HongKong)).*$"    
-  - name: 香港-自动
-    type: url-test
-    include-all: true
-    tolerance: 50
-    interval: 300
-    filter: "(?=.*(广港|香港|HK|Hong Kong|🇭🇰|HongKong)).*$"
+  - {name: 香港-故转, type: fallback, interval: 300, lazy: false, proxies:[香港-手动, 香港-自动]
+  - {name: 香港-手动, type: select, include-all: true. filter: "(?=.*(广港|香港|HK|Hong Kong|🇭🇰|HongKong)).*$"}
+  - {name: 香港-自动, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "(?=.*(广港|香港|HK|Hong Kong|🇭🇰|HongKong)).*$"}
+
+    # 台湾组
+  - {name: 台湾-故转, type: fallback, interval: 300, lazy: false, proxies:[台湾-手动, 台湾-自动]
+  - {name: 台湾-手动, type: select, include-all: true. filter: "(?=.*(广台|台湾|台灣|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan)).*$"}
+  - {name: 台湾-自动, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "(?=.*(广台|台湾|台灣|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan)).*$"}
  
-  # 台湾组
-  - name: 台湾-故转
-    type: fallback
-    interval: 300
-    lazy: false
-    proxies:
-      - 台湾-手动
-      - 台湾-自动
-  - name: 台湾-手动
-    type: select
-    include-all: true
-    filter: "(?=.*(广台|台湾|台灣|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan)).*$"
-  - name: 台湾-自动
-    type: url-test
-    include-all: true
-    tolerance: 50
-    interval: 300
-    filter: "(?=.*(广台|台湾|台灣|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan)).*$"
-
-  # 日本组
-  - name: 日本-故转
-    type: fallback
-    interval: 300
-    lazy: false
-    proxies:
-      - 日本-手动
-      - 日本-自动
-  - name: 日本-手动
-    type: select
-    include-all: true
-    filter: "(?=.*(广日|日本|JP|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan)).*$"
-  - name: 日本-自动
-    type: url-test
-    include-all: true
-    tolerance: 50
-    interval: 300
-    filter: "(?=.*(广日|日本|JP|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan)).*$"
-
-  # 新加坡组
-  
-
-  - name: 所有-手动
-    type: select
-    include-all: true
-    filter: "^((?!(直连|拒绝)).)*$"
-
-  - name: 所有-自动
-    type: url-test
-    include-all: true
-    tolerance: 50
-    interval: 300
-    filter: "^((?!(直连|拒绝)).)*$"
-
- 
-
   - {name: Block, <<: *default}
   - {name: 国内, <<: *default}
   - {name: 其他, <<: *default}
@@ -224,7 +143,6 @@ proxy-groups:
 # 规则引擎（rules）
 # ========================
 rules:
-
   - IP-CIDR6,::/0,♻️ Airport_02
   - DOMAIN-SUFFIX,bxcdn.ndvfp.cn,⚡ 直连
   - DOMAIN-KEYWORD,xyz,⚡ 直连
@@ -243,13 +161,9 @@ rules:
   - DOMAIN-SUFFIX,4gtv.tv,台湾-故转
   - DOMAIN-SUFFIX,cdn.hinet.net,台湾-故转
   - DOMAIN-SUFFIX,orz-7.com,台湾-故转
-  - DOMAIN-KEYWORD,github,香港-故转
   - DOMAIN-KEYWORD,onedrive,⚡ 直连
   - DOMAIN-KEYWORD,sharepoint,⚡ 直连
-  #- DOMAIN-KEYWORD,copilot,🚀 节点选择
-  #- DOMAIN-KEYWORD,bing,🚀 节点选择
   - DOMAIN-KEYWORD,teamviewer,⚡ 直连
-
 
   - RULE-SET,Block / Domain,Block  
   - RULE-SET,Direct / Domain,国内
