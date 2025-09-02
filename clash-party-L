@@ -6,7 +6,16 @@
 
 proxy-providers:
 
-    
+  Airport_01:
+    url: "https://xiaomayi.nyc.mn/https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd1"
+    type: http
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: ⚡ 直连  
+
   Airport_02:
     url: "https://xmy.xiaomayi0804.workers.dev/sub/normal/0684f479-d8a5-41fa-8859-64a60adacaf9#%F0%9F%92%A6%20BPB%20Normal"
     type: http
@@ -17,15 +26,6 @@ proxy-providers:
       interval: 300
     proxy: 🚀 节点选择
 
-  Airport_01:
-    url: "https://xiaomayi.nyc.mn/https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd1"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: ⚡ 直连  
 
 proxies:
   - {name: 拒绝, type: reject}
@@ -225,6 +225,7 @@ proxy-groups:
 # ========================
 rules:
 
+  - IP-CIDR6,::/0,♻️ Airport_02
   - DOMAIN-SUFFIX,bxcdn.ndvfp.cn,⚡ 直连
   - DOMAIN-KEYWORD,xyz,⚡ 直连
   - DOMAIN-SUFFIX,3a.ink,⚡ 直连
