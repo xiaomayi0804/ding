@@ -118,7 +118,7 @@ proxy-groups:
   - {name: 🔯 稳定故转, type: fallback, proxies: [♻️ Airport_02, 美国-故转, 香港-故转], interval: 100, lazy: false, url: https://www.gstatic.com/generate_204}
   - {name: ♻️ Airport_01, type: url-test, tolerance: 20, interval: 300, use: [Airport_01]}
   - {name: ♻️ Airport_02, type: url-test, tolerance: 20, interval: 300, use: [Airport_02]}
-  - {name: ♻️ Airport_03, type: url-test, tolerance: 20, interval: 300, use: [Airport_03]}
+  #- {name: ♻️ Airport_03, type: url-test, tolerance: 20, interval: 300, use: [Airport_03]}
 
 
   # 美国组
