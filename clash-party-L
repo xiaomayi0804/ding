@@ -113,12 +113,12 @@ proxy-groups:
 
   - {name: 🚀 节点选择, type: select, proxies: [美国-故转, 香港-故转, 🔯 自选故转, ♻️ Airport_01, ♻️ Airport_02, 所有-手动, ⚡ 直连]}
   - {name: 🔯 自选故转, type: fallback, proxies: [所有-手动, ♻️ Airport_02, 美国-故转, 香港-故转], interval: 100, lazy: false, url: https://www.gstatic.com/generate_204}
+  - {name: 所有-手动, type: select, include-all: true, filter: "^((?!(直连|拒绝|443)).)*$"}
+  - {name: 所有-自动, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "^((?!(直连|拒绝|443)).)*$"}
   - {name: ♻️ Airport_01, type: url-test, tolerance: 20, interval: 300, use: [Airport_01]}
-  - {name: ♻️ Airport_02, type: url-test, tolerance: 20, interval: 300, use: [Airport_02]}
+  - {name: ♻️ Airport_02, type: url-test, tolerance: 20, interval: 300, use: [Airport_02], filter: "^((?!(直连|443)).)*$"}
 
-  - {name: 所有-手动, type: select, include-all: true, filter: "^((?!(直连|拒绝)).)*$"}
-  - {name: 所有-自动, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "^((?!(直连|拒绝)).)*$"}
-
+  
   # 美国组
   - {name: 美国-故转, type: fallback, interval: 300, lazy: false, proxies:[美国-手动, 美国-自动]}
   - {name: 美国-手动, type: select, include-all: true, filter: "(?=.*(广美|美|US|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|拉斯|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$"}
