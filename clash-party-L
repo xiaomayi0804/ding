@@ -118,9 +118,9 @@ proxy-groups:
   - {name: ♻️ Airport_01, type: url-test, tolerance: 20, interval: 300, use: [Airport_01]}
   - {name: ♻️ Airport_02, type: url-test, tolerance: 20, interval: 300, use: [Airport_02], filter: "^((?!(直连|443)).)*$"}
 
-  
+
   # 美国组
-  - {name: 美国-故转, type: fallback, interval: 300, lazy: false, proxies:[美国-手动, 美国-自动]}
+  - {name: 美国-故转, type: fallback, interval: 300, lazy: false, proxies: [美国-手动, 美国-自动]}
   - {name: 美国-手动, type: select, include-all: true, filter: "(?=.*(广美|美|US|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|拉斯|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$"}
   - {name: 美国-自动, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "(?=.*(广美|美|US|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|拉斯|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$"}
 
