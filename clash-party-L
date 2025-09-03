@@ -17,7 +17,7 @@ proxy-providers:
     proxy: ⚡ 直连  
 
   Airport_02:
-    url: "https://xmy.xiaomayi0804.workers.dev/sub/normal/0684f479-d8a5-41fa-8859-64a60adacaf9#%F0%9F%92%A6%20BPB%20Normal"
+    url: "https://xiaomayi.nyc.mn/https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd"
     type: http
     interval: 86400
     health-check:
