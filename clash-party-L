@@ -125,12 +125,12 @@ proxy-groups:
   - {name: 美国-自动, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "(?=.*(广美|美|US|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|拉斯|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$"}
 
   # 香港组
-  - {name: 香港-故转, type: fallback, interval: 300, lazy: false, proxies:[香港-手动, 香港-自动]}
+  - {name: 香港-故转, type: fallback, interval: 300, lazy: false, proxies: [香港-手动, 香港-自动]}
   - {name: 香港-手动, type: select, include-all: true, filter: "(?=.*(广港|香港|HK|Hong Kong|🇭🇰|HongKong)).*$"}
   - {name: 香港-自动, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "(?=.*(广港|香港|HK|Hong Kong|🇭🇰|HongKong)).*$"}
 
   # 台湾组
-  - {name: 台湾-故转, type: fallback, interval: 300, lazy: false, proxies:[台湾-手动, 台湾-自动]}
+  - {name: 台湾-故转, type: fallback, interval: 300, lazy: false, proxies: [台湾-手动, 台湾-自动]}
   - {name: 台湾-手动, type: select, include-all: true, filter: "(?=.*(广台|台湾|台灣|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan)).*$"}
   - {name: 台湾-自动, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "(?=.*(广台|台湾|台灣|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan)).*$"}
  
