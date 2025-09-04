@@ -24,7 +24,7 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 🚀 节点选择
+    proxy: ⚡ 直连 
 
 
 proxies:
