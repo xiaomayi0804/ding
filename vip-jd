@@ -8,3 +8,6 @@ vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@162.159.242.170:80?security=&sni=xi
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@172.67.76.208:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP8
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@104.16.60.210:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP9
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@104.16.2.50:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP10
+
+vless://7da988da-8be5-4a98-b9d9-e2f521d138bd@172.64.229.196:443?security=tls&sni=13e5080e.xiaomayi.pages.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=13e5080e.xiaomayi.pages.dev&encryption=none#edgetunnel-XMY1
+vless://7da988da-8be5-4a98-b9d9-e2f521d138bd@172.64.229.148:443?security=tls&sni=13e5080e.xiaomayi.pages.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=13e5080e.xiaomayi.pages.dev&encryption=none#edgetunnel-XMY2
