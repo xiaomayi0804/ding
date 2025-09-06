@@ -38,6 +38,8 @@ proxies:
   - {"name":"🇺🇸 Run.vm","type":"vmess","server":"cf.877774.xyz","port":443,"cipher":"none","uuid":"77d27bd9-d208-4ac3-af72-d9ba54c53099","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/vmess-argo","headers":{"Host":"known-concern-ends-supporting.trycloudflare.com"},"early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"client-fingerprint":"chrome","servername":"known-concern-ends-supporting.trycloudflare.com"}
   - {"type":"hysteria2","name":"🇺🇸 Run.hy2","server":"66.181.36.236","port":59647,"password":"77d27bd9-d208-4ac3-af72-d9ba54c53099","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"tuic","name":"🇺🇸 Run.tuic","server":"66.181.36.236","port":59646,"password":"CaUPcOpRcUPUi0o278FXUd14","uuid":"77d27bd9-d208-4ac3-af72-d9ba54c53099","sni":"www.bing.com","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"skip-cert-verify":true,"version":5}
+  - {name: "🇰🇷 KR-Evoxt_(HY2)","type":"hysteria2","server":"198.20.155.252","port":45801,"password":"8abfe930-d41d-4bc9-8970-645195946857","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+  - {name: "🇰🇷 KR-Evoxt_(TU)","type":"tuic","server":"198.20.155.252","port":45800,"password":"DdIHAySWAV7UqyNw7fsTZ3Se","uuid":"8abfe930-d41d-4bc9-8970-645195946857","sni":"www.bing.com","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"skip-cert-verify":true,"version":5}
 
 
 # ========================
