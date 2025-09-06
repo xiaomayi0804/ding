@@ -14,5 +14,3 @@ vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@172.64.229.148:80?security=&sni=xia
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@162.159.153.144:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP14
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@162.159.152.81:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP15
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@162.159.153.212:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP16
-
-vless://3f0bb314-c6c1-4761-9fd5-1eda52ca815e@xiaomayi.sylu.net:443?security=tls&sni=xiaomayi.sylu.net&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaomayi.sylu.net&encryption=none#edgetunnel-XMY
