@@ -14,3 +14,14 @@ vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@172.64.229.148:80?security=&sni=xia
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@162.159.153.144:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP14
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@162.159.152.81:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP15
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@162.159.153.212:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP16
+
+vless://8e7acba1-17a2-4067-8a81-2459680d62b1@ip.sb:443?security=tls&sni=eooce.yyuuss.dpdns.org&fp=chrome&type=ws&path=/?ed%3D2560&host=eooce.yyuuss.dpdns.org&encryption=none#Workers-service
+vless://8e7acba1-17a2-4067-8a81-2459680d62b1@time.is:443?security=tls&sni=eooce.yyuuss.dpdns.org&fp=chrome&type=ws&path=/?ed%3D2560&host=eooce.yyuuss.dpdns.org&encryption=none#Workers-service
+vless://8e7acba1-17a2-4067-8a81-2459680d62b1@skk.moe:443?security=tls&sni=eooce.yyuuss.dpdns.org&fp=chrome&type=ws&path=/?ed%3D2560&host=eooce.yyuuss.dpdns.org&encryption=none#Workers-service
+vless://8e7acba1-17a2-4067-8a81-2459680d62b1@www.visa.com.tw:443?security=tls&sni=eooce.yyuuss.dpdns.org&fp=chrome&type=ws&path=/?ed%3D2560&host=eooce.yyuuss.dpdns.org&encryption=none#Workers-service
+vless://8e7acba1-17a2-4067-8a81-2459680d62b1@www.visa.com.hk:443?security=tls&sni=eooce.yyuuss.dpdns.org&fp=chrome&type=ws&path=/?ed%3D2560&host=eooce.yyuuss.dpdns.org&encryption=none#Workers-service
+vless://8e7acba1-17a2-4067-8a81-2459680d62b1@www.visa.com.sg:443?security=tls&sni=eooce.yyuuss.dpdns.org&fp=chrome&type=ws&path=/?ed%3D2560&host=eooce.yyuuss.dpdns.org&encryption=none#Workers-service
+vless://8e7acba1-17a2-4067-8a81-2459680d62b1@cf.090227.xyz:443?security=tls&sni=eooce.yyuuss.dpdns.org&fp=chrome&type=ws&path=/?ed%3D2560&host=eooce.yyuuss.dpdns.org&encryption=none#Workers-service
+vless://8e7acba1-17a2-4067-8a81-2459680d62b1@cf.877774.xyz:443?security=tls&sni=eooce.yyuuss.dpdns.org&fp=chrome&type=ws&path=/?ed%3D2560&host=eooce.yyuuss.dpdns.org&encryption=none#Workers-service
+vless://8e7acba1-17a2-4067-8a81-2459680d62b1@cdns.doon.eu.org:443?security=tls&sni=eooce.yyuuss.dpdns.org&fp=chrome&type=ws&path=/?ed%3D2560&host=eooce.yyuuss.dpdns.org&encryption=none#Workers-service
+vless://8e7acba1-17a2-4067-8a81-2459680d62b1@cf.zhetengsha.eu.org:443?security=tls&sni=eooce.yyuuss.dpdns.org&fp=chrome&type=ws&path=/?ed%3D2560&host=eooce.yyuuss.dpdns.org&encryption=none#Workers-service
