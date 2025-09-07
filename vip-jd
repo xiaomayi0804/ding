@@ -25,3 +25,9 @@ vless://8e7acba1-17a2-4067-8a81-2459680d62b1@cf.090227.xyz:443?security=tls&sni=
 vless://8e7acba1-17a2-4067-8a81-2459680d62b1@cf.877774.xyz:443?security=tls&sni=eooce.yyuuss.dpdns.org&fp=chrome&type=ws&path=/?ed%3D2560&host=eooce.yyuuss.dpdns.org&encryption=none#Workers-service
 vless://8e7acba1-17a2-4067-8a81-2459680d62b1@cdns.doon.eu.org:443?security=tls&sni=eooce.yyuuss.dpdns.org&fp=chrome&type=ws&path=/?ed%3D2560&host=eooce.yyuuss.dpdns.org&encryption=none#Workers-service
 vless://8e7acba1-17a2-4067-8a81-2459680d62b1@cf.zhetengsha.eu.org:443?security=tls&sni=eooce.yyuuss.dpdns.org&fp=chrome&type=ws&path=/?ed%3D2560&host=eooce.yyuuss.dpdns.org&encryption=none#Workers-service
+
+
+vless://8e7acba1-17a2-4067-8a81-2459680d62b1@104.27.47.137:443?security=tls&sni=eooce.yyuuss.dpdns.org&fp=randomized&type=ws&path=/&host=eooce.yyuuss.dpdns.org&encryption=none#eooce-01
+vless://8e7acba1-17a2-4067-8a81-2459680d62b1@104.16.45.92:443?security=tls&sni=eooce.yyuuss.dpdns.org&fp=randomized&type=ws&path=/&host=eooce.yyuuss.dpdns.org&encryption=none#eooce-02
+vless://3acaeb0e-c582-439d-aba1-708bc8def4aa@104.19.239.154:443?security=tls&sni=cf.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2048&host=cf.xiaomayi.nyc.mn&encryption=none#xiaomayi-%E7%A7%BB%E5%8A%A801
+vless://3acaeb0e-c582-439d-aba1-708bc8def4aa@104.19.239.32:443?security=tls&sni=cf.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2048&host=cf.xiaomayi.nyc.mn&encryption=none#xiaomayi-%E7%A7%BB%E5%8A%A802
