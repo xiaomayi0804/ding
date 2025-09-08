@@ -17,3 +17,5 @@ vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@162.159.153.212:80?security=&sni=xi
 
 vless://3acaeb0e-c582-439d-aba1-708bc8def4aa@104.19.239.154:443?security=tls&sni=cf.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2048&host=cf.xiaomayi.nyc.mn&encryption=none#xiaomayi-%E7%A7%BB%E5%8A%A801
 vless://3acaeb0e-c582-439d-aba1-708bc8def4aa@104.19.239.32:443?security=tls&sni=cf.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2048&host=cf.xiaomayi.nyc.mn&encryption=none#xiaomayi-%E7%A7%BB%E5%8A%A802
+vless://3acaeb0e-c582-439d-aba1-708bc8def4aa@104.17.98.5:443?security=tls&sni=cf.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2048&host=cf.xiaomayi.nyc.mn&encryption=none#xiaomayi-%E7%A7%BB%E5%8A%A803
+vless://3acaeb0e-c582-439d-aba1-708bc8def4aa@104.17.97.5:443?security=tls&sni=cf.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2048&host=cf.xiaomayi.nyc.mn&encryption=none#xiaomayi-%E7%A7%BB%E5%8A%A804
