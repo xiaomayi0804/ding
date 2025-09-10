@@ -299,7 +299,8 @@ http://cdn.veryfast.filegear-sg.me/live/now/stream.m3u8
 http://cdn.veryfast.filegear-sg.me/live/rthk31/stream.m3u8
 #EXTINF:-1 tvg-name="RTHK32" group-title="港澳台",RTHK32
 http://cdn.veryfast.filegear-sg.me/live/rthk32/stream.m3u8
-
+#EXTINF:-1 tvg-name="J2" group-title="港澳台",J2
+https://smt.1678520.xyz/smt3.2.1.php?id=j2_twn
 
 
 #EXTINF:-1 tvg-name="翡翠台4K" group-title="港澳台",翡翠台4K
