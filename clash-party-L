@@ -134,7 +134,7 @@ proxy-groups:
   - {name: 台湾-手动, type: select, include-all: true, filter: "(?=.*(广台|台湾|台灣|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan)).*$"}
   - {name: 台湾-自动, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "(?=.*(广台|台湾|台灣|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan)).*$"}
 
-  - {name: YouTube, type: select, proxies: [美国-故转, 香港-故转, 🔯 自选故转, ♻️ Airport_01, ♻️ Airport_02, 所有-手动, ⚡ 直连]}
+  - {name: YouTube, type: select, proxies: [🚀 节点选择, 美国-故转, 香港-故转, 🔯 自选故转, ♻️ Airport_01, ♻️ Airport_02, 所有-手动, ⚡ 直连]}
   - {name: Block, <<: *default}
   - {name: 国内, <<: *default}
   - {name: 其他, <<: *default}
