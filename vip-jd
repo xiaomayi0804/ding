@@ -15,13 +15,13 @@ vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@162.159.153.144:80?security=&sni=xi
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@162.159.152.81:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP15
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@162.159.153.212:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP16
 
-vless://3acaeb0e-c582-439d-aba1-708bc8def4aa@104.19.239.154:443?security=tls&sni=cf.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2048&host=cf.xiaomayi.nyc.mn&encryption=none#Joey-cf-01
-vless://3acaeb0e-c582-439d-aba1-708bc8def4aa@104.19.239.32:443?security=tls&sni=cf.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2048&host=cf.xiaomayi.nyc.mn&encryption=none#Joey-cf-02
-vless://3acaeb0e-c582-439d-aba1-708bc8def4aa@104.17.98.5:80?security=&sni=cf.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2048&host=cf.xiaomayi.nyc.mn&encryption=none#Joey-cf-03
-vless://3acaeb0e-c582-439d-aba1-708bc8def4aa@104.17.97.5:80?security=&sni=cf.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2048&host=cf.xiaomayi.nyc.mn&encryption=none#Joey-cf-04
-vless://5668062d-3d89-4a45-a090-6fe419cddaa2@162.159.153.217:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-A-01
-vless://5668062d-3d89-4a45-a090-6fe419cddaa2@162.159.153.216:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-A-02
-vless://5668062d-3d89-4a45-a090-6fe419cddaa2@cf.0sm.com:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-A-03
-vless://5668062d-3d89-4a45-a090-6fe419cddaa2@13.212.35.237:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-A-04-SG
-vless://5668062d-3d89-4a45-a090-6fe419cddaa2@47.128.217.14:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-A-05-SG
-vless://5668062d-3d89-4a45-a090-6fe419cddaa2@92.243.74.23:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-A-06-SG
+vless://3acaeb0e-c582-439d-aba1-708bc8def4aa@104.19.239.154:443?security=tls&sni=xmy.chinanr.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=xmy.chinanr.workers.dev&encryption=none#Joey-cf-01
+vless://3acaeb0e-c582-439d-aba1-708bc8def4aa@104.19.239.32:443?security=tls&sni=xmy.chinanr.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=xmy.chinanr.workers.dev&encryption=none#Joey-cf-02
+vless://3acaeb0e-c582-439d-aba1-708bc8def4aa@104.17.98.5:80?security=&sni=cf.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2048&host=xmy.chinanr.workers.dev&encryption=none#Joey-cf-03
+vless://3acaeb0e-c582-439d-aba1-708bc8def4aa@104.17.97.5:80?security=&sni=cf.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2048&host=xmy.chinanr.workers.dev&encryption=none#Joey-cf-04
+vless://5668062d-3d89-4a45-a090-6fe419cddaa2@162.159.153.217:443?security=tls&sni=a.chinanr.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=a.chinanr.workers.dev&encryption=none#eooce-A-01
+vless://5668062d-3d89-4a45-a090-6fe419cddaa2@162.159.153.216:443?security=tls&sni=a.chinanr.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=a.chinanr.workers.dev&encryption=none#eooce-A-02
+vless://5668062d-3d89-4a45-a090-6fe419cddaa2@cf.0sm.com:443?security=tls&sni=a.chinanr.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=a.chinanr.workers.dev&encryption=none#eooce-A-03
+vless://5668062d-3d89-4a45-a090-6fe419cddaa2@13.212.35.237:80?security=&sni=a.chinanr.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=a.chinanr.workers.dev&encryption=none#eooce-A-04-SG
+vless://5668062d-3d89-4a45-a090-6fe419cddaa2@47.128.217.14:80?security=&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.chinanr.workers.dev&encryption=none#eooce-A-05-SG
+vless://5668062d-3d89-4a45-a090-6fe419cddaa2@92.243.74.23:80?security=&sni=a.chinanr.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=a.chinanr.workers.dev&encryption=none#eooce-A-06-SG
