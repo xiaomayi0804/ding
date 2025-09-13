@@ -38,9 +38,7 @@ proxies:
   - {"name":"🇺🇸 Run.vm","type":"vmess","server":"cf.877774.xyz","port":443,"cipher":"none","uuid":"77d27bd9-d208-4ac3-af72-d9ba54c53099","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/vmess-argo","headers":{"Host":"known-concern-ends-supporting.trycloudflare.com"},"early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"client-fingerprint":"chrome","servername":"known-concern-ends-supporting.trycloudflare.com"}
   - {"type":"hysteria2","name":"🇺🇸 Run.hy2","server":"66.181.36.236","port":59647,"password":"77d27bd9-d208-4ac3-af72-d9ba54c53099","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"tuic","name":"🇺🇸 Run.tuic","server":"66.181.36.236","port":59646,"password":"CaUPcOpRcUPUi0o278FXUd14","uuid":"77d27bd9-d208-4ac3-af72-d9ba54c53099","sni":"www.bing.com","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"skip-cert-verify":true,"version":5}
-  - {name: "🇰🇷 KR-Evoxt_(HY2)","type":"hysteria2","server":"198.20.155.252","port":45801,"password":"8abfe930-d41d-4bc9-8970-645195946857","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
-  - {name: "🇰🇷 KR-Evoxt_(TU)","type":"tuic","server":"198.20.155.252","port":45800,"password":"DdIHAySWAV7UqyNw7fsTZ3Se","uuid":"8abfe930-d41d-4bc9-8970-645195946857","sni":"www.bing.com","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"skip-cert-verify":true,"version":5}
-
+  
 
 # ========================
 # 主要端口设置
@@ -135,7 +133,8 @@ proxy-groups:
   - {name: 台湾-故转, type: fallback, interval: 300, lazy: false, proxies: [台湾-手动, 台湾-自动]}
   - {name: 台湾-手动, type: select, include-all: true, filter: "(?=.*(广台|台湾|台灣|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan)).*$"}
   - {name: 台湾-自动, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "(?=.*(广台|台湾|台灣|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan)).*$"}
- 
+
+  - {name: YouTube, type: select, proxies: [美国-故转, 香港-故转, 🔯 自选故转, ♻️ Airport_01, ♻️ Airport_02, 所有-手动, ⚡ 直连]}
   - {name: Block, <<: *default}
   - {name: 国内, <<: *default}
   - {name: 其他, <<: *default}
@@ -167,6 +166,7 @@ rules:
   - DOMAIN-KEYWORD,sharepoint,⚡ 直连
   - DOMAIN-KEYWORD,teamviewer,⚡ 直连
 
+  - RULE-SET,Youtube / Domain,YouTube
   - RULE-SET,Block / Domain,Block  
   - RULE-SET,Direct / Domain,国内
   - RULE-SET,China / Domain,国内
@@ -184,6 +184,7 @@ rule-anchor:
 
 rule-providers:
   Direct / Domain: {<<: *class, url: "https://gh-proxy.com/raw.githubusercontent.com/liandu2024/clash/refs/heads/main/list/Direct.list"}
+  Youtube / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/youtube.mrs"}  
   China / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/cn.mrs"}
   China / IP: {<<: *ip, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geoip/cn.mrs"}
   Private / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/private.mrs"}
