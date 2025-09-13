@@ -149,6 +149,7 @@ rules:
   - DOMAIN-KEYWORD,xyz,⚡ 直连
   - DOMAIN-SUFFIX,3a.ink,⚡ 直连
   - DOMAIN-SUFFIX,nyc.mn,⚡ 直连
+  - DOMAIN-SUFFIX,tvb.com,香港-故转
   - DOMAIN-SUFFIX,freemyip.com,香港-故转
   - DOMAIN-SUFFIX,dnsany.com,⚡ 直连
   - DOMAIN-SUFFIX,cmvideo.cn,⚡ 直连
