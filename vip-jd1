@@ -11,5 +11,4 @@ proxies:
   - {"name":"移动专线A (1)","type":"vmess","server":"183.240.245.242","port":52595,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"client-fingerprint":""}
   - {"name":"移动专线A (2)","type":"vmess","server":"183.240.180.3","port":34141,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"client-fingerprint":""}
   - {"name":"移动专线A (3)","type":"vmess","server":"183.240.245.251","port":39595,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"client-fingerprint":""}
-  - {"name":"🇭🇰 香港xnnet","type":"vmess","server":"103.224.80.27","port":38357,"cipher":"auto","uuid":"7e7c5eb9-6472-4ad6-84cb-a04c2a5ba246","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{}}}
 
