@@ -36,6 +36,8 @@ https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_
 http://muzzik-live.morescreens.com/mts-a6/playlist.m3u8
 #EXTINF:-1 group-title="4K频道",Loupe 4K
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
+#EXTINF:-1,tvg-id="ELEVENSPORTS1 4K PL" tvg-name="ELEVENSPORTS1" tvg-logo="https://epg.v1.mk/logo/ELEVENSPORTS1.png" group-title="4K频道",Eleven Sports 1 4K PL
+http://ef90a6cd.rossteleccom.net/iptv/2TBC4G2WWDG6RSUSN5SXSQEC/20068/index.m3u8
 #EXTINF:-1 tvg-id="SkySpMainEv.uk" tvg-logo="https://i.imgur.com/zzeXXYF.png" group-title="4K频道",Sky Sports Main Event UHD
 https://7pal.short.gy/SSMEuhd
 #EXTINF:-1,tvg-id="[ASTRO]712WARNERTV" tvg-name="ASTRo-4k" tvg-logo="https://epg.v1.mk/logo/[ASTRO]712WARNERTV.png" group-title="4K频道",ASTRo4kAKtv
