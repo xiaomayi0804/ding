@@ -35,5 +35,3 @@ vless://dc9e0c90-397a-48d2-b35d-331e89152999@42.200.111.106:20106?security=tls&s
 vless://dc9e0c90-397a-48d2-b35d-331e89152999@47.128.217.14:443?security=tls&sni=tianshu13-39m.pages.dev&fp=randomized&type=ws&path=/&host=tianshu13-39m.pages.dev&encryption=none#TS-04
 vless://dc9e0c90-397a-48d2-b35d-331e89152999@47.128.217.14:443?security=tls&sni=xiaomayi.sylu.net&fp=randomized&type=ws&path=/&host=xiaomayi.sylu.net&encryption=none#TS-05
 vless://dc9e0c90-397a-48d2-b35d-331e89152999@47.128.217.14:443?security=tls&sni=xiaomayi.webn.cc&fp=randomized&type=ws&path=/&host=xiaomayi.webn.cc&encryption=none#TS-06
-vless://dc9e0c90-397a-48d2-b35d-331e89152999@47.128.217.14:443?security=tls&sni=xiaomayi.sylu.net&fp=randomized&type=ws&path=/&host=xiaomayi.sylu.net&encryption=none#TS-05
-vless://dc9e0c90-397a-48d2-b35d-331e89152999@47.128.217.14:443?security=tls&sni=xiaomayi.webn.cc&fp=randomized&type=ws&path=/&host=xiaomayi.webn.cc&encryption=none#TS-06
