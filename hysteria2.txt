@@ -1,5 +1,5 @@
 IDX部署
-vmpt="5679" argo="y" agn="idx.xiaomayi.nyc.mn"  uuid="7ef17346-1b45-49e2-8cbd-f9aa6b9f303b" agk="eyJhIjoiODk1YzUyNmZlOGU0NzhhM2NlZjVmZDZlMzI5YmEwNjUiLCJ0IjoiOTNhNTk2NGUtOGFhYy00MjA3LWEwYzctNDE4ZTljODNjNzliIiwicyI6Ik5qSXhaamc1TmpZdE4yUTRZUzAwTUdVNUxUazBPVE10WTJOaE9URXhNVFl5WTJVdyJ9" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosb/main/argosb.sh) rep
+vmpt="5679" argo="y" agn="idx.xiaomayi.nyc.mn"  uuid="7ef17346-1b45-49e2-8cbd-f9aa6b9f303b" agk="eyJhIjoiODk1YzUyNmZlOGU0NzhhM2NlZjVmZDZlMzI5YmEwNjUiLCJ0IjoiOTNhNTk2NGUtOGFhYy00MjA3LWEwYzctNDE4ZTljODNjNzliIiwicyI6Ik5qSXhaamc1TmpZdE4yUTRZUzAwTUdVNUxUazBPVE10WTJOaE9URXhNVFl5WTJVdyJ9" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh) rep
 
 HG部署
 bash <(curl -l -s https://raw.githubusercontent.com/qq525448560/free-vps-py/refs/heads/main/test.sh)
