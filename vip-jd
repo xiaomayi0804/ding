@@ -19,10 +19,10 @@ vless://5668062d-3d89-4a45-a090-6fe419cddaa2@122.117.174.80:443?security=tls&sni
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@13.212.35.237:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-04-SG
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@47.128.217.14:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-05-SG
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@92.243.74.23:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-06-SG
-vless://5668062d-3d89-4a45-a090-6fe419cddaa2@47.76.106.34:12373?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-07-HK
+vless://5668062d-3d89-4a45-a090-6fe419cddaa2@109.176.254.71:60002?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-07-HK
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@42.200.111.106:20106?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-08-HK
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@38.147.184.173:444?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-09-HK
-vless://5668062d-3d89-4a45-a090-6fe419cddaa2@210.61.97.241:81?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-10-TW
+vless://5668062d-3d89-4a45-a090-6fe419cddaa2@114.34.202.224:10004?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-10-TW
 vless://dc9e0c90-397a-48d2-b35d-331e89152999@cf.877774.xyz:443?security=tls&sni=tianshu13-39m.pages.dev&fp=randomized&type=ws&path=/&host=tianshu13-39m.pages.dev&encryption=none#TS-01
 vless://dc9e0c90-397a-48d2-b35d-331e89152999@cf.877774.xyz:443?security=tls&sni=tianshu13-39m.pages.dev&fp=randomized&type=ws&path=/&host=tianshu13-39m.pages.dev&encryption=none#TS-02
 vless://dc9e0c90-397a-48d2-b35d-331e89152999@42.200.111.106:20106?security=tls&sni=tianshu13-39m.pages.dev&fp=randomized&type=ws&path=/&host=tianshu13-39m.pages.dev&encryption=none#TS-03
