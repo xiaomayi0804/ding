@@ -26,6 +26,15 @@ proxy-providers:
       interval: 300
     proxy: ⚡ 直连 
 
+  Airport_03:
+    url: "https://cfxr.eu.org/getSub?host=snipaste.xiaomayi.nyc.mn"
+    type: http
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: ⚡ 直连 
 
 proxies:
   - {name: 拒绝, type: reject}
@@ -116,7 +125,8 @@ proxy-groups:
   - {name: 所有-手动, type: select, include-all: true, filter: "^((?!(直连|拒绝|443)).)*$"}
   - {name: 所有-自动, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "^((?!(直连|拒绝|443)).)*$"}
   - {name: ♻️ Airport_01, type: url-test, tolerance: 20, interval: 300, use: [Airport_01]}
-  - {name: ♻️ Airport_02, type: url-test, tolerance: 20, interval: 300, use: [Airport_02], filter: "^((?!(直连|443)).)*$"}
+  - {name: ♻️ Airport_02, type: url-test, tolerance: 20, interval: 300, use: [Airport_02, Airport_03], filter: "^((?!(直连|443)).)*$"}
+
 
   # 美国组
   - {name: 美国-故转, type: fallback, interval: 300, lazy: false, proxies: [美国-手动, 美国-自动]}
