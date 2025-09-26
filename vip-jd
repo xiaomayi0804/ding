@@ -8,7 +8,6 @@ vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@172.64.229.148:80?security=&sni=xia
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@162.159.153.144:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP14
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@162.159.152.81:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP15
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@162.159.153.212:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP16
-vless://704564fb-bd6e-4c9b-88fc-66ceebb85825@47.128.217.14:443?security=tls&sni=ts-13.pages.dev&fp=randomized&type=ws&path=/&host=ts-13.pages.dev&encryption=none#TS-13-01-SG
 vless://704564fb-bd6e-4c9b-88fc-66ceebb85825@60.248.6.250:43?security=tls&sni=ts-13.pages.dev&fp=randomized&type=ws&path=/&host=ts-13.pages.dev&encryption=none#TS-13-02-TW
 vless://704564fb-bd6e-4c9b-88fc-66ceebb85825@31.43.179.253:443?security=tls&sni=ts-13.pages.dev&fp=randomized&type=ws&path=/&host=ts-13.pages.dev&encryption=none#TS-13-03-V
 vless://704564fb-bd6e-4c9b-88fc-66ceebb85825@88.216.66.253:443?security=tls&sni=ts-13.pages.dev&fp=randomized&type=ws&path=/&host=ts-13.pages.dev&encryption=none#TS-13-04-V
@@ -27,14 +26,10 @@ vless://3acaeb0e-c582-439d-aba1-708bc8def4aa@104.17.97.5:80?security=&sni=cf.xia
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@162.159.153.217:80?security=&sni=a.chinanr.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=a.chinanr.workers.dev&encryption=none#eooce-01
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@162.159.153.216:80?security=&sni=a.chinanr.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=a.chinanr.workers.dev&encryption=none#eooce-02
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@122.117.174.80:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-03-TW
-vless://5668062d-3d89-4a45-a090-6fe419cddaa2@13.212.35.237:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-04-SG
-vless://5668062d-3d89-4a45-a090-6fe419cddaa2@47.128.217.14:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-05-SG
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@92.243.74.23:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-06-SG
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@8.217.242.92:30443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-07-HK
-vless://5668062d-3d89-4a45-a090-6fe419cddaa2@20.78.59.52:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-08-JP
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@141.11.76.180:4443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-09-HK
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@114.34.202.224:10004?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-10-TW
 vless://dc9e0c90-397a-48d2-b35d-331e89152999@cf.877774.xyz:443?security=tls&sni=tianshu13-39m.pages.dev&fp=randomized&type=ws&path=/&host=tianshu13-39m.pages.dev&encryption=none#TS-01
 vless://dc9e0c90-397a-48d2-b35d-331e89152999@cf.877774.xyz:443?security=tls&sni=tianshu13-39m.pages.dev&fp=randomized&type=ws&path=/&host=tianshu13-39m.pages.dev&encryption=none#TS-02
 vless://dc9e0c90-397a-48d2-b35d-331e89152999@114.34.202.224:10004?security=tls&sni=tianshu13-39m.pages.dev&fp=randomized&type=ws&path=/&host=tianshu13-39m.pages.dev&encryption=none#TS-03
-vless://dc9e0c90-397a-48d2-b35d-331e89152999@47.128.217.14:443?security=tls&sni=tianshu13-39m.pages.dev&fp=randomized&type=ws&path=/&host=tianshu13-39m.pages.dev&encryption=none#TS-04
