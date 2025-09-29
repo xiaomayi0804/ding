@@ -147,6 +147,40 @@ http://192.168.1.5:9188/rtp/239.3.1.128:8001
 http://192.168.1.5:9188/rtp/239.3.1.201:8001
 
 
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="北方广电",CCTV-1HD
+http://120.76.248.139/live/bfgd/4200000201.m3u8
+#EXTINF:-1,tvg-id="cctv2" tvg-name="CCTV2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="北方广电",CCTV-2HD
+http://120.76.248.139/live/bfgd/4200000061.m3u8
+#EXTINF:-1,tvg-id="cctv3" tvg-name="CCTV3" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="北方广电",CCTV-3HD
+http://120.76.248.139/live/bfgd/4200000062.m3u8
+#EXTINF:-1,tvg-id="cctv4" tvg-name="CCTV4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="北方广电",CCTV-4HD
+http://120.76.248.139/live/bfgd/4200000063.m3u8
+#EXTINF:-1,tvg-id="cctv5" tvg-name="CCTV5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="北方广电",CCTV-5HD
+http://120.76.248.139/live/bfgd/4200000064.m3u8
+#EXTINF:-1,tvg-id="cctv5+" tvg-name="CCTV5+" tvg-logo="https://epg.v1.mk/logo/cctv5+.png" group-title="北方广电",CCTV-5+HD
+http://120.76.248.139/live/bfgd/4200000246.m3u8
+#EXTINF:-1,tvg-id="cctv6" tvg-name="CCTV6" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="北方广电",CCTV-6HD
+http://120.76.248.139/live/bfgd/4200000065.m3u8
+#EXTINF:-1,tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.v1.mk/logo/CCTV7.png" group-title="北方广电",CCTV-7HD
+http://120.76.248.139/live/bfgd/4200000127.m3u8
+#EXTINF:-1,tvg-id="cctv8" tvg-name="CCTV8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="北方广电",CCTV-8HD
+http://120.76.248.139/live/bfgd/4200000066.m3u8
+#EXTINF:-1,tvg-id="cctv9" tvg-name="CCTV9" tvg-logo="https://epg.v1.mk/logo/cctv9.png" group-title="北方广电",CCTV-9HD
+http://120.76.248.139/live/bfgd/4200000128.m3u8
+#EXTINF:-1,tvg-id="cctv10" tvg-name="CCTV10" tvg-logo="https://epg.v1.mk/logo/cctv10.png" group-title="北方广电",CCTV-10HD
+http://120.76.248.139/live/bfgd/4200000129.m3u8
+#EXTINF:-1,tvg-id="cctv11" tvg-name="CCTV11" tvg-logo="https://epg.v1.mk/logo/cctv11.png" group-title="北方广电",CCTV-11HD
+http://120.76.248.139/live/bfgd/4200000130.m3u8
+#EXTINF:-1,tvg-id="cctv12" tvg-name="CCTV12" tvg-logo="https://epg.v1.mk/logo/cctv12.png" group-title="北方广电",CCTV-12HD
+http://120.76.248.139/live/bfgd/4200000131.m3u8
+#EXTINF:-1,tvg-id="cctv13" tvg-name="CCTV13" tvg-logo="https://epg.v1.mk/logo/cctv13.png" group-title="北方广电",CCTV-13HD
+http://120.76.248.139/live/bfgd/4200000067.m3u8
+#EXTINF:-1,tvg-id="cctv14" tvg-name="CCTV14" tvg-logo="https://epg.v1.mk/logo/cctv14.png" group-title="北方广电",CCTV-14HD
+http://120.76.248.139/live/bfgd/4200000132.m3u8
+#EXTINF:-1,tvg-id="cctv15" tvg-name="CCTV15" tvg-logo="https://epg.v1.mk/logo/cctv15.png" group-title="北方广电",CCTV-15HD
+http://120.76.248.139/live/bfgd/4200000133.m3u8
+#EXTINF:-1,tvg-id="cctv17" tvg-name="CCTV17" tvg-logo="https://epg.v1.mk/logo/cctv17.png" group-title="北方广电",CCTV-17HD
+http://120.76.248.139/live/bfgd/4200000204.m3u8
 
 
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV-1 综合[高清]" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="央视",CCTV-1 综合[高清]
@@ -469,3 +503,18 @@ http://42.48.176.160:35455/itv/3000000010000025380.m3u8?cdn=FifastbLive
 http://42.48.176.160:35455/itv/3000000010000027691.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://epg.v1.mk/logo/咪咕4k.png" group-title="咪咕体育",咪咕视频_8M1080_咪视通-45
 http://42.48.176.160:35455/itv/3000000010000031669.m3u8?cdn=hnbblive
+
+
+#EXTINF:-1,tvg-id="惊艳" tvg-name="惊艳" tvg-logo="https://epg.v1.mk/logo/惊艳.png" group-title="其他",惊艳
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
+#EXTINF:-1,tvg-id="潘朵啦" tvg-name="潘朵啦" tvg-logo="https://epg.v1.mk/logo/四川松潘.png" group-title="其他",潘朵啦
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/86.ts
+#EXTINF:-1,tvg-id="彩虹K" tvg-name="彩虹K" tvg-logo="https://epg.v1.mk/logo/彩虹K.png" group-title="其他",彩虹
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/87.ts
+#EXTINF:-1,tvg-id="松视1" tvg-name="松视1" tvg-logo="https://epg.v1.mk/logo/松视1.png" group-title="其他",松视1
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts
+#EXTINF:-1,tvg-id="松视2" tvg-name="松视2" tvg-logo="https://epg.v1.mk/logo/松视2.png" group-title="其他",松视2
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
+#EXTINF:-1,tvg-id="松视3" tvg-name="松视3" tvg-logo="https://epg.v1.mk/logo/松视3.png" group-title="其他",松视3
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
+
