@@ -18,14 +18,8 @@ http://42.48.176.160:35455/douyu/4369877
 http://42.48.176.160:35455/douyu/6264482
 #EXTINF:-1 group-title="斗鱼王者",斗鱼欠你幸福
 http://42.48.176.160:35455/douyu/280087
-#EXTINF:-1 group-title="斗鱼王者",抖音唐艺
-http://live.xmy.hidns.vip/douyin//405518163654
-#EXTINF:-1 group-title="斗鱼王者",抖音木森
-http://live.xmy.hidns.vip/douyin/148108118778
 
 
-#EXTINF:-1 group-title="4K频道",Bloomberg TV+ 
-https://bloomberg-bloomberg-2-nz.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="4K频道",Clarity 4K
 https://d3thiix3tzne5u.cloudfront.net/playlist2160p.m3u8
 #EXTINF:-1 group-title="4K频道",Love Nrture 4K
@@ -469,15 +463,3 @@ http://42.48.176.160:35455/itv/3000000010000027691.m3u8?cdn=ystenlive
 http://42.48.176.160:35455/itv/3000000010000031669.m3u8?cdn=hnbblive
 
 
-#EXTINF:-1,tvg-id="惊艳" tvg-name="惊艳" tvg-logo="https://epg.v1.mk/logo/惊艳.png" group-title="其他",惊艳
-http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
-#EXTINF:-1,tvg-id="潘朵啦" tvg-name="潘朵啦" tvg-logo="https://epg.v1.mk/logo/四川松潘.png" group-title="其他",潘朵啦
-http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/86.ts
-#EXTINF:-1,tvg-id="彩虹K" tvg-name="彩虹K" tvg-logo="https://epg.v1.mk/logo/彩虹K.png" group-title="其他",彩虹
-http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/87.ts
-#EXTINF:-1,tvg-id="松视1" tvg-name="松视1" tvg-logo="https://epg.v1.mk/logo/松视1.png" group-title="其他",松视1
-http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts
-#EXTINF:-1,tvg-id="松视2" tvg-name="松视2" tvg-logo="https://epg.v1.mk/logo/松视2.png" group-title="其他",松视2
-http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
-#EXTINF:-1,tvg-id="松视3" tvg-name="松视3" tvg-logo="https://epg.v1.mk/logo/松视3.png" group-title="其他",松视3
-http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
