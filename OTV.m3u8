@@ -331,51 +331,6 @@ https://cdn8.163189.xyz/live/lhyp/stream.m3u8
 https://livecdn9.ptsplus.tv/pts-youth-A/playlist.m3u8
 
 
-#EXTM3U x-tvg-url="https://epg.v1.mk/fy.xml"
-#EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.v1.mk/logo/凤凰资讯.png" group-title="港澳台",凤凰资讯
-http://182.93.7.202:1001/hls/301/index.m3u8
-#EXTINF:-1,tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.v1.mk/logo/凤凰中文.png" group-title="港澳台",凤凰中文
-http://182.93.7.202:1001/hls/302/index.m3u8
-#EXTINF:-1,tvg-id="NHKWORLD" tvg-name="NHKWORLD" tvg-logo="https://epg.v1.mk/logo/NHKWORLD.png" group-title="港澳台",NHK world
-http://182.93.7.202:1001/hls/303/index.m3u8
-#EXTINF:-1,tvg-id="DW Deutsch" tvg-name="DW Deutsch" tvg-logo="https://epg.v1.mk/logo/DW Deutsch.png" group-title="港澳台",DW
-http://182.93.7.202:1001/hls/304/index.m3u8
-#EXTINF:-1,tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://epg.v1.mk/logo/湖南卫视.png" group-title="其他",湖南卫视
-http://182.93.7.202:1001/hls/305/index.m3u8
-#EXTINF:-1,tvg-id="CIBN流金岁月" tvg-name="CIBN流金岁月" tvg-logo="https://epg.v1.mk/logo/CIBN流金岁月.png" group-title="其他",金融卡通
-http://182.93.7.202:1001/hls/306/index.m3u8
-#EXTINF:-1,tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://epg.v1.mk/logo/翡翠台.png" group-title="港澳台",翡翠台
-http://182.93.7.202:1001/hls/307/index.m3u8
-#EXTINF:-1,tvg-id="1562605316-REDIS-DATA-TYPES" tvg-name="1562605316-REDIS-DATA-TYPES" tvg-logo="https://epg.v1.mk/logo/1562605316-REDIS-DATA-TYPES.png" group-title="港澳台",pearl
-http://182.93.7.202:1001/hls/308/index.m3u8
-#EXTINF:-1,tvg-id="cna" tvg-name="cna" tvg-logo="https://epg.v1.mk/logo/cna.png" group-title="其他",CNA
-http://182.93.7.202:1001/hls/309/index.m3u8
-#EXTINF:-1,tvg-id="TRTWORLD" tvg-name="TRTWORLD" tvg-logo="https://epg.v1.mk/logo/TRTWORLD.png" group-title="其他",TRT world
-http://182.93.7.202:1001/hls/310/index.m3u8
-#EXTINF:-1,tvg-id="CHANNEL1" tvg-name="CHANNEL1" tvg-logo="https://epg.v1.mk/logo/CHANNEL1.png" group-title="其他",channel [V]
-http://182.93.7.202:1001/hls/311/index.m3u8
-#EXTINF:-1,tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="其他",CCTV2
-http://182.93.7.202:1001/hls/312/index.m3u8
-#EXTINF:-1,tvg-id="无线新闻台" tvg-name="无线新闻台" tvg-logo="https://epg.v1.mk/logo/无线新闻台.png" group-title="港澳台",无线新闻台
-http://182.93.7.202:1001/hls/313/index.m3u8
-#EXTINF:-1,tvg-id="星空卫视" tvg-name="星空卫视" tvg-logo="https://epg.v1.mk/logo/星空卫视.png" group-title="港澳台",星空卫视
-http://182.93.7.202:1001/hls/314/index.m3u8
-#EXTINF:-1,tvg-id="VIU6" tvg-name="VIU6" tvg-logo="https://epg.v1.mk/logo/VIU6.png" group-title="港澳台",VIU6
-http://182.93.7.202:1001/hls/315/index.m3u8
-#EXTINF:-1,tvg-id="viutv" tvg-name="viutv" tvg-logo="https://epg.v1.mk/logo/viutv.png" group-title="港澳台",VIU TV
-http://182.93.7.202:1001/hls/316/index.m3u8
-#EXTINF:-1,tvg-id="澳视澳门" tvg-name="澳视澳门" tvg-logo="https://epg.v1.mk/logo/澳视澳门.png" group-title="港澳台",澳视澳门
-http://182.93.7.202:1001/hls/1/index.m3u8
-#EXTINF:-1,tvg-id="澳视体育" tvg-name="澳视体育" tvg-logo="https://epg.v1.mk/logo/澳视体育.png" group-title="港澳台",澳视RTP
-http://182.93.7.202:1001/hls/2/index.m3u8
-#EXTINF:-1,tvg-id="澳门资讯" tvg-name="澳门资讯" tvg-logo="https://epg.v1.mk/logo/澳门资讯.png" group-title="港澳台",澳门资讯
-http://182.93.7.202:1001/hls/3/index.m3u8
-#EXTINF:-1,tvg-id="澳门MACAU" tvg-name="澳门MACAU" tvg-logo="https://epg.v1.mk/logo/澳门MACAU.png" group-title="港澳台",澳门Macau
-http://182.93.7.202:1001/hls/4/index.m3u8
-#EXTINF:-1,tvg-id="奥视澳门" tvg-name="奥视澳门" tvg-logo="https://epg.v1.mk/logo/奥视澳门.png" group-title="港澳台",澳门体育
-http://182.93.7.202:1001/hls/16/index.m3u8
-
-
 
 #EXTINF:-1,tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://epg.v1.mk/logo/咪咕4k.png" group-title="咪咕体育",咪咕视频_8M1080_咪视通-1
 http://42.48.176.160:35455/itv/3000000001000005308.m3u8?cdn=FifastbLive
