@@ -46,6 +46,8 @@ proxy-providers:
       interval: 300
     proxy: 🚀 节点选择 
 
+
+
 proxies:
   - {name: 拒绝, type: reject}
   - {name: ⚡ 直连, type: direct}
