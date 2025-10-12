@@ -31,6 +31,8 @@ vless://704564fb-bd6e-4c9b-88fc-66ceebb85825@cdns.doon.eu.org:443?security=tls&s
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@162.159.153.217:80?security=&sni=a.chinanr.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=a.chinanr.workers.dev&encryption=none#eooce-01
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@162.159.153.216:80?security=&sni=a.chinanr.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=a.chinanr.workers.dev&encryption=none#eooce-02
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@122.117.174.80:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-03-TW
+vless://5668062d-3d89-4a45-a090-6fe419cddaa2@8.210.29.68:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-04-HK
+vless://5668062d-3d89-4a45-a090-6fe419cddaa2@47.238.120.134:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-05-HK
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@92.243.74.23:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-06-SG
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@8.217.242.92:30443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-07-HK
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@141.11.76.180:4443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-09-HK
