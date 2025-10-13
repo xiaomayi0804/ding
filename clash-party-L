@@ -37,7 +37,7 @@ proxy-providers:
     proxy: ⚡ 直连 
 
   Airport_04:
-    url: "https://a2b.godblessyou.top/the/revolution/is/love/api/v1/client/subscribe?token=304e0361e7a39ba89d3553aa066547e09"
+    url: "https://a2b.godblessyou.top/the/revolution/is/love/api/v1/client/subscribe?token=304e0361e7a39ba89d3553aa066547e0"
     type: http
     interval: 86400
     health-check:
@@ -47,14 +47,14 @@ proxy-providers:
     proxy: 🚀 节点选择 
 
   Airport_05:
-    url: "https://5f236t3.flownet.store/s/146ec7ffc9ec3cdc5d90f8d100d9cb4c9"
+    url: "https://5f236t3.flownet.store/s/146ec7ffc9ec3cdc5d90f8d100d9cb4c"
     type: http
     interval: 86400
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: ⚡ 直连  
+    proxy: 🚀 节点选择  
 
 
 proxies:
