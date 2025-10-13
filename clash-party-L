@@ -46,6 +46,15 @@ proxy-providers:
       interval: 300
     proxy: 🚀 节点选择 
 
+  Airport_05:
+    url: "https://5f236t3.flownet.store/s/146ec7ffc9ec3cdc5d90f8d100d9cb4c9"
+    type: http
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: ⚡ 直连  
 
 
 proxies:
@@ -128,7 +137,7 @@ default: &default
 
 proxy-groups:
 
-  - {name: 🚀 节点选择, type: select, proxies: [美国-故转, 香港-故转, 🔯 自选故转, ♻️ Airport_01, ♻️ Airport_02, ♻️ Airport_03, ♻️ Airport_04, 所有-手动, ⚡ 直连]}
+  - {name: 🚀 节点选择, type: select, proxies: [美国-故转, 香港-故转, 🔯 自选故转, ♻️ Airport_01, ♻️ Airport_02, ♻️ Airport_03, ♻️ Airport_04, ♻️ Airport_05, 所有-手动, ⚡ 直连]}
   - {name: 🔯 自选故转, type: fallback, proxies: [所有-手动, ♻️ Airport_02, ♻️ Airport_03, ♻️ Airport_04, 美国-故转, 香港-故转], interval: 50, lazy: false, url: https://www.gstatic.com/generate_204}
   - {name: 所有-手动, type: select, include-all: true, filter: "^((?!(直连|拒绝|443)).)*$"}
   - {name: 所有-自动, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "^((?!(直连|拒绝|443)).)*$"}
@@ -136,6 +145,7 @@ proxy-groups:
   - {name: ♻️ Airport_02, type: url-test, tolerance: 20, interval: 300, use: [Airport_02]}
   - {name: ♻️ Airport_03, type: url-test, tolerance: 20, interval: 300, use: [Airport_03]}
   - {name: ♻️ Airport_04, type: url-test, tolerance: 20, interval: 300, use: [Airport_04]}
+  - {name: ♻️ Airport_05, type: url-test, tolerance: 20, interval: 300, use: [Airport_05]}
 
 
   # 美国组
