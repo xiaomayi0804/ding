@@ -28,3 +28,31 @@ proxies:
 
   - {"type":"hysteria2","name":"🇭🇰 HK🐒","server":"38.207.133.174","port":443,"ports":"20001-49999","password":"sysadmin.sysadmin","sni":"hk.372870.xyz","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"🇯🇵 JP🐒","server":"203.190.0.132","port":34000,"password":"1a81691c-eb18-4317-8755-e3bc3eb887f4","sni":"node.flownet.store","skip-cert-verify":true,"tfo":false}
+  - cipher: aes-256-gcm
+    name: HK AMAZON 18
+    password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+    port: 15098
+    server: ss.017.node-for-bigairport.win
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: HK AMAZON 19
+    password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+    port: 15099
+    server: ss.016.node-for-bigairport.win
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: HK Amazon 20
+    password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+    port: 15098
+    server: ss.013.node-for-bigairport.win
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: HK AMAZON 10
+    password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+    port: 15097
+    server: ss.019.node-for-bigairport.win
+    type: ss
+    udp: true
