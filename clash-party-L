@@ -47,7 +47,7 @@ proxy-providers:
     proxy: 🚀 节点选择 
 
   Airport_05:
-    url: "https://sublink.634676.xyz/sub1"
+    #url: "https://sublink.634676.xyz/sub"
     type: http
     interval: 86400
     health-check:
