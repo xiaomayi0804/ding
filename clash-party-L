@@ -37,7 +37,7 @@ proxy-providers:
     proxy: ⚡ 直连 
 
   Airport_04:
-    url: "https://m2w.godblessyou.top/api/v1/client/subscribe?token=304e0361e7a39ba89d3553aa066547e09"
+    url: "https://a2b.godblessyou.top/the/revolution/is/love/api/v1/client/subscribe?token=304e0361e7a39ba89d3553aa066547e09"
     type: http
     interval: 86400
     health-check:
