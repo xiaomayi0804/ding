@@ -47,7 +47,7 @@ proxy-providers:
     proxy: 🚀 节点选择 
 
   Airport_05:
-    url: "https://5f236t3.flownet.store/s/146ec7ffc9ec3cdc5d90f8d100d9cb4c"
+    url: "https://sublink.634676.xyz/sub"
     type: http
     interval: 86400
     health-check:
