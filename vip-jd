@@ -2,6 +2,10 @@ vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@daphne.ns.cloudflare.com:80?securit
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@www.speedtest.net:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP2
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@www.visa.com.hk:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP3
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@www.wto.org:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP4
+vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@47.242.133.182:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP5
+vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@47.238.120.134:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP6
+
+
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@198.41.211.102:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP11
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@172.64.229.196:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP12
 vless://e4fe88c4-b5a5-4d69-a639-55d146e3888e@172.64.229.148:80?security=&sni=xiaoxiaomayi.leo726.workers.dev&fp=randomized&type=ws&path=/?ed%3D2560&host=xiaoxiaomayi.leo726.workers.dev&encryption=none#edgetunnel-VIP13
@@ -40,7 +44,6 @@ vless://5668062d-3d89-4a45-a090-6fe419cddaa2@8.217.242.92:30443?security=tls&sni
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@157.254.32.94:38165?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-08-HK
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@124.156.238.155:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-09-JP
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@141.11.76.180:4443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-10-HK
-vless://5668062d-3d89-4a45-a090-6fe419cddaa2@104.17.222.125:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-11-G
 vless://5668062d-3d89-4a45-a090-6fe419cddaa2@104.17.222.125:443?security=tls&sni=a.xiaomayi.nyc.mn&fp=randomized&type=ws&path=/?ed%3D2560&host=a.xiaomayi.nyc.mn&encryption=none#eooce-11-G
 
 
