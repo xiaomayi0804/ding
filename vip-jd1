@@ -1,7 +1,7 @@
 proxies:
   - {"type":"hysteria2","name":"🇺🇸 claw-us2","server":"hy2.xiaomayi.nyc.mn","port":45831,"password":"edwardchina.chinanr","sni":"hy2.xiaomayi.nyc.mn","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"🇺🇸 claw-us1","server":"hy1.leochina.nyc.mn","port":41311,"password":"edwardchina.chinanr","sni":"hy1.leochina.nyc.mn","skip-cert-verify":true,"tfo":false}
-  #- {"name":"🇯🇵 日本-VVIP","type":"http","tls":true,"server":"23.106.140.14","port":8443,"skip-cert-verify":true}
+  - {"name":"🇯🇵 日本-VVIP","type":"http","tls":true,"server":"23.106.140.14","port":8443,"skip-cert-verify":true}
   #- {"name":"🇰🇷 oracle韩国首尔-VIP","type":"http","tls":true,"server":"testkr3.ssv.vc","port":30446,"username":"test","password":"test.+","sni":"testkr3.ssv.vc","skip-cert-verify":true}
   #- {"name":"🇰🇷 oracle首尔 -VIP","type":"http","tls":true,"server":"testkr3.ssv.vc","port":30446,"username":"test","password":"test.+","sni":"testkr3.ssv.vc","skip-cert-verify":true}
   #- {"type":"vless","name":"🇭🇰 香港VIP","server":"47.83.175.231","port":443,"uuid":"3e7f67de-648e-4871-b51a-a225214d41ee","tls":true,"skip-cert-verify":true,"reality-opts":{"public-key":"TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw"},"network":"tcp","servername":"cdn.userway.org",}
