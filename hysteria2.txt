@@ -3,6 +3,14 @@ vmpt="5679" argo="y" agn="idx.xiaomayi.nyc.mn"  uuid="7ef17346-1b45-49e2-8cbd-f9
 
 vmpt="5679" argo="y" agn="idx.leochina.nyc.mn"  uuid="09f9dc5d-4932-4030-ae88-6993bd9e828b" agk="eyJhIjoiYTViMjBhMWEyNjIzZWFjNjZiNzdiOWI0MGM4OWMwMTYiLCJ0IjoiNTk1NjQyMDMtYWM5OC00NjcyLTkzMGYtY2ViZmNlYTczNjE4IiwicyI6IlltUXlPRGRpWTJVdE9UTmpOQzAwWkdWbUxUazFaalV0TkdaaVpHSTFaR014TnpnMSJ9" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh) rep
 
+idxsh:
+export PORT=8080 UUID=bb198873-8ffa-4df9-ac0f-868934e96f9f
+curl -sSL https://raw.githubusercontent.com/vevc/one-node/refs/heads/main/google-idx/install.sh | sh
+
+export ARGO_TOKEN=eyJhIjoiYTViMjBhMWEyNjIzZWFjNjZiNzdiOWI0MGM4OWMwMTYiLCJ0IjoiYmM2Mzk1ZTMtMTk5ZS00NDAwLWFkYzQtYjNjYjBiNDQxYzNlIiwicyI6IlltVTNNakV5TW1FdE9XWTRPUzAwTlRoakxUZ3lNMkV0TnpNMU1EZ3pZelU1WW1SaiJ9
+curl -sSL https://raw.githubusercontent.com/vevc/one-node/refs/heads/main/google-idx/argo/install.sh | sh
+
+
 HG部署
 bash <(curl -l -s https://raw.githubusercontent.com/qq525448560/free-vps-py/refs/heads/main/test.sh)
 2fbb09a5-e1fa-4a1d-8adc-886334db6fea
