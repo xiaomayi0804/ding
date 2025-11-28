@@ -3,7 +3,8 @@ vmpt="5679" argo="y" agn="idx.xiaomayi.nyc.mn"  uuid="7ef17346-1b45-49e2-8cbd-f9
 
 vmpt="5679" argo="y" agn="idx.leochina.nyc.mn"  uuid="09f9dc5d-4932-4030-ae88-6993bd9e828b" agk="eyJhIjoiYTViMjBhMWEyNjIzZWFjNjZiNzdiOWI0MGM4OWMwMTYiLCJ0IjoiNTk1NjQyMDMtYWM5OC00NjcyLTkzMGYtY2ViZmNlYTczNjE4IiwicyI6IlltUXlPRGRpWTJVdE9UTmpOQzAwWkdWbUxUazFaalV0TkdaaVpHSTFaR014TnpnMSJ9" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh) rep
 
-idxsh:
+idxsh: https://www.youtube.com/watch?v=L3JZlUb4-_c
+
 export PORT=8080 UUID=bb198873-8ffa-4df9-ac0f-868934e96f9f
 curl -sSL https://raw.githubusercontent.com/vevc/one-node/refs/heads/main/google-idx/install.sh | sh
 
