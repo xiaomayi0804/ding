@@ -3,6 +3,8 @@ vmpt="5679" argo="y" agn="idx.xiaomayi.nyc.mn"  uuid="7ef17346-1b45-49e2-8cbd-f9
 
 vmpt="5679" argo="y" agn="idx.leochina.nyc.mn"  uuid="09f9dc5d-4932-4030-ae88-6993bd9e828b" agk="eyJhIjoiYTViMjBhMWEyNjIzZWFjNjZiNzdiOWI0MGM4OWMwMTYiLCJ0IjoiNTk1NjQyMDMtYWM5OC00NjcyLTkzMGYtY2ViZmNlYTczNjE4IiwicyI6IlltUXlPRGRpWTJVdE9UTmpOQzAwWkdWbUxUazFaalV0TkdaaVpHSTFaR014TnpnMSJ9" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh) rep
 
+vmpt="5679" argo="y" agn="idx1.leochina.nyc.mn"  uuid="da503c1d-cd3f-482d-ad30-81d52e9a889b" agk="eyJhIjoiYTViMjBhMWEyNjIzZWFjNjZiNzdiOWI0MGM4OWMwMTYiLCJ0IjoiZWQwYzhmZjEtZTZkNC00MDAzLTllNDItNGNhYjM0MDM2ZDQzIiwicyI6IllqSmpZV1EwTURNdFpERTNOUzAwTTJVNExUZzNNMlF0TmpGaU1EbGtOMk0zT0RFMyJ9" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh) rep
+
 idxsh: https://www.youtube.com/watch?v=L3JZlUb4-_c
 
 export PORT=8080 UUID=bb198873-8ffa-4df9-ac0f-868934e96f9f
