@@ -13,6 +13,10 @@ curl -sSL https://raw.githubusercontent.com/vevc/one-node/refs/heads/main/google
 export ARGO_TOKEN=eyJhIjoiYTViMjBhMWEyNjIzZWFjNjZiNzdiOWI0MGM4OWMwMTYiLCJ0IjoiYmM2Mzk1ZTMtMTk5ZS00NDAwLWFkYzQtYjNjYjBiNDQxYzNlIiwicyI6IlltVTNNakV5TW1FdE9XWTRPUzAwTlRoakxUZ3lNMkV0TnpNMU1EZ3pZelU1WW1SaiJ9
 curl -sSL https://raw.githubusercontent.com/vevc/one-node/refs/heads/main/google-idx/argo/install.sh | sh
 
+idx5：
+export ARGO_TOKEN=eyJhIjoiYTViMjBhMWEyNjIzZWFjNjZiNzdiOWI0MGM4OWMwMTYiLCJ0IjoiYmE3ZWZkYjgtMTg5Yy00Y2ZiLThmY2MtMGQ0ZGRiMDBkNDA4IiwicyI6Ik9UVmtaR0k1TWpNdFpESTVOeTAwTnpVeExXRmxZell0WmpGaU5UZGxNVFJtT1RJMiJ9
+curl -sSL https://raw.githubusercontent.com/vevc/one-node/refs/heads/main/google-idx/argo/install.sh | sh
+
 
 HG部署
 bash <(curl -l -s https://raw.githubusercontent.com/qq525448560/free-vps-py/refs/heads/main/test.sh)
